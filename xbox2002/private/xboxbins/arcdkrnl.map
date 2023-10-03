@@ -1,0 +1,1651 @@
+ arcdkrnl
+
+ Timestamp is 3dcc89e4 (Fri Nov 08 23:07:00 2002)
+
+ Preferred load address is 80010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000061dH .edata                  CODE
+ 0001:00000620 00003860H .rdata                  CODE
+ 0001:00003e80 00000047H .rdata$debug            CODE
+ 0001:00003ed0 0001f2d8H .text                   CODE
+ 0001:000231b0 000037e0H PAGER32C                CODE
+ 0001:00026990 00001020H PAGER32R                CODE
+ 0002:00000000 000035d8H KDCODE                  CODE
+ 0002:000035d8 00000063H KDDATA_RD               CODE
+ 0003:00000000 000009e0H .data                   DATA
+ 0003:000009e0 00000275H KDDATA_RW               DATA
+ 0003:00000c60 00004c38H .bss                    DATA
+ 0003:00005898 0000c299H KDDATA_URW              DATA
+ 0004:00000000 00000478H STICKY                  DATA
+ 0005:00000000 00000010H INIT_RW                 DATA
+ 0006:00000000 00000108H IDEXPRDT                DATA
+ 0007:00000000 00002491H INIT                    CODE
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000038       _KiGDTLEN                  00000038     <absolute>
+ 0000:00000200       _KiIDTLEN                  00000200     <absolute>
+ 0001:0000063c       _ExEventObjectType         8001093c     ex:event.obj
+ 0001:00000658       _ExMutantObjectType        80010958     ex:mutant.obj
+ 0001:00000688       _FactorySettingsInfo       80010988     ex:settings.obj
+ 0001:000006a0       _UserSettingsInfo          800109a0     ex:settings.obj
+ 0001:000006f0       ??_C@_0BN@OGMPKPAN@?2Device?2Harddisk0?2partition0?$AA@ 800109f0     ex:settings.obj
+ 0001:00000710       _ExSemaphoreObjectType     80010a10     ex:semphore.obj
+ 0001:0000073c       _ExTimerObjectType         80010a3c     ex:timer.obj
+ 0001:00000758       _HalpPCISpaceReaders       80010a58     halx:pcispace.obj
+ 0001:00000764       _HalpPCISpaceWriters       80010a64     halx:pcispace.obj
+ 0001:00000770       _HalpPCISpaceAccessMatrix  80010a70     halx:pcispace.obj
+ 0001:00000780       ??_C@_07MAKLLIO@?1DBBOOT?$AA@ 80010a80     init:xboxkrnl.obj
+ 0001:00000788       ??_C@_07BPPEGGBN@?1CDBOOT?$AA@ 80010a88     init:xboxkrnl.obj
+ 0001:00000790       ??_C@_07BNPDDCOH@?1HDBOOT?$AA@ 80010a90     init:xboxkrnl.obj
+ 0001:00000798       ??_C@_06GMHMOEFH@SHADOW?$AA@ 80010a98     init:xboxkrnl.obj
+ 0001:000007a0       _ExpDVDXbdmDLLBuffer       80010aa0     init:init.obj
+ 0001:000007b8       _ExpDVDXbdmDLL             80010ab8     init:init.obj
+ 0001:000007c0       _ExpHDXbdmDLLBuffer        80010ac0     init:init.obj
+ 0001:000007e8       _ExpHDXbdmDLL              80010ae8     init:init.obj
+ 0001:000007f0       _ExpCdRomBootROMStringBuffer 80010af0     init:init.obj
+ 0001:0000080c       _ExpCdRomBootROMString     80010b0c     init:init.obj
+ 0001:00000814       _ExpHardDiskBootROMStringBuffer 80010b14     init:init.obj
+ 0001:00000840       _ExpHardDiskBootROMString  80010b40     init:init.obj
+ 0001:00000848       _XboxKrnlVersion           80010b48     init:init.obj
+ 0001:00000850       ??_C@_0CG@JNONFOAK@INIT?3?5Failed?5to?5read?5ROM?5from?5me@ 80010b50     init:init.obj
+ 0001:00000878       ??_C@_08NNAPCOK@?5?1DBBOOT?$AA@ 80010b78     init:init.obj
+ 0001:00000884       ??_C@_0CL@CNDJBANC@INIT?3?5Loaded?5kernel?5image?5from?5h@ 80010b84     init:init.obj
+ 0001:000008b0       ??_C@_0BB@CELLGDBI@?5?1SHADOW?5?1HDBOOT?$AA@ 80010bb0     init:init.obj
+ 0001:000008c4       ??_C@_0CI@DKMHFBMA@INIT?3?5Loaded?5kernel?5image?5from?5C@ 80010bc4     init:init.obj
+ 0001:000008ec       ??_C@_0BB@CGLMDHOC@?5?1SHADOW?5?1CDBOOT?$AA@ 80010bec     init:init.obj
+ 0001:00000900       ??_C@_0DM@LHHMEIO@INIT?3?5Failed?5to?5load?5ROM?5from?5me@ 80010c00     init:init.obj
+ 0001:0000093c       ??_C@_0CN@OMGKJDNM@INIT?3?5Failed?5to?5allocate?5shadow?5@ 80010c3c     init:init.obj
+ 0001:0000096c       ??_C@_0CO@MLIGBLFG@INIT?3?5Failed?5to?5allocate?5boot?5lo@ 80010c6c     init:init.obj
+ 0001:0000099c       ??_C@_0BO@KLIPEJFL@Failed?5to?5load?5any?5xbdm?4dll?$CB?6?$AA@ 80010c9c     init:init.obj
+ 0001:000009bc       ??_C@_04PONNOKHC@xbdm?$AA@ 80010cbc     init:init.obj
+ 0001:000009d4       _IoCompletionObjectType    80010cd4     io:iodata.obj
+ 0001:000009f0       _IoDeviceObjectType        80010cf0     io:iodata.obj
+ 0001:00000a0c       _IoFileObjectType          80010d0c     io:iodata.obj
+ 0001:00000a28       _IopFileMapping            80010d28     io:iodata.obj
+ 0001:00000a38       _IopQueryOperationLength   80010d38     io:iodata.obj
+ 0001:00000a60       _IopSetOperationLength     80010d60     io:iodata.obj
+ 0001:00000a88       _IopQueryOperationAccess   80010d88     io:iodata.obj
+ 0001:00000b20       _IopSetOperationAccess     80010e20     io:iodata.obj
+ 0001:00000bb8       _IopQueryFsOperationLength 80010eb8     io:iodata.obj
+ 0001:00000bc4       _IopQueryFsOperationAccess 80010ec4     io:iodata.obj
+ 0001:00000c28       ??_C@_0FA@NGBMEEAN@?6?$CK?$CK?$CK?5Fatal?5System?5Error?3?50x?$CF08lx@ 80010f28     ke:bugcheck.obj
+ 0001:00000c78       _KeTimeIncrement           80010f78     ke:kernldat.obj
+ 0001:00000c7c       _KiFindLeftNibbleBitTable  80010f7c     ke:kernldat.obj
+ 0001:00000c90       _KiTimeIncrementReciprocal 80010f90     ke:kernldat.obj
+ 0001:00000c98       _KiTimeIncrementShiftCount 80010f98     ke:kernldat.obj
+ 0001:00000cbc       _MmProtectToPteProtectionMask 80010fbc     mmarc:mmsup.obj
+ 0001:00000ccc       _MmGlobalData              80010fcc     mmarc:mminit.obj
+ 0001:00000cfc       _MmHighestPhysicalPage     80010ffc     mmarc:pfnsup.obj
+ 0001:00000d00       _ObDirectoryObjectType     80011000     ob:obdir.obj
+ 0001:00000d1c       _ObSymbolicLinkObjectType  8001101c     ob:oblink.obj
+ 0001:00000d7c       _ObpDosDevicesStringBuffer 8001107c     ob:obmanage.obj
+ 0001:00000d80       _ObpDosDevicesString       80011080     ob:obmanage.obj
+ 0001:00000d88       _ObpIoDevicesStringBuffer  80011088     ob:obmanage.obj
+ 0001:00000d90       _ObpIoDevicesString        80011090     ob:obmanage.obj
+ 0001:00000d98       _ObpWin32NamedObjectsStringBuffer 80011098     ob:obmanage.obj
+ 0001:00000dac       _ObpWin32NamedObjectsString 800110ac     ob:obmanage.obj
+ 0001:00000dd4       _PsThreadObjectType        800110d4     ps:psinit.obj
+ 0001:00000df0       ??_C@_0CD@CPBMMNLE@Execute?5?8?$CBcxr?5?$CFp?8?5to?5dump?5contex@ 800110f0     ntosrtl:assert.obj
+ 0001:00000e14       ??_C@_0DO@CDJIIIPD@?6?$CK?$CK?$CK?5Assertion?5failed?3?5?$CFs?$CFs?6?$CK?$CK?$CK?5@ 80011114     ntosrtl:assert.obj
+ 0001:00000e52       ??_C@_00CNPNBAHC@?$AA@     80011152     ntosrtl:assert.obj
+ 0001:00000e54       ??_C@_0P@MBLIGIDD@?$CFs?$CFc?5?$CFc?$CFs?$CFc?5?$CFs?$AA@ 80011154     ntosrtl:assert.obj
+ 0001:00000e64       ??_C@_0BD@MCACFPA@unexpected?5failure?$AA@ 80011164     ntosrtl:assert.obj
+ 0001:00000e78       ??_C@_06ODACHPEO@failed?$AA@ 80011178     ntosrtl:assert.obj
+ 0001:00000e8c       _RtlpIntegerChars          8001118c     ntosrtl:cnvint.obj
+ 0001:00000e9c       _RtlpIntegerWChars         8001119c     ntosrtl:cnvint.obj
+ 0001:00000ef0       _Nls844UnicodeCaseTableLevel1 800111f0     ntosrtl:nlsxlat.obj
+ 0001:00000ff0       _Nls844UnicodeUpcaseTableLevel2 800112f0     ntosrtl:nlsxlat.obj
+ 0001:000010c0       _Nls844UnicodeLowercaseTableLevel2 800113c0     ntosrtl:nlsxlat.obj
+ 0001:00001190       _Nls844UnicodeCaseTableLevel3 80011490     ntosrtl:nlsxlat.obj
+ 0001:00001950       _RtlpStatusTable           80011c50     ntosrtl:error.obj
+ 0001:00001f50       _RtlpRunTable              80012250     ntosrtl:error.obj
+ 0001:00002288       _LeapYearDaysPrecedingMonth 80012588     ntosrtl:time.obj
+ 0001:000022a4       _NormalYearDaysPrecedingMonth 800125a4     ntosrtl:time.obj
+ 0001:000022c0       _Magic10000                800125c0     ntosrtl:time.obj
+ 0001:000022c8       _Magic10000000             800125c8     ntosrtl:time.obj
+ 0001:000022d0       _Magic86400000             800125d0     ntosrtl:time.obj
+ 0001:000022d8       _IdexDiskDirectoryNameBuffer 800125d8     idexarc:disk.obj
+ 0001:000022ec       _IdexDiskDirectoryName     800125ec     idexarc:disk.obj
+ 0001:000022f4       _IdexDiskPartitionPrefixBuffer 800125f4     idexarc:disk.obj
+ 0001:00002300       _IdexDiskPartitionPrefix   80012600     idexarc:disk.obj
+ 0001:00002308       _HalDiskCachePartitionCount 80012608     idexarc:disk.obj
+ 0001:00002310       _IdexDiskDriverObject      80012610     idexarc:disk.obj
+ 0001:00002354       _IdexDiskDirectoryObjectType 80012654     idexarc:disk.obj
+ 0001:00002370       _IdexCdRomDeviceNameBuffer 80012670     idexarc:cdrom.obj
+ 0001:00002380       _IdexCdRomDeviceName       80012680     idexarc:cdrom.obj
+ 0001:00002388       _IdexCdRomDosDevicesNameBuffer 80012688     idexarc:cdrom.obj
+ 0001:00002394       _IdexCdRomDosDevicesName   80012694     idexarc:cdrom.obj
+ 0001:000023a0       _IdexCdRomDriverObject     800126a0     idexarc:cdrom.obj
+ 0001:000023e4       _IdexCdRomSpindleSpeedupTable 800126e4     idexarc:cdrom.obj
+ 0001:000023f0       _IdexMediaBoardDirectoryNameBuffer 800126f0     idexarc:mediabrd.obj
+ 0001:00002404       _IdexMediaBoardDirectoryName 80012704     idexarc:mediabrd.obj
+ 0001:0000240c       _IdexMediaBoardFsDeviceNameBuffer 8001270c     idexarc:mediabrd.obj
+ 0001:0000242c       _IdexMediaBoardFsDeviceName 8001272c     idexarc:mediabrd.obj
+ 0001:00002434       _IdexMediaBoardFsDosDevicesNameBuffer 80012734     idexarc:mediabrd.obj
+ 0001:00002440       _IdexMediaBoardFsDosDevicesName 80012740     idexarc:mediabrd.obj
+ 0001:00002448       _IdexMediaBoardCommunicationDeviceNameBuffer 80012748     idexarc:mediabrd.obj
+ 0001:00002468       _IdexMediaBoardCommunicationDeviceName 80012768     idexarc:mediabrd.obj
+ 0001:00002470       _IdexMediaBoardCommunicationDosDevicesNameBuffer 80012770     idexarc:mediabrd.obj
+ 0001:0000247c       _IdexMediaBoardCommunicationDosDevicesName 8001277c     idexarc:mediabrd.obj
+ 0001:00002484       _IdexMediaBoardBootROMDeviceNameBuffer 80012784     idexarc:mediabrd.obj
+ 0001:000024a4       _IdexMediaBoardBootROMDeviceName 800127a4     idexarc:mediabrd.obj
+ 0001:000024ac       _IdexMediaBoardBootROMDosDevicesNameBuffer 800127ac     idexarc:mediabrd.obj
+ 0001:000024b8       _IdexMediaBoardBootROMDosDevicesName 800127b8     idexarc:mediabrd.obj
+ 0001:000024c0       _IdexMediaBoardCdRomDeviceNameBuffer 800127c0     idexarc:mediabrd.obj
+ 0001:000024d0       _IdexMediaBoardCdRomDeviceName 800127d0     idexarc:mediabrd.obj
+ 0001:000024d8       _IdexMediaBoardDriverObject 800127d8     idexarc:mediabrd.obj
+ 0001:0000251c       ??_C@_0BI@KCJNJDJK@buffer?$DN?$CF08x?0?5data?$DN?$CF04x?6?$AA@ 8001281c     idexarc:mediabrd.obj
+ 0001:00002534       ??_C@_0BE@JLDGJMJ@flash?5address?$DN?$CF08x?6?$AA@ 80012834     idexarc:mediabrd.obj
+ 0001:00002548       ??_C@_0BD@EEOPCJGH@erase?5sector?$DN?$CF08x?6?$AA@ 80012848     idexarc:mediabrd.obj
+ 0001:00002560       _RawxDriverObject          80012860     raw:driver.obj
+ 0001:000025a8       _FatxDriverObject          800128a8     fatx:driver.obj
+ 0001:000025ec       _FatxFatIllegalTable       800128ec     fatx:fatsup.obj
+ 0001:0000260c       _GdfxVolumeDescriptorSignature 8001290c     gdfx:mountvol.obj
+ 0001:00002628       _GdfxDriverObject          80012928     gdfx:driver.obj
+ 0001:00002670       _UdfxVsdIdentLookupTable   80012970     udfx:mountvol.obj
+ 0001:000026a8       _UdfxNSR02Regid            800129a8     udfx:mountvol.obj
+ 0001:000026c0       _UdfxOSTAUdfRegid          800129c0     udfx:mountvol.obj
+ 0001:000026d8       _UdfxCS0Identifier         800129d8     udfx:mountvol.obj
+ 0001:00002718       _UdfxDriverObject          80012a18     udfx:driver.obj
+ 0001:00002760       ___lookuptable             80012a60     libcntpr:output.obj
+ 0001:000027bc       ___nullstring              80012abc     libcntpr:output.obj
+ 0001:000027c4       ___wnullstring             80012ac4     libcntpr:output.obj
+ 0001:000027d8       _XePublicKeyData           80012ad8     ldrarc:loader.obj
+ 0001:000028f4       _XepCdRomDosDeviceBuffer   80012bf4     ldrarc:loader.obj
+ 0001:000028fc       _XepCdRomDosDevice         80012bfc     ldrarc:loader.obj
+ 0001:00002904       _XepDashboardRedirectionPathBuffer 80012c04     ldrarc:loader.obj
+ 0001:00002930       _XepDashboardRedirectionPath 80012c30     ldrarc:loader.obj
+ 0001:00002938       _XepDefaultImagePath       80012c38     ldrarc:loader.obj
+ 0001:00002954       _XepDashboardImagePath     80012c54     ldrarc:loader.obj
+ 0001:00002980       ??_C@_0DO@JMGMPGO@This?5XBE?5was?5linked?5with?5?$CF8?48s?4L@ 80012c80     ldrarc:loader.obj
+ 0001:000029c0       ??_C@_08OPCEOJFP@?5?$CIDebug?$CJ?$AA@ 80012cc0     ldrarc:loader.obj
+ 0001:000029cc       ??_C@_0BH@GLNPJGJE@Xbox?5image?5loaded?3?5?$CFZ?6?$AA@ 80012ccc     ldrarc:loader.obj
+ 0001:000029e8       _originalCryptoVector      80012ce8     xcryptk:xcbase.obj
+ 0001:00002a28       ??_C@_01A@?$AA?$AA@        80012d28     xcryptk:xcbase.obj
+ 0001:00002a2c       ??_C@_0P@EMGP@?$AN?$BE?$AE?$BK?$AC?$AD?$AO?$CL?$AF?$AG?$AH0?$BP0?$AA@ 80012d2c     xcryptk:xcbase.obj
+ 0001:00002a3c       ??_C@_0BB@JDMG@?$AP?$BE?$AE?$AA?$AF?$BK?$AC?$AD?$AO?$CL?$AF?$AG?70?$CB0?$AA@ 80012d3c     xcryptk:xcbase.obj
+ 0001:00002a50       _AvpARXRegisters           80012d50     av:modeset.obj
+ 0001:00002a68       _AvpGRXRegisters           80012d68     av:modeset.obj
+ 0001:00002a74       _AvpSRXRegisters           80012d74     av:modeset.obj
+ 0001:00002a80       _AvpFpDebug0               80012d80     av:modeset.obj
+ 0001:00002ad0       _AvpCRTCRegisters          80012dd0     av:modeset.obj
+ 0001:00002d18       _AvpRegisters              80013018     av:modeset.obj
+ 0001:000034d0       _AvpMacrovisionPAL         800137d0     av:modeset.obj
+ 0001:000034d4       _AvpMacrovisionEnable      800137d4     av:modeset.obj
+ 0001:000034dc       _AvpMacrovision            800137dc     av:modeset.obj
+ 0001:00003500       _AvpCCRegisters            80013800     av:modeset.obj
+ 0001:00003550       _AvpSCARTEnable            80013850     av:modeset.obj
+ 0001:000036b8       _AvpHDTVRegisters          800139b8     av:modeset.obj
+ 0001:000036f0       _AvpTVRegisters            800139f0     av:modeset.obj
+ 0001:00003e54       _AvpCommonTVRegisters      80014154     av:modeset.obj
+ 0001:00003ed0       @ExInterlockedAddLargeStatistic@8 800141d0 f   ex:intrlfst.obj
+ 0001:00003ed8       @ExfInterlockedInsertHeadList@8 800141d8 f   ex:intrlfst.obj
+ 0001:00003ef0       @ExfInterlockedInsertTailList@8 800141f0 f   ex:intrlfst.obj
+ 0001:00003f08       @ExfInterlockedRemoveHeadList@4 80014208 f   ex:intrlfst.obj
+ 0001:00003f20       @InterlockedPopEntrySList@4 80014220 f   ex:intrlfst.obj
+ 0001:00003f24       ExpInterlockedPopEntrySListResume 80014224     ex:intrlfst.obj
+ 0001:00003f36       ExpInterlockedPopEntrySListFault 80014236     ex:intrlfst.obj
+ 0001:00003f44       @InterlockedPushEntrySList@8 80014244 f   ex:intrlfst.obj
+ 0001:00003f64       @InterlockedFlushSList@4   80014264 f   ex:intrlfst.obj
+ 0001:00003f88       @InterlockedExchange@8     80014288 f   ex:intrlfst.obj
+ 0001:00003f90       @InterlockedIncrement@4    80014290 f   ex:intrlfst.obj
+ 0001:00003f9c       @InterlockedDecrement@4    8001429c f   ex:intrlfst.obj
+ 0001:00003fa8       @InterlockedCompareExchange@12 800142a8 f   ex:intrlfst.obj
+ 0001:00003fb4       @ExInterlockedCompareExchange64@12 800142b4 f   ex:intrlfst.obj
+ 0001:00003fd0       @InterlockedExchangeAdd@8  800142d0 f   ex:intrlfst.obj
+ 0001:00003fd8       _ExAcquireReadWriteLockExclusive@4 800142d8 f   ex:rwlocka.obj
+ 0001:00003ffc       _ExAcquireReadWriteLockShared@4 800142fc f   ex:rwlocka.obj
+ 0001:0000402c       _ExReleaseReadWriteLock@4  8001432c f   ex:rwlocka.obj
+ 0001:00004082       _InitializePool@0          80014382 f   ex:pool.obj
+ 0001:000040d1       _ExAllocatePoolWithTag@8   800143d1 f   ex:pool.obj
+ 0001:00004288       _ExFreePool@4              80014588 f   ex:pool.obj
+ 0001:000043e5       _ExQueryPoolBlockSize@4    800146e5 f   ex:pool.obj
+ 0001:00004404       _ExAllocatePool@4          80014704 f   ex:pool.obj
+ 0001:00004415       _NtClearEvent@4            80014715 f   ex:event.obj
+ 0001:00004446       _NtCreateEvent@16          80014746 f   ex:event.obj
+ 0001:000044b1       _NtPulseEvent@8            800147b1 f   ex:event.obj
+ 0001:000044f4       _NtQueryEvent@8            800147f4 f   ex:event.obj
+ 0001:00004530       _NtSetEvent@8              80014830 f   ex:event.obj
+ 0001:00004573       _ExInitializeReadWriteLock@4 80014873 f   ex:rwlock.obj
+ 0001:000045ac       _ExInterlockedAddLargeInteger@16 800148ac f   ex:intrlock.obj
+ 0001:000045e0       _ExInterlockedExchangeAddLargeInteger@16 800148e0 f   ex:intrlock.obj
+ 0001:00004603       _ExpDeleteMutant@4         80014903 f   ex:mutant.obj
+ 0001:00004615       _NtCreateMutant@12         80014915 f   ex:mutant.obj
+ 0001:0000464f       _NtReleaseMutant@8         8001494f f   ex:mutant.obj
+ 0001:000046c9       _NtQueryMutant@8           800149c9 f   ex:mutant.obj
+ 0001:00004719       _XConfigChecksum@8         80014a19 f i ex:settings.obj
+ 0001:00004743       _ExpReadEEPROMIntoCache@0  80014a43 f   ex:settings.obj
+ 0001:00004796       _ExpReadEEPROMSection@16   80014a96 f   ex:settings.obj
+ 0001:000047f7       _ExpWriteEEPROM@12         80014af7 f   ex:settings.obj
+ 0001:00004860       _ExpFindSettingInfo@12     80014b60 f   ex:settings.obj
+ 0001:00004883       _ExQueryNonVolatileSetting@20 80014b83 f   ex:settings.obj
+ 0001:00004a10       _ExSaveNonVolatileSetting@16 80014d10 f   ex:settings.obj
+ 0001:00004c28       _ExReadWriteRefurbInfo@12  80014f28 f   ex:settings.obj
+ 0001:00004d30       _ExRaiseException@4        80015030 f   ex:raisests.obj
+ 0001:00004dc8       _ExRaiseStatus@4           800150c8 f   ex:raisests.obj
+ 0001:00004e7a       _NtCreateSemaphore@16      8001517a f   ex:semphore.obj
+ 0001:00004ecf       _NtQuerySemaphore@8        800151cf f   ex:semphore.obj
+ 0001:00004f0b       _NtReleaseSemaphore@12     8001520b f   ex:semphore.obj
+ 0001:00004f93       _ExpTimerDpcRoutine@16     80015293 f   ex:timer.obj
+ 0001:00004fc3       _ExpDeleteTimer@4          800152c3 f   ex:timer.obj
+ 0001:00004fc8       _NtCreateTimer@12          800152c8 f   ex:timer.obj
+ 0001:00005031       _NtCancelTimer@8           80015331 f   ex:timer.obj
+ 0001:000050cd       _NtQueryTimer@8            800153cd f   ex:timer.obj
+ 0001:00005131       _ExpTimerApcRoutine@20     80015431 f   ex:timer.obj
+ 0001:0000518f       _ExTimerRundown@0          8001548f f   ex:timer.obj
+ 0001:0000523a       _NtSetTimerEx@32           8001553a f   ex:timer.obj
+ 0001:000053a8       _NtSetSystemTime@8         800156a8 f   ex:systime.obj
+ 0001:00005428       @HalRequestSoftwareInterrupt@4 80015728 f   halx:ixswint.obj
+ 0001:0000545c       @HalClearSoftwareInterrupt@4 8001575c f   halx:ixswint.obj
+ 0001:0000546c       _HalpDispatchInterrupt     8001576c f   halx:ixswint.obj
+ 0001:0000549b       _HalpDispatchInterrupt2ndEntry 8001579b     halx:ixswint.obj
+ 0001:000054c0       _HalpApcInterrupt          800157c0 f   halx:ixswint.obj
+ 0001:000054ef       _HalpApcInterrupt2ndEntry  800157ef     halx:ixswint.obj
+ 0001:00005524       KiI8259MaskTable           80015824     halx:ixirql.obj
+ 0001:000055a4       FindHigherIrqlMask         800158a4     halx:ixirql.obj
+ 0001:00005624       SWInterruptHandlerTable2   80015924     halx:ixirql.obj
+ 0001:00005630       SWInterruptLookUpTable     80015930     halx:ixirql.obj
+ 0001:00005638       @KfRaiseIrql@4             80015938 f   halx:ixirql.obj
+ 0001:00005648       _KeRaiseIrqlToDpcLevel@0   80015948 f   halx:ixirql.obj
+ 0001:00005658       _KeRaiseIrqlToSynchLevel@0 80015958 f   halx:ixirql.obj
+ 0001:00005668       @KfLowerIrql@4             80015968 f   halx:ixirql.obj
+ 0001:000056d4       @HalEndSystemLevelInterrupt@4 800159d4 f   halx:ixirql.obj
+ 0001:000056e4       @HalEndSystemInterrupt@4   800159e4 f   halx:ixirql.obj
+ 0001:00005700       Kei386EoiHelper@0          80015a00 f   halx:ixirql.obj
+ 0001:00005800       _HalpEndSoftwareInterrupt@4 80015b00 f   halx:ixirql.obj
+ 0001:00005884       _HalpDispatchInterrupt2@0  80015b84 f   halx:ixirql.obj
+ 0001:000058e8       _KeGetCurrentIrql@0        80015be8 f   halx:ixirql.obj
+ 0001:000058f0       _HalpHardwareInterruptTable@0 80015bf0 f   halx:ixirql.obj
+ 0001:000058f0       HalpHardwareInterrupt00    80015bf0     halx:ixirql.obj
+ 0001:000058f3       HalpHardwareInterrupt01    80015bf3     halx:ixirql.obj
+ 0001:000058f6       HalpHardwareInterrupt02    80015bf6     halx:ixirql.obj
+ 0001:000058f9       HalpHardwareInterrupt03    80015bf9     halx:ixirql.obj
+ 0001:000058fc       HalpHardwareInterrupt04    80015bfc     halx:ixirql.obj
+ 0001:000058ff       HalpHardwareInterrupt05    80015bff     halx:ixirql.obj
+ 0001:00005902       HalpHardwareInterrupt06    80015c02     halx:ixirql.obj
+ 0001:00005905       HalpHardwareInterrupt07    80015c05     halx:ixirql.obj
+ 0001:00005908       HalpHardwareInterrupt08    80015c08     halx:ixirql.obj
+ 0001:0000590b       HalpHardwareInterrupt09    80015c0b     halx:ixirql.obj
+ 0001:0000590e       HalpHardwareInterrupt10    80015c0e     halx:ixirql.obj
+ 0001:00005911       HalpHardwareInterrupt11    80015c11     halx:ixirql.obj
+ 0001:00005914       HalpHardwareInterrupt12    80015c14     halx:ixirql.obj
+ 0001:00005917       HalpHardwareInterrupt13    80015c17     halx:ixirql.obj
+ 0001:0000591a       HalpHardwareInterrupt14    80015c1a     halx:ixirql.obj
+ 0001:0000591d       HalpHardwareInterrupt15    80015c1d     halx:ixirql.obj
+ 0001:00005920       _HalpInitializePICs@0      80015c20 f   halx:ixirql.obj
+ 0001:00005950       _HalpKickoffReadSMBus@12   80015c50 f   halx:smbussci.obj
+ 0001:00005989       _HalReadSMBusValue@16      80015c89 f   halx:smbussci.obj
+ 0001:00005a23       _HalpKickoffWriteSMBus@16  80015d23 f   halx:smbussci.obj
+ 0001:00005a67       _HalWriteSMBusValue@16     80015d67 f   halx:smbussci.obj
+ 0001:00005aec       _HalpWriteSMCResetOrShutdownComplete@4 80015dec f   halx:smbussci.obj
+ 0001:00005b1f       _HalMustCompletePacketsFinished@0 80015e1f f   halx:smbussci.obj
+ 0001:00005b96       _HalpWriteSMCAudioClampComplete@4 80015e96 f   halx:smbussci.obj
+ 0001:00005bb7       _HalpCommonResetOrShutdown@0 80015eb7 f   halx:smbussci.obj
+ 0001:00005bd3       _HalpCommonResetOrShutdownComplete@4 80015ed3 f   halx:smbussci.obj
+ 0001:00005bd9       _HalpReadSMCVideoModeComplete@4 80015ed9 f   halx:smbussci.obj
+ 0001:00005c51       _HalpTrayEjectWriteSMCNonSecureComplete@4 80015f51 f   halx:smbussci.obj
+ 0001:00005c7a       _HalpTrayEjectWriteSMCResumeComplete@4 80015f7a f   halx:smbussci.obj
+ 0001:00005d0c       _HalpTrayOpenWriteSMCResumeComplete@4 8001600c f   halx:smbussci.obj
+ 0001:00005d66       _HalpHandleNextSMCInterruptReason@4 80016066 f   halx:smbussci.obj
+ 0001:00005ee0       _HalpReadSMCInterruptReasonComplete@4 800161e0 f   halx:smbussci.obj
+ 0001:00005efb       _HalpReadSMCInterruptReason@0 800161fb f   halx:smbussci.obj
+ 0001:00005f11       _HalpReleaseSMBusLock@0    80016211 f   halx:smbussci.obj
+ 0001:00005f55       _HalpDpcForSMBusInterrupt@16 80016255 f   halx:smbussci.obj
+ 0001:00005ff7       _HalpDpcForSMBusRetry@16   800162f7 f   halx:smbussci.obj
+ 0001:00006003       _HalpDpcForSystemControlInterrupt@16 80016303 f   halx:smbussci.obj
+ 0001:00006024       _HalEnableTrayEjectRequiresReboot@4 80016324 f   halx:smbussci.obj
+ 0001:000060e1       _HalReadSMCTrayState@8     800163e1 f   halx:smbussci.obj
+ 0001:00006165       _HalWriteSMCLEDStates@4    80016465 f   halx:smbussci.obj
+ 0001:00006184       _HalIsResetOrShutdownPending@0 80016484 f   halx:smbussci.obj
+ 0001:0000618f       _HalInitiateShutdown@0     8001648f f   halx:smbussci.obj
+ 0001:000061bd       _HalWriteSMCScratchRegister@4 800164bd f   halx:smbussci.obj
+ 0001:000061d5       _HalEnableSecureTrayEject@0 800164d5 f   halx:smbussci.obj
+ 0001:000061f8       HalpSpecialDismissLevelTable 800164f8     halx:ixsysint.obj
+ 0001:00006238       @HalBeginSystemInterrupt@8 80016538 f   halx:ixsysint.obj
+ 0001:0000626c       @HalBeginClockInterrupt@8  8001656c     halx:ixsysint.obj
+ 0001:0000626c       @HalBeginProfileInterrupt@8 8001656c     halx:ixsysint.obj
+ 0001:000062f0       @HalBeginSMBusInterrupt@8  800165f0     halx:ixsysint.obj
+ 0001:000062f0       @HalBeginSystemControlInterrupt@8 800165f0     halx:ixsysint.obj
+ 0001:00006314       _HalDisableSystemInterrupt@4 80016614 f   halx:ixsysint.obj
+ 0001:00006340       _HalEnableSystemInterrupt@8 80016640 f   halx:ixsysint.obj
+ 0001:000063a0       _HalGetInterruptVector@8   800166a0 f   halx:ixsysbus.obj
+ 0001:000063c2       _HalpReadPCISpaceUchar@12  800166c2 f   halx:pcispace.obj
+ 0001:000063f1       _HalpReadPCISpaceUshort@12 800166f1 f   halx:pcispace.obj
+ 0001:00006422       _HalpReadPCISpaceUlong@12  80016722 f   halx:pcispace.obj
+ 0001:00006449       _HalpWritePCISpaceUchar@12 80016749 f   halx:pcispace.obj
+ 0001:0000647a       _HalpWritePCISpaceUshort@12 8001677a f   halx:pcispace.obj
+ 0001:000064ad       _HalpWritePCISpaceUlong@12 800167ad f   halx:pcispace.obj
+ 0001:000064d4       _HalReadWritePCISpace@24   800167d4 f   halx:pcispace.obj
+ 0001:00006549       _HalHaltSystem@0           80016849 f   halx:ixreboot.obj
+ 0001:0000654d       _HalRegisterShutdownNotification@8 8001684d f   halx:ixreboot.obj
+ 0001:000065d4       _HalpReboot@0              800168d4 f   halx:ixreboot.obj
+ 0001:000065f5       _HalReturnToFirmware@4     800168f5 f   halx:ixreboot.obj
+ 0001:000066b0       _KeQueryPerformanceCounter@0 800169b0 f   halx:pmtimer.obj
+ 0001:000066ec       _KeQueryPerformanceFrequency@0 800169ec f   halx:pmtimer.obj
+ 0001:000066f4       _HalpAcpiTimerCarry@0      800169f4 f   halx:pmtimer.obj
+ 0001:00006730       _KeStallExecutionProcessor@4 80016a30 f   halx:ixstall.obj
+ 0001:00006768       _READ_PORT_BUFFER_UCHAR@12 80016a68 f   halx:xxioacc.obj
+ 0001:00006780       _READ_PORT_BUFFER_USHORT@12 80016a80 f   halx:xxioacc.obj
+ 0001:00006798       _READ_PORT_BUFFER_ULONG@12 80016a98 f   halx:xxioacc.obj
+ 0001:000067b0       _WRITE_PORT_BUFFER_UCHAR@12 80016ab0 f   halx:xxioacc.obj
+ 0001:000067c8       _WRITE_PORT_BUFFER_USHORT@12 80016ac8 f   halx:xxioacc.obj
+ 0001:000067e0       _WRITE_PORT_BUFFER_ULONG@12 80016ae0 f   halx:xxioacc.obj
+ 0001:000067f8       _HalQueryRealTimeClock@4   80016af8 f   halx:ixcmos.obj
+ 0001:00006910       _HalSetRealTimeClock@4     80016c10 f   halx:ixcmos.obj
+ 0001:00006a24       @HalpIsCmosSubrangeValid@8 80016d24 f   halx:ixcmos.obj
+ 0001:00006a38       _HalIsCmosValid@0          80016d38 f   halx:ixcmos.obj
+ 0001:00006a64       @HalpMarkCmosSubrangeValid@0 80016d64 f   halx:ixcmos.obj
+ 0001:00006a78       _HalMarkCmosValid@0        80016d78 f   halx:ixcmos.obj
+ 0001:00006aa0       _HalpAcquireCmosSpinLock@0 80016da0 f   halx:ixcmos.obj
+ 0001:00006aac       _HalpReleaseCmosSpinLock@0 80016dac f   halx:ixcmos.obj
+ 0001:00006ab4       _ExpInitializeExecutive@0  80016db4 f   init:init.obj
+ 0001:00006af8       _ExpStartDebugMonitor@0    80016df8 f   init:init.obj
+ 0001:00006cad       _Phase1Initialization@4    80016fad f   init:init.obj
+ 0001:00006e7e       _IoAllocateIrp@4           8001717e f   io:iosubs.obj
+ 0001:00006ef0       @IofCallDriver@8           800171f0 f   io:iosubs.obj
+ 0001:00006f23       _IoCancelThreadIo@4        80017223 f   io:iosubs.obj
+ 0001:00006f8e       _IoCheckShareAccess@20     8001728e f   io:iosubs.obj
+ 0001:000070bb       _IoCreateDevice@24         800173bb f   io:iosubs.obj
+ 0001:0000722b       _IoCreateFile@40           8001752b f   io:iosubs.obj
+ 0001:000073c5       _IoCreateSymbolicLink@8    800176c5 f   io:iosubs.obj
+ 0001:00007402       _IoDeleteDevice@4          80017702 f   io:iosubs.obj
+ 0001:0000743e       _IoDeleteSymbolicLink@4    8001773e f   io:iosubs.obj
+ 0001:00007486       _IoDismountVolume@4        80017786 f   io:iosubs.obj
+ 0001:000074d7       _IoDismountVolumeByName@4  800177d7 f   io:iosubs.obj
+ 0001:0000750f       _IoFreeIrp@4               8001780f f   io:iosubs.obj
+ 0001:00007537       _IoInitializeIrp@12        80017837 f   io:iosubs.obj
+ 0001:0000758a       _IoLockUserBuffer@8        8001788a f   io:iosubs.obj
+ 0001:000075b1       _IoMarkIrpMustComplete@4   800178b1 f   io:iosubs.obj
+ 0001:000075cd       _IoQueryFileInformation@20 800178cd f   io:iosubs.obj
+ 0001:000075ea       _IoQueryVolumeInformation@20 800178ea f   io:iosubs.obj
+ 0001:00007607       _IoQueueThreadIrp@4        80017907 f   io:iosubs.obj
+ 0001:0000763a       _IoRemoveShareAccess@8     8001793a f   io:iosubs.obj
+ 0001:00007683       _IoSetShareAccess@16       80017983 f   io:iosubs.obj
+ 0001:00007751       _IopStartNextPacket@4      80017a51 f   io:iosubs.obj
+ 0001:00007780       _IopStartNextPacketByKey@8 80017a80 f   io:iosubs.obj
+ 0001:000077b3       _IopStartNextPacketDeferred@4 80017ab3 f   io:iosubs.obj
+ 0001:000077dd       _IoStartNextPacket@4       80017add f   io:iosubs.obj
+ 0001:00007808       _IoStartNextPacketByKey@8  80017b08 f   io:iosubs.obj
+ 0001:0000783c       _IoStartPacket@12          80017b3c f   io:iosubs.obj
+ 0001:000078a4       _IoBuildAsynchronousFsdRequest@24 80017ba4 f   io:iosubs.obj
+ 0001:00007915       _IoBuildDeviceIoControlRequest@36 80017c15 f   io:iosubs.obj
+ 0001:000079bd       _IoBuildSynchronousFsdRequest@28 80017cbd f   io:iosubs.obj
+ 0001:00007a15       @IofCompleteRequest@8      80017d15 f   io:iosubs.obj
+ 0001:00007bfe       _IoInvalidDeviceRequest@8  80017efe f   io:iosubs.obj
+ 0001:00007c18       _IoSynchronousDeviceIoControlRequest@32 80017f18 f   io:iosubs.obj
+ 0001:00007c96       _IoSynchronousFsdRequest@20 80017f96 f   io:iosubs.obj
+ 0001:00007d02       _NtCreateIoCompletion@16   80018002 f   io:complete.obj
+ 0001:00007d4a       _NtQueryIoCompletion@8     8001804a f   io:complete.obj
+ 0001:00007d7e       _NtRemoveIoCompletion@20   8001807e f   io:complete.obj
+ 0001:00007e25       _IoSetIoCompletion@20      80018125 f   io:complete.obj
+ 0001:00007e6d       _IopDeleteIoCompletion@4   8001816d f   io:complete.obj
+ 0001:00007ea4       _NtSetIoCompletion@20      800181a4 f   io:complete.obj
+ 0001:00007ee4       _NtCreateFile@36           800181e4 f   io:create.obj
+ 0001:00007f0d       _NtOpenFile@24             8001820d f   io:create.obj
+ 0001:00007f32       _NtDeleteFile@4            80018232 f   io:misc.obj
+ 0001:00007fa0       _NtQueryFullAttributesFile@8 800182a0 f   io:misc.obj
+ 0001:0000800d       _NtUserIoApcDispatcher@12  8001830d f   io:misc.obj
+ 0001:0000803b       _NtFlushBuffersFile@8      8001833b f   io:misc.obj
+ 0001:0000811b       _NtDeviceIoControlFile@40  8001841b f   io:devctrl.obj
+ 0001:00008147       _NtFsControlFile@40        80018447 f   io:devctrl.obj
+ 0001:00008173       _NtQueryDirectoryFile@40   80018473 f   io:dir.obj
+ 0001:0000828c       _IopGetModeInformation@4   8001858c f   io:qsinfo.obj
+ 0001:000082ba       _NtQueryInformationFile@20 800185ba f   io:qsinfo.obj
+ 0001:000084f8       _NtSetInformationFile@20   800187f8 f   io:qsinfo.obj
+ 0001:000088af       _NtQueryVolumeInformationFile@20 80018baf f   io:qsfs.obj
+ 0001:000089fe       _NtReadFile@32             80018cfe f   io:read.obj
+ 0001:00008bca       _NtReadFileScatter@32      80018eca f   io:read.obj
+ 0001:00008dbf       _NtWriteFile@32            800190bf f   io:write.obj
+ 0001:00008fa1       _NtWriteFileGather@32      800192a1 f   io:write.obj
+ 0001:000091ac       _IopAllocateIrpCleanup@8   800194ac f   io:internal.obj
+ 0001:000091db       _IopAllocateIrpMustSucceed@4 800194db f   io:internal.obj
+ 0001:0000920a       _IopCompleteUnloadOrDelete@8 8001950a f   io:internal.obj
+ 0001:00009238       _IopDropIrp@8              80019538 f   io:internal.obj
+ 0001:00009276       _IopExceptionCleanup@12    80019576 f   io:internal.obj
+ 0001:000092a9       _IopDecrementDeviceObjectRef@4 800195a9 f   io:internal.obj
+ 0001:000092d9       _IopOpenRenameTarget@16    800195d9 f   io:internal.obj
+ 0001:00009384       _IopSynchronousApiServiceTail@20 80019684 f   io:internal.obj
+ 0001:000093b7       _IopUserCompletion@20      800196b7 f   io:internal.obj
+ 0001:000093c7       _IopUserRundown@4          800196c7 f   io:internal.obj
+ 0001:000093d7       _IopCompleteRequest@20     800196d7 f   io:internal.obj
+ 0001:000095ac       _IopDisassociateThreadIrp@0 800198ac f   io:internal.obj
+ 0001:00009614       _IopQueryXxxInformation@24 80019914 f   io:internal.obj
+ 0001:00009752       _IopSynchronousServiceTail@20 80019a52 f   io:internal.obj
+ 0001:000097f6       _IopXxxControlFile@44      80019af6 f   io:internal.obj
+ 0001:0000993a       _IopMountVolume@8          80019c3a f   io:parse.obj
+ 0001:000099b4       _IoParseDevice@28          80019cb4 f   io:parse.obj
+ 0001:00009dd2       _IopParseFile@28           8001a0d2 f   io:parse.obj
+ 0001:00009e12       _IopCloseFile@8            8001a112 f   io:objsup.obj
+ 0001:00009f13       _IopDeleteFile@4           8001a213 f   io:objsup.obj
+ 0001:0000a02c       @IopAcquireFileObjectLock@4 8001a32c f   io:filelock.obj
+ 0001:0000a044       @IopReleaseFileObjectLock@4 8001a344 f   io:filelock.obj
+ 0001:0000a060       @KiUnlockDispatcherDatabase@4 8001a360 f   ke:ctxswap.obj
+ 0001:0000a0f4       @KiSwapThread@0            8001a3f4 f   ke:ctxswap.obj
+ 0001:0000a1f0       _KiDispatchInterrupt@0     8001a4f0 f   ke:ctxswap.obj
+ 0001:0000a280       SwapContext                8001a580 f   ke:ctxswap.obj
+ 0001:0000a314       _KeFlushCurrentTb@0        8001a614 f   ke:ctxswap.obj
+ 0001:0000a31c       _KeFlushCurrentTbAndInvalidateAllCaches@0 8001a61c f   ke:ctxswap.obj
+ 0001:0000a324       _KeInvalidateAllCaches@0   8001a624 f   ke:ctxswap.obj
+ 0001:0000a327       _KeInitializeThread@32     8001a627 f   ke:thredobj.obj
+ 0001:0000a420       _KeAlertThread@8           8001a720 f   ke:thredobj.obj
+ 0001:0000a471       _KeAlertResumeThread@4     8001a771 f   ke:thredobj.obj
+ 0001:0000a4d8       _KeBoostPriorityThread@8   8001a7d8 f   ke:thredobj.obj
+ 0001:0000a521       _KeDisableApcQueuingThread@4 8001a821 f   ke:thredobj.obj
+ 0001:0000a53f       _KeEnableApcQueuingThread@4 8001a83f f   ke:thredobj.obj
+ 0001:0000a55d       _KeForceResumeThread@4     8001a85d f   ke:thredobj.obj
+ 0001:0000a597       _KeQueryBasePriorityThread@4 8001a897 f   ke:thredobj.obj
+ 0001:0000a5c8       _KeReadyThread@4           8001a8c8 f   ke:thredobj.obj
+ 0001:0000a5e4       _KeResumeThread@4          8001a8e4 f   ke:thredobj.obj
+ 0001:0000a623       _KeSetBasePriorityThread@8 8001a923 f   ke:thredobj.obj
+ 0001:0000a6f1       _KeSetDisableBoostThread@8 8001a9f1 f   ke:thredobj.obj
+ 0001:0000a713       _KeSetPriorityThread@8     8001aa13 f   ke:thredobj.obj
+ 0001:0000a74c       _KeSuspendThread@4         8001aa4c f   ke:thredobj.obj
+ 0001:0000a7a7       _KeTestAlertThread@4       8001aaa7 f   ke:thredobj.obj
+ 0001:0000a7e9       _KeRundownThread@0         8001aae9 f   ke:thredobj.obj
+ 0001:0000a83e       _KeTerminateThread@0       8001ab3e f   ke:thredobj.obj
+ 0001:0000a8d8       _KiBugCheckDebugBreak@4    8001abd8 f   ke:bugcheck.obj
+ 0001:0000a91e       _KeBugCheckEx@20           8001ac1e f   ke:bugcheck.obj
+ 0001:0000a9d0       _KeEnterKernelDebugger@0   8001acd0 f   ke:bugcheck.obj
+ 0001:0000aa07       _KeBugCheck@4              8001ad07 f   ke:bugcheck.obj
+ 0001:0000aa17       _KeInitializeTimerEx@8     8001ad17 f   ke:timerobj.obj
+ 0001:0000aa44       _KeCancelTimer@4           8001ad44 f   ke:timerobj.obj
+ 0001:0000aa73       _KeSetTimerEx@20           8001ad73 f   ke:timerobj.obj
+ 0001:0000ab2d       _KeSetTimer@16             8001ae2d f   ke:timerobj.obj
+ 0001:0000ab47       _KeInitializeInterrupt@28  8001ae47 f   ke:intobj.obj
+ 0001:0000abb4       _KeConnectInterrupt@4      8001aeb4 f   ke:intobj.obj
+ 0001:0000ac34       _KeDisconnectInterrupt@4   8001af34 f   ke:intobj.obj
+ 0001:0000ac9c       @KiComputeWaitInterval@12  8001af9c f   ke:wait.obj
+ 0001:0000acf7       _KiAdjustQuantumThread@4   8001aff7 f   ke:wait.obj
+ 0001:0000ad61       _KeDelayExecutionThread@12 8001b061 f   ke:wait.obj
+ 0001:0000af32       _KeWaitForMultipleObjects@32 8001b232 f   ke:wait.obj
+ 0001:0000b233       _KeWaitForSingleObject@20  8001b533 f   ke:wait.obj
+ 0001:0000b49f       _KeQueryInterruptTime@0    8001b79f f   ke:miscc.obj
+ 0001:0000b4b7       _KeQuerySystemTime@4       8001b7b7 f   ke:miscc.obj
+ 0001:0000b4da       _KeSetSystemTime@8         8001b7da f   ke:miscc.obj
+ 0001:0000b63a       _KeEnterCriticalRegion@0   8001b93a f   ke:miscc.obj
+ 0001:0000b643       _KeLeaveCriticalRegion@0   8001b943 f   ke:miscc.obj
+ 0001:0000b668       _KeGetPcr@0                8001b968 f   ke:i386pcr.obj
+ 0001:0000b670       _KeGetCurrentPrcb@0        8001b970 f   ke:i386pcr.obj
+ 0001:0000b678       _KeGetCurrentThread@0      8001b978 f   ke:i386pcr.obj
+ 0001:0000b680       _KeIsExecutingDpc@0        8001b980 f   ke:i386pcr.obj
+ 0001:0000b686       _KeInitializeApc@28        8001b986 f   ke:apcobj.obj
+ 0001:0000b6ca       _KeFlushQueueApc@8         8001b9ca f   ke:apcobj.obj
+ 0001:0000b70d       _KeInsertQueueApc@16       8001ba0d f   ke:apcobj.obj
+ 0001:0000b74c       _KeRemoveQueueApc@4        8001ba4c f   ke:apcobj.obj
+ 0001:0000b7a7       _KeInitializeDeviceQueue@4 8001baa7 f   ke:devquobj.obj
+ 0001:0000b7c3       _KeInsertDeviceQueue@8     8001bac3 f   ke:devquobj.obj
+ 0001:0000b7f1       _KeInsertByKeyDeviceQueue@12 8001baf1 f   ke:devquobj.obj
+ 0001:0000b839       _KeRemoveDeviceQueue@4     8001bb39 f   ke:devquobj.obj
+ 0001:0000b85e       _KeRemoveByKeyDeviceQueue@8 8001bb5e f   ke:devquobj.obj
+ 0001:0000b8ad       _KeRemoveEntryDeviceQueue@8 8001bbad f   ke:devquobj.obj
+ 0001:0000b8dc       _KeInitializeDpc@12        8001bbdc f   ke:dpcobj.obj
+ 0001:0000b8fa       _KeRemoveQueueDpc@4        8001bbfa f   ke:dpcobj.obj
+ 0001:0000b91b       _KeInsertQueueDpc@12       8001bc1b f   ke:dpcobj.obj
+ 0001:0000b993       _KeInitializeEvent@12      8001bc93 f   ke:eventobj.obj
+ 0001:0000b9b4       _KeResetEvent@4            8001bcb4 f   ke:eventobj.obj
+ 0001:0000b9d2       _KeSetEventBoostPriority@8 8001bcd2 f   ke:eventobj.obj
+ 0001:0000ba1a       _KePulseEvent@12           8001bd1a f   ke:eventobj.obj
+ 0001:0000ba70       _KeSetEvent@12             8001bd70 f   ke:eventobj.obj
+ 0001:0000bae7       _KeInitializeMutant@8      8001bde7 f   ke:mutntobj.obj
+ 0001:0000bb44       _KeReleaseMutant@16        8001be44 f   ke:mutntobj.obj
+ 0001:0000bbe9       _KeInitializeQueue@8       8001bee9 f   ke:queueobj.obj
+ 0001:0000bc2b       _KeRundownQueue@4          8001bf2b f   ke:queueobj.obj
+ 0001:0000bc74       @KiActivateWaiterQueue@4   8001bf74 f   ke:queueobj.obj
+ 0001:0000bcb1       _KeRemoveQueue@12          8001bfb1 f   ke:queueobj.obj
+ 0001:0000be7a       @KiInsertQueue@12          8001c17a f   ke:queueobj.obj
+ 0001:0000bf1c       _KeInsertQueue@8           8001c21c f   ke:queueobj.obj
+ 0001:0000bf44       _KeInsertHeadQueue@8       8001c244 f   ke:queueobj.obj
+ 0001:0000bf6c       _KeInitializeSemaphore@12  8001c26c f   ke:semphobj.obj
+ 0001:0000bf90       _KeReleaseSemaphore@16     8001c290 f   ke:semphobj.obj
+ 0001:0000c005       _KeSaveFloatingPointState@4 8001c305 f   ke:misc.obj
+ 0001:0000c155       _KeRestoreFloatingPointState@4 8001c455 f   ke:misc.obj
+ 0001:0000c263       _KeInitializeProcess@8     8001c563 f   ke:procobj.obj
+ 0001:0000c285       _KeSetPriorityProcess@8    8001c585 f   ke:procobj.obj
+ 0001:0000c380       _KeSynchronizeExecution@12 8001c680 f   ke:intsup.obj
+ 0001:0000c3b0       _KiInterruptDispatch@0     8001c6b0 f   ke:intsup.obj
+ 0001:0000c3e0       _KiLevelInterruptDispatch@0 8001c6e0 f   ke:intsup.obj
+ 0001:0000c406       _KiInterruptTemplate       8001c706     ke:intsup.obj
+ 0001:0000c431       _KiInterruptTemplate2ndDispatch 8001c731     ke:intsup.obj
+ 0001:0000c436       _KiInterruptTemplateObject 8001c736     ke:intsup.obj
+ 0001:0000c43b       _KiInterruptTemplateDispatch 8001c73b     ke:intsup.obj
+ 0001:0000c43b       _KiUnexpectedInterrupt     8001c73b f   ke:intsup.obj
+ 0001:0000c443       _NtYieldExecution@0        8001c743 f   ke:yield.obj
+ 0001:0000c4ec       _KeQuickRebootSystem@0     8001c7ec f   ke:newsysbg.obj
+ 0001:0000c575       KiIdleLoop                 8001c875 f   ke:newsysbg.obj
+ 0001:0000c5b8       _KeRetireDpcListLoop@0     8001c8b8 f   ke:newsysbg.obj
+ 0001:0000c5df       KiRetireDpcList            8001c8df f   ke:newsysbg.obj
+ 0001:0000c650       _KiStartUnexpectedRange@0  8001c950     ke:trap.obj
+ 0001:0000c650       _KiUnexpectedInterrupt0    8001c950 f   ke:trap.obj
+ 0001:0000c65a       _KiUnexpectedInterrupt1    8001c95a f   ke:trap.obj
+ 0001:0000c664       _KiUnexpectedInterrupt2    8001c964 f   ke:trap.obj
+ 0001:0000c66e       _KiUnexpectedInterrupt3    8001c96e f   ke:trap.obj
+ 0001:0000c678       _KiUnexpectedInterrupt4    8001c978 f   ke:trap.obj
+ 0001:0000c682       _KiUnexpectedInterrupt5    8001c982 f   ke:trap.obj
+ 0001:0000c68c       _KiUnexpectedInterrupt6    8001c98c f   ke:trap.obj
+ 0001:0000c696       _KiUnexpectedInterrupt7    8001c996 f   ke:trap.obj
+ 0001:0000c6a0       _KiUnexpectedInterrupt8    8001c9a0 f   ke:trap.obj
+ 0001:0000c6aa       _KiUnexpectedInterrupt9    8001c9aa f   ke:trap.obj
+ 0001:0000c6b4       _KiUnexpectedInterrupt10   8001c9b4 f   ke:trap.obj
+ 0001:0000c6be       _KiUnexpectedInterrupt11   8001c9be f   ke:trap.obj
+ 0001:0000c6c8       _KiUnexpectedInterrupt12   8001c9c8 f   ke:trap.obj
+ 0001:0000c6d2       _KiUnexpectedInterrupt13   8001c9d2 f   ke:trap.obj
+ 0001:0000c6dc       _KiUnexpectedInterrupt14   8001c9dc f   ke:trap.obj
+ 0001:0000c6e6       _KiUnexpectedInterrupt15   8001c9e6 f   ke:trap.obj
+ 0001:0000c6f0       _KiContinueService         8001c9f0 f   ke:trap.obj
+ 0001:0000c6f0       _KiEndUnexpectedRange@0    8001c9f0     ke:trap.obj
+ 0001:0000c720       _KiRaiseExceptionService   8001ca20 f   ke:trap.obj
+ 0001:0000c745       _KiServiceExit             8001ca45     ke:trap.obj
+ 0001:0000c7be       _KiServiceExit2            8001cabe     ke:trap.obj
+ 0001:0000c850       _KiExceptionExit           8001cb50 f   ke:trap.obj
+ 0001:0000c8df       _KiUnexpectedInterruptTail 8001cbdf f   ke:trap.obj
+ 0001:0000c944       CommonDispatchException    8001cc44 f   ke:trap.obj
+ 0001:0000c984       _KiTrap00                  8001cc84 f   ke:trap.obj
+ 0001:0000c9b0       _KiTrap01                  8001ccb0 f   ke:trap.obj
+ 0001:0000c9e4       _KiTrap02                  8001cce4 f   ke:trap.obj
+ 0001:0000ca0c       _KiDebugService            8001cd0c f   ke:trap.obj
+ 0001:0000ca38       _KiTrap03                  8001cd38 f   ke:trap.obj
+ 0001:0000ca7c       _KiTrap04                  8001cd7c f   ke:trap.obj
+ 0001:0000caa8       _KiTrap05                  8001cda8 f   ke:trap.obj
+ 0001:0000cad4       _KiTrap06                  8001cdd4 f   ke:trap.obj
+ 0001:0000cb00       _KiTrap07                  8001ce00 f   ke:trap.obj
+ 0001:0000cc68       _KiTrap08                  8001cf68 f   ke:trap.obj
+ 0001:0000ccc0       _KiTrap09                  8001cfc0 f   ke:trap.obj
+ 0001:0000cce8       _KiTrap0A                  8001cfe8 f   ke:trap.obj
+ 0001:0000cd10       _KiTrap0B                  8001d010 f   ke:trap.obj
+ 0001:0000cd3c       _KiTrap0E                  8001d03c f   ke:trap.obj
+ 0001:0000ce38       _KiTrap0F                  8001d138 f   ke:trap.obj
+ 0001:0000ce60       _KiTrap10                  8001d160 f   ke:trap.obj
+ 0001:0000cea4       _KiTrap11                  8001d1a4 f   ke:trap.obj
+ 0001:0000cecc       _KiTrap13                  8001d1cc f   ke:trap.obj
+ 0001:0000cfc8       _KiFlushNPXState@0         8001d2c8 f   ke:trap.obj
+ 0001:0000d00c       _KiSetHardwareTrigger@0    8001d30c f   ke:trap.obj
+ 0001:0000d014       _KiSystemFatalException    8001d314 f   ke:trap.obj
+ 0001:0000d024       _NtContinue@8              8001d324 f   ke:trap.obj
+ 0001:0000d058       _ZwContinue@8              8001d358 f   ke:trap.obj
+ 0001:0000d068       _NtRaiseException@12       8001d368 f   ke:trap.obj
+ 0001:0000d094       _ZwRaiseException@12       8001d394 f   ke:trap.obj
+ 0001:0000d0a5       @KiInsertQueueApc@8        8001d3a5 f   ke:apcsup.obj
+ 0001:0000d171       _KiDeliverApc@0            8001d471 f   ke:apcsup.obj
+ 0001:0000d25f       _KiDeliverUserApc@0        8001d55f f   ke:apcsup.obj
+ 0001:0000d2f4       _KiDisableInterrupts@0     8001d5f4 f   ke:int.obj
+ 0001:0000d300       _KiRestoreInterrupts@4     8001d600 f   ke:int.obj
+ 0001:0000d314       @RDMSR@4                   8001d614 f   ke:cpu.obj
+ 0001:0000d318       _WRMSR@12                  8001d618 f   ke:cpu.obj
+ 0001:0000d329       _KiSuspendNop@20           8001d629 f   ke:thredsup.obj
+ 0001:0000d32c       @KiFindReadyThread@4       8001d62c f   ke:thredsup.obj
+ 0001:0000d3b4       @KiReadyThread@4           8001d6b4 f   ke:thredsup.obj
+ 0001:0000d46f       @KiSetPriorityThread@8     8001d76f f   ke:thredsup.obj
+ 0001:0000d52d       _KiSuspendThread@12        8001d82d f   ke:thredsup.obj
+ 0001:0000d547       @KiUnwaitThread@12         8001d847 f   ke:waitsup.obj
+ 0001:0000d602       @KiWaitSatisfyAll@4        8001d902 f   ke:waitsup.obj
+ 0001:0000d67f       @KiWaitTest@8              8001d97f f   ke:waitsup.obj
+ 0001:0000d759       @KiTimerListExpire@8       8001da59 f   ke:dpcsup.obj
+ 0001:0000d869       _KiQuantumEnd@0            8001db69 f   ke:dpcsup.obj
+ 0001:0000d8e7       _KiTimerExpiration@16      8001dbe7 f   ke:dpcsup.obj
+ 0001:0000d996       _KiInitializeContextThread@20 8001dc96 f   ke:thredini.obj
+ 0001:0000da1b       @KiInsertTimerTable@20     8001dd1b f   ke:timersup.obj
+ 0001:0000db1b       @KiInsertTreeTimer@12      8001de1b f   ke:timersup.obj
+ 0001:0000dba9       @KiReinsertTreeTimer@12    8001dea9 f   ke:timersup.obj
+ 0001:0000dc26       _KiPreInitializeKernel@0   8001df26 f   ke:kernlini.obj
+ 0001:0000dc76       _KiSwapIDT@0               8001df76 f   ke:kernlini.obj
+ 0001:0000dca9       _KiInitializeKernel@0      8001dfa9 f   ke:kernlini.obj
+ 0001:0000dddc       _KiEspFromTrapFrame@4      8001e0dc f   ke:exceptn.obj
+ 0001:0000ddf3       _KiEspToTrapFrame@8        8001e0f3 f   ke:exceptn.obj
+ 0001:0000de2e       _KeContextFromKframes@8    8001e12e f   ke:exceptn.obj
+ 0001:0000df08       _KeContextToKframes@12     8001e208 f   ke:exceptn.obj
+ 0001:0000dfd3       _KiDispatchException@16    8001e2d3 f   ke:exceptn.obj
+ 0001:0000e083       _KiRaiseException@20       8001e383 f   ke:raisexcp.obj
+ 0001:0000e0b0       _KiContinue@12             8001e3b0 f   ke:raisexcp.obj
+ 0001:0000e0ec       _Ki386CheckDivideByZeroTrap@4 8001e3ec f   ke:trapc.obj
+ 0001:0000e2c4       _KiThreadStartup@4         8001e5c4 f   ke:threadbg.obj
+ 0001:0000e2f8       _KiComputeTimerTableIndex@20 8001e5f8 f   ke:timindex.obj
+ 0001:0000e380       _KiInitSystem@0            8001e680 f   ke:kiinit.obj
+ 0001:0000e3c7       _FscBuildElementLruList@0  8001e6c7 f   mmarc:fscache.obj
+ 0001:0000e422       _FscGrowCacheSize@4        8001e722 f   mmarc:fscache.obj
+ 0001:0000e516       _FscGetCacheSize@0         8001e816 f   mmarc:fscache.obj
+ 0001:0000e51c       _FscLookupElement@8        8001e81c f   mmarc:fscache.obj
+ 0001:0000e574       _FscElementFromCacheBuffer@4 8001e874 f   mmarc:fscache.obj
+ 0001:0000e5a7       _FatxSignalIoEventCompletion@12 8001e8a7 f   fatx:readwrit.obj
+ 0001:0000e5a7       _FscSignalIoEventCompletion@12 8001e8a7 f   mmarc:fscache.obj
+ 0001:0000e5bc       _FscTestForFullyCachedIo@16 8001e8bc f   mmarc:fscache.obj
+ 0001:0000e62a       _FscInvalidateBlocks@12    8001e92a f   mmarc:fscache.obj
+ 0001:0000e6b7       _FscInvalidateDevice@4     8001e9b7 f   mmarc:fscache.obj
+ 0001:0000e6c7       _FscInvalidateByteRange@16 8001e9c7 f   mmarc:fscache.obj
+ 0001:0000e6ff       _FscInvalidateIdleBlocks@0 8001e9ff f   mmarc:fscache.obj
+ 0001:0000e778       _FscShrinkCacheSize@4      8001ea78 f   mmarc:fscache.obj
+ 0001:0000e913       _FscSetCacheSize@4         8001ec13 f   mmarc:fscache.obj
+ 0001:0000e979       _FscAllocateElement@0      8001ec79 f   mmarc:fscache.obj
+ 0001:0000e9da       @FscSetCacheBufferProtection@8 8001ecda f   mmarc:fscache.obj
+ 0001:0000ea13       _FscMapEmptyBuffer@16      8001ed13 f   mmarc:fscache.obj
+ 0001:0000eab3       _FscUnmapBuffer@4          8001edb3 f   mmarc:fscache.obj
+ 0001:0000eb1b       _FscDiscardBuffer@4        8001ee1b f   mmarc:fscache.obj
+ 0001:0000eb8d       _FscWriteFFs@20            8001ee8d f   mmarc:fscache.obj
+ 0001:0000ed09       _FscMapBuffer@24           8001f009 f   mmarc:fscache.obj
+ 0001:0000ef23       _FscWriteBuffer@24         8001f223 f   mmarc:fscache.obj
+ 0001:0000f01a       _FscPartiallyCachedRead@28 8001f31a f   mmarc:fscache.obj
+ 0001:0000f11b       _FscCachedRead@24          8001f41b f   mmarc:fscache.obj
+ 0001:0000f27f       _MmGetPhysicalAddress@4    8001f57f f   mmarc:physical.obj
+ 0001:0000f2cd       _MmAllocateContiguousMemoryEx@20 8001f5cd f   mmarc:physical.obj
+ 0001:0000f48f       _MmQueryAllocationSize@4   8001f78f f   mmarc:physical.obj
+ 0001:0000f4cc       _MmPersistContiguousMemory@12 8001f7cc f   mmarc:physical.obj
+ 0001:0000f52c       _MmMapIoSpace@12           8001f82c f   mmarc:physical.obj
+ 0001:0000f5f5       _MmUnmapIoSpace@8          8001f8f5 f   mmarc:physical.obj
+ 0001:0000f648       _MmLockUnlockBufferPages@12 8001f948 f   mmarc:physical.obj
+ 0001:0000f6d7       _MmLockUnlockPhysicalPage@8 8001f9d7 f   mmarc:physical.obj
+ 0001:0000f715       _MmLockSelectedIoPages@16  8001fa15 f   mmarc:physical.obj
+ 0001:0000f817       _MmUnlockSelectedIoPages@4 8001fb17 f   mmarc:physical.obj
+ 0001:0000f8c2       _MmAllocateContiguousMemory@4 8001fbc2 f   mmarc:physical.obj
+ 0001:0000f8d6       _MmFreeContiguousMemory@4  8001fbd6 f   mmarc:physical.obj
+ 0001:0000f939       _MmClaimGpuInstanceMemory@8 8001fc39 f   mmarc:physical.obj
+ 0001:0000f9f2       _MmIsAddressValid@4        8001fcf2 f   mmarc:mmsup.obj
+ 0001:0000fa42       @MiMakePteProtectionMask@8 8001fd42 f   mmarc:mmsup.obj
+ 0001:0000fac8       @MiMakeSystemPteProtectionMask@8 8001fdc8 f   mmarc:mmsup.obj
+ 0001:0000fb0c       @MiDecodePteProtectionMask@4 8001fe0c f   mmarc:mmsup.obj
+ 0001:0000fb44       _MmQueryAddressProtect@4   8001fe44 f   mmarc:mmsup.obj
+ 0001:0000fba5       _MmQueryStatistics@4       8001fea5 f   mmarc:mmsup.obj
+ 0001:0000fc1b       _MiAllocateMappedMemory@24 8001ff1b f   mmarc:mmsup.obj
+ 0001:0000fcff       _MiFreeMappedMemory@12     8001ffff f   mmarc:mmsup.obj
+ 0001:0000fdb9       _MmSetAddressProtect@12    800200b9 f   mmarc:mmsup.obj
+ 0001:0000fe3c       _MmAllocateSystemMemory@8  8002013c f   mmarc:mmsup.obj
+ 0001:0000fe5a       _MmFreeSystemMemory@8      8002015a f   mmarc:mmsup.obj
+ 0001:0000fe6f       _MmAllocatePoolPages@4     8002016f f   mmarc:mmsup.obj
+ 0001:0000fe8b       _MmFreePoolPages@4         8002018b f   mmarc:mmsup.obj
+ 0001:0000fe9e       _MmCreateKernelStack@8     8002019e f   mmarc:mmsup.obj
+ 0001:0000fee0       _MmDeleteKernelStack@8     800201e0 f   mmarc:mmsup.obj
+ 0001:0000ff17       _MmDbgAllocateMemory@8     80020217 f   mmarc:debugsup.obj
+ 0001:0000ff36       _MmDbgFreeMemory@8         80020236 f   mmarc:debugsup.obj
+ 0001:0000ff4b       _MmDbgQueryAvailablePages@0 8002024b f   mmarc:debugsup.obj
+ 0001:0000ff53       _MmDbgWriteCheck@8         80020253 f   mmarc:debugsup.obj
+ 0001:0000ffb7       _MmDbgReleaseAddress@8     800202b7 f   mmarc:debugsup.obj
+ 0001:00010000       _MmDbgTranslatePhysicalAddress64@8 80020300 f   mmarc:debugsup.obj
+ 0001:0001002d       _MmInitSystem@0            8002032d f   mmarc:mminit.obj
+ 0001:0001010d       _MmDiscardInitSection@0    8002040d f   mmarc:mminit.obj
+ 0001:00010190       _MmRelocatePersistentMemory@0 80020490 f   mmarc:mminit.obj
+ 0001:00010257       _MmPrepareToQuickRebootSystem@0 80020557 f   mmarc:mminit.obj
+ 0001:000102c0       _NtQueryVirtualMemory@8    800205c0 f   mmarc:virtual.obj
+ 0001:000104c4       _NtProtectVirtualMemory@16 800207c4 f   mmarc:virtual.obj
+ 0001:00010647       _NtAllocateVirtualMemory@20 80020947 f   mmarc:virtual.obj
+ 0001:00010a7b       _NtFreeVirtualMemory@12    80020d7b f   mmarc:virtual.obj
+ 0001:00010d27       @MiInsertPageInFreeList@8  80021027 f   mmarc:pfnsup.obj
+ 0001:00010da8       _MiInsertPhysicalMemoryInFreeList@8 800210a8 f   mmarc:pfnsup.obj
+ 0001:00010dc9       @MiRemovePageFromFreeList@4 800210c9 f   mmarc:pfnsup.obj
+ 0001:00010e3d       @MiRemoveAnyPageFromFreeList@0 8002113d f   mmarc:pfnsup.obj
+ 0001:00010eaf       @MiRemoveAnyPage@8         800211af f   mmarc:pfnsup.obj
+ 0001:00010ee0       @MiReleasePageOwnership@4  800211e0 f   mmarc:pfnsup.obj
+ 0001:00010efa       _MiReinitializePfnDatabase@0 800211fa f   mmarc:pfnsup.obj
+ 0001:00010f4b       @MiRemoveZeroPage@8        8002124b f   mmarc:pfnsup.obj
+ 0001:00010fca       @MiRelocateBusyPage@4      800212ca f   mmarc:pfnsup.obj
+ 0001:00011177       _MmAccessFault@12          80021477 f   mmarc:mmfault.obj
+ 0001:0001124f       _MiReleaseSystemPtes@12    8002154f f   mmarc:sysptes.obj
+ 0001:00011330       _MiReserveSystemPtes@8     80021630 f   mmarc:sysptes.obj
+ 0001:00011484       @MiZeroAndFlushPtes@8      80021784 f   mmarc:mmsupa.obj
+ 0001:000114a0       _MiRelocateBusyPageHelper@20 800217a0 f   mmarc:mmsupa.obj
+ 0001:000114d8       _MiReorderTree@8           800217d8 f   mmarc:addrsup.obj
+ 0001:00011677       @MiGetNextNode@4           80021977 f   mmarc:addrsup.obj
+ 0001:000116a1       @MiGetPreviousNode@4       800219a1 f   mmarc:addrsup.obj
+ 0001:000116c7       @MiInsertNode@8            800219c7 f   mmarc:addrsup.obj
+ 0001:00011723       @MiRemoveNode@8            80021a23 f   mmarc:addrsup.obj
+ 0001:000118a3       @MiLocateAddressInTree@8   80021ba3 f   mmarc:addrsup.obj
+ 0001:000118de       _MiCheckForConflictingNode@12 80021bde f   mmarc:addrsup.obj
+ 0001:00011904       _MiFindEmptyAddressRangeInTree@16 80021c04 f   mmarc:addrsup.obj
+ 0001:000119ee       _MiFindEmptyAddressRangeDownTree@16 80021cee f   mmarc:addrsup.obj
+ 0001:00011afd       _MiInsertVad@4             80021dfd f   mmarc:vadtree.obj
+ 0001:00011b2d       _MiRemoveVad@4             80021e2d f   mmarc:vadtree.obj
+ 0001:00011b68       @MiLocateAddress@4         80021e68 f   mmarc:vadtree.obj
+ 0001:00011b92       _MiFindEmptyAddressRange@12 80021e92 f   mmarc:vadtree.obj
+ 0001:00011c0f       _ObReferenceObjectByName@20 80021f0f f   ob:obref.obj
+ 0001:00011c2c       @ObfReferenceObject@4      80021f2c f   ob:obref.obj
+ 0001:00011c48       _ObReferenceObjectByPointer@8 80021f48 f   ob:obref.obj
+ 0001:00011c75       @ObfDereferenceObject@4    80021f75 f   ob:obref.obj
+ 0001:00011cb8       _ObOpenObjectByPointer@12  80021fb8 f   ob:obref.obj
+ 0001:00011d08       _ObReferenceObjectByHandle@12 80022008 f   ob:obref.obj
+ 0001:00011d7f       _ObOpenObjectByName@16     8002207f f   ob:obref.obj
+ 0001:00011de0       _ObpDetachNamedObject@8    800220e0 f   ob:obhandle.obj
+ 0001:00011e7a       _NtClose@4                 8002217a f   ob:obhandle.obj
+ 0001:00011f02       _NtDuplicateObject@12      80022202 f   ob:obhandle.obj
+ 0001:00011f4f       _ObMakeTemporaryObject@4   8002224f f   ob:obhandle.obj
+ 0001:00011f87       _NtMakeTemporaryObject@4   80022287 f   ob:obhandle.obj
+ 0001:00011fb6       _NtCreateDirectoryObject@8 800222b6 f   ob:obdir.obj
+ 0001:00011ff0       _NtOpenDirectoryObject@8   800222f0 f   ob:obdir.obj
+ 0001:00012007       _NtQueryDirectoryObject@24 80022307 f   ob:obdir.obj
+ 0001:000120f6       @ObpComputeHashIndex@4     800223f6 f   ob:obdir.obj
+ 0001:00012130       _ObpLookupElementNameInDirectory@16 80022430 f   ob:obdir.obj
+ 0001:000121d4       _ObpReferenceObjectByName@24 800224d4 f   ob:obdir.obj
+ 0001:000123ca       _ObpResolveLinkTarget@8    800226ca f   ob:oblink.obj
+ 0001:000124fb       _NtCreateSymbolicLinkObject@12 800227fb f   ob:oblink.obj
+ 0001:0001258d       _NtOpenSymbolicLinkObject@8 8002288d f   ob:oblink.obj
+ 0001:000125a4       _NtQuerySymbolicLinkObject@12 800228a4 f   ob:oblink.obj
+ 0001:0001261b       _ObpDeleteSymbolicLink@4   8002291b f   ob:oblink.obj
+ 0001:00012629       _NtSignalAndWaitForSingleObjectEx@20 80022929 f   ob:obwait.obj
+ 0001:0001273e       _NtWaitForSingleObjectEx@16 80022a3e f   ob:obwait.obj
+ 0001:000127b3       _NtWaitForMultipleObjectsEx@24 80022ab3 f   ob:obwait.obj
+ 0001:00012926       _NtWaitForSingleObject@12  80022c26 f   ob:obwait.obj
+ 0001:0001293c       _ObCreateObject@16         80022c3c f   ob:obcreate.obj
+ 0001:00012a4a       _ObInsertObject@16         80022d4a f   ob:obcreate.obj
+ 0001:00012c3a       _ObpExtendObjectHandleTable@0 80022f3a f   ob:obtable.obj
+ 0001:00012d0c       _ObpCreateObjectHandle@4   8002300c f   ob:obtable.obj
+ 0001:00012d5d       _ObpGetObjectHandleReference@4 8002305d f   ob:obtable.obj
+ 0001:00012da8       _ObpGetObjectHandleContents@4 800230a8 f   ob:obtable.obj
+ 0001:00012dda       _ObpDestroyObjectHandle@4  800230da f   ob:obtable.obj
+ 0001:00012e29       _ObpCreatePermanentDirectoryObject@8 80023129 f   ob:obmanage.obj
+ 0001:00012e77       _ObInitSystem@0            80023177 f   ob:obmanage.obj
+ 0001:00012eed       _ObDissectName@16          800231ed f   ob:obmanage.obj
+ 0001:00012f62       _PspQueueApcSpecialApc@20  80023262 f   ps:psctx.obj
+ 0001:00012f6e       _NtQueueApcThread@20       8002326e f   ps:psctx.obj
+ 0001:00012fe8       _NtResumeThread@8          800232e8 f   ps:psspnd.obj
+ 0001:00013023       _NtSuspendThread@8         80023323 f   ps:psspnd.obj
+ 0001:000130c8       _PspSystemThreadStartup@8  800233c8 f   ps:create.obj
+ 0001:000130f2       _PsCreateSystemThreadEx@40 800233f2 f   ps:create.obj
+ 0001:00013292       _PsSetCreateThreadNotifyRoutine@4 80023592 f   ps:create.obj
+ 0001:000132c1       _PsCreateSystemThread@20   800235c1 f   ps:create.obj
+ 0001:000132eb       _PsQueryStatistics@4       800235eb f   ps:psquery.obj
+ 0001:00013318       _PspReaper@16              80023618 f   ps:psdelete.obj
+ 0001:0001335c       _PsTerminateSystemThread@4 8002365c f   ps:psdelete.obj
+ 0001:00013476       _PsInitSystem@0            80023776 f   ps:psinit.obj
+ 0001:000134c0       @RtlUshortByteSwap@4       800237c0 f   ntosrtl:byteswap.obj
+ 0001:000134d0       @RtlUlongByteSwap@4        800237d0 f   ntosrtl:byteswap.obj
+ 0001:000134d8       _DbgBreakPoint@0           800237d8 f   ntosrtl:debug2.obj
+ 0001:000134dc       _DbgBreakPointWithStatus@4 800237dc f   ntosrtl:debug2.obj
+ 0001:000134e0       _RtlpBreakWithStatusInstruction@0 800237e0     ntosrtl:debug2.obj
+ 0001:000134e4       _DbgPrint                  800237e4 f   ntosrtl:debug.obj
+ 0001:0001353e       _DbgPrompt@12              8002383e f   ntosrtl:debug.obj
+ 0001:0001357d       _DbgLoadImageSymbols@12    8002387d f   ntosrtl:debug.obj
+ 0001:000135bf       _DbgUnLoadImageSymbols@12  800238bf f   ntosrtl:debug.obj
+ 0001:000135e9       _RtlAnsiStringToUnicodeString@12 800238e9 f   ntosrtl:nls.obj
+ 0001:00013687       _RtlUnicodeStringToAnsiString@12 80023987 f   ntosrtl:nls.obj
+ 0001:0001373a       _RtlUpcaseUnicodeString@12 80023a3a f   ntosrtl:nls.obj
+ 0001:000137ff       _RtlDowncaseUnicodeString@12 80023aff f   ntosrtl:nls.obj
+ 0001:000138c7       _RtlUpcaseUnicodeChar@4    80023bc7 f   ntosrtl:nls.obj
+ 0001:00013912       _RtlDowncaseUnicodeChar@4  80023c12 f   ntosrtl:nls.obj
+ 0001:00013960       _RtlFreeUnicodeString@4    80023c60 f   ntosrtl:nls.obj
+ 0001:00013960       _RtlFreeAnsiString@4       80023c60 f   ntosrtl:nls.obj
+ 0001:0001397a       _RtlCompareUnicodeString@12 80023c7a f   ntosrtl:nls.obj
+ 0001:00013ac8       _RtlEqualUnicodeString@12  80023dc8 f   ntosrtl:nls.obj
+ 0001:00013bcc       _RtlCopyUnicodeString@8    80023ecc f   ntosrtl:nls.obj
+ 0001:00013c2a       _RtlAppendUnicodeToString@8 80023f2a f   ntosrtl:nls.obj
+ 0001:00013c9b       _RtlAppendUnicodeStringToString@8 80023f9b f   ntosrtl:nls.obj
+ 0001:00013d01       _RtlCreateUnicodeString@8  80024001 f   ntosrtl:nls.obj
+ 0001:00013d4b       _RtlCopyString@8           8002404b f   ntosrtl:string.obj
+ 0001:00013d8d       _RtlUpperChar@4            8002408d f   ntosrtl:string.obj
+ 0001:00013de9       _RtlLowerChar@4            800240e9 f   ntosrtl:string.obj
+ 0001:00013e48       _RtlCompareString@12       80024148 f   ntosrtl:string.obj
+ 0001:00013ed4       _RtlEqualString@12         800241d4 f   ntosrtl:string.obj
+ 0001:00013f47       _RtlPrefixString@12        80024247 f   ntosrtl:string.obj
+ 0001:00013fcd       _RtlUpperString@8          800242cd f   ntosrtl:string.obj
+ 0001:0001400d       _RtlAppendStringToString@8 8002430d f   ntosrtl:string.obj
+ 0001:00014059       _RtlAssert@16              80024359 f   ntosrtl:assert.obj
+ 0001:000140f7       _RtlRip@12                 800243f7 f   ntosrtl:assert.obj
+ 0001:00014190       _RtlpExecuteHandlerForException@20 80024490 f   ntosrtl:xcptmisc.obj
+ 0001:00014198       _RtlpExecuteHandlerForUnwind@20 80024498 f   ntosrtl:xcptmisc.obj
+ 0001:000141a0       ExecuteHandler@20          800244a0 f   ntosrtl:xcptmisc.obj
+ 0001:00014228       _RtlpUnlinkHandler@4       80024528 f   ntosrtl:xcptmisc.obj
+ 0001:00014238       _RtlCaptureContext@4       80024538 f   ntosrtl:xcptmisc.obj
+ 0001:00014268       _RtlpCaptureContext@4      80024568 f   ntosrtl:xcptmisc.obj
+ 0001:000142dc       _RtlpGetStackLimits@8      800245dc f   ntosrtl:xcptmisc.obj
+ 0001:000142f8       _RtlpGetRegistrationHead@0 800245f8 f   ntosrtl:xcptmisc.obj
+ 0001:00014300       _RtlpGetReturnAddress@0    80024600 f   ntosrtl:xcptmisc.obj
+ 0001:00014304       _RtlWalkFrameChain@12      80024604 f   ntosrtl:stktrace.obj
+ 0001:000143ac       _RtlCaptureStackBackTrace@16 800246ac f   ntosrtl:stktrace.obj
+ 0001:0001441c       _RtlIntegerToChar@16       8002471c f   ntosrtl:cnvint.obj
+ 0001:0001450c       _RtlCharToInteger@12       8002480c f   ntosrtl:cnvint.obj
+ 0001:0001462e       _RtlUnicodeStringToInteger@12 8002492e f   ntosrtl:cnvint.obj
+ 0001:000147ae       _RtlIntegerToUnicodeString@12 80024aae f   ntosrtl:cnvint.obj
+ 0001:00014800       _RtlCompareMemory@12       80024b00 f   ntosrtl:movemem.obj
+ 0001:00014850       _RtlCompareMemoryUlong@12  80024b50 f   ntosrtl:movemem.obj
+ 0001:00014880       _RtlFillMemory@12          80024b80 f   ntosrtl:movemem.obj
+ 0001:000148c0       _RtlFillMemoryUlong@12     80024bc0 f   ntosrtl:movemem.obj
+ 0001:000148e0       _RtlZeroMemory@8           80024be0 f   ntosrtl:movemem.obj
+ 0001:00014910       _RtlMoveMemory@12          80024c10 f   ntosrtl:movemem.obj
+ 0001:00014960       _RtlEnterCriticalSectionAndRegion@4 80024c60 f   ntosrtl:critsect.obj
+ 0001:00014980       _RtlEnterCriticalSection@4 80024c80 f   ntosrtl:critsect.obj
+ 0001:000149d0       _RtlLeaveCriticalSectionAndRegion@4 80024cd0 f   ntosrtl:critsect.obj
+ 0001:00014a30       _RtlLeaveCriticalSection@4 80024d30 f   ntosrtl:critsect.obj
+ 0001:00014a68       _RtlTryEnterCriticalSection@4 80024d68 f   ntosrtl:critsect.obj
+ 0001:00014ab0       _RtlExtendedLargeIntegerDivide@16 80024db0 f   ntosrtl:largeint.obj
+ 0001:00014b0c       _RtlExtendedMagicDivide@20 80024e0c f   ntosrtl:largeint.obj
+ 0001:00014b9c       _RtlExtendedIntegerMultiply@12 80024e9c f   ntosrtl:largeint.obj
+ 0001:00014bf4       _RtlGetCallersAddress@8    80024ef4 f   ntosrtl:stkwalk.obj
+ 0001:00014c8c       _RtlInitAnsiString@8       80024f8c f   ntosrtl:stringsp.obj
+ 0001:00014cb8       _RtlInitUnicodeString@8    80024fb8 f   ntosrtl:stringsp.obj
+ 0001:00014ce7       _RtlInitializeCriticalSection@4 80024fe7 f   ntosrtl:resource.obj
+ 0001:00014d0c       _RtlMapGenericMask@8       8002500c f   ntosrtl:sertl.obj
+ 0001:00014d5c       _RtlMultiByteToUnicodeN@20 8002505c f   ntosrtl:nlsxlat.obj
+ 0001:00014d99       _RtlMultiByteToUnicodeSize@12 80025099 f   ntosrtl:nlsxlat.obj
+ 0001:00014daa       _RtlUnicodeToMultiByteSize@12 800250aa f   ntosrtl:nlsxlat.obj
+ 0001:00014dbb       _RtlUnicodeToMultiByteN@20 800250bb f   ntosrtl:nlsxlat.obj
+ 0001:00014dff       _RtlUpcaseUnicodeToMultiByteN@20 800250ff f   ntosrtl:nlsxlat.obj
+ 0001:00014eb3       _RtlNtStatusToDosError@4   800251b3 f   ntosrtl:error.obj
+ 0001:00014f84       _RtlRaiseException@4       80025284 f   ntosrtl:raise.obj
+ 0001:0001501e       _RtlRaiseStatus@4          8002531e f   ntosrtl:raisests.obj
+ 0001:00015046       _ElapsedDaysToYears@4      80025346 f   ntosrtl:time.obj
+ 0001:000150b6       _DaysAndFractionToTime@12  800253b6 f   ntosrtl:time.obj
+ 0001:000150ee       _RtlTimeToTimeFields@8     800253ee f   ntosrtl:time.obj
+ 0001:0001521b       _RtlTimeFieldsToTime@8     8002551b f   ntosrtl:time.obj
+ 0001:000153aa       _RtlDispatchException@8    800256aa f   ntosrtl:exdsptch.obj
+ 0001:000154a1       _RtlUnwind@16              800257a1 f   ntosrtl:exdsptch.obj
+ 0001:00015645       _RtlImageNtHeader@4        80025945 f   ntosrtl:imagedir.obj
+ 0001:00015684       _RtlSectionTableFromVirtualAddress@12 80025984 f   ntosrtl:imagedir.obj
+ 0001:000156bf       _RtlAddressInSectionTable@12 800259bf f   ntosrtl:imagedir.obj
+ 0001:000156ea       _RtlpImageDirectoryEntryToData32@20 800259ea f   ntosrtl:imagedir.obj
+ 0001:00015746       _RtlImageDirectoryEntryToData@16 80025a46 f   ntosrtl:imagedir.obj
+ 0001:00015784       _LdrProcessRelocationBlock@16 80025a84 f   ntosrtl:ldrreloc.obj
+ 0001:00015803       _LdrRelocateImage@20       80025b03 f   ntosrtl:ldrreloc.obj
+ 0001:0001586e       _DebugService@12           80025b6e f   ntosrtl:debug3.obj
+ 0001:0001588a       _DebugUnLoadImageSymbols@8 80025b8a f   ntosrtl:debug3.obj
+ 0001:000158ac       _DebugPrint@4              80025bac f   ntosrtl:debug3.obj
+ 0001:000158d0       _DebugPrompt@8             80025bd0 f   ntosrtl:debug3.obj
+ 0001:000158f2       _DebugLoadImageSymbols@8   80025bf2 f   ntosrtl:debug3.obj
+ 0001:00015914       _IdexDiskPollResetComplete@0 80025c14 f   idexarc:disk.obj
+ 0001:00015935       _IdexDiskResetDevice@0     80025c35 f   idexarc:disk.obj
+ 0001:000159a4       _IdexDiskSelectDeviceAndSpinWhileBusy@0 80025ca4 f   idexarc:disk.obj
+ 0001:000159e3       _IdexDiskNoTransferInterrupt@0 80025ce3 f   idexarc:disk.obj
+ 0001:000159e3       _IdexMediaBoardNoTransferInterrupt@0 80025ce3 f   idexarc:mediabrd.obj
+ 0001:00015a11       _IdexDiskFinishGeneric@0   80025d11 f   idexarc:disk.obj
+ 0001:00015a3d       @IdexDiskStartVerify@4     80025d3d f   idexarc:disk.obj
+ 0001:00015ab2       _IdexDiskVerify@8          80025db2 f   idexarc:disk.obj
+ 0001:00015b1e       _IdexDiskFinishReadWrite@0 80025e1e f   idexarc:disk.obj
+ 0001:00015b8c       @IdexDiskStartReadWrite@4  80025e8c f   idexarc:disk.obj
+ 0001:00015c56       @IdexDiskStartFlushBuffers@4 80025f56 f   idexarc:disk.obj
+ 0001:00015c9f       _IdexDiskFlushBuffers@8    80025f9f f   idexarc:disk.obj
+ 0001:00015cbd       _IdexDiskGetDriveGeometry@8 80025fbd f   idexarc:disk.obj
+ 0001:00015d03       _IdexDiskGetPartitionInfo@8 80026003 f   idexarc:disk.obj
+ 0001:00015d03       _IdexMediaBoardGetPartitionInfo@8 80026003 f   idexarc:mediabrd.obj
+ 0001:00015d37       _IdexDiskDeviceControl@8   80026037 f   idexarc:disk.obj
+ 0001:00015dbb       _IdexDiskStartIo@8         800260bb f   idexarc:disk.obj
+ 0001:00015e43       _IdexDiskShutdownSystem@0  80026143 f   idexarc:disk.obj
+ 0001:00015e81       _IdexDiskPartitionCreate@4 80026181 f   idexarc:disk.obj
+ 0001:00015f6e       _IdexDiskParseDirectory@28 8002626e f   idexarc:disk.obj
+ 0001:00016091       _IdexDiskCreateQuick@0     80026391 f   idexarc:disk.obj
+ 0001:0001615d       @IdexChannelSpinWhileBusy@4 8002645d f   idexarc:channel.obj
+ 0001:00016184       @IdexChannelSpinWhileBusyAndNotDrq@4 80026484 f   idexarc:channel.obj
+ 0001:000161af       _IdexChannelSetTimerPeriod@4 800264af f   idexarc:channel.obj
+ 0001:000161d2       @IdexChannelPrepareBufferTransfer@8 800264d2 f   idexarc:channel.obj
+ 0001:00016281       _IdexChannelPrepareScatterGatherTransfer@12 80026581 f   idexarc:channel.obj
+ 0001:0001631c       _IdexChannelInterrupt@8    8002661c f   idexarc:channel.obj
+ 0001:00016333       _IdexChannelDpcForIsr@16   80026633 f   idexarc:channel.obj
+ 0001:0001633c       _IdexChannelStartNextPacketStock@0 8002663c f   idexarc:channel.obj
+ 0001:000163a3       _IdexChannelStartPacketStock@8 800266a3 f   idexarc:channel.obj
+ 0001:0001640c       _IdexChannelRestartCurrentPacket@0 8002670c f   idexarc:channel.obj
+ 0001:00016425       _IdexChannelAbortCurrentPacket@0 80026725 f   idexarc:channel.obj
+ 0001:0001643f       @IdexChannelInvalidParameterRequest@4 8002673f f   idexarc:channel.obj
+ 0001:00016453       _IdexChannelIdePassThroughInterrupt@0 80026753 f   idexarc:channel.obj
+ 0001:000164d7       _IdexChannelFinishIdePassThrough@0 800267d7 f   idexarc:channel.obj
+ 0001:000164ea       _IdexChannelStartIdePassThrough@12 800267ea f   idexarc:channel.obj
+ 0001:000165d9       _IdexChannelIssueImmediateCommand@8 800268d9 f   idexarc:channel.obj
+ 0001:00016622       _IdexChannelPollResetComplete@0 80026922 f   idexarc:channel.obj
+ 0001:00016683       _IdexChannelTimer@16       80026983 f   idexarc:channel.obj
+ 0001:00016719       _IdexChannelCreate@0       80026a19 f   idexarc:channel.obj
+ 0001:00016818       _IdexCdRomResetDevice@0    80026b18 f   idexarc:cdrom.obj
+ 0001:00016818       _IdexMediaBoardResetDevice@0 80026b18 f   idexarc:mediabrd.obj
+ 0001:00016857       _IdexCdRomWritePacket@4    80026b57 f   idexarc:cdrom.obj
+ 0001:000168a8       _IdexCdRomNoTransferInterrupt@0 80026ba8 f   idexarc:cdrom.obj
+ 0001:000168e4       _IdexCdRomTransferInterrupt@0 80026be4 f   idexarc:cdrom.obj
+ 0001:0001696a       _IdexCdRomIssueAtapiRequest@20 80026c6a f   idexarc:cdrom.obj
+ 0001:000169fa       _IdexCdRomSetSpindleSpeed@8 80026cfa f   idexarc:cdrom.obj
+ 0001:00016a7b       _IdexCdRomFinishSpeedReduction@0 80026d7b f   idexarc:cdrom.obj
+ 0001:00016a94       _IdexCdRomSpeedReductionRequested@0 80026d94 f   idexarc:cdrom.obj
+ 0001:00016ac5       _IdexCdRomFinishSpindleSpeedRestore@0 80026dc5 f   idexarc:cdrom.obj
+ 0001:00016ad8       _IdexCdRomCheckForRestoreSpindleSpeed@8 80026dd8 f   idexarc:cdrom.obj
+ 0001:00016b39       _IdexCdRomFinishRequestSense@0 80026e39 f   idexarc:cdrom.obj
+ 0001:00016cef       _IdexCdRomFinishGeneric@0  80026fef f   idexarc:cdrom.obj
+ 0001:00016d59       _IdexCdRomFinishGenericWithOverrun@0 80027059 f   idexarc:cdrom.obj
+ 0001:00016d86       @IdexCdRomStartReadTOC@4   80027086 f   idexarc:cdrom.obj
+ 0001:00016e14       @IdexCdRomStartCheckVerify@4 80027114 f   idexarc:cdrom.obj
+ 0001:00016e46       _IdexCdRomFinishGetDriveGeometry@0 80027146 f   idexarc:cdrom.obj
+ 0001:00016eb6       @IdexCdRomStartGetDriveGeometry@4 800271b6 f   idexarc:cdrom.obj
+ 0001:00016eeb       @IdexCdRomStartRawRead@4   800271eb f   idexarc:cdrom.obj
+ 0001:0001700c       @IdexCdRomStartSetSpindleSpeed@4 8002730c f   idexarc:cdrom.obj
+ 0001:0001703b       _IdexCdRomFinishStartSession@0 8002733b f   idexarc:cdrom.obj
+ 0001:0001706c       @IdexCdRomStartStartSession@4 8002736c f   idexarc:cdrom.obj
+ 0001:000170b5       _IdexCdRomFinishReadKey@0  800273b5 f   idexarc:cdrom.obj
+ 0001:0001716e       @IdexCdRomStartReadKey@4   8002746e f   idexarc:cdrom.obj
+ 0001:0001720e       @IdexCdRomStartSendKey@4   8002750e f   idexarc:cdrom.obj
+ 0001:000172c8       @IdexCdRomStartEndSession@4 800275c8 f   idexarc:cdrom.obj
+ 0001:0001731a       _IdexCdRomStartReadStructure@4 8002761a f   idexarc:cdrom.obj
+ 0001:000173e7       _IdexCdRomFinishScsiPassThrough@0 800276e7 f   idexarc:cdrom.obj
+ 0001:00017409       @IdexCdRomStartScsiPassThrough@4 80027709 f   idexarc:cdrom.obj
+ 0001:0001747a       _IdexCdRomFinishRead@0     8002777a f   idexarc:cdrom.obj
+ 0001:000174ce       _IdexCdRomStartRead@4      800277ce f   idexarc:cdrom.obj
+ 0001:000175c8       _IdexCdRomRead@8           800278c8 f   idexarc:cdrom.obj
+ 0001:00017685       _IdexCdRomRequestDVDX2AuthenticationPage@4 80027985 f   idexarc:cdrom.obj
+ 0001:00017714       _IdexCdRomRequestDVDX2ControlData@4 80027a14 f   idexarc:cdrom.obj
+ 0001:00017782       _IdexCdRomVerifyDVDX2AuthoringSignature@4 80027a82 f   idexarc:cdrom.obj
+ 0001:00017811       _IdexCdRomDecryptHostChallengeResponseTable@4 80027b11 f   idexarc:cdrom.obj
+ 0001:0001787a       _IdexCdRomAuthenticationChallenge@16 80027b7a f   idexarc:cdrom.obj
+ 0001:00017974       _IdexCdRomAuthenticationSequence@0 80027c74 f   idexarc:cdrom.obj
+ 0001:00017aba       _IdexCdRomDeviceControl@8  80027dba f   idexarc:cdrom.obj
+ 0001:00017b68       _IdexCdRomStartIo@8        80027e68 f   idexarc:cdrom.obj
+ 0001:00017c6f       _IdexCdRomTrayOpenNotification@0 80027f6f f   idexarc:cdrom.obj
+ 0001:00017c88       _IdexCdRomCreateQuick@0    80027f88 f   idexarc:cdrom.obj
+ 0001:00017d32       _IdexDriverIrpReturnSuccess@8 80028032 f   idexarc:driver.obj
+ 0001:00017d46       _IdexBugCheckWorker@8      80028046 f   idexarc:driver.obj
+ 0001:00017d5a       _IdexMediaBoardPollResetComplete@0 8002805a f   idexarc:mediabrd.obj
+ 0001:00017d5a       _IdexCdRomPollResetComplete@0 8002805a f   idexarc:cdrom.obj
+ 0001:00017d6c       _IdexCdRomSelectDeviceAndSpinWhileBusy@0 8002806c f   idexarc:cdrom.obj
+ 0001:00017d6c       _IdexMediaBoardSelectDeviceAndSpinWhileBusy@0 8002806c f   idexarc:mediabrd.obj
+ 0001:00017da7       _IdexMediaBoardTransferInterrupt@0 800280a7 f   idexarc:mediabrd.obj
+ 0001:00017da7       _IdexDiskTransferInterrupt@0 800280a7 f   idexarc:disk.obj
+ 0001:00017e25       _IdexMediaBoardFinishGeneric@0 80028125 f   idexarc:mediabrd.obj
+ 0001:00017e51       _IdexMediaBoardFinishBootROMWriteFlash@0 80028151 f   idexarc:mediabrd.obj
+ 0001:00017f24       _IdexMediaBoardFinishBootROMEraseSector@0 80028224 f   idexarc:mediabrd.obj
+ 0001:00017fad       _IdexMediaBoardFinishReadWrite@0 800282ad f   idexarc:mediabrd.obj
+ 0001:0001801b       @IdexMediaBoardStartReadWrite@4 8002831b f   idexarc:mediabrd.obj
+ 0001:00018114       _IdexDiskReadWrite@8       80028414 f   idexarc:disk.obj
+ 0001:00018114       _IdexMediaBoardReadWrite@8 80028414 f   idexarc:mediabrd.obj
+ 0001:000181e7       _IdexMediaBoardGetDriveGeometry@8 800284e7 f   idexarc:mediabrd.obj
+ 0001:0001822d       _IdexMediaBoardDeviceControl@8 8002852d f   idexarc:mediabrd.obj
+ 0001:000182a1       _IdexMediaBoardStartIo@8   800285a1 f   idexarc:mediabrd.obj
+ 0001:0001830a       _IdexMediaBoardCreateDevice@24 8002860a f   idexarc:mediabrd.obj
+ 0001:000183a5       _IdexMediaBoardCreateQuick@0 800286a5 f   idexarc:mediabrd.obj
+ 0001:0001847f       _RawxDeleteVolumeDevice@4  8002877f f   raw:mountvol.obj
+ 0001:0001849e       _RawxMountVolume@4         8002879e f   raw:mountvol.obj
+ 0001:00018562       _RawxAcquireGlobalMutexExclusive@0 80028862 f   raw:synch.obj
+ 0001:00018575       _RawxReleaseGlobalMutex@0  80028875 f   raw:synch.obj
+ 0001:000185a2       _RawxAcquireVolumeMutexExclusive@4 800288a2 f   raw:synch.obj
+ 0001:000185ba       _RawxAcquireVolumeMutexShared@4 800288ba f   raw:synch.obj
+ 0001:000185d2       _RawxReleaseVolumeMutex@4  800288d2 f   raw:synch.obj
+ 0001:00018604       _RawxVolumeIoCompletion@12 80028904 f   raw:driver.obj
+ 0001:0001865a       _RawxPassIrpDownToTargetDevice@8 8002895a f   raw:driver.obj
+ 0001:000186e8       _RawxFsdCleanup@8          800289e8 f   raw:cleanup.obj
+ 0001:00018724       _RawxDismountVolume@4      80028a24 f   raw:fsctrl.obj
+ 0001:00018783       _RawxQueryVolumeSizeInformation@8 80028a83 f   raw:volinfo.obj
+ 0001:000187fc       _RawxFsdQueryVolumeInformation@8 80028afc f   raw:volinfo.obj
+ 0001:000188d2       _RawxFsdQueryInformation@8 80028bd2 f   raw:fileinfo.obj
+ 0001:00018911       _RawxFsdClose@8            80028c11 f   raw:close.obj
+ 0001:00018956       _RawxFsdCreate@8           80028c56 f   raw:create.obj
+ 0001:00018a37       _FatxCreateVolumeDevice@16 80028d37 f   fatx:mountvol.obj
+ 0001:00018afd       _FatxDeleteVolumeDevice@4  80028dfd f   fatx:mountvol.obj
+ 0001:00018b2f       _FatxProcessBootSector@12  80028e2f f   fatx:mountvol.obj
+ 0001:00018cc4       _FatxMountVolume@4         80028fc4 f   fatx:mountvol.obj
+ 0001:00018da1       _FatxCreateFcb@20          800290a1 f   fatx:fcbsup.obj
+ 0001:00018f10       _FatxFindOpenChildFcb@12   80029210 f   fatx:fcbsup.obj
+ 0001:00018f6d       _FatxMoveClusterCacheEntryToTail@12 8002926d f   fatx:fcbsup.obj
+ 0001:00018fcc       _FatxFillEmptyClusterCacheEntry@20 800292cc f   fatx:fcbsup.obj
+ 0001:00019027       _FatxFileByteOffsetToCluster@24 80029327 f   fatx:fcbsup.obj
+ 0001:000193cb       _FatxFileByteOffsetToPhysicalByteOffset@28 800296cb f   fatx:fcbsup.obj
+ 0001:0001945c       _FatxAppendClusterRunsToClusterCache@16 8002975c f   fatx:fcbsup.obj
+ 0001:00019558       _FatxInvalidateClusterCache@8 80029858 f   fatx:fcbsup.obj
+ 0001:000195cc       _FatxExtendDirectoryAllocation@12 800298cc f   fatx:fcbsup.obj
+ 0001:00019671       _FatxIsDirectoryEmpty@12   80029971 f   fatx:fcbsup.obj
+ 0001:000196af       _FatxDeleteFile@16         800299af f   fatx:fcbsup.obj
+ 0001:00019721       _FatxDereferenceFcb@4      80029a21 f   fatx:fcbsup.obj
+ 0001:0001975c       _FatxUpdateDirectoryEntry@12 80029a5c f   fatx:fcbsup.obj
+ 0001:00019826       _FatxMarkDirectoryEntryDeleted@12 80029b26 f   fatx:fcbsup.obj
+ 0001:00019895       _FatxDeleteFileAllocation@12 80029b95 f   fatx:fcbsup.obj
+ 0001:000198fc       _FatxTruncateFileAllocation@16 80029bfc f   fatx:fcbsup.obj
+ 0001:00019989       _FatxExtendFileAllocation@16 80029c89 f   fatx:fcbsup.obj
+ 0001:00019a31       _FatxSetAllocationSize@24  80029d31 f   fatx:fcbsup.obj
+ 0001:00019aca       _FatxAcquireGlobalMutexExclusive@0 80029dca f   fatx:synch.obj
+ 0001:00019add       _FatxReleaseGlobalMutex@0  80029ddd f   fatx:synch.obj
+ 0001:00019b0a       _FatxAcquireVolumeMutexExclusive@4 80029e0a f   fatx:synch.obj
+ 0001:00019b22       _FatxAcquireVolumeMutexShared@4 80029e22 f   fatx:synch.obj
+ 0001:00019b3a       _FatxReleaseVolumeMutex@4  80029e3a f   fatx:synch.obj
+ 0001:00019b6c       _FatxAcquireFileMutexExclusive@4 80029e6c f   fatx:synch.obj
+ 0001:00019b84       _FatxAcquireFileMutexShared@4 80029e84 f   fatx:synch.obj
+ 0001:00019b9c       _FatxReleaseFileMutex@4    80029e9c f   fatx:synch.obj
+ 0001:00019bce       _FatxInitializeDirectoryCluster@12 80029ece f   fatx:allocsup.obj
+ 0001:00019bfc       _FatxFreeClusters@16       80029efc f   fatx:allocsup.obj
+ 0001:00019d76       _FatxInitializeAllocationSupport@8 8002a076 f   fatx:allocsup.obj
+ 0001:00019eb2       _FatxLinkClusterChains@16  8002a1b2 f   fatx:allocsup.obj
+ 0001:00019f30       _FatxAllocateClusters@28   8002a230 f   fatx:allocsup.obj
+ 0001:0001a23f       _FatxFsdCleanup@8          8002a53f f   fatx:cleanup.obj
+ 0001:0001a2fe       _FatxFsdDeviceControl@8    8002a5fe f   fatx:devctrl.obj
+ 0001:0001a2fe       _FatxFsdFlushBuffers@8     8002a5fe f   fatx:flush.obj
+ 0001:0001a38c       _FatxSignalDismountUnblockEvent@4 8002a68c f   fatx:fsctrl.obj
+ 0001:0001a3b7       _FatxDismountVolume@4      8002a6b7 f   fatx:fsctrl.obj
+ 0001:0001a496       _FatxReadWriteVolumeMetadata@8 8002a796 f   fatx:fsctrl.obj
+ 0001:0001a576       _FatxFsdFileSystemControl@8 8002a876 f   fatx:fsctrl.obj
+ 0001:0001a5cc       _FatxFindNextDirectoryEntry@28 8002a8cc f   fatx:dirctrl.obj
+ 0001:0001a797       _FatxFsdDirectoryControl@8 8002aa97 f   fatx:dirctrl.obj
+ 0001:0001a9b4       _FatxFsdQueryVolumeInformation@8 8002acb4 f   fatx:volinfo.obj
+ 0001:0001aaaa       _FatxQueryNetworkOpenInformation@8 8002adaa f   fatx:fileinfo.obj
+ 0001:0001ab2a       _FatxFsdQueryInformation@8 8002ae2a f   fatx:fileinfo.obj
+ 0001:0001ac0d       _FatxSetBasicInformation@16 8002af0d f   fatx:fileinfo.obj
+ 0001:0001ad56       _FatxSetRenameInformation@8 8002b056 f   fatx:fileinfo.obj
+ 0001:0001afec       _FatxSetDispositionInformation@16 8002b2ec f   fatx:fileinfo.obj
+ 0001:0001b040       _FatxSetEndOfFileInformation@16 8002b340 f   fatx:fileinfo.obj
+ 0001:0001b09d       _FatxFsdSetInformation@8   8002b39d f   fatx:fileinfo.obj
+ 0001:0001b1eb       _FatxVolumeIoCompletion@12 8002b4eb f   fatx:readwrit.obj
+ 0001:0001b241       _FatxSynchronousIoTail@24  8002b541 f   fatx:readwrit.obj
+ 0001:0001b2cf       _FatxNonCachedSynchronousIo@32 8002b5cf f   fatx:readwrit.obj
+ 0001:0001b44d       _FatxFullyCachedSynchronousIo@32 8002b74d f   fatx:readwrit.obj
+ 0001:0001b60b       _FatxPartiallyCachedSynchronousIo@28 8002b90b f   fatx:readwrit.obj
+ 0001:0001b6dd       _FatxNonCachedAsynchronousIoCompletion@12 8002b9dd f   fatx:readwrit.obj
+ 0001:0001b766       _FatxStartNextAsynchronousIoEntry@12 8002ba66 f   fatx:readwrit.obj
+ 0001:0001b7d7       _FatxNonCachedAsynchronousIo@24 8002bad7 f   fatx:readwrit.obj
+ 0001:0001b938       _FatxFsdReadWrite@8        8002bc38 f   fatx:readwrit.obj
+ 0001:0001bd10       _FatxFsdClose@8            8002c010 f   fatx:close.obj
+ 0001:0001bd7f       _FatxLookupElementNameInDirectory@28 8002c07f f   fatx:create.obj
+ 0001:0001bf7e       _FatxCheckDesiredAccess@16 8002c27e f   fatx:create.obj
+ 0001:0001bfbf       _FatxOpenTargetDirectory@20 8002c2bf f   fatx:create.obj
+ 0001:0001c030       _FatxCreateNewFile@36      8002c330 f   fatx:create.obj
+ 0001:0001c1cd       _FatxOverwriteExistingFile@20 8002c4cd f   fatx:create.obj
+ 0001:0001c2b1       _FatxFsdCreate@8           8002c5b1 f   fatx:create.obj
+ 0001:0001c827       _FatxIsValidFatFileName@4  8002cb27 f   fatx:fatsup.obj
+ 0001:0001c885       _FatxFatTimestampToTime@4  8002cb85 f   fatx:fatsup.obj
+ 0001:0001c907       _FatxTimeToFatTimestamp@8  8002cc07 f   fatx:fatsup.obj
+ 0001:0001c99b       _FatxRoundToFatTime@4      8002cc9b f   fatx:fatsup.obj
+ 0001:0001c9cc       _GdfxDeleteVolumeDevice@4  8002cccc f   gdfx:mountvol.obj
+ 0001:0001ca0b       _GdfxProcessVolumeDescriptor@8 8002cd0b f   gdfx:mountvol.obj
+ 0001:0001caca       _GdfxCreateVolumeDevice@12 8002cdca f   gdfx:mountvol.obj
+ 0001:0001cbd7       _GdfxMountVolume@4         8002ced7 f   gdfx:mountvol.obj
+ 0001:0001cc95       _GdfxCreateFcb@16          8002cf95 f   gdfx:fcbsup.obj
+ 0001:0001cd4f       _GdfxFindOpenChildFcb@12   8002d04f f   gdfx:fcbsup.obj
+ 0001:0001cdac       _GdfxDereferenceFcb@4      8002d0ac f   gdfx:fcbsup.obj
+ 0001:0001cdd8       _GdfxDismountVolume@4      8002d0d8 f   gdfx:fsctrl.obj
+ 0001:0001ce2c       _UdfxFsdFileSystemControl@8 8002d12c f   udfx:fsctrl.obj
+ 0001:0001ce2c       _GdfxFsdFileSystemControl@8 8002d12c f   gdfx:fsctrl.obj
+ 0001:0001ce2c       _RawxFsdFileSystemControl@8 8002d12c f   raw:fsctrl.obj
+ 0001:0001ce69       _GdfxFindNextDirectoryEntry@24 8002d169 f   gdfx:dirctrl.obj
+ 0001:0001cf98       _GdfxFsdDirectoryControl@8 8002d298 f   gdfx:dirctrl.obj
+ 0001:0001d186       _GdfxFsdQueryVolumeInformation@8 8002d486 f   gdfx:volinfo.obj
+ 0001:0001d24b       _GdfxQueryNetworkOpenInformation@12 8002d54b f   gdfx:fileinfo.obj
+ 0001:0001d2b1       _GdfxFsdQueryInformation@8 8002d5b1 f   gdfx:fileinfo.obj
+ 0001:0001d367       _GdfxFsdSetInformation@8   8002d667 f   gdfx:fileinfo.obj
+ 0001:0001d367       _UdfxFsdSetInformation@8   8002d667 f   udfx:fileinfo.obj
+ 0001:0001d367       _RawxFsdSetInformation@8   8002d667 f   raw:fileinfo.obj
+ 0001:0001d3b1       _GdfxNonCachedReadCompletion@12 8002d6b1 f   gdfx:read.obj
+ 0001:0001d3b1       _UdfxNonCachedReadCompletion@12 8002d6b1 f   udfx:read.obj
+ 0001:0001d3ec       _GdfxFsdRead@8             8002d6ec f   gdfx:read.obj
+ 0001:0001d582       _GdfxFsdClose@8            8002d882 f   gdfx:close.obj
+ 0001:0001d5f0       _GdfxLookupElementNameInDirectory@20 8002d8f0 f   gdfx:create.obj
+ 0001:0001d722       _GdfxFsdCreate@8           8002da22 f   gdfx:create.obj
+ 0001:0001d9a2       _UdfxDeleteVolumeDevice@4  8002dca2 f   udfx:mountvol.obj
+ 0001:0001d9e1       _UdfxReadPhysicalSector@12 8002dce1 f   udfx:mountvol.obj
+ 0001:0001da20       _UdfxRecognizeVolume@4     8002dd20 f   udfx:mountvol.obj
+ 0001:0001db3d       _UdfxProcessAnchorVolumeDescriptor@8 8002de3d f   udfx:mountvol.obj
+ 0001:0001dbaa       _UdfxProcessPrimaryVolumeDescriptor@4 8002deaa f   udfx:mountvol.obj
+ 0001:0001dbf7       _UdfxProcessPartitionDescriptor@12 8002def7 f   udfx:mountvol.obj
+ 0001:0001dc6c       _UdfxProcessLogicalVolumeDescriptor@12 8002df6c f   udfx:mountvol.obj
+ 0001:0001dd27       _UdfxProcessVolumeDescriptorSequence@12 8002e027 f   udfx:mountvol.obj
+ 0001:0001de85       _UdfxProcessFileSetDescriptor@12 8002e185 f   udfx:mountvol.obj
+ 0001:0001dfcb       _UdfxCreateVolumeDevice@12 8002e2cb f   udfx:mountvol.obj
+ 0001:0001e098       _UdfxMountVolume@4         8002e398 f   udfx:mountvol.obj
+ 0001:0001e1a9       _UdfxCreateFcbFromFileEntry@24 8002e4a9 f   udfx:fcbsup.obj
+ 0001:0001e3ce       _UdfxFindOpenChildFcb@12   8002e6ce f   udfx:fcbsup.obj
+ 0001:0001e42b       _UdfxDereferenceFcb@4      8002e72b f   udfx:fcbsup.obj
+ 0001:0001e457       _UdfxVerifyDescriptor@16   8002e757 f   udfx:udfsup.obj
+ 0001:0001e47e       _UdfxEqualOSTACS0StringAndObjectString@12 8002e77e f   udfx:udfsup.obj
+ 0001:0001e4e0       _UdfxOSTACS0StringToObjectString@12 8002e7e0 f   udfx:udfsup.obj
+ 0001:0001e541       _UdfxUdfTimestampToTime@4  8002e841 f   udfx:udfsup.obj
+ 0001:0001e60c       _UdfxMapLogicalSector@16   8002e90c f   udfx:udfsup.obj
+ 0001:0001e650       _UdfxFsdDeviceControl@8    8002e950 f   udfx:devctrl.obj
+ 0001:0001e650       _GdfxFsdDeviceControl@8    8002e950 f   gdfx:devctrl.obj
+ 0001:0001e68b       _UdfxDismountVolume@4      8002e98b f   udfx:fsctrl.obj
+ 0001:0001e6df       _UdfxReadNextFileIdentifierDescriptor@20 8002e9df f   udfx:dirctrl.obj
+ 0001:0001e8db       _UdfxFindNextFileIdentifierDescriptor@24 8002ebdb f   udfx:dirctrl.obj
+ 0001:0001e97a       _UdfxFsdDirectoryControl@8 8002ec7a f   udfx:dirctrl.obj
+ 0001:0001ebb6       _UdfxFsdQueryVolumeInformation@8 8002eeb6 f   udfx:volinfo.obj
+ 0001:0001ec83       _UdfxQueryNetworkOpenInformation@8 8002ef83 f   udfx:fileinfo.obj
+ 0001:0001ecf9       _UdfxFsdQueryInformation@8 8002eff9 f   udfx:fileinfo.obj
+ 0001:0001edab       _UdfxFsdRead@8             8002f0ab f   udfx:read.obj
+ 0001:0001ef37       _UdfxFsdClose@8            8002f237 f   udfx:close.obj
+ 0001:0001efa5       _UdfxMapNextDirectorySector@4 8002f2a5 f   udfx:create.obj
+ 0001:0001f020       _UdfxCopyPartialDirectoryBuffer@16 8002f320 f   udfx:create.obj
+ 0001:0001f041       _UdfxLookupElementNameInDirectory@20 8002f341 f   udfx:create.obj
+ 0001:0001f21b       _UdfxFsdCreate@8           8002f51b f   udfx:create.obj
+ 0001:0001f49c       _PhyClearMDIOLOCK@4        8002f79c f   phy:phy.obj
+ 0001:0001f4d0       _PhyReadReg@12             8002f7d0 f   phy:phy.obj
+ 0001:0001f530       _PhyWriteReg@12            8002f830 f   phy:phy.obj
+ 0001:0001f590       _PhyUpdateLinkState@4      8002f890 f   phy:phy.obj
+ 0001:0001f612       _PhyWaitForLinkUp@4        8002f912 f   phy:phy.obj
+ 0001:0001f64f       _PhyInitialize@8           8002f94f f   phy:phy.obj
+ 0001:0001f7f6       _PhyGetLinkState@4         8002faf6 f   phy:phy.obj
+ 0001:0001f835       __snprintf                 8002fb35 f   libcntpr:snprintf.obj
+ 0001:0001f88c       _sprintf                   8002fb8c f   libcntpr:sprintf.obj
+ 0001:0001f8e4       __vsnprintf                8002fbe4 f   libcntpr:vsnprint.obj
+ 0001:0001f93a       _vsprintf                  8002fc3a f   libcntpr:vsprintf.obj
+ 0001:0001f994       __SEH_prolog               8002fc94 f   libcntpr:sehprolg.obj
+ 0001:0001f9cd       __SEH_epilog               8002fccd f   libcntpr:sehprolg.obj
+ 0001:0001f9e0       _strstr                    8002fce0 f   libcntpr:strstr.obj
+ 0001:0001fa60       __strupr                   8002fd60 f   libcntpr:strupr.obj
+ 0001:0001fa90       _strncpy                   8002fd90 f   libcntpr:strncpy.obj
+ 0001:0001fb90       __allmul                   8002fe90 f   libcntpr:llmul.obj
+ 0001:0001fbd0       _memmove                   8002fed0 f   libcntpr:memmove.obj
+ 0001:0001ff05       _wcslen                    80030205 f   libcntpr:wcslen.obj
+ 0001:0001ff20       __allshr                   80030220 f   libcntpr:llshr.obj
+ 0001:0001ff50       __alldiv                   80030250 f   libcntpr:lldiv.obj
+ 0001:00020000       __aullshr                  80030300 f   libcntpr:ullshr.obj
+ 0001:00020020       __allshl                   80030320 f   libcntpr:llshl.obj
+ 0001:0002003f       __flsbuf                   8003033f f   libcntpr:_flsbuf.obj
+ 0001:000200d9       __output                   800303d9 f   libcntpr:output.obj
+ 0001:00020748       __except_handler3          80030a48 f   libcntpr:exsup3.obj
+ 0001:00020805       __seh_longjmp_unwind@4     80030b05 f   libcntpr:exsup3.obj
+ 0001:00020830       _strchr                    80030b30 f   libcntpr:strchr.obj
+ 0001:00020836       ___from_strstr_to_strchr   80030b36     libcntpr:strchr.obj
+ 0001:000208ec       _wctomb                    80030bec f   libcntpr:wctomb.obj
+ 0001:00020920       __aulldvrm                 80030c20 f   libcntpr:ulldvrm.obj
+ 0001:000209b8       __global_unwind2           80030cb8 f   libcntpr:exsup.obj
+ 0001:000209fa       __local_unwind2            80030cfa f   libcntpr:exsup.obj
+ 0001:00020a52       __NLG_Return2              80030d52     libcntpr:exsup.obj
+ 0001:00020a62       __abnormal_termination     80030d62 f   libcntpr:exsup.obj
+ 0001:00020a85       __NLG_Notify1              80030d85 f   libcntpr:exsup.obj
+ 0001:00020a8e       __NLG_Notify               80030d8e f   libcntpr:exsup.obj
+ 0001:00020aa1       __NLG_Dispatch             80030da1     libcntpr:exsup.obj
+ 0001:00020aa6       _XepOpenImageFile@4        80030da6 f   ldrarc:loader.obj
+ 0001:00020adb       _XepReadImageFile@16       80030ddb f   ldrarc:loader.obj
+ 0001:00020b1c       _XepCommitSectionPages@4   80030e1c f   ldrarc:loader.obj
+ 0001:00020b5d       _XepMarkSectionPagesReadOnly@4 80030e5d f   ldrarc:loader.obj
+ 0001:00020bb0       _XepDecommitSectionPages@4 80030eb0 f   ldrarc:loader.obj
+ 0001:00020c15       _XepLoadSection@12         80030f15 f   ldrarc:loader.obj
+ 0001:00020cd1       _XeLoadSection@4           80030fd1 f   ldrarc:loader.obj
+ 0001:00020d40       _XeUnloadSection@4         80031040 f   ldrarc:loader.obj
+ 0001:00020d8f       _XepVerifyImageHeaderEncryptedDigest@0 8003108f f   ldrarc:loader.obj
+ 0001:00020e05       _XepComputeImageMediaTypes@8 80031105 f   ldrarc:loader.obj
+ 0001:00020ed7       _XepResolveImageImports@8  800311d7 f   ldrarc:loader.obj
+ 0001:00020f34       _XepResolveNonKernelImageImports@0 80031234 f   ldrarc:loader.obj
+ 0001:00020fa5       _XepNotifyDebuggerOfImageLoad@0 800312a5 f   ldrarc:loader.obj
+ 0001:00021083       _XepExtractCertificateKey@8 80031383 f   ldrarc:loader.obj
+ 0001:000210b4       _XepExtractCertificateKeys@0 800313b4 f   ldrarc:loader.obj
+ 0001:00021101       _XeLoadImage@12            80031401 f   ldrarc:loader.obj
+ 0001:000215be       _XeLoadAlternateDashboardImage@0 800318be f   ldrarc:loader.obj
+ 0001:00021664       _XeLoadDashboardImage@0    80031964 f   ldrarc:loader.obj
+ 0001:000216c7       _XeLoadDashboardImageWithReason@8 800319c7 f   ldrarc:loader.obj
+ 0001:0002172a       _XeLoadTitleImage@4        80031a2a f   ldrarc:loader.obj
+ 0001:000218da       _XCCalcDigest@12           80031bda f   xcryptk:xcbase.obj
+ 0001:00021936       _XCVerifyPKCS1SigningFmt@12 80031c36 f   xcryptk:xcbase.obj
+ 0001:000219e4       _XCCalcKeyLen@4            80031ce4 f   xcryptk:xcbase.obj
+ 0001:000219f1       _XCVerifyDigest@16         80031cf1 f   xcryptk:xcbase.obj
+ 0001:00021a61       _XCryptSHAInit@4           80031d61 f   xcryptk:xcbase.obj
+ 0001:00021a70       _XCryptSHAUpdate@12        80031d70 f   xcryptk:xcbase.obj
+ 0001:00021a85       _XCryptSHAFinal@8          80031d85 f   xcryptk:xcbase.obj
+ 0001:00021a97       _XCryptRC4Key@12           80031d97 f   xcryptk:xcbase.obj
+ 0001:00021aac       _XCryptRC4Crypt@12         80031dac f   xcryptk:xcbase.obj
+ 0001:00021ac1       _XCryptHMAC@28             80031dc1 f   xcryptk:xcbase.obj
+ 0001:00021bd6       _XCryptPKEncPublic@12      80031ed6 f   xcryptk:xcbase.obj
+ 0001:00021beb       _XCryptPKDecPrivate@12     80031eeb f   xcryptk:xcbase.obj
+ 0001:00021c00       _XCryptPKGetKeyLen@4       80031f00 f   xcryptk:xcbase.obj
+ 0001:00021c0f       _XCryptVerifyPKCS1Signature@12 80031f0f f   xcryptk:xcbase.obj
+ 0001:00021c45       _XCryptModExp@20           80031f45 f   xcryptk:xcbase.obj
+ 0001:00021c60       _XCryptDESKeyParity@8      80031f60 f   xcryptk:xcbase.obj
+ 0001:00021c72       _XCryptKeyTable@12         80031f72 f   xcryptk:xcbase.obj
+ 0001:00021c91       _XCryptBlockCrypt@20       80031f91 f   xcryptk:xcbase.obj
+ 0001:00021cb6       _XCryptBlockCryptCBC@28    80031fb6 f   xcryptk:xcbase.obj
+ 0001:00021cfe       _XCryptCryptService@8      80031ffe f   xcryptk:xcbase.obj
+ 0001:00021d03       _XcUpdateCrypto@8          80032003 f   xcryptk:xcbase.obj
+ 0001:00021df0       _XcSHAInit@4               800320f0 f   xcryptk:xcbase.obj
+ 0001:00021e00       _XcSHAUpdate@12            80032100 f   xcryptk:xcbase.obj
+ 0001:00021e16       _XcSHAFinal@8              80032116 f   xcryptk:xcbase.obj
+ 0001:00021e29       _XcRC4Key@12               80032129 f   xcryptk:xcbase.obj
+ 0001:00021e3f       _XcRC4Crypt@12             8003213f f   xcryptk:xcbase.obj
+ 0001:00021e55       _XcHMAC@28                 80032155 f   xcryptk:xcbase.obj
+ 0001:00021e77       _XcPKEncPublic@12          80032177 f   xcryptk:xcbase.obj
+ 0001:00021e8d       _XcPKDecPrivate@12         8003218d f   xcryptk:xcbase.obj
+ 0001:00021ea3       _XcPKGetKeyLen@4           800321a3 f   xcryptk:xcbase.obj
+ 0001:00021eb3       _XcVerifyPKCS1Signature@12 800321b3 f   xcryptk:xcbase.obj
+ 0001:00021ec9       _XcModExp@20               800321c9 f   xcryptk:xcbase.obj
+ 0001:00021ee5       _XcDESKeyParity@8          800321e5 f   xcryptk:xcbase.obj
+ 0001:00021ef8       _XcKeyTable@12             800321f8 f   xcryptk:xcbase.obj
+ 0001:00021f0e       _XcBlockCrypt@20           8003220e f   xcryptk:xcbase.obj
+ 0001:00021f2a       _XcBlockCryptCBC@28        8003222a f   xcryptk:xcbase.obj
+ 0001:00021f4c       _XcCryptService@8          8003224c f   xcryptk:xcbase.obj
+ 0001:00021f5f       _RSA32Alloc@4              8003225f f   xcryptk:umkm.obj
+ 0001:00021f73       _RSA32Free@4               80032273 f   xcryptk:umkm.obj
+ 0001:00021f82       _AvpCalcWSSCRC@4           80032282 f   av:modeset.obj
+ 0001:00021fc0       _AvpSetWSSBits@4           800322c0 f   av:modeset.obj
+ 0001:0002206a       _AvpEnableSCART@8          8003236a f   av:modeset.obj
+ 0001:000220aa       _AvpSetMacrovisionMode@8   800323aa f   av:modeset.obj
+ 0001:0002213e       _AvpCommitMacrovisionMode@8 8003243e f   av:modeset.obj
+ 0001:00022188       _AvSMCVideoModeToAVPack@4  80032488 f   av:modeset.obj
+ 0001:000221c0       _AvpQueryAvCapabilities@0  800324c0 f   av:modeset.obj
+ 0001:0002223a       _AvSendTVEncoderOption@16  8003253a f   av:modeset.obj
+ 0001:0002255c       _AvGetSavedDataAddress@0   8003285c f   av:modeset.obj
+ 0001:00022562       _AvSetSavedDataAddress@4   80032862 f   av:modeset.obj
+ 0001:0002256e       _AvRelocateSavedDataAddress@8 8003286e f   av:modeset.obj
+ 0001:000225e7       _AvSetDisplayMode@24       800328e7 f   av:modeset.obj
+ 0001:00022a75       _HalPulseHardwareMonitorPin@0 80032d75 f   halx:xxhal.obj
+ 0001:00022aa4       _HalInitSystemPhase0Quick@0 80032da4 f   halx:xxhal.obj
+ 0001:00022aae       _HalInitSystemPhase1@0     80032dae f   halx:xxhal.obj
+ 0001:00022ba0       _HalStartProfileInterrupt@4 80032ea0 f   halx:ixprofil.obj
+ 0001:00022c00       _HalStopProfileInterrupt@4 80032f00 f   halx:ixprofil.obj
+ 0001:00022c40       _HalSetProfileInterval@4   80032f40 f   halx:ixprofil.obj
+ 0001:00022ca0       _HalpProfileInterrupt@0    80032fa0 f   halx:ixprofil.obj
+ 0001:00022d12       _HalHandleNMI@0            80033012 f   halx:ixnmi.obj
+ 0001:00022d30       _HalpSystemControlInterrupt@0 80033030 f   halx:sciinta.obj
+ 0001:00022da4       _HalpSMBusInterrupt@0      800330a4 f   halx:smbinta.obj
+ 0001:00022e00       _IopCopyTemplateFileName@8 80033100 f   io:fsrtl.obj
+ 0001:00022e4f       _IoCreateDirectoryEnumContext@8 8003314f f   io:fsrtl.obj
+ 0001:00022ed6       _IoIsNameInExpression@8    800331d6 f   io:fsrtl.obj
+ 0001:00022f50       _KeClockInterrupt@0        80033250 f   ke:clockint.obj
+ 0001:000230c0       @RtlFindFirstSetRightMember@4 800333c0 f   ntosrtl:bitmapa.obj
+ 0001:000230d0       __alloca_probe             800333d0     libcntpr:chkstk.obj
+ 0001:000230d0       __chkstk                   800333d0 f   libcntpr:chkstk.obj
+ 0001:000230e0       _HalInitializeSuperIo@0    800333e0 f   halx:superio.obj
+ 0001:00023140       __aulldiv                  80033440 f   libcntpr:ulldiv.obj
+ 0001:000231b0       _rc4@12                    800334b0 f   rsa32k:rc4fast.obj
+ 0001:000232fd       _rc4_key@12                800335fd f   rsa32k:rc4fast.obj
+ 0001:000233f0       _A_SHAInit@4               800336f0 f   rsa32k:sha.obj
+ 0001:00023430       _A_SHAUpdate@12            80033730 f   rsa32k:sha.obj
+ 0001:00023550       _A_SHAFinal@8              80033850 f   rsa32k:sha.obj
+ 0001:00023610       _SHATransform@8            80033910 f   rsa32k:shafast.obj
+ 0001:00024170       _DWORDToBigEndian@12       80034470 f   rsa32k:uint4.obj
+ 0001:000241b0       _BSafeDecPrivate@12        800344b0 f   rsa32k:rsa_prv.obj
+ 0001:00024240       _BSafeEncPublic@12         80034540 f   rsa32k:rsa_pub.obj
+ 0001:00024340       _BenalohSetup@12           80034640 f   rsa32k:benaloh.obj
+ 0001:00024450       _BenalohMod@12             80034750 f   rsa32k:benaloh.obj
+ 0001:00024550       _BenalohModSquare@12       80034850 f   rsa32k:benaloh.obj
+ 0001:00024580       _BenalohModExp@20          80034880 f   rsa32k:benaloh.obj
+ 0001:000248e0       _BenalohModRoot@32         80034be0 f   rsa32k:benaloh.obj
+ 0001:00024a90       _deskey@8                  80034d90 f   rsa32k:deskey.obj
+ 0001:00024ca0       _desparityonkey@8          80034fa0 f   rsa32k:deskey.obj
+ 0001:00024cf0       _tripledes3key@8           80034ff0 f   rsa32k:deskey.obj
+ 0001:00024d30       _tripledes@16              80035030 f   rsa32k:desport.obj
+ 0001:00024de0       _des@16                    800350e0 f   rsa32k:desfast.obj
+ 0001:00025e80       _CBC@28                    80036180 f   rsa32k:modes.obj
+ 0001:00026110       _BSafeGetPrvKeyParts@8     80036410 f   rsa32k:rsa_key.obj
+ 0001:00026190       _SetValDWORD@12            80036490 f   rsa32k:rsa_math.obj
+ 0001:000261e0       _DigitLen@8                800364e0 f   rsa32k:rsa_math.obj
+ 0001:00026210       _BitLen@8                  80036510 f   rsa32k:rsa_math.obj
+ 0001:00026250       _Compare@12                80036550 f   rsa32k:rsa_math.obj
+ 0001:000262a0       _Multiply@16               800365a0 f   rsa32k:rsa_math.obj
+ 0001:00026310       _Square@12                 80036610 f   rsa32k:rsa_math.obj
+ 0001:000263a0       _EstimateQuotient@16       800366a0 f   rsa32k:rsa_math.obj
+ 0001:00026410       _Mod@20                    80036710 f   rsa32k:rsa_math.obj
+ 0001:00026690       _Add@16                    80036990 f   rsa32k:rsafast.obj
+ 0001:000266d4       _Sub@16                    800369d4 f   rsa32k:rsafast.obj
+ 0001:00026718       _BenalohEstimateQuotient@12 80036a18 f   rsa32k:rsafast.obj
+ 0001:00026740       _BaseMult@16               80036a40 f   rsa32k:rsa_port.obj
+ 0001:000267a0       _Accumulate@16             80036aa0 f   rsa32k:rsa_port.obj
+ 0001:00026870       _Reduce@16                 80036b70 f   rsa32k:rsa_port.obj
+ 0001:00026940       _AccumulateSquares@12      80036c40 f   rsa32k:rsa_port.obj
+ 0001:00026990       _double_shift              80036c90     rsa32k:deskey.obj
+ 0001:000269a0       _DESParityTable            80036ca0     rsa32k:deskey.obj
+ 0001:000269b0       _Spbox                     80036cb0     rsa32k:spb.obj
+ 0001:000271b0       _Sel                       800374b0     rsa32k:spb.obj
+ 0002:00000000       _KdpAddBreakpoint@4        80037cc0 f   kd:kdbreak.obj
+ 0002:000000d0       _KdSetOwedBreakpoints@0    80037d90 f   kd:kdbreak.obj
+ 0002:0000019b       _KdpLowWriteContent@4      80037e5b f   kd:kdbreak.obj
+ 0002:000001f3       _KdpDeleteBreakpoint@4     80037eb3 f   kd:kdbreak.obj
+ 0002:00000230       _KdpDeleteBreakpointRange@8 80037ef0 f   kd:kdbreak.obj
+ 0002:0000026f       _KdpSuspendBreakpoint@4    80037f2f f   kd:kdbreak.obj
+ 0002:00000292       _KdpSuspendAllBreakpoints@0 80037f52 f   kd:kdbreak.obj
+ 0002:000002ab       _KdpLowRestoreBreakpoint@4 80037f6b f   kd:kdbreak.obj
+ 0002:0000030e       _KdpRestoreAllBreakpoints@0 80037fce f   kd:kdbreak.obj
+ 0002:0000033b       _KdDeleteAllBreakpoints@0  80037ffb f   kd:kdbreak.obj
+ 0002:0000035d       _KdpMoveMemory@12          8003801d f   kd:kdmove.obj
+ 0002:00000481       _KdpQuickMoveMemory@12     80038141 f   kd:kdmove.obj
+ 0002:0000049f       _KdEnterDebugger@8         8003815f f   kd:kdapi.obj
+ 0002:000004f0       _KdExitDebugger@4          800381b0 f   kd:kdapi.obj
+ 0002:0000052a       _InternalBreakpointCheck@16 800381ea f   kd:kdapi.obj
+ 0002:0000057e       _KdSetInternalBreakpoint@4 8003823e f   kd:kdapi.obj
+ 0002:00000683       _KdGetInternalBreakpoint@4 80038343 f   kd:kdapi.obj
+ 0002:00000733       _KdpReadVirtualMemory@8    800383f3 f   kd:kdapi.obj
+ 0002:00000792       _KdpWriteVirtualMemory@8   80038452 f   kd:kdapi.obj
+ 0002:000007df       _KdpGetContext@12          8003849f f   kd:kdapi.obj
+ 0002:0000082e       _KdpSetContext@12          800384ee f   kd:kdapi.obj
+ 0002:00000877       _KdpWriteBreakpoint@8      80038537 f   kd:kdapi.obj
+ 0002:000008b7       _KdpRestoreBreakpoint@8    80038577 f   kd:kdapi.obj
+ 0002:000008f4       _SymNumFor@4               800385b4 f   kd:kdapi.obj
+ 0002:00000922       _PotentialNewSymbol@4      800385e2 f   kd:kdapi.obj
+ 0002:000009d5       _DumpTraceData@4           80038695 f   kd:kdapi.obj
+ 0002:000009ff       _TraceDataRecordCallInfo@12 800386bf f   kd:kdapi.obj
+ 0002:00000aae       _SkippingWhichBP@8         8003876e f   kd:kdapi.obj
+ 0002:00000af1       _KdSetSpecialCall@8        800387b1 f   kd:kdapi.obj
+ 0002:00000b3e       _KdpReadPhysicalMemory@8   800387fe f   kd:kdapi.obj
+ 0002:00000be3       _KdpWritePhysicalMemory@8  800388a3 f   kd:kdapi.obj
+ 0002:00000c77       _KdpProcessInternalBreakpoint@4 80038937 f   kd:kdapi.obj
+ 0002:00000cd8       _KdpGetVersion@4           80038998 f   kd:kdapi.obj
+ 0002:00000d54       _KdpNotSupported@4         80038a14 f   kd:kdapi.obj
+ 0002:00000d7f       _KdpCauseBugCheck@4        80038a3f f   kd:kdapi.obj
+ 0002:00000d90       _KdpWriteBreakPointEx@8    80038a50 f   kd:kdapi.obj
+ 0002:00000e77       _KdpRestoreBreakPointEx@8  80038b37 f   kd:kdapi.obj
+ 0002:00000f0a       _KdpSearchMemory@8         80038bca f   kd:kdapi.obj
+ 0002:000010ab       _KdpSearchHammingDistance@8 80038d6b f   kd:kdapi.obj
+ 0002:000010c6       _KdpSearchPhysicalPage@16  80038d86 f   kd:kdapi.obj
+ 0002:00001141       _KdpSearchPhysicalPageRange@0 80038e01 f   kd:kdapi.obj
+ 0002:0000118d       _KdpCheckTracePoint@8      80038e4d f   kd:kdapi.obj
+ 0002:000015b1       _KdpCheckLowMemory@4       80039271 f   kd:kdapi.obj
+ 0002:000015e5       _KdpSendWaitContinue@16    800392a5 f   kd:kdapi.obj
+ 0002:0000190c       _KdpReportExceptionStateChange@12 800395cc f   kd:kdapi.obj
+ 0002:0000195d       _KdpReportLoadSymbolsStateChange@16 8003961d f   kd:kdapi.obj
+ 0002:00001a6b       _KdpQueryPerformanceCounter@4 8003972b f   kd:kdcmsup.obj
+ 0002:00001a83       _KdpComputeChecksum@8      80039743 f   kd:kdcomio.obj
+ 0002:00001a9f       _KdpReceivePacketLeader@8  8003975f f   kd:kdcomio.obj
+ 0002:00001b3c       _KdpReceiveString@8        800397fc f   kd:kdcomio.obj
+ 0002:00001b68       _KdpSendString@8           80039828 f   kd:kdcomio.obj
+ 0002:00001b8e       _KdpSendControlPacket@8    8003984e f   kd:kdcomio.obj
+ 0002:00001bc5       _KdpReceivePacket@16       80039885 f   kd:kdcomio.obj
+ 0002:00001e03       _KdpSendPacket@12          80039ac3 f   kd:kdcomio.obj
+ 0002:00001f11       _KdpIsTryFinallyReturn@8   80039bd1 f   kd:kdcpuapi.obj
+ 0002:00001f90       _regValue@8                80039c50 f   kd:kdcpuapi.obj
+ 0002:00002021       _KdpIsSpecialCall@16       80039ce1 f   kd:kdcpuapi.obj
+ 0002:000021ec       _KdpSetLoadState@8         80039eac f   kd:kdcpuapi.obj
+ 0002:00002299       _KdpGetStateChange@8       80039f59 f   kd:kdcpuapi.obj
+ 0002:000022e6       _KdpReadControlSpace@8     80039fa6 f   kd:kdcpuapi.obj
+ 0002:00002380       _KdpWriteControlSpace@8    8003a040 f   kd:kdcpuapi.obj
+ 0002:000023fd       _KdpReadIoSpace@8          8003a0bd f   kd:kdcpuapi.obj
+ 0002:0000246b       _ExceptionRecord32To64@8   8003a12b f i kd:kdcpuapi.obj
+ 0002:000024bf       _KdpWriteIoSpace@8         8003a17f f   kd:kdcpuapi.obj
+ 0002:0000252e       _KdpReadMachineSpecificRegister@8 8003a1ee f   kd:kdcpuapi.obj
+ 0002:0000259e       _KdpWriteMachineSpecificRegister@8 8003a25e f   kd:kdcpuapi.obj
+ 0002:000025fa       _KdpGetReturnAddress@4     8003a2ba f   kd:kdcpuapi.obj
+ 0002:00002618       _KdpGetCallNextOffset@8    8003a2d8 f   kd:kdcpuapi.obj
+ 0002:00002694       _KdpLevelChange@12         8003a354 f   kd:kdcpuapi.obj
+ 0002:0000279c       _KdpSetStateChange@16      8003a45c f   kd:kdcpuapi.obj
+ 0002:000028a2       _KdPortInitialize@8        8003a562 f   kd:xxkdsup.obj
+ 0002:000028e1       _KdPortGetByte@4           8003a5a1 f   kd:xxkdsup.obj
+ 0002:000028f7       _KdPortPollByte@4          8003a5b7 f   kd:xxkdsup.obj
+ 0002:0000290d       _KdPortPutByte@4           8003a5cd f   kd:xxkdsup.obj
+ 0002:0000291e       _CpSetBaud@8               8003a5de f   kd:ixkdcom.obj
+ 0002:00002966       _CpReadLsr@8               8003a626 f   kd:ixkdcom.obj
+ 0002:00002998       _CpPutByte@8               8003a658 f   kd:ixkdcom.obj
+ 0002:000029bc       _CpGetByte@12              8003a67c f   kd:ixkdcom.obj
+ 0002:00002a48       _CpInitialize@12           8003a708 f   kd:ixkdcom.obj
+ 0002:00002a73       _KdRegisterDebuggerDataBlock@12 8003a733 f   kd:kdinit.obj
+ 0002:00002ad3       _KdLogDbgPrint@4           8003a793 f   kd:kdinit.obj
+ 0002:00002ba7       _KdInitSystem@4            8003a867 f   kd:kdinit.obj
+ 0002:00002d38       _KdpPollBreakInWithPortLock@0 8003a9f8 f   kd:kdlock.obj
+ 0002:00002d72       _KdPollBreakIn@0           8003aa32 f   kd:kdlock.obj
+ 0002:00002de3       _KdpStub@20                8003aaa3 f   kd:kdtrap.obj
+ 0002:00002e3e       _KdpContextToNt5Context@8  8003aafe f   kd:kdtrap.obj
+ 0002:00002f67       _KdpContextFromNt5Context@8 8003ac27 f   kd:kdtrap.obj
+ 0002:00003073       _KdpTrap@20                8003ad33 f   kd:kdtrap.obj
+ 0002:00003390       _KdpSaveProcessorControlState@4 8003b050 f   kd:procstat.obj
+ 0002:00003414       _KdpRestoreProcessorControlState@4 8003b0d4 f   kd:procstat.obj
+ 0002:000034a8       _KdpPrintString@4          8003b168 f   kd:kddbgio.obj
+ 0002:00003515       _KdpPromptString@8         8003b1d5 f   kd:kddbgio.obj
+ 0002:000035d8       ??_C@_0N@FGDKACMC@xboxkrnl?4exe?$AA@ 8003b298     kd:kdinit.obj
+ 0002:000035e8       ??_C@_1BK@CDNGMPNA@?$AAx?$AAb?$AAo?$AAx?$AAk?$AAr?$AAn?$AAl?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 8003b2a8     kd:kdinit.obj
+ 0002:00003604       ??_C@_09HMCDMPLD@?6?$CK?$CK?$CKRIP?3?5?$AA@ 8003b2c4     kd:kdtrap.obj
+ 0002:00003610       ??_C@_0CL@KFGPJGLO@Break?0?5Ignore?0?5or?5Terminate?5Thre@ 8003b2d0     kd:kdtrap.obj
+ 0003:00000000       _ExpNonVolatileSettingsLock 8003b300     ex:settings.obj
+ 0003:0000001c       _ExpTimeRefreshLock        8003b31c     ex:systime.obj
+ 0003:00000038       SWInterruptHandlerTable    8003b338     halx:ixirql.obj
+ 0003:00000088       _HalpSMBusLock             8003b388     halx:smbussci.obj
+ 0003:00000098       _HalpSMBusInterruptDpc     8003b398     halx:smbussci.obj
+ 0003:000000b4       _HalpSMBusRetryDpc         8003b3b4     halx:smbussci.obj
+ 0003:000000d0       _HalpSMBusRetryTimer       8003b3d0     halx:smbussci.obj
+ 0003:000000f8       _HalpSystemControlInterruptDpc 8003b3f8     halx:smbussci.obj
+ 0003:00000114       _HalpTrayState             8003b414     halx:smbussci.obj
+ 0003:00000118       _HalpTrayEjectCompleteEvent 8003b418     halx:smbussci.obj
+ 0003:00000128       _HalpSMCScratchRegister    8003b428     halx:smbussci.obj
+ 0003:0000012c       HalpIRR                    8003b42c     halx:ixsysint.obj
+ 0003:00000130       HalpIRRActive              8003b430     halx:ixsysint.obj
+ 0003:00000134       HalpIDR                    8003b434     halx:ixsysint.obj
+ 0003:00000138       HalpEisaELCR               8003b438     halx:ixsysint.obj
+ 0003:0000013c       HalpSpecialDismissTable    8003b43c     halx:ixsysint.obj
+ 0003:0000017c       _HalpShutdownRegistrationList 8003b47c     halx:ixreboot.obj
+ 0003:00000184       HalpPerformanceCounterLow  8003b484     halx:pmtimer.obj
+ 0003:00000188       HalpPerformanceCounterHigh1 8003b488     halx:pmtimer.obj
+ 0003:0000018c       HalpPerformanceCounterHigh2 8003b48c     halx:pmtimer.obj
+ 0003:00000194       _KeBugCheckCount           8003b494     ke:bugcheck.obj
+ 0003:000001a0       _KiIdleThread              8003b4a0     ke:newsysbg.obj
+ 0003:000002ec       _KiPCR                     8003b5ec     ke:newsysbg.obj
+ 0003:00000570       _KiIDT                     8003b870     ke:trap.obj
+ 0003:00000770       _KiUnexpectedEntrySize     8003ba70     ke:trap.obj
+ 0003:00000770       _KiIDTEnd                  8003ba70     ke:trap.obj
+ 0003:00000794       _FscSetCacheSizeEvent      8003ba94     mmarc:fscache.obj
+ 0003:000007a4       _FscCollidedMapBufferEvent 8003baa4     mmarc:fscache.obj
+ 0003:000007b4       _FscWaitingForElementEvent 8003bab4     mmarc:fscache.obj
+ 0003:000007c4       _FscWriteFFsLock           8003bac4     mmarc:fscache.obj
+ 0003:000007e0       _MmNumberOfInstanceMemoryBytes 8003bae0     mmarc:physical.obj
+ 0003:000007e4       _MmAddressSpaceLock        8003bae4     mmarc:virtual.obj
+ 0003:00000800       _MmRetailPfnRegion         8003bb00     mmarc:pfnsup.obj
+ 0003:00000884       _MmPfnDatabase             8003bb84     mmarc:pfnsup.obj
+ 0003:00000888       _MmSystemPteRange          8003bb88     mmarc:sysptes.obj
+ 0003:000008a0       _MmDeveloperKitPteRange    8003bba0     mmarc:sysptes.obj
+ 0003:000008b8       _ObpDefaultObject          8003bbb8     ob:obmanage.obj
+ 0003:000008c8       _PsReaperListHead          8003bbc8     ps:psinit.obj
+ 0003:000008d0       _IdexCdRomPartitionLength  8003bbd0     idexarc:cdrom.obj
+ 0003:000008d8       _IdexCdRomMaximumSpindleSpeed 8003bbd8     idexarc:cdrom.obj
+ 0003:000008dc       _RawxGlobalMutex           8003bbdc     raw:synch.obj
+ 0003:000008f8       _FatxGlobalMutex           8003bbf8     fatx:synch.obj
+ 0003:00000914       _GdfxGlobalMutex           8003bc14     gdfx:driver.obj
+ 0003:00000930       _UdfxGlobalMutex           8003bc30     udfx:driver.obj
+ 0003:00000950       __NLG_Destination          8003bc50     libcntpr:exsup.obj
+ 0003:00000960       __fltused                  8003bc60     libcntpr:stubs.obj
+ 0003:00000964       __ldused                   8003bc64     libcntpr:stubs.obj
+ 0003:00000968       _XepLoaderLock             8003bc68     ldrarc:loader.obj
+ 0003:00000998       _updatedCryptoVector       8003bc98     xcryptk:xcbase.obj
+ 0003:000009e0       _KdHighestUserAddress      8003bce0     kd:kddata.obj
+ 0003:000009e4       _KdSystemRangeStart        8003bce4     kd:kddata.obj
+ 0003:000009e8       _KdUserProbeAddress        8003bce8     kd:kddata.obj
+ 0003:000009ec       _KdLowestPhysicalPage      8003bcec     kd:kddata.obj
+ 0003:000009f0       _KdActiveProcessHead       8003bcf0     kd:kddata.obj
+ 0003:000009f4       _KdLoadedModuleList        8003bcf4     kd:kddata.obj
+ 0003:000009fc       _KdPrintWritePointer       8003bcfc     kd:kddata.obj
+ 0003:00000a00       _KdDebuggerDataBlock       8003bd00     kd:kddata.obj
+ 0003:00000c08       _TraceDataBufferPosition   8003bf08     kd:kddata.obj
+ 0003:00000c0c       _KdpRetryCount             8003bf0c     kd:kddata.obj
+ 0003:00000c10       _KdpNumberRetries          8003bf10     kd:kddata.obj
+ 0003:00000c14       _KdpSearchCheckPoint       8003bf14     kd:kddata.obj
+ 0003:00000c1c       _KdPort                    8003bf1c     kd:xxkdsup.obj
+ 0003:00000c38       _KdPortInformation         8003bf38     kd:xxkdsup.obj
+ 0003:00000c54       _KdDbgPortsPresent         8003bf54     kd:ixkdcom.obj
+ 0003:00000c60       ___fastflag                8003bf60     libcntpr:stubs.obj
+ 0003:00000c64       ___@@_PchSym_@00@UcylcUkirezgvUmglhUvcUlyqUrDIGUvckOlyq@ex 8003bf64     <common>
+ 0003:00000c80       _ExpSmallNPagedPoolLookasideLists 8003bf80     <common>
+ 0003:00000d40       _NonPagedPoolDescriptor    8003c040     <common>
+ 0003:00001150       _HalpSMBusSMCInterruptPending 8003c450     <common>
+ 0003:00001154       _HalpSMCResetOrShutdownDataValue 8003c454     <common>
+ 0003:00001158       _HalpSMBusCompletionRoutine 8003c458     <common>
+ 0003:0000115c       _HalpSMBusStatusBlock      8003c45c     <common>
+ 0003:00001160       _HalpSMCResetOrShutdownCommandCode 8003c460     <common>
+ 0003:00001164       _HalpSMBusRetries          8003c464     <common>
+ 0003:00001168       _HalpTrayStateChangeCount  8003c468     <common>
+ 0003:0000116c       _HalpShutdownRequestPending 8003c46c     <common>
+ 0003:0000116d       _HalpSMCInterruptReason    8003c46d     <common>
+ 0003:0000116e       _HalpTrayEjectDuringBootOccurred 8003c46e     <common>
+ 0003:00001170       _KiDbgProfInt              8003c470     <common>
+ 0003:00001174       _KiDpcDispatchNotify       8003c474     <common>
+ 0003:00001180       _ExpCallAttributedProfileData 8003c480     <common>
+ 0003:000011a0       _XboxHardwareInfo          8003c4a0     <common>
+ 0003:000011a8       _KiDbgClockInt             8003c4a8     <common>
+ 0003:000011ac       _KiDbgCtxSwapNotify        8003c4ac     <common>
+ 0003:000011b0       ___@@_PchSym_@00@UcylcUkirezgvUmglhUrlUlyqUrDIGUrlkOlyq@io 8003c4b0     <common>
+ 0003:000011b4       _IoPendingMustCompletePackets 8003c4b4     <common>
+ 0003:000011b8       ___@@_PchSym_@00@UcylcUkirezgvUmglhUpwGEUlyqUrDIGUpwkOlyq@kd 8003c4b8     <common>
+ 0003:000011bc       ___@@_PchSym_@00@UcylcUkirezgvUmglhUpvUfkUlyqUrDIGUprOlyq@ke 8003c4bc     <common>
+ 0003:000011c0       _KiIdleThreadStackLimit    8003c4c0     <common>
+ 0003:000041c0       _KiDoubleFaultStackLimit   8003f4c0     <common>
+ 0003:000051c0       _KiSystemProcess           800404c0     <common>
+ 0003:000051e0       _KiIdleProcess             800404e0     <common>
+ 0003:000051fc       _KeHasQuickBooted          800404fc     <common>
+ 0003:00005200       _KeSystemTime              80040500     <common>
+ 0003:00005210       _KeInterruptTime           80040510     <common>
+ 0003:0000521c       _KeTickCount               8004051c     <common>
+ 0003:00005220       _KiHardwareTrigger         80040520     <common>
+ 0003:00005228       _KiWaitInListHead          80040528     <common>
+ 0003:00005240       _KiTimerExpireDpc          80040540     <common>
+ 0003:0000525c       _KiDebugRoutine            8004055c     <common>
+ 0003:00005260       _KeBootTimeBias            80040560     <common>
+ 0003:00005268       _KeBootTime                80040568     <common>
+ 0003:00005280       _KiTimerTableListHead      80040580     <common>
+ 0003:00005380       _KiReadySummary            80040680     <common>
+ 0003:00005384       _KiIdleSummary             80040684     <common>
+ 0003:000053a0       _KiDispatcherReadyListHead 800406a0     <common>
+ 0003:000054a0       _KiBugCheckData            800407a0     <common>
+ 0003:000054b4       ___@@_PchSym_@00@UcylcUkirezgvUmglhUnncUzixzwvUlyqUrDIGUnrOlyq@mmarc 800407b4     <common>
+ 0003:000054c0       _MmAllocatedPagesByUsage   800407c0     <common>
+ 0003:000054ec       _MmAvailablePages          800407ec     <common>
+ 0003:000054f0       _MmNextDefaultPageColor    800407f0     <common>
+ 0003:000054f4       _MmVirtualMemoryBytesReserved 800407f4     <common>
+ 0003:000054f8       _MmVadFreeHint             800407f8     <common>
+ 0003:000054fc       _MmVadHint                 800407fc     <common>
+ 0003:00005500       _MmVadRoot                 80040800     <common>
+ 0003:00005504       _FscWriteFFsPtes           80040804     <common>
+ 0003:00005508       _FscLruList                80040808     <common>
+ 0003:00005510       _FscNumberOfCachePages     80040810     <common>
+ 0003:00005514       _FscElementArray           80040814     <common>
+ 0003:00005518       ___@@_PchSym_@00@UcylcUkirezgvUmglhUlycUlyqUrDIGUlykOlyq@ob 80040818     <common>
+ 0003:0000551c       _ObpWin32NamedObjectsDirectoryObject 8004081c     <common>
+ 0003:00005520       _ObpIoDevicesDirectoryObject 80040820     <common>
+ 0003:00005524       _ObpDosDevicesDirectoryObject 80040824     <common>
+ 0003:00005528       _ObpRootDirectoryObject    80040828     <common>
+ 0003:00005540       _ObpObjectHandleTable      80040840     <common>
+ 0003:00005580       _ObpDosDevicesDriveLetterMap 80040880     <common>
+ 0003:000055e8       ___@@_PchSym_@00@UcylcUkirezgvUmglhUkhUlyqUrDIGUkhkOlyq@ps 800408e8     <common>
+ 0003:00005600       _PsReaperDpc               80040900     <common>
+ 0003:00005620       _PspCreateThreadNotifyRoutine 80040920     <common>
+ 0003:00005640       _PspCreateThreadNotifyRoutineCount 80040940     <common>
+ 0003:00005644       ___@@_PchSym_@00@UcylcUkirezgvUmglhUrwvcUzixzwvUlyqUrDIGUrwvcOlyq@idexarc 80040944     <common>
+ 0003:00005660       _IdexCdRomStaticTransferBuffer 80040960     <common>
+ 0003:00005680       _IdexCdRomDeviceObject     80040980     <common>
+ 0003:000056a0       _IdexChannelObject         800409a0     <common>
+ 0003:000057c0       _IdexDiskPartitionArray    80040ac0     <common>
+ 0003:00005810       ___@@_PchSym_@00@UcylcUkirezgvUmglhUizdcUlyqUrDIGUizdcOlyq@raw 80040b10     <common>
+ 0003:00005814       ___@@_PchSym_@00@UcylcUkirezgvUmglhUuzgcUlyqUrDIGUuzgcOlyq@fatx 80040b14     <common>
+ 0003:00005818       ___@@_PchSym_@00@UcylcUkirezgvUmglhUtwucUlyqUrDIGUtwucOlyq@gdfx 80040b18     <common>
+ 0003:0000581c       ___@@_PchSym_@00@UcylcUkirezgvUmglhUfwucUlyqUrDIGUfwucOlyq@udfx 80040b1c     <common>
+ 0003:00005820       _PhyLockFlag               80040b20     <common>
+ 0003:00005824       _PhyLinkState              80040b24     <common>
+ 0003:00005828       _errno                     80040b28     <common>
+ 0003:00005830       _XeImageFileName           80040b30     <common>
+ 0003:00005840       _XepDataTableEntry         80040b40     <common>
+ 0003:00005888       _XepSendSectionDebugNotifications 80040b88     <common>
+ 0003:0000588c       _AvpMacrovisionMode        80040b8c     <common>
+ 0003:00005890       _AvpCapabilities           80040b90     <common>
+ 0003:00005894       _AvpCGMS                   80040b94     <common>
+ 0003:00005898       _KdpNtosDataTableEntry     80040b98     kd:kddata.obj
+ 0003:000058e0       _KdGlobalFlag              80040be0     kd:kddata.obj
+ 0003:000058e4       _KdEnteredDebugger         80040be4     kd:kddata.obj
+ 0003:000058e8       _KdpOweBreakpoint          80040be8     kd:kddata.obj
+ 0003:000058ec       _KdpDebuggerStructuresInitialized 80040bec     kd:kddata.obj
+ 0003:000058ed       _KdDebuggerEnabled         80040bed     kd:kddata.obj
+ 0003:000058ee       _KdDebuggerNotPresent      80040bee     kd:kddata.obj
+ 0003:000058f0       _KdpSearchAddressRangeEnd  80040bf0     kd:kddata.obj
+ 0003:000058f4       _KdpSearchAddressRangeStart 80040bf4     kd:kddata.obj
+ 0003:000058f8       _KdpSearchEndPageFrame     80040bf8     kd:kddata.obj
+ 0003:000058fc       _KdpSearchStartPageFrame   80040bfc     kd:kddata.obj
+ 0003:00005900       _KdpSearchInProgress       80040c00     kd:kddata.obj
+ 0003:00005904       _KdpSearchPageHitIndex     80040c04     kd:kddata.obj
+ 0003:00005908       _KdpSearchPageHitOffsets   80040c08     kd:kddata.obj
+ 0003:00009908       _KdpSearchPageHits         80044c08     kd:kddata.obj
+ 0003:0000d908       _KdpDebuggerDataListHead   80048c08     kd:kddata.obj
+ 0003:0000d910       _KdDebugParameters         80048c10     kd:kddata.obj
+ 0003:0000d918       _KdpPacketIdExpected       80048c18     kd:kddata.obj
+ 0003:0000d91c       _KdpNextPacketIdToSend     80048c1c     kd:kddata.obj
+ 0003:0000d920       _KdpBreakpointInstruction  80048c20     kd:kddata.obj
+ 0003:0000d921       _KdpControlCPressed        80048c21     kd:kddata.obj
+ 0003:0000d922       _KdpControlCPending        80048c22     kd:kddata.obj
+ 0003:0000d923       _BreakpointsSuspended      80048c23     kd:kddata.obj
+ 0003:0000d924       _InstrCountInternal        80048c24     kd:kddata.obj
+ 0003:0000d928       _oldpc                     80048c28     kd:kddata.obj
+ 0003:0000d92c       _CallLevelChange           80048c2c     kd:kddata.obj
+ 0003:0000d930       _SymbolRecorded            80048c30     kd:kddata.obj
+ 0003:0000d934       _InstructionsTraced        80048c34     kd:kddata.obj
+ 0003:0000d938       _WatchStepOverSuspended    80048c38     kd:kddata.obj
+ 0003:0000d93c       _WatchStepOverBreakAddr    80048c3c     kd:kddata.obj
+ 0003:0000d940       _WatchStepOverHandle       80048c40     kd:kddata.obj
+ 0003:0000d944       _WSOEsp                    80048c44     kd:kddata.obj
+ 0003:0000d948       _WSOThread                 80048c48     kd:kddata.obj
+ 0003:0000d94c       _WatchStepOver             80048c4c     kd:kddata.obj
+ 0003:0000d950       _IntBPsSkipping            80048c50     kd:kddata.obj
+ 0003:0000d954       _NumTraceDataSyms          80048c54     kd:kddata.obj
+ 0003:0000d955       _NextTraceDataSym          80048c55     kd:kddata.obj
+ 0003:0000d956       _TraceDataBufferFilled     80048c56     kd:kddata.obj
+ 0003:0000d958       _TraceDataSyms             80048c58     kd:kddata.obj
+ 0003:0000e158       _TraceDataBuffer           80049458     kd:kddata.obj
+ 0003:0000e1f8       _InternalBreakpointCheckDpc 800494f8     kd:kddata.obj
+ 0003:0000e218       _InternalBreakpointTimer   80049518     kd:kddata.obj
+ 0003:0000e240       _KdpNumInternalBreakpoints 80049540     kd:kddata.obj
+ 0003:0000e244       _InitialSP                 80049544     kd:kddata.obj
+ 0003:0000e248       _KdNumberOfSpecialCalls    80049548     kd:kddata.obj
+ 0003:0000e250       _KdSpecialCalls            80049550     kd:kddata.obj
+ 0003:0000e278       _KdpNextCallLevelChange    80049578     kd:kddata.obj
+ 0003:0000e27c       _KdpCurrentSymbolEnd       8004957c     kd:kddata.obj
+ 0003:0000e280       _KdpCurrentSymbolStart     80049580     kd:kddata.obj
+ 0003:0000e288       _KdTimerDifference         80049588     kd:kddata.obj
+ 0003:0000e290       _KdTimerStop               80049590     kd:kddata.obj
+ 0003:0000e298       _KdTimerStart              80049598     kd:kddata.obj
+ 0003:0000e2a0       _KdPerformanceCounterRate  800495a0     kd:kddata.obj
+ 0003:0000e2a8       _KdpInternalBPs            800495a8     kd:kddata.obj
+ 0003:0000e708       _KdpPathBuffer             80049a08     kd:kddata.obj
+ 0003:0000f708       _KdpMessageBuffer          8004aa08     kd:kddata.obj
+ 0003:00010708       _KdpBreakpointTable        8004ba08     kd:kddata.obj
+ 0003:00010808       _KdPrintRolloverCount      8004bb08     kd:kddata.obj
+ 0003:00010810       _KdPrintCircularBuffer     8004bb10     kd:kddata.obj
+ 0003:00011810       _KdProcessorState          8004cb10     kd:kddata.obj
+ 0003:00011b30       _KdDbgErrorCount           8004ce30     kd:ixkdcom.obj
+ 0004:00000000       _EEPROMShadowIsValid       8004ce40     ex:settings.obj
+ 0004:00000008       _EEPROMShadow              8004ce48     ex:settings.obj
+ 0004:00000108       _HalpTrayEjectRequiresReboot 8004cf48     halx:smbussci.obj
+ 0004:0000010c       _HalBootSMCVideoMode       8004cf4c     halx:smbussci.obj
+ 0004:00000110       _HalpStallScaleFactor      8004cf50     halx:ixstall.obj
+ 0004:00000118       _ExpDisableDebugMonitor    8004cf58     init:init.obj
+ 0004:00000120       _XboxCERTKey               8004cf60     init:init.obj
+ 0004:00000130       _XboxHDKey                 8004cf70     init:init.obj
+ 0004:00000140       _XboxAlternateSignatureKeys 8004cf80     init:init.obj
+ 0004:00000240       _XboxSignatureKey          8004d080     init:init.obj
+ 0004:00000250       _XboxLANKey                8004d090     init:init.obj
+ 0004:00000260       _XboxBootFlags             8004d0a0     init:init.obj
+ 0004:00000268       _XboxEEPROMKey             8004d0a8     init:init.obj
+ 0004:00000278       _LaunchDataPage            8004d0b8     init:init.obj
+ 0004:0000027c       _XboxGameRegion            8004d0bc     init:init.obj
+ 0004:00000280       _KiNormalTSS               8004d0c0     ke:newsysbg.obj
+ 0004:000002e8       _KiDoubleFaultTSS          8004d128     ke:newsysbg.obj
+ 0004:00000350       _KiNMITSS                  8004d190     ke:newsysbg.obj
+ 0004:000003b8       _KiGDT                     8004d1f8     ke:newsysbg.obj
+ 0004:000003f0       _MmTopOfKernelPhysicalAddress 8004d230     mmarc:mminit.obj
+ 0004:000003f0       _KiGDTEnd                  8004d230     ke:newsysbg.obj
+ 0004:000003f4       _MmNumberOfPhysicalPages   8004d234     mmarc:pfnsup.obj
+ 0004:000003f8       _IdexDiskUserAddressableSectors 8004d238     idexarc:disk.obj
+ 0004:000003fc       _IdexDiskSecurityUnlocked  8004d23c     idexarc:disk.obj
+ 0004:00000400       _HalDiskSerialNumber       8004d240     idexarc:disk.obj
+ 0004:00000408       _IdexDiskSerialNumberBuffer 8004d248     idexarc:disk.obj
+ 0004:00000420       _HalDiskModelNumber        8004d260     idexarc:disk.obj
+ 0004:00000428       _IdexDiskModelNumberBuffer 8004d268     idexarc:disk.obj
+ 0004:00000450       _IdexCdRomSpindleSlowdownSectorsRemaining 8004d290     idexarc:cdrom.obj
+ 0004:00000454       _IdexCdRomSpindleSlowdownSectorNumber 8004d294     idexarc:cdrom.obj
+ 0004:00000458       _IdexCdRomDVDX2Authenticated 8004d298     idexarc:cdrom.obj
+ 0004:0000045c       _IdexCdRomCurrentSpindleSpeed 8004d29c     idexarc:cdrom.obj
+ 0004:00000460       _IdexMediaBoardFPGABoard   8004d2a0     idexarc:mediabrd.obj
+ 0004:00000464       _IdexMediaBoardUserAddressableSectors 8004d2a4     idexarc:mediabrd.obj
+ 0004:00000468       _PhyInitFlag               8004d2a8     phy:phy.obj
+ 0004:0000046c       _XeCdRomMediaTitleID       8004d2ac     ldrarc:loader.obj
+ 0004:00000470       _AvpCurrentMode            8004d2b0     av:modeset.obj
+ 0004:00000474       _AvpSavedDataAddress       8004d2b4     av:modeset.obj
+ 0005:00000000       _ExpBldrEncryptionKey      8004d2c0     init:init.obj
+ 0006:00000000       _IdexChannelPhysicalRegionDescriptorTable 8004d400     idexarc:channel.obj
+ 0007:00000000       _HalpInitializeSystemControlInterrupt@0 8004d520 f   halx:smbussci.obj
+ 0007:00000031       _HalBlockIfNoAVPack@0      8004d551 f   halx:smbussci.obj
+ 0007:0000007d       _HalpProcessSMCInitialState@0 8004d59d f   halx:smbussci.obj
+ 0007:00000170       _HalpInitializeRealTimeClock@0 8004d690 f   halx:ixstall.obj
+ 0007:000001bc       _main                      8004d6dc f   init:xboxkrnl.obj
+ 0007:0000027f       _ExpDecryptEEPROM@0        8004d79f f   init:init.obj
+ 0007:00000359       _ExpTryToBootMediaROM@0    8004d879 f   init:init.obj
+ 0007:00000552       _ExpDetectSettingsError@0  8004da72 f   init:init.obj
+ 0007:000005d0       _ExpCopyLastUEMError@0     8004daf0 f   init:init.obj
+ 0007:0000062d       _AniStartAnimation@4       8004db4d f   init:anistub.obj
+ 0007:0000064b       _AniTerminateAnimation@0   8004db6b f   init:anistub.obj
+ 0007:0000064b       _AniBlockOnAnimation@0     8004db6b f   init:anistub.obj
+ 0007:0000064c       _AniSetLogo@8              8004db6c f   init:anistub.obj
+ 0007:0000064f       _ExDisplayFatalError@4     8004db6f f   init:fatal.obj
+ 0007:000006f0       _KiSystemStartup@0         8004dc10 f   ke:newsysbg.obj
+ 0007:000007a7       _KiSwapGDT@0               8004dcc7 f   ke:kernlini.obj
+ 0007:000007dc       _MiCopyShadowROMDataSection@0 8004dcfc f   mmarc:mminit.obj
+ 0007:00000821       _MiInitializePfnDatabase@0 8004dd41 f   mmarc:pfnsup.obj
+ 0007:000009c1       _IdexDiskFatalError@4      8004dee1 f   idexarc:disk.obj
+ 0007:000009d5       _IdexDiskInitIdentifierString@16 8004def5 f   idexarc:disk.obj
+ 0007:00000a37       _IdexDiskSetDeviceParameters@0 8004df57 f   idexarc:disk.obj
+ 0007:00000a86       _IdexDiskSecurityUnlock@4  8004dfa6 f   idexarc:disk.obj
+ 0007:00000b54       _IdexDiskIncrementPowerCycleCount@0 8004e074 f   idexarc:disk.obj
+ 0007:00000b8f       _IdexDiskCreate@0          8004e0af f   idexarc:disk.obj
+ 0007:00000cfc       _IdexChannelIdentifyDevice@12 8004e21c f   idexarc:channel.obj
+ 0007:00000d7d       _IdexChannelSetTransferMode@8 8004e29d f   idexarc:channel.obj
+ 0007:00000dd2       _IdexCdRomCreate@0         8004e2f2 f   idexarc:cdrom.obj
+ 0007:00000ef2       _IdexMediaBoardFatalError@4 8004e412 f   idexarc:mediabrd.obj
+ 0007:00000ef2       _IdexCdRomFatalError@4     8004e412 f   idexarc:cdrom.obj
+ 0007:00000f03       _IdexMediaBoardCreate@0    8004e423 f   idexarc:mediabrd.obj
+ 0007:00000fc9       _XeLoadImageAfterTrayEjectBoot@0 8004e4e9 f   ldrarc:loader.obj
+ 0007:00001038       _HalInitSystemPhase0@0     8004e558 f   halx:xxhal.obj
+ 0007:00001098       _HalMicrocodeUpdateLoader@0 8004e5b8 f   halx:mcupdate.obj
+ 0007:000010c8       HalpMicrocode686           8004e5e8     halx:mcupdate.obj
+ 0007:000018c8       HalpMicrocode68A           8004ede8     halx:mcupdate.obj
+ 0007:000020c8       _HalpSetupPCIDevices@0     8004f5e8 f   halx:pcisetup.obj
+ 0007:00002478       _HalpInitializeClock@0     8004f998 f   halx:ixclock.obj
+
+ entry point at        0007:000001bc
+
+ Static symbols
+
+ 0001:0000c406       _KiShutUpAssembler         8001c706 f   ke:intsup.obj
+ 0001:000141da       ExceptionHandler@16        800244da f   ntosrtl:xcptmisc.obj
+ 0001:00014201       UnwindHandler@16           80024501 f   ntosrtl:xcptmisc.obj
+ 0001:0002004b       _write_char                8003034b f   libcntpr:output.obj
+ 0001:0002007e       _write_multi_char          8003037e f   libcntpr:output.obj
+ 0001:000200a2       _write_string              800303a2 f   libcntpr:output.obj
+ 0001:000209d8       __unwind_handler           80030cd8 f   libcntpr:exsup.obj

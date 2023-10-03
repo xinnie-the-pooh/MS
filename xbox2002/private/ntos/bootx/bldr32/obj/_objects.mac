@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\startup.obj \
+    $(_OBJ_DIR)\alpha\superio.obj \
+    $(_OBJ_DIR)\alpha\smbus.obj \
+    $(_OBJ_DIR)\alpha\bldr32.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\romcpy.obj \
+    $(_OBJ_DIR)\alpha\drvslw.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\startup.obj \
+    $(_OBJ_DIR)\alpha64\superio.obj \
+    $(_OBJ_DIR)\alpha64\smbus.obj \
+    $(_OBJ_DIR)\alpha64\bldr32.obj \
+    $(_OBJ_DIR)\alpha64\debug.obj \
+    $(_OBJ_DIR)\alpha64\romcpy.obj \
+    $(_OBJ_DIR)\alpha64\drvslw.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\startup.obj \
+    $(_OBJ_DIR)\i386\superio.obj \
+    $(_OBJ_DIR)\i386\smbus.obj \
+    $(_OBJ_DIR)\i386\bldr32.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\romcpy.obj \
+    $(_OBJ_DIR)\i386\drvslw.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\startup.obj \
+    $(_OBJ_DIR)\ia64\superio.obj \
+    $(_OBJ_DIR)\ia64\smbus.obj \
+    $(_OBJ_DIR)\ia64\bldr32.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\romcpy.obj \
+    $(_OBJ_DIR)\ia64\drvslw.obj
+
+PASS0_IA64_OBJECTS=
+

@@ -1,0 +1,86 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\bitmapa.obj \
+    $(_OBJ_DIR)\alpha\assert.obj \
+    $(_OBJ_DIR)\alpha\cnvint.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\imagedir.obj \
+    $(_OBJ_DIR)\alpha\ldrreloc.obj \
+    $(_OBJ_DIR)\alpha\nls.obj \
+    $(_OBJ_DIR)\alpha\resource.obj \
+    $(_OBJ_DIR)\alpha\sertl.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\stktrace.obj \
+    $(_OBJ_DIR)\alpha\time.obj \
+    $(_OBJ_DIR)\alpha\nlsxlat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\bitmapa.obj \
+    $(_OBJ_DIR)\alpha64\assert.obj \
+    $(_OBJ_DIR)\alpha64\cnvint.obj \
+    $(_OBJ_DIR)\alpha64\debug.obj \
+    $(_OBJ_DIR)\alpha64\error.obj \
+    $(_OBJ_DIR)\alpha64\imagedir.obj \
+    $(_OBJ_DIR)\alpha64\ldrreloc.obj \
+    $(_OBJ_DIR)\alpha64\nls.obj \
+    $(_OBJ_DIR)\alpha64\resource.obj \
+    $(_OBJ_DIR)\alpha64\sertl.obj \
+    $(_OBJ_DIR)\alpha64\string.obj \
+    $(_OBJ_DIR)\alpha64\stktrace.obj \
+    $(_OBJ_DIR)\alpha64\time.obj \
+    $(_OBJ_DIR)\alpha64\nlsxlat.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\byteswap.obj \
+    $(_OBJ_DIR)\i386\critsect.obj \
+    $(_OBJ_DIR)\i386\debug2.obj \
+    $(_OBJ_DIR)\i386\stringsp.obj \
+    $(_OBJ_DIR)\i386\largeint.obj \
+    $(_OBJ_DIR)\i386\movemem.obj \
+    $(_OBJ_DIR)\i386\raise.obj \
+    $(_OBJ_DIR)\i386\stkwalk.obj \
+    $(_OBJ_DIR)\i386\xcptmisc.obj \
+    $(_OBJ_DIR)\i386\bitmapa.obj \
+    $(_OBJ_DIR)\i386\debug3.obj \
+    $(_OBJ_DIR)\i386\divlarge.obj \
+    $(_OBJ_DIR)\i386\exdsptch.obj \
+    $(_OBJ_DIR)\i386\raisests.obj \
+    $(_OBJ_DIR)\i386\rtldump.obj \
+    $(_OBJ_DIR)\i386\assert.obj \
+    $(_OBJ_DIR)\i386\cnvint.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\imagedir.obj \
+    $(_OBJ_DIR)\i386\ldrreloc.obj \
+    $(_OBJ_DIR)\i386\nls.obj \
+    $(_OBJ_DIR)\i386\resource.obj \
+    $(_OBJ_DIR)\i386\sertl.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\stktrace.obj \
+    $(_OBJ_DIR)\i386\time.obj \
+    $(_OBJ_DIR)\i386\nlsxlat.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\bitmapa.obj \
+    $(_OBJ_DIR)\ia64\assert.obj \
+    $(_OBJ_DIR)\ia64\cnvint.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\error.obj \
+    $(_OBJ_DIR)\ia64\imagedir.obj \
+    $(_OBJ_DIR)\ia64\ldrreloc.obj \
+    $(_OBJ_DIR)\ia64\nls.obj \
+    $(_OBJ_DIR)\ia64\resource.obj \
+    $(_OBJ_DIR)\ia64\sertl.obj \
+    $(_OBJ_DIR)\ia64\string.obj \
+    $(_OBJ_DIR)\ia64\stktrace.obj \
+    $(_OBJ_DIR)\ia64\time.obj \
+    $(_OBJ_DIR)\ia64\nlsxlat.obj
+
+PASS0_IA64_OBJECTS=
+

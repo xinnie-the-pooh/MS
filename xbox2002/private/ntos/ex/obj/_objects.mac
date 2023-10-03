@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\intrlock.obj \
+    $(_OBJ_DIR)\alpha\intrlfst.obj \
+    $(_OBJ_DIR)\alpha\raisests.obj \
+    $(_OBJ_DIR)\alpha\rwlocka.obj \
+    $(_OBJ_DIR)\alpha\event.obj \
+    $(_OBJ_DIR)\alpha\mutant.obj \
+    $(_OBJ_DIR)\alpha\pool.obj \
+    $(_OBJ_DIR)\alpha\rwlock.obj \
+    $(_OBJ_DIR)\alpha\semphore.obj \
+    $(_OBJ_DIR)\alpha\settings.obj \
+    $(_OBJ_DIR)\alpha\systime.obj \
+    $(_OBJ_DIR)\alpha\timer.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\intrlock.obj \
+    $(_OBJ_DIR)\alpha64\intrlfst.obj \
+    $(_OBJ_DIR)\alpha64\raisests.obj \
+    $(_OBJ_DIR)\alpha64\rwlocka.obj \
+    $(_OBJ_DIR)\alpha64\event.obj \
+    $(_OBJ_DIR)\alpha64\mutant.obj \
+    $(_OBJ_DIR)\alpha64\pool.obj \
+    $(_OBJ_DIR)\alpha64\rwlock.obj \
+    $(_OBJ_DIR)\alpha64\semphore.obj \
+    $(_OBJ_DIR)\alpha64\settings.obj \
+    $(_OBJ_DIR)\alpha64\systime.obj \
+    $(_OBJ_DIR)\alpha64\timer.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\intrlock.obj \
+    $(_OBJ_DIR)\i386\intrlfst.obj \
+    $(_OBJ_DIR)\i386\raisests.obj \
+    $(_OBJ_DIR)\i386\rwlocka.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\mutant.obj \
+    $(_OBJ_DIR)\i386\pool.obj \
+    $(_OBJ_DIR)\i386\rwlock.obj \
+    $(_OBJ_DIR)\i386\semphore.obj \
+    $(_OBJ_DIR)\i386\settings.obj \
+    $(_OBJ_DIR)\i386\systime.obj \
+    $(_OBJ_DIR)\i386\timer.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\intrlock.obj \
+    $(_OBJ_DIR)\ia64\intrlfst.obj \
+    $(_OBJ_DIR)\ia64\raisests.obj \
+    $(_OBJ_DIR)\ia64\rwlocka.obj \
+    $(_OBJ_DIR)\ia64\event.obj \
+    $(_OBJ_DIR)\ia64\mutant.obj \
+    $(_OBJ_DIR)\ia64\pool.obj \
+    $(_OBJ_DIR)\ia64\rwlock.obj \
+    $(_OBJ_DIR)\ia64\semphore.obj \
+    $(_OBJ_DIR)\ia64\settings.obj \
+    $(_OBJ_DIR)\ia64\systime.obj \
+    $(_OBJ_DIR)\ia64\timer.obj
+
+PASS0_IA64_OBJECTS=
+

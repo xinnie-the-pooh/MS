@@ -1,0 +1,157 @@
+Compiling c:\xbox\private\ntos\dm\xbdm directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+34 MIDL_OPTIMIZATION is -Oicf -robust -error all
+cl -nologo  /Tc  -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch /Ylxbdm /Ycdmp.h /Fpobj\i386\dmp.pch /Fo"C:\xbox\private\ntos\dm\xbdm\obj\i386\dmp.obj"
+
+#include "dmp.h"
+
+pch_hdr.src
+    rc -l 409 -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\xbdm.tmp -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE    -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc .\xbdm.rc
+	ml -c -coff -Cx -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0    -DDEVKIT -FoC:\xbox\private\ntos\dm\xbdm\obj\i386\muldiv.obj i386\muldiv.asm
+ Assembling: i386\muldiv.asm
+	ml -c -coff -Cx -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0    -DDEVKIT -FoC:\xbox\private\ntos\dm\xbdm\obj\i386\thread.obj i386\thread.asm
+ Assembling: i386\thread.asm
+	ml -c -coff -Cx -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0    -DDEVKIT -FoC:\xbox\private\ntos\dm\xbdm\obj\i386\dbregs.obj i386\dbregs.asm
+ Assembling: i386\dbregs.asm
+	ml -c -coff -Cx -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0    -DDEVKIT -FoC:\xbox\private\ntos\dm\xbdm\obj\i386\funccall.obj i386\funccall.asm
+ Assembling: i386\funccall.asm
+	ml -c -coff -Cx -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0    -DDEVKIT -FoC:\xbox\private\ntos\dm\xbdm\obj\i386\defer.obj i386\defer.asm
+ Assembling: i386\defer.asm
+	ml -c -coff -Cx -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0    -DDEVKIT -FoC:\xbox\private\ntos\dm\xbdm\obj\i386\dxtstart.obj i386\dxtstart.asm
+ Assembling: i386\dxtstart.asm
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dminit.c
+dminit.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmserv.c
+dmserv.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmsecure.c
+dmsecure.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmnotify.c
+dmnotify.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmbreak.c
+dmbreak.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmmodule.c
+dmmodule.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmcount.c
+dmcount.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmprofil.c
+dmprofil.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmfile.c
+dmfile.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmpool.c
+dmpool.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\dmcap.c
+dmcap.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\api32.c
+api32.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\crc.c
+crc.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\flash.c
+flash.c
+cl -nologo -Ii386\ -I. -IC:\xbox\private\ntos\inc -IC:\xbox\private\inc\crypto -IC:\xbox\private\ntos\ke -IC:\xbox\private\ntos\mmx -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\xdk\inc -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0501 -D_XBOX -DXBOX=1 -DFASTPUSHER=1    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG  -DDEVKIT -DUNICODE -D_UNICODE      /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /QI0f /G6 /Gi- /Gm- /GX-  /GR- /GF -Z7 /Zvc6 /Oxs /Oy-   -FIC:\xbox\public\sdk\inc\warning.h  /Yudmp.h /Fpobj\i386\dmp.pch .\sysfileupd.c
+sysfileupd.c
+	lib -out:C:\xbox\public\sdk\lib\i386\xbdm.lib @C:\DOCUME~1\Adam\LOCALS~1\Temp\nmb03460.
+Microsoft (R) Library Manager Version 7.00.9290
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-debugtype:cv 
+-IGNORE:4001,4037,4039,4044,4065,4070,4078,4087,4089,4198 
+-nodefaultlib 
+-machine:ix86 
+-def:xbdm.def 
+obj\i386\xbdm.res 
+obj\i386\muldiv.obj 
+obj\i386\thread.obj 
+obj\i386\dbregs.obj 
+obj\i386\funccall.obj 
+obj\i386\defer.obj 
+obj\i386\dxtstart.obj 
+obj\i386\dminit.obj 
+obj\i386\dmserv.obj 
+obj\i386\dmsecure.obj 
+obj\i386\dmnotify.obj 
+obj\i386\dmbreak.obj 
+obj\i386\dmmodule.obj 
+obj\i386\dmcount.obj 
+obj\i386\dmprofil.obj 
+obj\i386\dmfile.obj 
+obj\i386\dmpool.obj 
+obj\i386\dmcap.obj 
+obj\i386\api32.obj 
+obj\i386\crc.obj 
+obj\i386\flash.obj 
+obj\i386\sysfileupd.obj 
+obj\i386\dmp.obj 
+   Creating library C:\xbox\public\sdk\lib\i386\xbdm.lib and object C:\xbox\public\sdk\lib\i386\xbdm.exp
+	copy C:\xbox\public\sdk\lib\i386\xbdm.lib C:\xbox\public\xdk\lib\xbdm.lib
+        1 file(s) copied.
+
+Stop.
+Linking c:\xbox\private\ntos\dm\xbdm directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+34 MIDL_OPTIMIZATION is -Oicf -robust -error all
+	link -out:obj\i386\xbdm.dll -machine:ix86 @C:\DOCUME~1\Adam\LOCALS~1\Temp\nma02624.
+Microsoft (R) Incremental Linker Version 7.00.9290
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-driver 
+-align:0x20 
+-STACK:262144,4096 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-OPT:REF 
+-OPT:ICF 
+-IGNORE:4001,4037,4039,4044,4065,4070,4078,4087,4089,4198 
+-INCREMENTAL:NO 
+-FULLBUILD 
+-FORCE:MULTIPLE 
+/release 
+-SECTION:INIT,d 
+-NODEFAULTLIB 
+-debug:FULL 
+-debugtype:vc6 
+-version:5.00 
+-osversion:5.00 
+-map 
+-merge:.rdata=.text 
+-dll 
+-base:@C:\xbox\public\sdk\lib\coffbase.txt,xbdm 
+-subsystem:xbox 
+-entry:DmEntryPoint@12 
+obj\i386\dmp.obj 
+C:\xbox\public\sdk\lib\i386\xbdm.exp 
+obj\i386\xbdm.res 
+obj\i386\muldiv.obj 
+obj\i386\thread.obj 
+obj\i386\dbregs.obj 
+obj\i386\funccall.obj 
+obj\i386\defer.obj 
+obj\i386\dxtstart.obj 
+obj\i386\dminit.obj 
+obj\i386\dmserv.obj 
+obj\i386\dmsecure.obj 
+obj\i386\dmnotify.obj 
+obj\i386\dmbreak.obj 
+obj\i386\dmmodule.obj 
+obj\i386\dmcount.obj 
+obj\i386\dmprofil.obj 
+obj\i386\dmfile.obj 
+obj\i386\dmpool.obj 
+obj\i386\dmcap.obj 
+obj\i386\api32.obj 
+obj\i386\crc.obj 
+obj\i386\flash.obj 
+obj\i386\sysfileupd.obj 
+C:\xbox\private\ntos\rtl\obj\i386\xbdmrtl.lib 
+C:\xbox\private\ntos\net\libm\obj\i386\xnetmd.lib 
+C:\xbox\private\ntos\xapi\obj\i386\dmxapi.lib 
+C:\xbox\private\ntos\rtl\obj\i386\xapirtl.lib 
+C:\xbox\public\sdk\lib\i386\libcntpr.lib 
+C:\xbox\public\xdk\lib\xboxkrnl.lib 
+	mapsym -o obj\i386\xbdm.sym obj\i386\xbdm.map
+Microsoft (R) Symbol File Generator NTGroup Version 6.02
+Copyright (C) Microsoft Corp 1984 - 1996.  All rights reserved.
+Line number support enabled
+Program entry point at 0001:3109
+binplace C:\xbox\private\ntos\dm\xbdm\obj\i386\xbdm.dll
+
+Stop.

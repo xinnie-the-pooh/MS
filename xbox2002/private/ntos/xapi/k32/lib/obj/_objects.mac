@@ -1,0 +1,190 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cancelio.obj \
+    $(_OBJ_DIR)\alpha\charconv.obj \
+    $(_OBJ_DIR)\alpha\compstr.obj \
+    $(_OBJ_DIR)\alpha\compstra.obj \
+    $(_OBJ_DIR)\alpha\datetime.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\debugver.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\fiber.obj \
+    $(_OBJ_DIR)\alpha\filehops.obj \
+    $(_OBJ_DIR)\alpha\filefind.obj \
+    $(_OBJ_DIR)\alpha\filemisc.obj \
+    $(_OBJ_DIR)\alpha\fileopcr.obj \
+    $(_OBJ_DIR)\alpha\format.obj \
+    $(_OBJ_DIR)\alpha\handle.obj \
+    $(_OBJ_DIR)\alpha\kthunks.obj \
+    $(_OBJ_DIR)\alpha\launch.obj \
+    $(_OBJ_DIR)\alpha\lcompat.obj \
+    $(_OBJ_DIR)\alpha\lcompata.obj \
+    $(_OBJ_DIR)\alpha\mmtimer.obj \
+    $(_OBJ_DIR)\alpha\mountmu.obj \
+    $(_OBJ_DIR)\alpha\nickname.obj \
+    $(_OBJ_DIR)\alpha\pathmisc.obj \
+    $(_OBJ_DIR)\alpha\perfctr.obj \
+    $(_OBJ_DIR)\alpha\physical.obj \
+    $(_OBJ_DIR)\alpha\powerdwn.obj \
+    $(_OBJ_DIR)\alpha\process.obj \
+    $(_OBJ_DIR)\alpha\rect.obj \
+    $(_OBJ_DIR)\alpha\support.obj \
+    $(_OBJ_DIR)\alpha\synch.obj \
+    $(_OBJ_DIR)\alpha\thread.obj \
+    $(_OBJ_DIR)\alpha\tls.obj \
+    $(_OBJ_DIR)\alpha\virtual.obj \
+    $(_OBJ_DIR)\alpha\widechar.obj \
+    $(_OBJ_DIR)\alpha\xapiheap.obj \
+    $(_OBJ_DIR)\alpha\xclndrv.obj \
+    $(_OBJ_DIR)\alpha\xemodule.obj \
+    $(_OBJ_DIR)\alpha\xpp.obj \
+    $(_OBJ_DIR)\alpha\xsaveapi.obj \
+    $(_OBJ_DIR)\alpha\xvalue.obj \
+    $(_OBJ_DIR)\alpha\xsndtrk.obj \
+    $(_OBJ_DIR)\alpha\xcalcsig.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\cancelio.obj \
+    $(_OBJ_DIR)\alpha64\charconv.obj \
+    $(_OBJ_DIR)\alpha64\compstr.obj \
+    $(_OBJ_DIR)\alpha64\compstra.obj \
+    $(_OBJ_DIR)\alpha64\datetime.obj \
+    $(_OBJ_DIR)\alpha64\debug.obj \
+    $(_OBJ_DIR)\alpha64\debugver.obj \
+    $(_OBJ_DIR)\alpha64\dir.obj \
+    $(_OBJ_DIR)\alpha64\error.obj \
+    $(_OBJ_DIR)\alpha64\fiber.obj \
+    $(_OBJ_DIR)\alpha64\filehops.obj \
+    $(_OBJ_DIR)\alpha64\filefind.obj \
+    $(_OBJ_DIR)\alpha64\filemisc.obj \
+    $(_OBJ_DIR)\alpha64\fileopcr.obj \
+    $(_OBJ_DIR)\alpha64\format.obj \
+    $(_OBJ_DIR)\alpha64\handle.obj \
+    $(_OBJ_DIR)\alpha64\kthunks.obj \
+    $(_OBJ_DIR)\alpha64\launch.obj \
+    $(_OBJ_DIR)\alpha64\lcompat.obj \
+    $(_OBJ_DIR)\alpha64\lcompata.obj \
+    $(_OBJ_DIR)\alpha64\mmtimer.obj \
+    $(_OBJ_DIR)\alpha64\mountmu.obj \
+    $(_OBJ_DIR)\alpha64\nickname.obj \
+    $(_OBJ_DIR)\alpha64\pathmisc.obj \
+    $(_OBJ_DIR)\alpha64\perfctr.obj \
+    $(_OBJ_DIR)\alpha64\physical.obj \
+    $(_OBJ_DIR)\alpha64\powerdwn.obj \
+    $(_OBJ_DIR)\alpha64\process.obj \
+    $(_OBJ_DIR)\alpha64\rect.obj \
+    $(_OBJ_DIR)\alpha64\support.obj \
+    $(_OBJ_DIR)\alpha64\synch.obj \
+    $(_OBJ_DIR)\alpha64\thread.obj \
+    $(_OBJ_DIR)\alpha64\tls.obj \
+    $(_OBJ_DIR)\alpha64\virtual.obj \
+    $(_OBJ_DIR)\alpha64\widechar.obj \
+    $(_OBJ_DIR)\alpha64\xapiheap.obj \
+    $(_OBJ_DIR)\alpha64\xclndrv.obj \
+    $(_OBJ_DIR)\alpha64\xemodule.obj \
+    $(_OBJ_DIR)\alpha64\xpp.obj \
+    $(_OBJ_DIR)\alpha64\xsaveapi.obj \
+    $(_OBJ_DIR)\alpha64\xvalue.obj \
+    $(_OBJ_DIR)\alpha64\xsndtrk.obj \
+    $(_OBJ_DIR)\alpha64\xcalcsig.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\intrlock.obj \
+    $(_OBJ_DIR)\i386\muldiv.obj \
+    $(_OBJ_DIR)\i386\cancelio.obj \
+    $(_OBJ_DIR)\i386\charconv.obj \
+    $(_OBJ_DIR)\i386\compstr.obj \
+    $(_OBJ_DIR)\i386\compstra.obj \
+    $(_OBJ_DIR)\i386\datetime.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\debugver.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\fiber.obj \
+    $(_OBJ_DIR)\i386\filehops.obj \
+    $(_OBJ_DIR)\i386\filefind.obj \
+    $(_OBJ_DIR)\i386\filemisc.obj \
+    $(_OBJ_DIR)\i386\fileopcr.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\handle.obj \
+    $(_OBJ_DIR)\i386\kthunks.obj \
+    $(_OBJ_DIR)\i386\launch.obj \
+    $(_OBJ_DIR)\i386\lcompat.obj \
+    $(_OBJ_DIR)\i386\lcompata.obj \
+    $(_OBJ_DIR)\i386\mmtimer.obj \
+    $(_OBJ_DIR)\i386\mountmu.obj \
+    $(_OBJ_DIR)\i386\nickname.obj \
+    $(_OBJ_DIR)\i386\pathmisc.obj \
+    $(_OBJ_DIR)\i386\perfctr.obj \
+    $(_OBJ_DIR)\i386\physical.obj \
+    $(_OBJ_DIR)\i386\powerdwn.obj \
+    $(_OBJ_DIR)\i386\process.obj \
+    $(_OBJ_DIR)\i386\rect.obj \
+    $(_OBJ_DIR)\i386\support.obj \
+    $(_OBJ_DIR)\i386\synch.obj \
+    $(_OBJ_DIR)\i386\thread.obj \
+    $(_OBJ_DIR)\i386\tls.obj \
+    $(_OBJ_DIR)\i386\virtual.obj \
+    $(_OBJ_DIR)\i386\widechar.obj \
+    $(_OBJ_DIR)\i386\xapiheap.obj \
+    $(_OBJ_DIR)\i386\xclndrv.obj \
+    $(_OBJ_DIR)\i386\xemodule.obj \
+    $(_OBJ_DIR)\i386\xpp.obj \
+    $(_OBJ_DIR)\i386\xsaveapi.obj \
+    $(_OBJ_DIR)\i386\xvalue.obj \
+    $(_OBJ_DIR)\i386\xsndtrk.obj \
+    $(_OBJ_DIR)\i386\xcalcsig.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\cancelio.obj \
+    $(_OBJ_DIR)\ia64\charconv.obj \
+    $(_OBJ_DIR)\ia64\compstr.obj \
+    $(_OBJ_DIR)\ia64\compstra.obj \
+    $(_OBJ_DIR)\ia64\datetime.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\debugver.obj \
+    $(_OBJ_DIR)\ia64\dir.obj \
+    $(_OBJ_DIR)\ia64\error.obj \
+    $(_OBJ_DIR)\ia64\fiber.obj \
+    $(_OBJ_DIR)\ia64\filehops.obj \
+    $(_OBJ_DIR)\ia64\filefind.obj \
+    $(_OBJ_DIR)\ia64\filemisc.obj \
+    $(_OBJ_DIR)\ia64\fileopcr.obj \
+    $(_OBJ_DIR)\ia64\format.obj \
+    $(_OBJ_DIR)\ia64\handle.obj \
+    $(_OBJ_DIR)\ia64\kthunks.obj \
+    $(_OBJ_DIR)\ia64\launch.obj \
+    $(_OBJ_DIR)\ia64\lcompat.obj \
+    $(_OBJ_DIR)\ia64\lcompata.obj \
+    $(_OBJ_DIR)\ia64\mmtimer.obj \
+    $(_OBJ_DIR)\ia64\mountmu.obj \
+    $(_OBJ_DIR)\ia64\nickname.obj \
+    $(_OBJ_DIR)\ia64\pathmisc.obj \
+    $(_OBJ_DIR)\ia64\perfctr.obj \
+    $(_OBJ_DIR)\ia64\physical.obj \
+    $(_OBJ_DIR)\ia64\powerdwn.obj \
+    $(_OBJ_DIR)\ia64\process.obj \
+    $(_OBJ_DIR)\ia64\rect.obj \
+    $(_OBJ_DIR)\ia64\support.obj \
+    $(_OBJ_DIR)\ia64\synch.obj \
+    $(_OBJ_DIR)\ia64\thread.obj \
+    $(_OBJ_DIR)\ia64\tls.obj \
+    $(_OBJ_DIR)\ia64\virtual.obj \
+    $(_OBJ_DIR)\ia64\widechar.obj \
+    $(_OBJ_DIR)\ia64\xapiheap.obj \
+    $(_OBJ_DIR)\ia64\xclndrv.obj \
+    $(_OBJ_DIR)\ia64\xemodule.obj \
+    $(_OBJ_DIR)\ia64\xpp.obj \
+    $(_OBJ_DIR)\ia64\xsaveapi.obj \
+    $(_OBJ_DIR)\ia64\xvalue.obj \
+    $(_OBJ_DIR)\ia64\xsndtrk.obj \
+    $(_OBJ_DIR)\ia64\xcalcsig.obj
+
+PASS0_IA64_OBJECTS=
+

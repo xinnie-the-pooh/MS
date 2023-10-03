@@ -1,0 +1,17 @@
+obj\i386\fatx.obj
+obj\i386\allocsup.obj
+obj\i386\cleanup.obj
+obj\i386\close.obj
+obj\i386\create.obj
+obj\i386\devctrl.obj
+obj\i386\dirctrl.obj
+obj\i386\driver.obj
+obj\i386\fatsup.obj
+obj\i386\fcbsup.obj
+obj\i386\fileinfo.obj
+obj\i386\flush.obj
+obj\i386\fsctrl.obj
+obj\i386\mountvol.obj
+obj\i386\readwrit.obj
+obj\i386\synch.obj
+obj\i386\volinfo.obj

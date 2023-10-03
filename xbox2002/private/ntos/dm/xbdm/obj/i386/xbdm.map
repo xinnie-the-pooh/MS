@@ -1,0 +1,1416 @@
+ xbdm
+
+ Timestamp is 3f68607e (Wed Sep 17 15:24:14 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000001f0H .idata$5                CODE
+ 0001:000001f0 00001f72H .rdata                  CODE
+ 0001:00002164 00000047H .rdata$debug            CODE
+ 0001:000021b0 0000fa5cH .text                   CODE
+ 0002:00000000 00009fbdH XNET                    CODE
+ 0002:00009fc0 0000018cH XNET_RD                 CODE
+ 0003:00000000 00000d38H .data                   DATA
+ 0003:00000d40 0000290cH .bss                    DATA
+ 0004:00000000 00000004H .tls$                   DATA
+ 0005:00000000 00000151H .edata                  DATA
+ 0006:00000000 00000014H .idata$2                CODE
+ 0006:00000014 00000014H .idata$3                CODE
+ 0006:00000028 000001f0H .idata$4                CODE
+ 0006:00000218 0000000eH .idata$6                CODE
+ 0007:00000000 00000010H .XBLD$A                 DATA
+ 0007:00000010 00000020H .XBLD$V                 DATA
+ 0008:00000000 00000058H .rsrc$01                DATA
+ 0008:00000060 00000320H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0001:00000000       __imp__ExSaveNonVolatileSetting@16 00400360     xboxkrnl:xboxkrnl.exe
+ 0001:00000004       __imp__MmCreateKernelStack@8 00400364     xboxkrnl:xboxkrnl.exe
+ 0001:00000008       __imp__RtlLeaveCriticalSection@4 00400368     xboxkrnl:xboxkrnl.exe
+ 0001:0000000c       __imp__NtReadFile@32       0040036c     xboxkrnl:xboxkrnl.exe
+ 0001:00000010       __imp__RtlEnterCriticalSection@4 00400370     xboxkrnl:xboxkrnl.exe
+ 0001:00000014       __imp__NtClose@4           00400374     xboxkrnl:xboxkrnl.exe
+ 0001:00000018       __imp__NtQueryDirectoryFile@40 00400378     xboxkrnl:xboxkrnl.exe
+ 0001:0000001c       __imp__NtWriteFile@32      0040037c     xboxkrnl:xboxkrnl.exe
+ 0001:00000020       __imp__MmDeleteKernelStack@8 00400380     xboxkrnl:xboxkrnl.exe
+ 0001:00000024       __imp_@ObfDereferenceObject@4 00400384     xboxkrnl:xboxkrnl.exe
+ 0001:00000028       __imp__DbgPrint            00400388     xboxkrnl:xboxkrnl.exe
+ 0001:0000002c       __imp__ObReferenceObjectByHandle@12 0040038c     xboxkrnl:xboxkrnl.exe
+ 0001:00000030       __imp__PsThreadObjectType  00400390     xboxkrnl:xboxkrnl.exe
+ 0001:00000030       _PsThreadObjectType        00400390     xboxkrnl:xboxkrnl.exe
+ 0001:00000034       __imp_@KfLowerIrql@4       00400394     xboxkrnl:xboxkrnl.exe
+ 0001:00000038       __imp__KeRaiseIrqlToDpcLevel@0 00400398     xboxkrnl:xboxkrnl.exe
+ 0001:0000003c       __imp__KeWaitForSingleObject@20 0040039c     xboxkrnl:xboxkrnl.exe
+ 0001:00000040       __imp__PsSetCreateThreadNotifyRoutine@4 004003a0     xboxkrnl:xboxkrnl.exe
+ 0001:00000044       __imp__HalRegisterShutdownNotification@8 004003a4     xboxkrnl:xboxkrnl.exe
+ 0001:00000048       __imp__RtlInitializeCriticalSection@4 004003a8     xboxkrnl:xboxkrnl.exe
+ 0001:0000004c       __imp__KeAlertThread@8     004003ac     xboxkrnl:xboxkrnl.exe
+ 0001:00000050       __imp__KeQuerySystemTime@4 004003b0     xboxkrnl:xboxkrnl.exe
+ 0001:00000054       __imp__KeSetEvent@12       004003b4     xboxkrnl:xboxkrnl.exe
+ 0001:00000058       __imp__KeSetBasePriorityThread@8 004003b8     xboxkrnl:xboxkrnl.exe
+ 0001:0000005c       __imp__PsCreateSystemThread@20 004003bc     xboxkrnl:xboxkrnl.exe
+ 0001:00000060       __imp_@ObfReferenceObject@4 004003c0     xboxkrnl:xboxkrnl.exe
+ 0001:00000064       _KdDebuggerEnabled         004003c4     xboxkrnl:xboxkrnl.exe
+ 0001:00000064       __imp__KdDebuggerEnabled   004003c4     xboxkrnl:xboxkrnl.exe
+ 0001:00000068       __imp__NtOpenFile@24       004003c8     xboxkrnl:xboxkrnl.exe
+ 0001:0000006c       __imp__RtlInitAnsiString@8 004003cc     xboxkrnl:xboxkrnl.exe
+ 0001:00000070       __imp__NtSetInformationFile@20 004003d0     xboxkrnl:xboxkrnl.exe
+ 0001:00000074       __imp__NtQueryInformationFile@20 004003d4     xboxkrnl:xboxkrnl.exe
+ 0001:00000078       __imp__NtQueryFullAttributesFile@8 004003d8     xboxkrnl:xboxkrnl.exe
+ 0001:0000007c       __imp__NtCreateFile@36     004003dc     xboxkrnl:xboxkrnl.exe
+ 0001:00000080       __imp__MmIsAddressValid@4  004003e0     xboxkrnl:xboxkrnl.exe
+ 0001:00000084       __imp__ExQueryNonVolatileSetting@20 004003e4     xboxkrnl:xboxkrnl.exe
+ 0001:00000088       __imp__NtSetSystemTime@8   004003e8     xboxkrnl:xboxkrnl.exe
+ 0001:0000008c       __imp__MmAllocateSystemMemory@8 004003ec     xboxkrnl:xboxkrnl.exe
+ 0001:00000090       __imp__MmFreeSystemMemory@8 004003f0     xboxkrnl:xboxkrnl.exe
+ 0001:00000094       __imp__NtQueryDirectoryObject@24 004003f4     xboxkrnl:xboxkrnl.exe
+ 0001:00000098       __imp__NtOpenDirectoryObject@8 004003f8     xboxkrnl:xboxkrnl.exe
+ 0001:0000009c       __imp__NtQueryVolumeInformationFile@20 004003fc     xboxkrnl:xboxkrnl.exe
+ 0001:000000a0       __imp__KeTickCount         00400400     xboxkrnl:xboxkrnl.exe
+ 0001:000000a0       _KeTickCount               00400400     xboxkrnl:xboxkrnl.exe
+ 0001:000000a4       __imp__XcModExp@20         00400404     xboxkrnl:xboxkrnl.exe
+ 0001:000000a8       __imp__HalReadWritePCISpace@24 00400408     xboxkrnl:xboxkrnl.exe
+ 0001:000000ac       __imp__MmQueryStatistics@4 0040040c     xboxkrnl:xboxkrnl.exe
+ 0001:000000b0       _MmGlobalData              00400410     xboxkrnl:xboxkrnl.exe
+ 0001:000000b0       __imp__MmGlobalData        00400410     xboxkrnl:xboxkrnl.exe
+ 0001:000000b4       __imp__IoSynchronousFsdRequest@20 00400414     xboxkrnl:xboxkrnl.exe
+ 0001:000000b8       __imp__ObReferenceObjectByName@20 00400418     xboxkrnl:xboxkrnl.exe
+ 0001:000000bc       __imp__IoDeviceObjectType  0040041c     xboxkrnl:xboxkrnl.exe
+ 0001:000000bc       _IoDeviceObjectType        0040041c     xboxkrnl:xboxkrnl.exe
+ 0001:000000c0       __imp__NtResumeThread@8    00400420     xboxkrnl:xboxkrnl.exe
+ 0001:000000c4       __imp__NtCreateDirectoryObject@8 00400424     xboxkrnl:xboxkrnl.exe
+ 0001:000000c8       __imp__ObOpenObjectByName@16 00400428     xboxkrnl:xboxkrnl.exe
+ 0001:000000cc       __imp__ObInsertObject@16   0040042c     xboxkrnl:xboxkrnl.exe
+ 0001:000000d0       __imp__ObCreateObject@16   00400430     xboxkrnl:xboxkrnl.exe
+ 0001:000000d4       __imp__ObMakeTemporaryObject@4 00400434     xboxkrnl:xboxkrnl.exe
+ 0001:000000d8       __imp__KeResetEvent@4      00400438     xboxkrnl:xboxkrnl.exe
+ 0001:000000dc       __imp_@KfRaiseIrql@4       0040043c     xboxkrnl:xboxkrnl.exe
+ 0001:000000e0       __imp__KeInsertQueueDpc@12 00400440     xboxkrnl:xboxkrnl.exe
+ 0001:000000e4       __imp_@HalRequestSoftwareInterrupt@4 00400444     xboxkrnl:xboxkrnl.exe
+ 0001:000000e8       __imp__KdDebuggerNotPresent 00400448     xboxkrnl:xboxkrnl.exe
+ 0001:000000e8       _KdDebuggerNotPresent      00400448     xboxkrnl:xboxkrnl.exe
+ 0001:000000ec       __imp__KeInitializeDpc@12  0040044c     xboxkrnl:xboxkrnl.exe
+ 0001:000000f0       __imp__MmDbgReleaseAddress@8 00400450     xboxkrnl:xboxkrnl.exe
+ 0001:000000f4       __imp__MmDbgWriteCheck@8   00400454     xboxkrnl:xboxkrnl.exe
+ 0001:000000f8       __imp__KeSuspendThread@4   00400458     xboxkrnl:xboxkrnl.exe
+ 0001:000000fc       __imp__KeResumeThread@4    0040045c     xboxkrnl:xboxkrnl.exe
+ 0001:00000100       __imp__KeBugCheck@4        00400460     xboxkrnl:xboxkrnl.exe
+ 0001:00000104       __imp__HalReturnToFirmware@4 00400464     xboxkrnl:xboxkrnl.exe
+ 0001:00000108       __imp__XeImageFileName     00400468     xboxkrnl:xboxkrnl.exe
+ 0001:00000108       _XeImageFileName           00400468     xboxkrnl:xboxkrnl.exe
+ 0001:0000010c       __imp__DbgLoadImageSymbols@12 0040046c     xboxkrnl:xboxkrnl.exe
+ 0001:00000110       __imp_@ExfInterlockedInsertTailList@8 00400470     xboxkrnl:xboxkrnl.exe
+ 0001:00000114       __imp__RtlAnsiStringToUnicodeString@12 00400474     xboxkrnl:xboxkrnl.exe
+ 0001:00000118       __imp__MmDbgFreeMemory@8   00400478     xboxkrnl:xboxkrnl.exe
+ 0001:0000011c       __imp__DbgUnLoadImageSymbols@12 0040047c     xboxkrnl:xboxkrnl.exe
+ 0001:00000120       __imp__RtlUnicodeStringToAnsiString@12 00400480     xboxkrnl:xboxkrnl.exe
+ 0001:00000124       __imp__ExFreePool@4        00400484     xboxkrnl:xboxkrnl.exe
+ 0001:00000128       __imp__ExAllocatePoolWithTag@8 00400488     xboxkrnl:xboxkrnl.exe
+ 0001:0000012c       __imp__ExAllocatePool@4    0040048c     xboxkrnl:xboxkrnl.exe
+ 0001:00000130       __imp__MmDbgAllocateMemory@8 00400490     xboxkrnl:xboxkrnl.exe
+ 0001:00000134       __imp__KeTimeIncrement     00400494     xboxkrnl:xboxkrnl.exe
+ 0001:00000134       _KeTimeIncrement           00400494     xboxkrnl:xboxkrnl.exe
+ 0001:00000138       __imp__KeSetTimerEx@20     00400498     xboxkrnl:xboxkrnl.exe
+ 0001:0000013c       __imp__KeInitializeTimerEx@8 0040049c     xboxkrnl:xboxkrnl.exe
+ 0001:00000140       __imp__ObOpenObjectByPointer@12 004004a0     xboxkrnl:xboxkrnl.exe
+ 0001:00000144       __imp__RtlFillMemoryUlong@12 004004a4     xboxkrnl:xboxkrnl.exe
+ 0001:00000148       __imp_@InterlockedPushEntrySList@8 004004a8     xboxkrnl:xboxkrnl.exe
+ 0001:0000014c       __imp__KeBugCheckEx@20     004004ac     xboxkrnl:xboxkrnl.exe
+ 0001:00000150       __imp_@InterlockedPopEntrySList@4 004004b0     xboxkrnl:xboxkrnl.exe
+ 0001:00000154       __imp__RtlNtStatusToDosError@4 004004b4     xboxkrnl:xboxkrnl.exe
+ 0001:00000158       __imp__KeDelayExecutionThread@12 004004b8     xboxkrnl:xboxkrnl.exe
+ 0001:0000015c       __imp__PsTerminateSystemThread@4 004004bc     xboxkrnl:xboxkrnl.exe
+ 0001:00000160       __imp__PsCreateSystemThreadEx@40 004004c0     xboxkrnl:xboxkrnl.exe
+ 0001:00000164       __imp__KeStallExecutionProcessor@4 004004c4     xboxkrnl:xboxkrnl.exe
+ 0001:00000168       __imp__MmUnmapIoSpace@8    004004c8     xboxkrnl:xboxkrnl.exe
+ 0001:0000016c       __imp__MmMapIoSpace@12     004004cc     xboxkrnl:xboxkrnl.exe
+ 0001:00000170       __imp__ExEventObjectType   004004d0     xboxkrnl:xboxkrnl.exe
+ 0001:00000170       _ExEventObjectType         004004d0     xboxkrnl:xboxkrnl.exe
+ 0001:00000174       __imp__KeWaitForMultipleObjects@32 004004d4     xboxkrnl:xboxkrnl.exe
+ 0001:00000178       __imp__PhyGetLinkState@4   004004d8     xboxkrnl:xboxkrnl.exe
+ 0001:0000017c       __imp__PhyInitialize@8     004004dc     xboxkrnl:xboxkrnl.exe
+ 0001:00000180       __imp__XcRC4Crypt@12       004004e0     xboxkrnl:xboxkrnl.exe
+ 0001:00000184       __imp__XcRC4Key@12         004004e4     xboxkrnl:xboxkrnl.exe
+ 0001:00000188       __imp__XcSHAFinal@8        004004e8     xboxkrnl:xboxkrnl.exe
+ 0001:0000018c       __imp__XcSHAUpdate@12      004004ec     xboxkrnl:xboxkrnl.exe
+ 0001:00000190       __imp__XcSHAInit@4         004004f0     xboxkrnl:xboxkrnl.exe
+ 0001:00000194       __imp__KeRemoveQueueDpc@4  004004f4     xboxkrnl:xboxkrnl.exe
+ 0001:00000198       __imp__KeCancelTimer@4     004004f8     xboxkrnl:xboxkrnl.exe
+ 0001:0000019c       __imp__HalDiskSerialNumber 004004fc     xboxkrnl:xboxkrnl.exe
+ 0001:0000019c       _HalDiskSerialNumber       004004fc     xboxkrnl:xboxkrnl.exe
+ 0001:000001a0       _HalDiskModelNumber        00400500     xboxkrnl:xboxkrnl.exe
+ 0001:000001a0       __imp__HalDiskModelNumber  00400500     xboxkrnl:xboxkrnl.exe
+ 0001:000001a4       __imp__XcBlockCryptCBC@28  00400504     xboxkrnl:xboxkrnl.exe
+ 0001:000001a8       __imp__XcKeyTable@12       00400508     xboxkrnl:xboxkrnl.exe
+ 0001:000001ac       __imp__XcDESKeyParity@8    0040050c     xboxkrnl:xboxkrnl.exe
+ 0001:000001b0       __imp__XcHMAC@28           00400510     xboxkrnl:xboxkrnl.exe
+ 0001:000001b4       __imp__MmAllocateContiguousMemoryEx@20 00400514     xboxkrnl:xboxkrnl.exe
+ 0001:000001b8       __imp__MmFreeContiguousMemory@4 00400518     xboxkrnl:xboxkrnl.exe
+ 0001:000001bc       __imp__MmLockUnlockBufferPages@12 0040051c     xboxkrnl:xboxkrnl.exe
+ 0001:000001c0       __imp__MmGetPhysicalAddress@4 00400520     xboxkrnl:xboxkrnl.exe
+ 0001:000001c4       __imp__KeDisconnectInterrupt@4 00400524     xboxkrnl:xboxkrnl.exe
+ 0001:000001c8       __imp__KeConnectInterrupt@4 00400528     xboxkrnl:xboxkrnl.exe
+ 0001:000001cc       __imp__KeInitializeInterrupt@28 0040052c     xboxkrnl:xboxkrnl.exe
+ 0001:000001d0       __imp__HalGetInterruptVector@8 00400530     xboxkrnl:xboxkrnl.exe
+ 0001:000001d4       __imp__MmPersistContiguousMemory@12 00400534     xboxkrnl:xboxkrnl.exe
+ 0001:000001d8       __imp__MmAllocateContiguousMemory@4 00400538     xboxkrnl:xboxkrnl.exe
+ 0001:000001dc       __imp__LaunchDataPage      0040053c     xboxkrnl:xboxkrnl.exe
+ 0001:000001dc       _LaunchDataPage            0040053c     xboxkrnl:xboxkrnl.exe
+ 0001:000001e0       __imp__NtFsControlFile@40  00400540     xboxkrnl:xboxkrnl.exe
+ 0001:000001e4       __imp__NtDeviceIoControlFile@40 00400544     xboxkrnl:xboxkrnl.exe
+ 0001:000001e8       __imp__RtlUnwind@16        00400548     xboxkrnl:xboxkrnl.exe
+ 0001:000001ec       \177xboxkrnl_NULL_THUNK_DATA 0040054c     xboxkrnl:xboxkrnl.exe
+ 0001:0000020c       ??_C@_04HLBMEOMD@addr?$AA@ 0040056c     dminit.obj
+ 0001:00000214       ??_C@_08JADIEHCF@staticip?$AA@ 00400574     dminit.obj
+ 0001:00000220       ??_C@_08LBEDNJME@notifyat?$AA@ 00400580     dminit.obj
+ 0001:0000022c       ??_C@_06LIGDCBBN@notify?$AA@ 0040058c     dminit.obj
+ 0001:00000234       ??_C@_04PEGFANN@stop?$AA@  00400594     dminit.obj
+ 0001:0000023c       ??_C@_07PLNOAMKO@forever?$AA@ 0040059c     dminit.obj
+ 0001:00000244       ??_C@_04PNOAOIAG@wait?$AA@ 004005a4     dminit.obj
+ 0001:0000024c       ??_C@_08LKAPKLCD@?$CFs?2?$CF?$CK?4?$CKs?$AA@ 004005ac     dminit.obj
+ 0001:00000258       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 004005b8     dminit.obj
+ 0001:0000025c       ??_C@_0BF@ENMDJCFG@staticip?5addr?$DN0x?$CF08x?$AA@ 004005bc     dminit.obj
+ 0001:00000274       ??_C@_0O@DEFJBBCE@dbgname?5name?$DN?$AA@ 004005d4     dminit.obj
+ 0001:00000284       ??_C@_0N@LDDCMAAC@wait?5forever?$AA@ 004005e4     dminit.obj
+ 0001:00000294       ??_C@_09KFEMIOCO@wait?5stop?$AA@ 004005f4     dminit.obj
+ 0001:000002a0       ??_C@_06LMJMCNHD@?$FLxbdm?$FN?$AA@ 00400600     dminit.obj
+ 0001:000002a8       ??_C@_0BO@DBMCNND@dm?3?5could?5not?5get?5new?5thread?6?$AA@ 00400608     dminit.obj
+ 0001:000002c8       ??_C@_0CB@CCMKOGFJ@dm?3?5could?5not?5alloc?5thread?5data?6@ 00400628     dminit.obj
+ 0001:000002ec       ??_C@_0CF@PBEGCFCL@dm?3?5waiting?5for?5debugger?5connect@ 0040064c     dminit.obj
+ 0001:00000314       ??_C@_07GDJNMEFM@xtlinfo?$AA@ 00400674     dmserv.obj
+ 0001:0000031c       ??_C@_07EAJMDMGA@xbeinfo?$AA@ 0040067c     dmserv.obj
+ 0001:00000324       ??_C@_06GDDMHIDB@vssnap?$AA@ 00400684     dmserv.obj
+ 0001:0000032c       ??_C@_08BJHBHMAO@userlist?$AA@ 0040068c     dmserv.obj
+ 0001:00000338       ??_C@_04CCHAHKJA@user?$AA@ 00400698     dmserv.obj
+ 0001:00000340       ??_C@_05PHLGJONK@title?$AA@ 004006a0     dmserv.obj
+ 0001:00000348       ??_C@_07NFPADACG@threads?$AA@ 004006a8     dmserv.obj
+ 0001:00000350       ??_C@_0L@BKNDBIB@threadinfo?$AA@ 004006b0     dmserv.obj
+ 0001:0000035c       ??_C@_07FOLNGFGF@systime?$AA@ 004006bc     dmserv.obj
+ 0001:00000364       ??_C@_0L@BPAFCKOI@sysfileupd?$AA@ 004006c4     dmserv.obj
+ 0001:00000370       ??_C@_07DNBGJJHB@suspend?$AA@ 004006d0     dmserv.obj
+ 0001:00000378       ??_C@_06OHAICPNE@stopon?$AA@ 004006d8     dmserv.obj
+ 0001:00000380       ??_C@_0M@INHAMGK@setuserpriv?$AA@ 004006e0     dmserv.obj
+ 0001:0000038c       ??_C@_0L@KNFJGCPP@setsystime?$AA@ 004006ec     dmserv.obj
+ 0001:00000398       ??_C@_06LMHLABCO@setmem?$AA@ 004006f8     dmserv.obj
+ 0001:000003a0       ??_C@_0BC@LIFABAIC@setfileattributes?$AA@ 00400700     dmserv.obj
+ 0001:000003b4       ??_C@_0L@GJEGBGFG@setcontext?$AA@ 00400714     dmserv.obj
+ 0001:000003c0       ??_C@_09CJOMHFFI@setconfig?$AA@ 00400720     dmserv.obj
+ 0001:000003cc       ??_C@_08JCEFHKI@sendfile?$AA@ 0040072c     dmserv.obj
+ 0001:000003d8       ??_C@_0L@CMHOPIGK@screenshot?$AA@ 00400738     dmserv.obj
+ 0001:000003e4       ??_C@_06PLELHCEK@resume?$AA@ 00400744     dmserv.obj
+ 0001:000003ec       ??_C@_06LMEAOBLB@rename?$AA@ 0040074c     dmserv.obj
+ 0001:000003f4       ??_C@_06MJDCIMPN@reboot?$AA@ 00400754     dmserv.obj
+ 0001:000003fc       ??_C@_07JDEKNMHA@querypc?$AA@ 0040075c     dmserv.obj
+ 0001:00000404       ??_C@_06OMENAL@pssnap?$AA@ 00400764     dmserv.obj
+ 0001:0000040c       ??_C@_06HJDMFGA@pclist?$AA@ 0040076c     dmserv.obj
+ 0001:00000414       ??_C@_08BAHAMCF@nostopon?$AA@ 00400774     dmserv.obj
+ 0001:00000420       ??_C@_07DFGEOAEG@modules?$AA@ 00400780     dmserv.obj
+ 0001:00000428       ??_C@_0M@ODADOEJE@modsections?$AA@ 00400788     dmserv.obj
+ 0001:00000434       ??_C@_07GINKICOP@modlong?$AA@ 00400794     dmserv.obj
+ 0001:0000043c       ??_C@_08MEADNPCK@mmglobal?$AA@ 0040079c     dmserv.obj
+ 0001:00000448       ??_C@_05PKPOIPAL@mkdir?$AA@ 004007a8     dmserv.obj
+ 0001:00000450       ??_C@_09LBHLKDFJ@magicboot?$AA@ 004007b0     dmserv.obj
+ 0001:0000045c       ??_C@_08CHLECKKA@lockmode?$AA@ 004007bc     dmserv.obj
+ 0001:00000468       ??_C@_07GOLGDHCL@keyxchg?$AA@ 004007c8     dmserv.obj
+ 0001:00000470       ??_C@_02EFKNKMIP@kd?$AA@   004007d0     dmserv.obj
+ 0001:00000474       ??_C@_09OGJDHPNM@isstopped?$AA@ 004007d4     dmserv.obj
+ 0001:00000480       ??_C@_07INDDFIAE@isbreak?$AA@ 004007e0     dmserv.obj
+ 0001:00000488       ??_C@_08LEPLIKMH@irtsweep?$AA@ 004007e8     dmserv.obj
+ 0001:00000494       ??_C@_04BJJLCKLO@halt?$AA@ 004007f4     dmserv.obj
+ 0001:0000049c       ??_C@_08PDANPODO@gpucount?$AA@ 004007fc     dmserv.obj
+ 0001:000004a8       ??_C@_02KPEDIMCA@go?$AA@   00400808     dmserv.obj
+ 0001:000004ac       ??_C@_0M@HMJNKOJ@getuserpriv?$AA@ 0040080c     dmserv.obj
+ 0001:000004b8       ??_C@_06CPOKLJPD@getmem?$AA@ 00400818     dmserv.obj
+ 0001:000004c0       ??_C@_0BC@JNFLJLJM@getfileattributes?$AA@ 00400820     dmserv.obj
+ 0001:000004d4       ??_C@_07NFDCGD@getfile?$AA@ 00400834     dmserv.obj
+ 0001:000004dc       ??_C@_0O@JKOJCMIC@getextcontext?$AA@ 0040083c     dmserv.obj
+ 0001:000004ec       ??_C@_0L@HHGJKBBP@getcontext?$AA@ 0040084c     dmserv.obj
+ 0001:000004f8       ??_C@_08FCFLENND@funccall?$AA@ 00400858     dmserv.obj
+ 0001:00000504       ??_C@_06COMGLGOP@fmtfat?$AA@ 00400864     dmserv.obj
+ 0001:0000050c       ??_C@_05LEFLIPJH@flash?$AA@ 0040086c     dmserv.obj
+ 0001:00000514       ??_C@_06PKEIMIIG@dvdblk?$AA@ 00400874     dmserv.obj
+ 0001:0000051c       ??_C@_09FABFAIG@drivelist?$AA@ 0040087c     dmserv.obj
+ 0001:00000528       ??_C@_0P@GODBNCAM@drivefreespace?$AA@ 00400888     dmserv.obj
+ 0001:00000538       ??_C@_07JBLAGDBF@dirlist?$AA@ 00400898     dmserv.obj
+ 0001:00000540       ??_C@_06FOBLBEIN@delete?$AA@ 004008a0     dmserv.obj
+ 0001:00000548       ??_C@_08NBJPCMHP@deftitle?$AA@ 004008a8     dmserv.obj
+ 0001:00000554       ??_C@_08MGAKGBNH@dedicate?$AA@ 004008b4     dmserv.obj
+ 0001:00000560       ??_C@_09LOFBDIHH@debugmode?$AA@ 004008c0     dmserv.obj
+ 0001:0000056c       ??_C@_08BJECCCMA@debugger?$AA@ 004008cc     dmserv.obj
+ 0001:00000578       ??_C@_07DKLJHCCC@dbgname?$AA@ 004008d8     dmserv.obj
+ 0001:00000580       ??_C@_08DLICDMBN@continue?$AA@ 004008e0     dmserv.obj
+ 0001:0000058c       ??_C@_0L@MFALGBGB@capcontrol?$AA@ 004008ec     dmserv.obj
+ 0001:00000598       ??_C@_03MDONDFG@bye?$AA@   004008f8     dmserv.obj
+ 0001:0000059c       ??_C@_05ELPHFHOI@break?$AA@ 004008fc     dmserv.obj
+ 0001:000005a4       ??_C@_05PIHPMGOO@boxid?$AA@ 00400904     dmserv.obj
+ 0001:000005ac       ??_C@_08FBHDOKDP@authuser?$AA@ 0040090c     dmserv.obj
+ 0001:000005b8       ??_C@_07BIPIKPNE@altaddr?$AA@ 00400918     dmserv.obj
+ 0001:000005c0       ??_C@_07DGFLOGKM@adminpw?$AA@ 00400920     dmserv.obj
+ 0001:000005c8       ??_C@_0M@CGENBBIN@Cr0NpxState?$AA@ 00400928     dmserv.obj
+ 0001:000005d4       ??_C@_03JAPJIOAL@Esi?$AA@  00400934     dmserv.obj
+ 0001:000005d8       ??_C@_03IJJADLPO@Edi?$AA@  00400938     dmserv.obj
+ 0001:000005dc       ??_C@_03NKEJBIOO@Edx?$AA@  0040093c     dmserv.obj
+ 0001:000005e0       ??_C@_03NPAGAOGL@Ecx?$AA@  00400940     dmserv.obj
+ 0001:000005e4       ??_C@_03NOMEGEFM@Ebx?$AA@  00400944     dmserv.obj
+ 0001:000005e8       ??_C@_03NMICNKAF@Eax?$AA@  00400948     dmserv.obj
+ 0001:000005ec       ??_C@_06DLHDGOJE@EFlags?$AA@ 0040094c     dmserv.obj
+ 0001:000005f4       ??_C@_03BKEIABLF@Eip?$AA@  00400954     dmserv.obj
+ 0001:000005f8       ??_C@_03LPJCHBD@Esp?$AA@   00400958     dmserv.obj
+ 0001:000005fc       ??_C@_03BGBNOOFE@Ebp?$AA@  0040095c     dmserv.obj
+ 0001:00000600       _rgchHex                   00400960     dmserv.obj
+ 0001:00000614       ??_C@_0L@FEFPBOLE@missing?5?$CFs?$AA@ 00400974     dmserv.obj
+ 0001:00000620       ??_C@_0BO@BEGMHLED@dedicated?5connection?5required?$AA@ 00400980     dmserv.obj
+ 0001:00000640       ??_C@_02GIPFHKNO@OK?$AA@   004009a0     dmserv.obj
+ 0001:00000644       ??_C@_0BL@JOELFKAM@multiline?5response?5follows?$AA@ 004009a4     dmserv.obj
+ 0001:00000660       ??_C@_0BI@BLHJFM@binary?5response?5follows?$AA@ 004009c0     dmserv.obj
+ 0001:00000678       ??_C@_0BB@PALNPLNJ@send?5binary?5data?$AA@ 004009d8     dmserv.obj
+ 0001:00000689       ??_C@_00CNPNBAHC@?$AA@     004009e9     dmserv.obj
+ 0001:0000068c       ??_C@_0BG@OMIDBPHK@key?5exchange?5required?$AA@ 004009ec     dmserv.obj
+ 0001:000006a4       ??_C@_0O@NHKHFJHK@access?5denied?$AA@ 00400a04     dmserv.obj
+ 0001:000006b4       ??_C@_0BC@KBHHJOIK@no?5room?5on?5device?$AA@ 00400a14     dmserv.obj
+ 0001:000006c8       ??_C@_0P@EJGIMKLJ@not?5debuggable?$AA@ 00400a28     dmserv.obj
+ 0001:000006d8       ??_C@_0N@CCFLCBNA@type?5invalid?$AA@ 00400a38     dmserv.obj
+ 0001:000006e8       ??_C@_0BD@MEDAILKF@data?5not?5available?$AA@ 00400a48     dmserv.obj
+ 0001:000006fc       ??_C@_0BC@GIFDANAM@box?5is?5not?5locked?$AA@ 00400a5c     dmserv.obj
+ 0001:00000710       ??_C@_0BH@MFDCHBCM@file?5cannot?5be?5created?$AA@ 00400a70     dmserv.obj
+ 0001:00000728       ??_C@_0BA@NINGALLD@unknown?5command?$AA@ 00400a88     dmserv.obj
+ 0001:00000738       ??_C@_0M@OFAMHLMG@not?5stopped?$AA@ 00400a98     dmserv.obj
+ 0001:00000744       ??_C@_0BE@HKILNGAG@file?5must?5be?5copied?$AA@ 00400aa4     dmserv.obj
+ 0001:00000758       ??_C@_0BE@NKKNMLBF@file?5already?5exists?$AA@ 00400ab8     dmserv.obj
+ 0001:0000076c       ??_C@_0BE@JIDOCPHM@directory?5not?5empty?$AA@ 00400acc     dmserv.obj
+ 0001:00000780       ??_C@_0BE@KOACJCFI@filename?5is?5invalid?$AA@ 00400ae0     dmserv.obj
+ 0001:00000794       ??_C@_0P@CNAEEAKN@no?5such?5thread?$AA@ 00400af4     dmserv.obj
+ 0001:000007a4       ??_C@_0BB@OCKADCMD@unexpected?5error?$AA@ 00400b04     dmserv.obj
+ 0001:000007b8       ??_C@_0O@BNNCBLEN@out?5of?5memory?$AA@ 00400b18     dmserv.obj
+ 0001:000007c8       ??_C@_0O@BBEPBGMJ@bad?5parameter?$AA@ 00400b28     dmserv.obj
+ 0001:000007d8       ??_C@_0P@LJOCCCLG@file?5not?5found?$AA@ 00400b38     dmserv.obj
+ 0001:000007e8       ??_C@_0P@GMDNDOKH@no?5such?5module?$AA@ 00400b48     dmserv.obj
+ 0001:000007f8       ??_C@_0BC@IBPNBLPK@memory?5not?5mapped?$AA@ 00400b58     dmserv.obj
+ 0001:0000080c       ??_C@_01LFCBOECM@?4?$AA@   00400b6c     dmserv.obj
+ 0001:00000810       ??_C@_0BD@ILJNLONI@406?9?5line?5too?5long?$AA@ 00400b70     dmserv.obj
+ 0001:00000824       ??_C@_0P@LHKPLOGH@201?9?5connected?$AA@ 00400b84     dmserv.obj
+ 0001:00000834       ??_C@_0CH@NCFCMBID@201?9?5boxid?$DN0q?$CF08x?$CF08x?5nonce?$DN0q?$CF0@ 00400b94     dmserv.obj
+ 0001:0000085c       ??_C@_0CI@OLPEBHIE@401?9?5max?5number?5of?5connections?5e@ 00400bbc     dmserv.obj
+ 0001:00000884       ??_C@_08JMOJDPHD@200?9?5bye?$AA@ 00400be4     dmserv.obj
+ 0001:00000890       ??_C@_04MEMAJGDJ@name?$AA@ 00400bf0     dmserv.obj
+ 0001:00000898       ??_C@_07DBNODEFN@disable?$AA@ 00400bf8     dmserv.obj
+ 0001:000008a0       ??_C@_06OFNJOBDK@enable?$AA@ 00400c00     dmserv.obj
+ 0001:000008a8       ??_C@_0BB@HDACDACL@improper?5command?$AA@ 00400c08     dmserv.obj
+ 0001:000008bc       ??_C@_08PLPOIGIE@exceptif?$AA@ 00400c1c     dmserv.obj
+ 0001:000008c8       ??_C@_06JBKEBCGB@except?$AA@ 00400c28     dmserv.obj
+ 0001:000008d0       ??_C@_0M@HPDGKBHD@kd?5disabled?$AA@ 00400c30     dmserv.obj
+ 0001:000008dc       ??_C@_0L@OANFPHKA@kd?5enabled?$AA@ 00400c3c     dmserv.obj
+ 0001:000008e8       ??_C@_0BM@OBNGNCAI@notification?5limit?5exceeded?$AA@ 00400c48     dmserv.obj
+ 0001:00000904       ??_C@_0N@JKMPLLJB@createthread?$AA@ 00400c64     dmserv.obj
+ 0001:00000914       ??_C@_08NLNNCLEP@debugstr?$AA@ 00400c74     dmserv.obj
+ 0001:00000920       ??_C@_03JCONGCKH@fce?$AA@  00400c80     dmserv.obj
+ 0001:00000924       ??_C@_0N@KNAHKBFB@stop?5on?5none?$AA@ 00400c84     dmserv.obj
+ 0001:00000934       ??_C@_0M@DFOCEODA@stop?5on?5all?$AA@ 00400c94     dmserv.obj
+ 0001:00000940       ??_C@_03NFKEKGGK@all?$AA@  00400ca0     dmserv.obj
+ 0001:00000944       ??_C@_0BA@FOBGILMN@already?5stopped?$AA@ 00400ca4     dmserv.obj
+ 0001:00000954       ??_C@_0M@KCKKNKEF@default?4xbe?$AA@ 00400cb4     dmserv.obj
+ 0001:00000960       ??_C@_06IJDLPEM@length?$AA@ 00400cc0     dmserv.obj
+ 0001:00000968       ??_C@_0N@PHBADDFN@missing?5name?$AA@ 00400cc8     dmserv.obj
+ 0001:00000978       ??_C@_0BA@MFBJLJNL@file?5is?5too?5big?$AA@ 00400cd8     dmserv.obj
+ 0001:00000988       ??_C@_0FO@FGLICPJN@sizehi?$DN0x?$CFx?5sizelo?$DN0x?$CFx?5createhi@ 00400ce8     dmserv.obj
+ 0001:000009e8       ??_C@_0L@EFCMAFLB@?5directory?$AA@ 00400d48     dmserv.obj
+ 0001:000009f4       ??_C@_09NEHJELJP@?5readonly?$AA@ 00400d54     dmserv.obj
+ 0001:00000a00       ??_C@_07JJJNOAOL@?5hidden?$AA@ 00400d60     dmserv.obj
+ 0001:00000a08       ??_C@_08OEGLCNAF@changelo?$AA@ 00400d68     dmserv.obj
+ 0001:00000a14       ??_C@_08LFDICCFP@changehi?$AA@ 00400d74     dmserv.obj
+ 0001:00000a20       ??_C@_08CLEJHLHC@createlo?$AA@ 00400d80     dmserv.obj
+ 0001:00000a2c       ??_C@_08HKBKHECI@createhi?$AA@ 00400d8c     dmserv.obj
+ 0001:00000a38       ??_C@_06JIKFICKK@hidden?$AA@ 00400d98     dmserv.obj
+ 0001:00000a40       ??_C@_08JOKHDEJH@readonly?$AA@ 00400da0     dmserv.obj
+ 0001:00000a4c       ??_C@_0BI@NICIBCIC@new?5name?5does?5not?5exist?$AA@ 00400dac     dmserv.obj
+ 0001:00000a64       ??_C@_0BB@JDDNDBCG@missing?5new?5name?$AA@ 00400dc4     dmserv.obj
+ 0001:00000a78       ??_C@_07GNAIFCPP@newname?$AA@ 00400dd8     dmserv.obj
+ 0001:00000a80       ??_C@_0P@FLLDBIDK@is?5a?5directory?$AA@ 00400de0     dmserv.obj
+ 0001:00000a90       ??_C@_0BA@DOCPFFJG@not?5a?5directory?$AA@ 00400df0     dmserv.obj
+ 0001:00000aa0       ??_C@_03DAPAKLGM@dir?$AA@  00400e00     dmserv.obj
+ 0001:00000aa4       ??_C@_06JMOJEPOI@name?$DN?$CC?$AA@ 00400e04     dmserv.obj
+ 0001:00000aac       ??_C@_0BB@FHEJDJHB@unable?5to?5format?$AA@ 00400e0c     dmserv.obj
+ 0001:00000ac0       ??_C@_0BO@HNBKKHNC@?2Device?2Harddisk0?2Partition?$CFd?$AA@ 00400e20     dmserv.obj
+ 0001:00000ae0       ??_C@_09IKAEIPAD@partition?$AA@ 00400e40     dmserv.obj
+ 0001:00000aec       ??_C@_07PNJCLMKK@cmdline?$AA@ 00400e4c     dmserv.obj
+ 0001:00000af4       ??_C@_0M@ODEICKAB@missing?5dir?$AA@ 00400e54     dmserv.obj
+ 0001:00000b00       ??_C@_08EAFLGIKM@launcher?$AA@ 00400e60     dmserv.obj
+ 0001:00000b0c       ??_C@_04CGFJFPFD@none?$AA@ 00400e6c     dmserv.obj
+ 0001:00000b14       ??_C@_0BE@IJAHOKJO@memory?5data?5follows?$AA@ 00400e74     dmserv.obj
+ 0001:00000b28       ??_C@_0BK@NEHGJNBJ@400?9?5syntax?5error?5in?5data?$AA@ 00400e88     dmserv.obj
+ 0001:00000b44       ??_C@_0N@KDFPIGF@set?5?$CFd?5bytes?$AA@ 00400ea4     dmserv.obj
+ 0001:00000b54       ??_C@_04PJOLNDGD@data?$AA@ 00400eb4     dmserv.obj
+ 0001:00000b5c       ??_C@_04HGIPLDBL@?$CFd?$AN?6?$AA@ 00400ebc     dmserv.obj
+ 0001:00000b64       ??_C@_0BE@IPJGIGMK@thread?5list?5follows?$AA@ 00400ec4     dmserv.obj
+ 0001:00000b78       ??_C@_06FJHNOCKE@thread?$AA@ 00400ed8     dmserv.obj
+ 0001:00000b80       ??_C@_09BOIBMEBJ@exception?$AA@ 00400ee0     dmserv.obj
+ 0001:00000b8c       ??_C@_0M@DOBDBOIP@?$CFs?$DN0x?$CF04x?$AN?6?$AA@ 00400eec     dmserv.obj
+ 0001:00000b98       ??_C@_0M@PLODPDIO@?$CFs?$DN0x?$CF08x?$AN?6?$AA@ 00400ef8     dmserv.obj
+ 0001:00000ba4       ??_C@_02GDNLOIIJ@fp?$AA@   00400f04     dmserv.obj
+ 0001:00000ba8       ??_C@_04PLMLMMEO@full?$AA@ 00400f08     dmserv.obj
+ 0001:00000bb0       ??_C@_03JBIPMCLC@int?$AA@  00400f10     dmserv.obj
+ 0001:00000bb4       ??_C@_07MMBOFDEG@control?$AA@ 00400f14     dmserv.obj
+ 0001:00000bbc       ??_C@_03MDPCKCMI@ext?$AA@  00400f1c     dmserv.obj
+ 0001:00000bc0       ??_C@_0BG@FGCHAFAF@name?$DN?$CC?$CFs?$CC?5type?$DN0x?$CF08x?$AA@ 00400f20     dmserv.obj
+ 0001:00000bd8       ??_C@_0EC@HDCCDNDL@type?$DN0x?$CF08x?5vallo?$DN0x?$CF08x?5valhi?$DN0@ 00400f38     dmserv.obj
+ 0001:00000c1c       ??_C@_0BF@ILBKCDME@counter?5data?5follows?$AA@ 00400f7c     dmserv.obj
+ 0001:00000c34       ??_C@_04GPMDFGEJ@type?$AA@ 00400f94     dmserv.obj
+ 0001:00000c3c       ??_C@_04IAGNFIBA@size?$AA@ 00400f9c     dmserv.obj
+ 0001:00000c44       ??_C@_07EMGJIMLB@execute?$AA@ 00400fa4     dmserv.obj
+ 0001:00000c4c       ??_C@_05NGFEDHGN@write?$AA@ 00400fac     dmserv.obj
+ 0001:00000c54       ??_C@_04POLDLDMI@read?$AA@ 00400fb4     dmserv.obj
+ 0001:00000c5c       ??_C@_05MEHLAELG@clear?$AA@ 00400fbc     dmserv.obj
+ 0001:00000c64       ??_C@_08GJHHGJFP@clearall?$AA@ 00400fc4     dmserv.obj
+ 0001:00000c70       ??_C@_0BG@NJCKFLII@execution?5not?5pending?$AA@ 00400fd0     dmserv.obj
+ 0001:00000c88       ??_C@_05FAGFPHJG@start?$AA@ 00400fe8     dmserv.obj
+ 0001:00000c90       ??_C@_03CGLHMDPP@now?$AA@  00400ff0     dmserv.obj
+ 0001:00000c94       ??_C@_07KMJBNFCM@type?$DN?$CFd?$AA@ 00400ff4     dmserv.obj
+ 0001:00000c9c       ??_C@_0BA@OKMLEEBI@setvalue?5failed?$AA@ 00400ffc     dmserv.obj
+ 0001:00000cac       ??_C@_05MFEJDJP@value?$AA@ 0040100c     dmserv.obj
+ 0001:00000cb4       ??_C@_05FKHKFDID@index?$AA@ 00401014     dmserv.obj
+ 0001:00000cbc       ??_C@_0BI@PIHPAMOP@debugstr?5thread?$DN?$CFd?5stop?$AA@ 0040101c     dmserv.obj
+ 0001:00000cd4       ??_C@_0BN@NOBFDBFB@assert?5prompt?5thread?$DN?$CFd?5stop?$AA@ 00401034     dmserv.obj
+ 0001:00000cf4       ??_C@_07IEOHBIGJ@stopped?$AA@ 00401054     dmserv.obj
+ 0001:00000cfc       ??_C@_0CG@NJBHOOCD@suspend?$DN?$CFd?5priority?$DN?$CFd?5tlsbase?$DN0@ 0040105c     dmserv.obj
+ 0001:00000d24       ??_C@_0BE@OGMOMOMA@thread?5info?5follows?$AA@ 00401084     dmserv.obj
+ 0001:00000d38       ??_C@_0P@HGGDCDFM@lasterr?$DN0x?$CF08x?$AA@ 00401098     dmserv.obj
+ 0001:00000d48       ??_C@_0BB@FJFCHJID@xtl?5info?5follows?$AA@ 004010a8     dmserv.obj
+ 0001:00000d5c       ??_C@_0BH@GNNNFKOA@no?5long?5name?5available?$AA@ 004010bc     dmserv.obj
+ 0001:00000d74       ??_C@_0BB@HDAEGOHB@timestamp?$DN0x?$CF08x?$AA@ 004010d4     dmserv.obj
+ 0001:00000d88       ??_C@_0BA@NDDPPEOF@checksum?$DN0x?$CF08x?$AA@ 004010e8     dmserv.obj
+ 0001:00000d98       ??_C@_05DFCJAACA@name?$DN?$AA@ 004010f8     dmserv.obj
+ 0001:00000da0       ??_C@_07PANPENDC@running?$AA@ 00401100     dmserv.obj
+ 0001:00000da8       ??_C@_0L@CNHMCLA@no?5command?$AA@ 00401108     dmserv.obj
+ 0001:00000db4       ??_C@_0L@KKPFIJOL@disconnect?$AA@ 00401114     dmserv.obj
+ 0001:00000dc0       ??_C@_07KAIBNCHO@connect?$AA@ 00401120     dmserv.obj
+ 0001:00000dc8       ??_C@_0BD@EFOMABGG@high?$DN0x?$CFx?5low?$DN0x?$CFx?$AA@ 00401128     dmserv.obj
+ 0001:00000ddc       ??_C@_0M@LEMHMAEF@addr?$DN0x?$CF08x?$AA@ 0040113c     dmserv.obj
+ 0001:00000de8       ??_C@_03LMPCJCAN@PDT?$AA@  00401148     dmserv.obj
+ 0001:00000dec       ??_C@_03KFJLCHPI@PST?$AA@  0040114c     dmserv.obj
+ 0001:00000df0       ??_C@_02IGJGHHBN@tz?$AA@   00401150     dmserv.obj
+ 0001:00000df4       ??_C@_07OABACEGD@clocklo?$AA@ 00401154     dmserv.obj
+ 0001:00000dfc       ??_C@_07LBEDCLDJ@clockhi?$AA@ 0040115c     dmserv.obj
+ 0001:00000e04       ??_C@_07JFMHDDB@nodebug?$AA@ 00401164     dmserv.obj
+ 0001:00000e0c       ??_C@_04HGJDANIP@warm?$AA@ 0040116c     dmserv.obj
+ 0001:00000e14       ??_C@_07EMONB@200?9?5OK?$AA@ 00401174     dmserv.obj
+ 0001:00000e1c       ??_C@_05GFCDIDHO@debug?$AA@ 0040117c     dmserv.obj
+ 0001:00000e24       ??_C@_0O@LNFKOLDO@missing?5title?$AA@ 00401184     dmserv.obj
+ 0001:00000e34       ??_C@_0P@MKJMMOJE@E?3?2xboxcap?4dat?$AA@ 00401194     dmserv.obj
+ 0001:00000e44       ??_C@_0BE@BLPHLHLO@error?5status?50x?$CF08x?$AA@ 004011a4     dmserv.obj
+ 0001:00000e58       ??_C@_0M@JDHFKJFN@flashing?4?4?4?$AA@ 004011b8     dmserv.obj
+ 0001:00000e64       ??_C@_0CC@FPNHPNJI@bad?5data?5detected?5in?5kernel?5imag@ 004011c4     dmserv.obj
+ 0001:00000e88       ??_C@_0BF@DMJAHBCD@Invalid?5parameter?$CIs?$CJ?$AA@ 004011e8     dmserv.obj
+ 0001:00000ea0       ??_C@_0BK@MPIPGFEN@Invalid?5kernel?5image?5size?$AA@ 00401200     dmserv.obj
+ 0001:00000ebc       ??_C@_0BC@BAKIAKOF@Not?5enough?5memory?$AA@ 0040121c     dmserv.obj
+ 0001:00000ed0       ??_C@_0BG@FNAFBLLO@ignoreversionchecking?$AA@ 00401230     dmserv.obj
+ 0001:00000ee8       ??_C@_03OOINPMFE@crc?$AA@  00401248     dmserv.obj
+ 0001:00000ef0       ??_C@_0IE@LIEGEDAP@freetocallerlo?$DN0x?$CF08x?5freetocall@ 00401250     dmserv.obj
+ 0001:00000f74       ??_C@_0BD@CCPGFPGB@unknown?5error?5?$CI?$CFd?$CJ?$AA@ 004012d4     dmserv.obj
+ 0001:00000f88       ??_C@_0EO@MFLGHHPK@pitch?$DN0x?$CF08x?5width?$DN0x?$CF08x?5height@ 004012e8     dmserv.obj
+ 0001:00000fd8       ??_C@_0P@PECENKIC@can?8t?5lock?5GPU?$AA@ 00401338     dmserv.obj
+ 0001:00000fe8       ??_C@_0BO@DIIEIMPK@Unexpected?5framebuffer?5format?$AA@ 00401348     dmserv.obj
+ 0001:00001008       ??_C@_0BJ@GCPPEPAA@can?8t?5find?5screen?5buffer?$AA@ 00401368     dmserv.obj
+ 0001:00001028       ??_C@_0GG@HFKKGHCO@The?5Application?5is?5using?5an?5unsu@ 00401388     dmserv.obj
+ 0001:00001090       ??_C@_0FH@IANNLFKM@Debugger?5doesn?8t?5support?5an?5Xbox@ 004013f0     dmserv.obj
+ 0001:000010e8       ??_C@_0CJ@HDHPJAND@Debugger?5wasn?8t?5able?5to?5allocate@ 00401448     dmserv.obj
+ 0001:00001114       ??_C@_0CG@FCCPEANE@D3D?5snapshot?5client?5returned?5err@ 00401474     dmserv.obj
+ 0001:0000113c       ??_C@_0CP@HODGJOPL@Opcode?5timeout?3?5?5Failed?5to?5recei@ 0040149c     dmserv.obj
+ 0001:0000116c       ??_C@_0CM@LLENMENO@D3D?5snapshot?5client?5in?5invalid?5s@ 004014cc     dmserv.obj
+ 0001:00001198       ??_C@_06HHHKAAEJ@marker?$AA@ 004014f8     dmserv.obj
+ 0001:000011a0       ??_C@_05GECEPKB@flags?$AA@ 00401500     dmserv.obj
+ 0001:000011a8       ??_C@_0BE@MIMOEGGC@Missing?5Y?5parameter?$AA@ 00401508     dmserv.obj
+ 0001:000011bc       ??_C@_01EANLCPLP@y?$AA@    0040151c     dmserv.obj
+ 0001:000011c0       ??_C@_0BE@FDGLAKAN@Missing?5X?5parameter?$AA@ 00401520     dmserv.obj
+ 0001:000011d4       ??_C@_01FJMABOPO@x?$AA@    00401534     dmserv.obj
+ 0001:000011d8       ??_C@_0DF@KFGHHCKF@Opcode?5timeout?3?5?5Failed?5to?5recei@ 00401538     dmserv.obj
+ 0001:00001210       ??_C@_0BH@NHEHMDCE@Missing?5Last?5parameter?$AA@ 00401570     dmserv.obj
+ 0001:00001228       ??_C@_04PLGBGIDD@last?$AA@ 00401588     dmserv.obj
+ 0001:00001230       ??_C@_05NIGAKFML@first?$AA@ 00401590     dmserv.obj
+ 0001:00001238       ??_C@_0CM@OGOKMMGI@box?5not?5locked?$DL?5file?5encryption?5@ 00401598     dmserv.obj
+ 0001:00001264       ??_C@_07NNLIEMBO@encrypt?$AA@ 004015c4     dmserv.obj
+ 0001:0000126c       ??_C@_0BD@FMCFODNL@missing?5parameters?$AA@ 004015cc     dmserv.obj
+ 0001:00001280       ??_C@_06BNCCALCL@unlock?$AA@ 004015e0     dmserv.obj
+ 0001:00001288       ??_C@_0BB@LNNDIIOH@boxid?$DN0q?$CF08x?$CF08x?$AA@ 004015e8     dmserv.obj
+ 0001:0000129c       ??_C@_0BB@FCLDBLDL@missing?5response?$AA@ 004015fc     dmserv.obj
+ 0001:000012b0       ??_C@_05JEBDMKHG@admin?$AA@ 00401610     dmserv.obj
+ 0001:000012b8       ??_C@_04MPLPBDID@resp?$AA@ 00401618     dmserv.obj
+ 0001:000012c0       ??_C@_06NKIEGJEO@passwd?$AA@ 00401620     dmserv.obj
+ 0001:000012c8       ??_C@_0P@HNKJKDFK@missing?5passwd?$AA@ 00401628     dmserv.obj
+ 0001:000012d8       ??_C@_02FIDLOBHM@me?$AA@   00401638     dmserv.obj
+ 0001:000012e0       ??_C@_0IE@MFDLHFEM@MmHighestPhysicalPage?$DN0x?$CFx?5Retai@ 00401640     dmserv.obj
+ 0001:00001368       ??_C@_0HE@IBADHDCI@AddressSpaceLock?$DN0x?$CFx?5VadRoot?$DN0x@ 004016c8     dmserv.obj
+ 0001:000013dc       ??_C@_0P@PPFCKJAD@?2Device?2Cdrom0?$AA@ 0040173c     dmserv.obj
+ 0001:000013ec       ??_C@_05PIBOEKAB@block?$AA@ 0040174c     dmserv.obj
+ 0001:000013f4       ??_C@_0BK@OIKOFOJO@205?9?5connection?5dedicated?$AA@ 00401754     dmserv.obj
+ 0001:00001410       ??_C@_0DE@ICNBLPHE@dm?3?5rededicating?5a?5connection?5on@ 00401770     dmserv.obj
+ 0001:00001444       ??_C@_0BA@NCMGMANN@missing?5handler?$AA@ 004017a4     dmserv.obj
+ 0001:00001454       ??_C@_07MILLDJGK@handler?$AA@ 004017b4     dmserv.obj
+ 0001:0000145c       ??_C@_06FJKEMHGD@global?$AA@ 004017bc     dmserv.obj
+ 0001:00001464       ??_C@_07LKOIKIBH@?5manage?$AA@ 004017c4     dmsecure.obj
+ 0001:0000146c       ??_C@_07HFKCMFAL@?5config?$AA@ 004017cc     dmsecure.obj
+ 0001:00001474       ??_C@_08MNMEBKCC@?5control?$AA@ 004017d4     dmsecure.obj
+ 0001:00001480       ??_C@_06DFEHHACM@?5write?$AA@ 004017e0     dmsecure.obj
+ 0001:00001488       ??_C@_05IOPPOAEA@?5read?$AA@ 004017e8     dmsecure.obj
+ 0001:00001490       ??_C@_06LLNAMKFG@manage?$AA@ 004017f0     dmsecure.obj
+ 0001:00001498       ??_C@_06HEJKKHEK@config?$AA@ 004017f8     dmsecure.obj
+ 0001:000014a0       ??_C@_0M@HJKICNFN@name?$DN?$CC?$CFs?$CC?$CFs?$AA@ 00401800     dmsecure.obj
+ 0001:000014ac       ??_C@_0BD@CAJKCLKJ@?5passwd?$DN0q?$CF08x?$CF08x?$AA@ 0040180c     dmsecure.obj
+ 0001:000014c0       ??_C@_05GFKJMHJM@user?5?$AA@ 00401820     dmsecure.obj
+ 0001:000014c8       ??_C@_0BK@PIDLIHJG@adminpw?5passwd?$DN0q?$CF08x?$CF08x?$AA@ 00401828     dmsecure.obj
+ 0001:000014e4       ??_C@_0BM@BOCFAMBM@lockmode?5boxid?$DN0q?$CF08x?$CF08x?$CFs?$AA@ 00401844     dmsecure.obj
+ 0001:00001500       ??_C@_08NMGCAFHK@?5encrypt?$AA@ 00401860     dmsecure.obj
+ 0001:0000150c       ??_C@_06LEMKAMD@remove?$AA@ 0040186c     dmsecure.obj
+ 0001:00001514       ??_C@_07JPJEMOCA@pending?$AA@ 00401874     dmnotify.obj
+ 0001:0000151c       ??_C@_09MMCGMFEO@rebooting?$AA@ 0040187c     dmnotify.obj
+ 0001:00001528       ??_C@_07ELEPLNCO@started?$AA@ 00401888     dmnotify.obj
+ 0001:00001530       ??_C@_0CE@BHPFBJKB@notifyat?5addr?$DN?$CFd?4?$CFd?4?$CFd?4?$CFd?5port?$DN?$CF@ 00401890     dmnotify.obj
+ 0001:00001554       ??_C@_06IGDAMEDP@?5debug?$AA@ 004018b4     dmnotify.obj
+ 0001:00001560       ??_C@_0EE@IMKIMBDG@name?$DN?$CC?$CFs?$CC?5base?$DN0x?$CF08x?5size?$DN0x?$CF08@ 004018c0     dmnotify.obj
+ 0001:000015a4       ??_C@_04FJJOAIFM@?5tls?$AA@ 00401904     dmnotify.obj
+ 0001:000015ac       ??_C@_04FEOCPDJ@?5xbe?$AA@ 0040190c     dmnotify.obj
+ 0001:000015b4       ??_C@_0DE@EMJDKFME@name?$DN?$CC?$CFs?$CC?5base?$DN0x?$CF08x?5size?$DN0x?$CF08@ 00401914     dmnotify.obj
+ 0001:000015e8       ??_C@_08KFKLDJEN@?5noncont?$AA@ 00401948     dmnotify.obj
+ 0001:000015f4       ??_C@_06DLHDOCIK@?5first?$AA@ 00401954     dmnotify.obj
+ 0001:000015fc       ??_C@_0L@BHPAIFBB@?5?$CFs?$DN0x?$CF08x?$AA@ 0040195c     dmnotify.obj
+ 0001:00001608       ??_C@_0CP@DDBJNEDM@exception?5code?$DN0x?$CF08x?5thread?$DN?$CFd?5@ 00401968     dmnotify.obj
+ 0001:00001638       ??_C@_0CG@MPPJHHBL@data?5?$CFs?$DN0x?$CF08x?5addr?$DN0x?$CF08x?5threa@ 00401998     dmnotify.obj
+ 0001:00001660       ??_C@_0P@KPFBPGJI@rip?5thread?$DN?$CFlu?$AA@ 004019c0     dmnotify.obj
+ 0001:00001670       ??_C@_0BP@GMDKCEDB@rip?$CFs?5thread?$DN?$CFlu?5string?$DN?$CF?9?$CK?4?$CKs?$AA@ 004019d0     dmnotify.obj
+ 0001:00001690       ??_C@_05HPAKADFF@?5stop?$AA@ 004019f0     dmnotify.obj
+ 0001:00001698       ??_C@_09GMCIMGBM@sectload?5?$AA@ 004019f8     dmnotify.obj
+ 0001:000016a4       ??_C@_0M@GDEPCNIN@sectunload?5?$AA@ 00401a04     dmnotify.obj
+ 0001:000016b0       ??_C@_0BE@CCMPAOFI@terminate?5thread?$DN?$CFd?$AA@ 00401a10     dmnotify.obj
+ 0001:000016c4       ??_C@_0BM@MKBJBGDL@break?5addr?$DN0x?$CF08x?5thread?$DN?$CFd?$AA@ 00401a24     dmnotify.obj
+ 0001:000016e0       ??_C@_0N@BDEEMHFG@execution?5?$CFs?$AA@ 00401a40     dmnotify.obj
+ 0001:000016f0       ??_C@_0CB@DDNFLKOF@singlestep?5addr?$DN0x?$CF08x?5thread?$DN?$CFd@ 00401a50     dmnotify.obj
+ 0001:00001714       ??_C@_08PPHMKPMG@modload?5?$AA@ 00401a74     dmnotify.obj
+ 0001:00001720       ??_C@_0BO@EDBLMNGO@create?5thread?$DN?$CFd?5start?$DN0x?$CF08x?$AA@ 00401a80     dmnotify.obj
+ 0001:00001740       ??_C@_09GIJGGOJL@?$CFsstring?$DN?$AA@ 00401aa0     dmnotify.obj
+ 0001:0000174c       ??_C@_03HGJFPLGI@lf?5?$AA@ 00401aac     dmnotify.obj
+ 0001:00001750       ??_C@_05OLGBELIM@crlf?5?$AA@ 00401ab0     dmnotify.obj
+ 0001:00001758       ??_C@_03DFNJOAJC@cr?5?$AA@ 00401ab8     dmnotify.obj
+ 0001:0000175c       ??_C@_0BA@DJNEDPCP@?$CFs?5?$CFsthread?$DN?$CFd?5?$AA@ 00401abc     dmnotify.obj
+ 0001:0000176c       ??_C@_05GNOJMMJL@stop?5?$AA@ 00401acc     dmnotify.obj
+ 0001:00001774       ??_C@_06GMEIIFFN@assert?$AA@ 00401ad4     dmnotify.obj
+ 0001:0000177c       ??_C@_04MLLLIHIP@null?$AA@ 00401adc     dmnotify.obj
+ 0001:00001784       ??_C@_0BI@DHHIOCDN@assert?5prompt?5thread?$DN?$CFd?$AA@ 00401ae4     dmnotify.obj
+ 0001:0000179c       ??_C@_0CA@OGCHDGFJ@205?9?5now?5a?5notification?5channel?$AA@ 00401afc     dmnotify.obj
+ 0001:000017bc       ??_C@_04PIONEEJD@drop?$AA@ 00401b1c     dmnotify.obj
+ 0001:000017c4       ??_C@_04LPGMAPLE@port?$AA@ 00401b24     dmnotify.obj
+ 0001:000017cc       ??_C@_05CJBACGMB@hello?$AA@ 00401b2c     dmnotify.obj
+ 0001:000017d4       ??_C@_0CN@GFIOFMHL@xbdm?5callback?3?5timed?5out?5waiting@ 00401b34     dmnotify.obj
+ 0001:00001804       ??_C@_07KKMMDFCO@?4bistro?$AA@ 00401b64     dmmodule.obj
+ 0001:0000180c       ??_C@_08EJOALOPG@xbdm?4dll?$AA@ 00401b6c     dmmodule.obj
+ 0001:00001818       ??_C@_04PONNOKHC@xbdm?$AA@ 00401b78     dmmodule.obj
+ 0001:0000182c       _oszCounterDir             00401b8c     dmcount.obj
+ 0001:00001838       ??_C@_0O@FMKPGBFN@?$CF?5GPU?5Backend?$AA@ 00401b98     dmcount.obj
+ 0001:00001848       ??_C@_0P@KLLEAMGN@?$CF?5GPU?5Frontend?$AA@ 00401ba8     dmcount.obj
+ 0001:00001858       ??_C@_05HFCOACPI@?$CF?5GPU?$AA@ 00401bb8     dmcount.obj
+ 0001:00001860       ??_C@_08CBLIIHED@VM?5Pages?$AA@ 00401bc0     dmcount.obj
+ 0001:0000186c       ??_C@_0M@NMOAHNAN@Stack?5Pages?$AA@ 00401bcc     dmcount.obj
+ 0001:00001878       ??_C@_0L@EDCKLEJJ@Pool?5Pages?$AA@ 00401bd8     dmcount.obj
+ 0001:00001884       ??_C@_0M@KHBCMBOA@Image?5Pages?$AA@ 00401be4     dmcount.obj
+ 0001:00001890       ??_C@_0M@JMHDKEKK@Cache?5Pages?$AA@ 00401bf0     dmcount.obj
+ 0001:0000189c       ??_C@_0L@FNFICBPM@Free?5Pages?$AA@ 00401bfc     dmcount.obj
+ 0001:000018a8       ??_C@_0BB@IKIBEMCK@?$CF?5CPU?3Interrupts?$AA@ 00401c08     dmcount.obj
+ 0001:000018bc       ??_C@_09KHHLDFHI@?$CF?5CPU?3DPC?$AA@ 00401c1c     dmcount.obj
+ 0001:000018c8       ??_C@_0M@HLPPPNPI@?$CF?5CPU?3total?$AA@ 00401c28     dmcount.obj
+ 0001:000018d4       ??_C@_06CELCJONF@Frames?$AA@ 00401c34     dmcount.obj
+ 0001:000018dc       ??_C@_0CM@FEIBHMDD@Failed?5to?5create?5counter?5object?5@ 00401c3c     dmcount.obj
+ 0001:00001908       _EDRIVE_OBNAME             00401c68     dmfile.obj
+ 0001:0000192c       _SDRIVE_OBNAME             00401c8c     dmfile.obj
+ 0001:00001950       _VDRIVE_OBNAME             00401cb0     dmfile.obj
+ 0001:00001974       _CDROM_OBNAME              00401cd4     dmfile.obj
+ 0001:00001984       _CDDEVKIT_OBNAME           00401ce4     dmfile.obj
+ 0001:0000199c       _ILLEGAL_OBNAME            00401cfc     dmfile.obj
+ 0001:000019a8       _SYMLINK_OBNAME            00401d08     dmfile.obj
+ 0001:000019b4       ??_C@_0BM@CPPIHIHH@DmFreePool?5called?5for?5?$CF08x?6?$AA@ 00401d14     dmpool.obj
+ 0001:000019f0       _CrcTable32                00401d50     crc.obj
+ 0001:00001df0       ??_C@_1BC@HOJAFCFJ@?$BP?$AH?$BP?$AI?$BP?$AL?54?5?$LA?B4?B?$LA?Z?$IM?$AA?$AA@ 00402150     flash.obj
+ 0001:00001e04       ??_C@_19KPCMJDGA@?$BP?$BD?5?b?B?$KE?$KN?$KE?$AA?$AA@ 00402164     flash.obj
+ 0001:00001e10       ??_C@_17FAOPPJO@?$AB?U?$AE?U?$KN?U?$AA?$AA@ 00402170     flash.obj
+ 0001:00001e18       ??_C@_13MJABDJIC@?$LPS?$AA?$AA@ 00402178     flash.obj
+ 0001:00001e1c       ??_C@_0CI@HIFKKNMK@FLASH?3?5blank?5check?5failed?5?$CIretri@ 0040217c     flash.obj
+ 0001:00001e44       ??_C@_0CJ@DHMAKEPO@FLASH?3?5verification?5failed?5?$CIretr@ 004021a4     flash.obj
+ 0001:00001e70       ??_C@_0CD@NHLIIEIK@FLASH?3?5interrupts?5are?5now?5enable@ 004021d0     flash.obj
+ 0001:00001e94       ??_C@_0BI@LLDPCHAL@Done?0?5new?5image?5flashed?$AA@ 004021f4     flash.obj
+ 0001:00001eac       ??_C@_0BA@EHHAGELF@FLASH?3?5done?4?4?4?6?$AA@ 0040220c     flash.obj
+ 0001:00001ebc       ??_C@_0CP@OGCEHBEO@Failed?5to?5program?5kernel?5image?5?$CI@ 0040221c     flash.obj
+ 0001:00001eec       ??_C@_0BH@KPKCLFMP@FLASH?3?5programming?4?4?4?6?$AA@ 0040224c     flash.obj
+ 0001:00001f04       ??_C@_0BL@DDHHHOM@Failed?5to?5erase?5flash?5chip?$AA@ 00402264     flash.obj
+ 0001:00001f20       ??_C@_0CG@KPMHIEIC@FLASH?3?5erasing?5and?5blank?5checkin@ 00402280     flash.obj
+ 0001:00001f48       ??_C@_0CI@OBKLPJLK@Mismatch?5ROM?5version?5?$CIrom?$DN?$CFx?0?5im@ 004022a8     flash.obj
+ 0001:00001f70       ??_C@_0BD@BGOMCCDB@Invalid?5image?5size?$AA@ 004022d0     flash.obj
+ 0001:00001f84       ??_C@_0BI@JEBPBFAP@Unknown?5flash?5device?5id?$AA@ 004022e4     flash.obj
+ 0001:00001f9c       ??_C@_0CE@LOGPJCEC@FLASH?3?5interrupts?5are?5now?5disabl@ 004022fc     flash.obj
+ 0001:00001fc0       ??_C@_0BI@KOCJIMHK@unable?5to?5map?5i?1o?5space?$AA@ 00402320     flash.obj
+ 0001:00001fd8       ??_C@_0BB@PBJLGCAA@File?5write?5error?$AA@ 00402338     sysfileupd.obj
+ 0001:00001fec       ??_C@_0BL@KCJFOIJC@Replace?5file?5failed?5?$CI0x?$CFX?$CJ?$AA@ 0040234c     sysfileupd.obj
+ 0001:00002008       ??_C@_0BF@CAPFPECN@Unexpected?5data?5size?$AA@ 00402368     sysfileupd.obj
+ 0001:00002020       ??_C@_0M@GNAOKGLG@Invalid?5CRC?$AA@ 00402380     sysfileupd.obj
+ 0001:0000202c       ??_C@_0BC@JFFNKLNA@Invalid?5file?5name?$AA@ 0040238c     sysfileupd.obj
+ 0001:00002040       ??_C@_09BFDAEIFK@Disk?5full?$AA@ 004023a0     sysfileupd.obj
+ 0001:0000204c       ??_C@_0O@IHGFJCHC@?2temp?$CF04x?4tmp?$AA@ 004023ac     sysfileupd.obj
+ 0001:0000205c       ??_C@_0BN@OEMOLBLB@missing?5or?5invalid?5file?5name?$AA@ 004023bc     sysfileupd.obj
+ 0001:0000207c       ??_7CXbdmServer@CXnNic@@6B@ 004023dc     xnetm:xnet.obj
+ 0001:000020b4       ??_C@_06IDFKHCBC@?2?$DP?$DP?2D?3?$AA@ 00402414     dmxapi:launch.obj
+ 0001:000020f0       ___lookuptable             00402450     libcntpr:output.obj
+ 0001:0000214c       ___nullstring              004024ac     libcntpr:output.obj
+ 0001:00002154       ___wnullstring             004024b4     libcntpr:output.obj
+ 0001:000021b0       _MulDiv@12                 00402510 f   muldiv.obj
+ 0001:000022d0       _DmpThreadStartup@8        00402630 f   thread.obj
+ 0001:000022f0       _CallOnStack@12            00402650 f   thread.obj
+ 0001:00002320       _SetDreg@20                00402680 f   dbregs.obj
+ 0001:00002398       @DwExchangeDr6@4           004026f8 f   dbregs.obj
+ 0001:000023a0       _SetupFuncCall@0           00402700 f   funccall.obj
+ 0001:00002400       _QueueDfn@4                00402760 f   defer.obj
+ 0001:00002418       _ProcessDfns@0             00402778 f   defer.obj
+ 0001:00002450       _CallDxtEntry@8            004027b0 f   dxtstart.obj
+ 0001:00002468       _FInitThreadDebugData@4    004027c8 f   dminit.obj
+ 0001:000024da       _DoIniLine@4               0040283a f   dminit.obj
+ 0001:00002594       _LoadIniFile@0             004028f4 f   dminit.obj
+ 0001:0000267d       _LoadPlugIns@0             004029dd f   dminit.obj
+ 0001:0000273c       _WriteIniData@12           00402a9c f   dminit.obj
+ 0001:000027f3       _WriteIniSzNoCRLF@8        00402b53 f   dminit.obj
+ 0001:00002814       _WriteIniSz@8              00402b74 f   dminit.obj
+ 0001:00002834       _WriteIniFile@0            00402b94 f   dminit.obj
+ 0001:0000297a       _DisableAPIC@4             00402cda f   dminit.obj
+ 0001:00002993       _PsGetCurrentThreadId@0    00402cf3 f   dminit.obj
+ 0001:000029a0       _CreateThreadNotify@12     00402d00 f   dminit.obj
+ 0001:00002a7a       _DmEntryPoint@12           00402dda f   dminit.obj
+ 0001:00002cf5       _InitServ@0                00403055 f   dmserv.obj
+ 0001:00002d30       _StopServ@0                00403090 f   dmserv.obj
+ 0001:00002d9e       _SgnCompareRgch@12         004030fe f   dmserv.obj
+ 0001:00002e02       _FEqualRgch@12             00403162 f   dmserv.obj
+ 0001:00002e1b       _DwHexFromSz@8             0040317b f   dmserv.obj
+ 0001:00002e76       _DwFromSz@8                004031d6 f   dmserv.obj
+ 0001:00002ee2       _CloseConn@4               00403242 f   dmserv.obj
+ 0001:00002f25       _InitDmcc@4                00403285 f   dmserv.obj
+ 0001:00002f5a       _PrintSockLine@8           004032ba f   dmserv.obj
+ 0001:00002fef       _FIsSpace@4                0040334f f i dmserv.obj
+ 0001:00003009       _PchGetParam@12            00403369 f   dmserv.obj
+ 0001:000030da       _CchOfWord@4               0040343a f   dmserv.obj
+ 0001:000030ff       _GetParam@12               0040345f f   dmserv.obj
+ 0001:00003174       _FGetSzParam@16            004034d4 f   dmserv.obj
+ 0001:0000319b       _FGetDwParam@12            004034fb f   dmserv.obj
+ 0001:000031e2       _FGetQwordParam@12         00403542 f   dmserv.obj
+ 0001:000032bf       _FGetNamedDwParam@16       0040361f f   dmserv.obj
+ 0001:000032f2       _UlAddrFromSz@4            00403652 f   dmserv.obj
+ 0001:00003355       _SzStdResponse@4           004036b5 f   dmserv.obj
+ 0001:00003511       _HrFromStatus@8            00403871 f   dmserv.obj
+ 0001:000035a7       _DmplOfConnection@4        00403907 f   dmserv.obj
+ 0001:000035d0       _SendHrSzResp@16           00403930 f   dmserv.obj
+ 0001:00003676       _HrHandleBuiltinCommand@24 004039d6 f   dmserv.obj
+ 0001:00003745       _DoSendReceive@8           00403aa5 f   dmserv.obj
+ 0001:000039d1       _PechFindHandler@8         00403d31 f   dmserv.obj
+ 0001:00003a06       _HandleCommand@8           00403d66 f   dmserv.obj
+ 0001:00003c0c       _AnswerName@4              00403f6c f   dmserv.obj
+ 0001:00003d18       _HandleSocketRead@4        00404078 f   dmserv.obj
+ 0001:00003e46       _DedicatedServThread@4     004041a6 f   dmserv.obj
+ 0001:00003f31       _ServerThread@4            00404291 f   dmserv.obj
+ 0001:00004340       _FStartDebugService@0      004046a0 f   dmserv.obj
+ 0001:00004362       _DmSetXboxName@4           004046c2 f   dmserv.obj
+ 0001:0000439c       _DmGetXboxName@8           004046fc f   dmserv.obj
+ 0001:000043f7       _DmRegisterCommandProcessorEx@12 00404757 f   dmserv.obj
+ 0001:00004500       _DmThreadUserData@8        00404860 f   dmserv.obj
+ 0001:00004573       _HrEndConversation@16      004048d3 f   dmserv.obj
+ 0001:000045b4       _HrSetDbgName@16           00404914 f   dmserv.obj
+ 0001:0000463a       _HrToggleGPUCounters@16    0040499a f   dmserv.obj
+ 0001:00004678       _HrToggleKDState@16        004049d8 f   dmserv.obj
+ 0001:00004730       _HrSetupNotifyAt@16        00404a90 f   dmserv.obj
+ 0001:00004783       _HrSetupNotify@16          00404ae3 f   dmserv.obj
+ 0001:000047d7       _HrDoStopon@20             00404b37 f   dmserv.obj
+ 0001:0000485e       _HrStopon@16               00404bbe f   dmserv.obj
+ 0001:00004878       _HrNostopon@16             00404bd8 f   dmserv.obj
+ 0001:00004892       _HrGo@16                   00404bf2 f   dmserv.obj
+ 0001:000048bf       _HrStop@16                 00404c1f f   dmserv.obj
+ 0001:000048ec       _FTitleExists@16           00404c4c f   dmserv.obj
+ 0001:00004a4a       _HrReceiveFileData@12      00404daa f   dmserv.obj
+ 0001:00004b45       _HrReceiveFile@16          00404ea5 f   dmserv.obj
+ 0001:00004c71       _HrSendFileData@12         00404fd1 f   dmserv.obj
+ 0001:00004d0d       _HrSendFile@16             0040506d f   dmserv.obj
+ 0001:00004e0e       _GetFileAttrSz@20          0040516e f   dmserv.obj
+ 0001:00004e6c       _HrReportFileAttributes@12 004051cc f   dmserv.obj
+ 0001:00004ea4       _HrGetFileAttributes@16    00405204 f   dmserv.obj
+ 0001:00004f69       _HrSetFileAttributes@16    004052c9 f   dmserv.obj
+ 0001:000050dd       _HrRenameFile@16           0040543d f   dmserv.obj
+ 0001:000051fe       _HrDeleteFile@16           0040555e f   dmserv.obj
+ 0001:00005332       _HrReportDirList@12        00405692 f   dmserv.obj
+ 0001:0000541b       _HrGetDirList@16           0040577b f   dmserv.obj
+ 0001:000054cc       _HrMkdir@16                0040582c f   dmserv.obj
+ 0001:0000555c       _HrFormatFAT@16            004058bc f   dmserv.obj
+ 0001:000055fe       _DmSetTitle@12             0040595e f   dmserv.obj
+ 0001:000056c1       _HrSetTitle@16             00405a21 f   dmserv.obj
+ 0001:0000573d       _HrSetDefaultTitle@16      00405a9d f   dmserv.obj
+ 0001:000059d8       _HrReportMemory@12         00405d38 f   dmserv.obj
+ 0001:00005b1b       _HrGetMemory@16            00405e7b f   dmserv.obj
+ 0001:00005b97       _HrSetMemory@16            00405ef7 f   dmserv.obj
+ 0001:00005cd2       _HrReportThreads@12        00406032 f   dmserv.obj
+ 0001:00005d49       _HrListThreads@16          004060a9 f   dmserv.obj
+ 0001:00005dcb       _HrHaltThread@16           0040612b f   dmserv.obj
+ 0001:00005df2       _HrContinueThread@16       00406152 f   dmserv.obj
+ 0001:00005e30       _HrSuspendThread@16        00406190 f   dmserv.obj
+ 0001:00005e5e       _HrResumeThread@16         004061be f   dmserv.obj
+ 0001:00005e8c       _HrFunctionCall@16         004061ec f   dmserv.obj
+ 0001:00005eba       _PcregNext@4               0040621a f   dmserv.obj
+ 0001:00005fb2       _HrDoExtContext@12         00406312 f   dmserv.obj
+ 0001:00006094       _HrGetExtContext@16        004063f4 f   dmserv.obj
+ 0001:00006150       _HrReportContext@12        004064b0 f   dmserv.obj
+ 0001:000061e2       _HrGetContext@16           00406542 f   dmserv.obj
+ 0001:000062fa       _HrSetContext@16           0040665a f   dmserv.obj
+ 0001:0000648b       _FillSzFromWz@16           004067eb f   dmserv.obj
+ 0001:000064e1       _HrReportCounters@12       00406841 f   dmserv.obj
+ 0001:0000654a       _HrListCounters@16         004068aa f   dmserv.obj
+ 0001:0000656d       _HrReportCounterData@12    004068cd f   dmserv.obj
+ 0001:000065af       _HrQueryPerformanceCounter@16 0040690f f   dmserv.obj
+ 0001:0000666b       _HrReportModules@12        004069cb f   dmserv.obj
+ 0001:000066c9       _HrListModules@16          00406a29 f   dmserv.obj
+ 0001:000066ec       _HrReportModuleSections@12 00406a4c f   dmserv.obj
+ 0001:0000674c       _HrListModuleSections@16   00406aac f   dmserv.obj
+ 0001:000067d2       _HrDoBreak@16              00406b32 f   dmserv.obj
+ 0001:00006925       _HrIsBreak@16              00406c85 f   dmserv.obj
+ 0001:00006975       _HrSetConfig@16            00406cd5 f   dmserv.obj
+ 0001:000069e0       _HrIsStopped@16            00406d40 f   dmserv.obj
+ 0001:00006a6b       _HrReportThreadInfo@12     00406dcb f   dmserv.obj
+ 0001:00006aa7       _HrThreadInfo@16           00406e07 f   dmserv.obj
+ 0001:00006b0b       _HrReportXapiInfo@12       00406e6b f   dmserv.obj
+ 0001:00006b3f       _HrXapiInfo@16             00406e9f f   dmserv.obj
+ 0001:00006b81       _HrDoLongName@16           00406ee1 f   dmserv.obj
+ 0001:00006be6       _HrReportXbeInfo@12        00406f46 f   dmserv.obj
+ 0001:00006c76       _HrXbeInfo@16              00406fd6 f   dmserv.obj
+ 0001:00006d31       _DmIsDebuggerPresent@0     00407091 f   dmserv.obj
+ 0001:00006d37       _HrConnectDebugger@16      00407097 f   dmserv.obj
+ 0001:00006da8       _HrSystemTime@16           00407108 f   dmserv.obj
+ 0001:00006de6       _HrGetAltAddr@16           00407146 f   dmserv.obj
+ 0001:00006e27       _HrSetSystemTime@16        00407187 f   dmserv.obj
+ 0001:00006f42       _HrReboot@16               004072a2 f   dmserv.obj
+ 0001:00006fd1       _HrMagicReboot@16          00407331 f   dmserv.obj
+ 0001:00007126       _CAPGetFileHeader@0        00407486 f   dmserv.obj
+ 0001:000071b7       _CAPWriteFile@4            00407517 f   dmserv.obj
+ 0001:000072ea       _HrCAPControl@16           0040764a f   dmserv.obj
+ 0001:0000737a       _HrIrtSweep@16             004076da f   dmserv.obj
+ 0001:00007398       _HrReceiveKernelImage@12   004076f8 f   dmserv.obj
+ 0001:0000747e       _HrFlashKernelImage@16     004077de f   dmserv.obj
+ 0001:0000757e       _HrGetDriveList@16         004078de f   dmserv.obj
+ 0001:00007725       _HrReportDriveFreeSpace@12 00407a85 f   dmserv.obj
+ 0001:000077de       _HrGetDriveFreeSpace@16    00407b3e f   dmserv.obj
+ 0001:00007873       _HrSendFrameData@12        00407bd3 f   dmserv.obj
+ 0001:00007901       _HrScreenshot@16           00407c61 f   dmserv.obj
+ 0001:00007a0c       _HrSendPSSnapshotData@12   00407d6c f   dmserv.obj
+ 0001:00007a3e       _HrPSSnap@16               00407d9e f   dmserv.obj
+ 0001:00007bca       _HrSendVSSnapshotData@12   00407f2a f   dmserv.obj
+ 0001:00007bfc       _HrVSSnap@16               00407f5c f   dmserv.obj
+ 0001:00007eb3       _HrSetLockMode@16          00408213 f   dmserv.obj
+ 0001:00007f62       _HrSetDebugSecureMode@16   004082c2 f   dmserv.obj
+ 0001:00007fa3       _HrGetBoxId@16             00408303 f   dmserv.obj
+ 0001:00007fd8       _HrAuthenticateUser@16     00408338 f   dmserv.obj
+ 0001:000080ef       _HrSetAdminPasswd@16       0040844f f   dmserv.obj
+ 0001:000081aa       _HrGetUserPriv@16          0040850a f   dmserv.obj
+ 0001:0000825c       _HrSetUserPriv@16          004085bc f   dmserv.obj
+ 0001:000082ac       _HrReportUsers@12          0040860c f   dmserv.obj
+ 0001:00008302       _HrListUsers@16            00408662 f   dmserv.obj
+ 0001:00008335       _HrPerformDHExchange@12    00408695 f   dmserv.obj
+ 0001:00008442       _HrKeyExchange@16          004087a2 f   dmserv.obj
+ 0001:0000848d       _HrReportMmGlobal@12       004087ed f   dmserv.obj
+ 0001:00008550       _HrGetMmGlobal@16          004088b0 f   dmserv.obj
+ 0001:00008569       _HrReturnBuffer@12         004088c9 f   dmserv.obj
+ 0001:00008592       _HrGetDvdBlk@16            004088f2 f   dmserv.obj
+ 0001:0000865f       _FDedicateConnection@8     004089bf f   dmserv.obj
+ 0001:00008714       _DmRegisterCommandProcessor@8 00408a74 f   dmserv.obj
+ 0001:00008726       _HrDedicateConnection@16   00408a86 f   dmserv.obj
+ 0001:000087d8       _XBCEncryptCore@8          00408b38 f   dmsecure.obj
+ 0001:00008845       _XBCHashBlock@8            00408ba5 f   dmsecure.obj
+ 0001:0000887d       _XBCHashData@12            00408bdd f   dmsecure.obj
+ 0001:000088e6       _XBCCross@12               00408c46 f   dmsecure.obj
+ 0001:0000892b       _InitSecurity@0            00408c8b f   dmsecure.obj
+ 0001:0000894f       _PusrLookupUser@4          00408caf f   dmsecure.obj
+ 0001:000089b8       _DmplAuthenticateUser@16   00408d18 f   dmsecure.obj
+ 0001:00008a93       _DmIsSecurityEnabled@4     00408df3 f   dmsecure.obj
+ 0001:00008ab7       _HrDoAddUser@8             00408e17 f   dmsecure.obj
+ 0001:00008b8b       _DmAddUser@8               00408eeb f   dmsecure.obj
+ 0001:00008bb2       _DmRemoveUser@4            00408f12 f   dmsecure.obj
+ 0001:00008c00       _FillAccessPrivSz@8        00408f60 f   dmsecure.obj
+ 0001:00008c7b       _DmplFromSz@4              00408fdb f   dmsecure.obj
+ 0001:00008ceb       _FillUserInfoSz@16         0040904b f   dmsecure.obj
+ 0001:00008d4b       _WriteIniSecurity@4        004090ab f   dmsecure.obj
+ 0001:00008e9d       _RemoveAllUsers@0          004091fd f   dmsecure.obj
+ 0001:00008f41       _DmSetUserAccess@8         004092a1 f   dmsecure.obj
+ 0001:00008f6c       _DmGetUserAccess@8         004092cc f   dmsecure.obj
+ 0001:00008f99       _DmWalkUserList@8          004092f9 f   dmsecure.obj
+ 0001:00009043       _DmEnableSecurity@4        004093a3 f   dmsecure.obj
+ 0001:0000905e       _HrAddUserCommand@16       004093be f   dmsecure.obj
+ 0001:000090ec       _FPrintNotifySock@8        0040944c f   dmnotify.obj
+ 0001:00009121       _WriteIniNotifiers@4       00409481 f   dmnotify.obj
+ 0001:0000918c       _UnNotifyAt@8              004094ec f   dmnotify.obj
+ 0001:000091b4       _FEnsureIPReady@4          00409514 f   dmnotify.obj
+ 0001:000091e5       _GetModLoadSz@8            00409545 f   dmnotify.obj
+ 0001:0000923b       _GetSectLoadSz@8           0040959b f   dmnotify.obj
+ 0001:00009270       _FGetNotifySz@12           004095d0 f   dmnotify.obj
+ 0001:000094c7       _EnterSessionList@4        00409827 f   dmnotify.obj
+ 0001:0000952b       _LeaveSessionList@0        0040988b f   dmnotify.obj
+ 0001:00009611       _NotifyLocalComponents@8   00409971 f   dmnotify.obj
+ 0001:0000967d       _EnterDebuggerDpc@16       004099dd f   dmnotify.obj
+ 0001:0000968f       _EnterDebugger@0           004099ef f   dmnotify.obj
+ 0001:000096d6       _DmOpenNotificationSession@8 00409a36 f   dmnotify.obj
+ 0001:0000975b       _DmCloseNotificationSession@4 00409abb f   dmnotify.obj
+ 0001:0000979b       _DmRegisterNotificationProcessor@12 00409afb f   dmnotify.obj
+ 0001:000098e3       _DmSendNotificationString@4 00409c43 f   dmnotify.obj
+ 0001:000099dc       _ClockInt@4                00409d3c f   dmnotify.obj
+ 0001:000099e8       @CtxSwap@8                 00409d48 f   dmnotify.obj
+ 0001:00009a00       _SockCreateNotify@12       00409d60 f   dmnotify.obj
+ 0001:00009b1a       _SendDebugStrs@8           00409e7a f   dmnotify.obj
+ 0001:00009d51       _NotifyComponents@8        0040a0b1 f   dmnotify.obj
+ 0001:00009f35       _FStartThread@12           0040a295 f   dmnotify.obj
+ 0001:00009fb9       _TrapHandler@4             0040a319 f   dmnotify.obj
+ 0001:0000a657       _DmTrapHandler@20          0040a9b7 f   dmnotify.obj
+ 0001:0000a689       _SetupKernelNotifier@8     0040a9e9 f   dmnotify.obj
+ 0001:0000a6e4       _DmNotify@12               0040aa44 f   dmnotify.obj
+ 0001:0000a84f       _PrepareToReboot@0         0040abaf f   dmnotify.obj
+ 0001:0000a8ad       _ReportDoubleFault@0       0040ac0d f   dmnotify.obj
+ 0001:0000a92e       _CanDebugDF@4              0040ac8e f   dmnotify.obj
+ 0001:0000a9fd       _TellDebugger@8            0040ad5d f   dmnotify.obj
+ 0001:0000aab1       _InitNotifications@0       0040ae11 f   dmnotify.obj
+ 0001:0000ab5f       _FAddNotifySock@4          0040aebf f   dmnotify.obj
+ 0001:0000abb2       _FConvertToNotifySock@4    0040af12 f   dmnotify.obj
+ 0001:0000abfb       _FNotifyAt@16              0040af5b f   dmnotify.obj
+ 0001:0000accd       _FNotifyAtCmd@12           0040b02d f   dmnotify.obj
+ 0001:0000ad87       _EnsurePersistentSockets@0 0040b0e7 f   dmnotify.obj
+ 0001:0000af68       _ProcessDeferredNotifications@4 0040b2c8 f   dmnotify.obj
+ 0001:0000af90       _InitBreakpoints@0         0040b2f0 f   dmbreak.obj
+ 0001:0000afad       _DoEnableBreak@8           0040b30d f   dmbreak.obj
+ 0001:0000b015       _DoDisableBreak@8          0040b375 f   dmbreak.obj
+ 0001:0000b078       _FFindBreak@16             0040b3d8 f   dmbreak.obj
+ 0001:0000b211       _FIsBreakpoint@4           0040b571 f   dmbreak.obj
+ 0001:0000b22b       _EnableBreakpointsInRange@12 0040b58b f   dmbreak.obj
+ 0001:0000b2b5       _DisableBreakpointsInRange@8 0040b615 f   dmbreak.obj
+ 0001:0000b32e       _FGetMemory@8              0040b68e f   dmbreak.obj
+ 0001:0000b39d       _FSetMemory@8              0040b6fd f   dmbreak.obj
+ 0001:0000b419       _FAddBreakpoint@4          0040b779 f   dmbreak.obj
+ 0001:0000b4e3       _DmSetBreakpoint@4         0040b843 f   dmbreak.obj
+ 0001:0000b4fd       _FRemoveBreakpoint@4       0040b85d f   dmbreak.obj
+ 0001:0000b578       _DmRemoveBreakpoint@4      0040b8d8 f   dmbreak.obj
+ 0001:0000b592       _RemoveAllBreakpoints@0    0040b8f2 f   dmbreak.obj
+ 0001:0000b5e9       _DisableBreakpoint@4       0040b949 f   dmbreak.obj
+ 0001:0000b612       _SetHwbp@4                 0040b972 f   dmbreak.obj
+ 0001:0000b67b       _SyncHwbps@0               0040b9db f   dmbreak.obj
+ 0001:0000b6ac       _DmSetDataBreakpoint@12    0040ba0c f   dmbreak.obj
+ 0001:0000b76f       _DmIsBreakpoint@8          0040bacf f   dmbreak.obj
+ 0001:0000b7cd       _FMatchDataBreak@8         0040bb2d f   dmbreak.obj
+ 0001:0000b811       _DoStopGo@4                0040bb71 f   dmbreak.obj
+ 0001:0000b8c9       _DoContinue@8              0040bc29 f   dmbreak.obj
+ 0001:0000b92b       _DmGo@0                    0040bc8b f   dmbreak.obj
+ 0001:0000b941       _DmStop@0                  0040bca1 f   dmbreak.obj
+ 0001:0000b957       _DoHalt@0                  0040bcb7 f   dmbreak.obj
+ 0001:0000ba24       _SetupHalt@4               0040bd84 f   dmbreak.obj
+ 0001:0000ba44       _DmContinueThread@8        0040bda4 f   dmbreak.obj
+ 0001:0000baa3       _PrepareToStop@0           0040be03 f   dmbreak.obj
+ 0001:0000bace       _FStopAtException@0        0040be2e f   dmbreak.obj
+ 0001:0000bb3f       _DmSetupFunctionCall@4     0040be9f f   dmbreak.obj
+ 0001:0000bbdf       _DwPreFuncCall@4           0040bf3f f   dmbreak.obj
+ 0001:0000bc04       _PostFuncCall@4            0040bf64 f   dmbreak.obj
+ 0001:0000bc09       _ExceptionsToKd@0          0040bf69 f   dmbreak.obj
+ 0001:0000bc9a       _ResumeAfterBreakpoint@4   0040bffa f   dmbreak.obj
+ 0001:0000bd28       _FBreakTrace@4             0040c088 f   dmbreak.obj
+ 0001:0000bd5e       _DmGetThreadList@8         0040c0be f   dmbreak.obj
+ 0001:0000be09       _DmIsThreadStopped@8       0040c169 f   dmbreak.obj
+ 0001:0000bf51       _DmGetThreadContext@8      0040c2b1 f   dmbreak.obj
+ 0001:0000c111       _DmSetThreadContext@8      0040c471 f   dmbreak.obj
+ 0001:0000c26b       _DmGetThreadInfo@8         0040c5cb f   dmbreak.obj
+ 0001:0000c2e3       _DmSetInitialBreakpoint@0  0040c643 f   dmbreak.obj
+ 0001:0000c2ff       _DmStopOn@8                0040c65f f   dmbreak.obj
+ 0001:0000c324       _DmReboot@4                0040c684 f   dmbreak.obj
+ 0001:0000c37a       _DmSuspendThread@4         0040c6da f   dmbreak.obj
+ 0001:0000c3b5       _DmResumeThread@4          0040c715 f   dmbreak.obj
+ 0001:0000c3f0       _DmGetXtlData@4            0040c750 f   dmbreak.obj
+ 0001:0000c41a       _DmHaltThread@4            0040c77a f   dmbreak.obj
+ 0001:0000c4a8       _InitLoader@0              0040c808 f   dmmodule.obj
+ 0001:0000c4b4       _DmExFreePool@4            0040c814 f   dmmodule.obj
+ 0001:0000c4ba       _PldteGetModule@8          0040c81a f   dmmodule.obj
+ 0001:0000c553       _DmGetMemory@16            0040c8b3 f   dmmodule.obj
+ 0001:0000c5e5       _DmSetMemory@16            0040c945 f   dmmodule.obj
+ 0001:0000c67b       _FixupBistroImage@0        0040c9db f   dmmodule.obj
+ 0001:0000c6cf       _DwXmhFlags@4              0040ca2f f   dmmodule.obj
+ 0001:0000c70c       _DmWalkLoadedModules@8     0040ca6c f   dmmodule.obj
+ 0001:0000c80c       _DmCloseLoadedModules@4    0040cb6c f   dmmodule.obj
+ 0001:0000c822       _RewindDmws@4              0040cb82 f   dmmodule.obj
+ 0001:0000c86e       _DmslFromXsh@8             0040cbce f   dmmodule.obj
+ 0001:0000c8cb       _DmWalkModuleSections@12   0040cc2b f   dmmodule.obj
+ 0001:0000c9cf       _DmCloseModuleSections@4   0040cd2f f   dmmodule.obj
+ 0001:0000c9e7       _DmGetModuleLongName@12    0040cd47 f   dmmodule.obj
+ 0001:0000ca5a       _DmGetXbeInfo@8            0040cdba f   dmmodule.obj
+ 0001:0000cb69       _FResolveImport@20         0040cec9 f   dmmodule.obj
+ 0001:0000ccb5       _FFinishImageLoad@12       0040d015 f   dmmodule.obj
+ 0001:0000ce1a       _DmUnloadExtension@4       0040d17a f   dmmodule.obj
+ 0001:0000ceb2       _DmGetProcAddress@12       0040d212 f   dmmodule.obj
+ 0001:0000cf0b       _UnloadReferencedModules@4 0040d26b f   dmmodule.obj
+ 0001:0000cf3f       _FResolveImageImports@12   0040d29f f   dmmodule.obj
+ 0001:0000d0fc       _FFixupXbdm@8              0040d45c f   dmmodule.obj
+ 0001:0000d188       _StLoadImage@12            0040d4e8 f   dmmodule.obj
+ 0001:0000d3ce       _DmLoadExtension@12        0040d72e f   dmmodule.obj
+ 0001:0000d551       _FGetCounterValue@12       0040d8b1 f   dmcount.obj
+ 0001:0000d5d3       _RefreshCounter@4          0040d933 f   dmcount.obj
+ 0001:0000d6a8       _CounterDpc@16             0040da08 f   dmcount.obj
+ 0001:0000d7cf       _DmRegisterPerformanceCounter@12 0040db2f f   dmcount.obj
+ 0001:0000d8e1       _DmOpenPerformanceCounter@8 0040dc41 f   dmcount.obj
+ 0001:0000d94d       _DmQueryPerformanceCounterHandle@12 0040dcad f   dmcount.obj
+ 0001:0000dbef       _DmClosePerformanceCounter@4 0040df4f f   dmcount.obj
+ 0001:0000dc12       _DmWalkPerformanceCounters@8 0040df72 f   dmcount.obj
+ 0001:0000dd0e       _DmCloseCounters@4         0040e06e f   dmcount.obj
+ 0001:0000dd0e       _DmCloseUserList@4         0040e06e f   dmsecure.obj
+ 0001:0000dd16       _GPUPerf@4                 0040e076 f   dmcount.obj
+ 0001:0000dd99       _DmEnableGPUCounter@4      0040e0f9 f   dmcount.obj
+ 0001:0000ddfe       _InitCounters@0            0040e15e f   dmcount.obj
+ 0001:0000df2d       _DmUnregisterPerformanceCounter@4 0040e28d f   dmcount.obj
+ 0001:0000dfb4       _QueuePob@4                0040e314 f   dmprofil.obj
+ 0001:0000e042       _DeletePob@4               0040e3a2 f   dmprofil.obj
+ 0001:0000e0c3       _DmStartProfile@12         0040e423 f   dmprofil.obj
+ 0001:0000e190       _ProfInt@4                 0040e4f0 f   dmprofil.obj
+ 0001:0000e228       _DmStopProfile@4           0040e588 f   dmprofil.obj
+ 0001:0000e25e       _MapDebugDrive@8           0040e5be f   dmfile.obj
+ 0001:0000e2cc       _FObNameToFileName@12      0040e62c f   dmfile.obj
+ 0001:0000e375       _FFileNameToObName@12      0040e6d5 f   dmfile.obj
+ 0001:0000e441       _FCreateFile@32            0040e7a1 f   dmfile.obj
+ 0001:0000e4b2       _QueueDmpp@4               0040e812 f   dmpool.obj
+ 0001:0000e550       _DmpFreePoolMemory@8       0040e8b0 f   dmpool.obj
+ 0001:0000e5ec       _DmpAllocatePoolMemory@4   0040e94c f   dmpool.obj
+ 0001:0000e6f3       _DmpAllocatePoolPages@4    0040ea53 f   dmpool.obj
+ 0001:0000e736       _ExpRemovePoolTracker@8    0040ea96 f   dmpool.obj
+ 0001:0000e7cf       _ExpFindAndRemoveTagBigPages@4 0040eb2f f   dmpool.obj
+ 0001:0000e84e       _DmFreePool@4              0040ebae f   dmpool.obj
+ 0001:0000ea16       _ExpInsertPoolTracker@8    0040ed76 f   dmpool.obj
+ 0001:0000ec1f       _ExpAddTagForBigPages@12   0040ef7f f   dmpool.obj
+ 0001:0000ed69       _InitPool@0                0040f0c9 f   dmpool.obj
+ 0001:0000ee9f       _DmAllocatePoolWithTag@8   0040f1ff f   dmpool.obj
+ 0001:0000f0ce       _DmAllocatePool@4          0040f42e f   dmpool.obj
+ 0001:0000f0df       __CAP_Start_Profiling@8    0040f43f f   dmcap.obj
+ 0001:0000f118       __CAP_End_Profiling@4      0040f478 f   dmcap.obj
+ 0001:0000f14e       __CAP_Enter_Function@4     0040f4ae f   dmcap.obj
+ 0001:0000f184       __CAP_Exit_Function@4      0040f4e4 f   dmcap.obj
+ 0001:0000f1bc       __penter                   0040f51c f   dmcap.obj
+ 0001:0000f1f3       __pexit                    0040f553 f   dmcap.obj
+ 0001:0000f22c       _DmProfileEmitControlRecord@8 0040f58c f   dmcap.obj
+ 0001:0000f267       @DmProfileThreadSwitchNotifyCallback@8 0040f5c7 f   dmcap.obj
+ 0001:0000f289       @DmProfileDpcDispatchNotifyCallback@8 0040f5e9 f   dmcap.obj
+ 0001:0000f294       _DmCapControl@8            0040f5f4 f   dmcap.obj
+ 0001:0000f4c7       _DmProfileControl@8        0040f827 f   dmcap.obj
+ 0001:0000f4de       _LocalAlloc@8              0040f83e f   api32.obj
+ 0001:0000f532       _LocalFree@4               0040f892 f   api32.obj
+ 0001:0000f582       _SleepEx@8                 0040f8e2 f   api32.obj
+ 0001:0000f5e0       __DmUnhandledException@4   0040f940 f   api32.obj
+ 0001:0000f5f7       __DmThreadStartup@8        0040f957 f   api32.obj
+ 0001:0000f637       _SetLastError@4            0040f997 f   api32.obj
+ 0001:0000f64c       _GetLastError@0            0040f9ac f   api32.obj
+ 0001:0000f65b       _Sleep@4                   0040f9bb f   api32.obj
+ 0001:0000f669       _CreateThread@24           0040f9c9 f   api32.obj
+ 0001:0000f6bf       _CloseHandle@4             0040fa1f f   api32.obj
+ 0001:0000f6ee       _Crc32@12                  0040fa4e f   crc.obj
+ 0001:0000f71b       _FlashGetStatus@12         0040fa7b f   flash.obj
+ 0001:0000f795       _FlashResetDevice@0        0040faf5 f   flash.obj
+ 0001:0000f7c5       _FlashDetectDevice@0       0040fb25 f   flash.obj
+ 0001:0000f8d1       _FlashEraseChip@4          0040fc31 f   flash.obj
+ 0001:0000f9e5       _FlashProgramImage@8       0040fd45 f   flash.obj
+ 0001:0000fb05       @FlashReadMSR@4            0040fe65 f   flash.obj
+ 0001:0000fb08       @FlashWriteMSR@12          0040fe68 f   flash.obj
+ 0001:0000fb15       _FlashChangeRomCaching@4   0040fe75 f   flash.obj
+ 0001:0000fbc8       _FlashKernelImage@20       0040ff28 f   flash.obj
+ 0001:0000fd44       _ReplaceFile@8             004100a4 f   sysfileupd.obj
+ 0001:0000fde6       _HrReceiveSystemFile@12    00410146 f   sysfileupd.obj
+ 0001:0000ff76       _CreateDirectoryFromPath@4 004102d6 f   sysfileupd.obj
+ 0001:0000fffe       _HrUpdateSystemFile@16     0041035e f   sysfileupd.obj
+ 0001:00010283       _RtlImageNtHeader@4        004105e3 f   xbdmrtl:imagedir.obj
+ 0001:000102c2       _RtlSectionTableFromVirtualAddress@12 00410622 f   xbdmrtl:imagedir.obj
+ 0001:000102fd       _RtlAddressInSectionTable@12 0041065d f   xbdmrtl:imagedir.obj
+ 0001:00010328       _RtlpImageDirectoryEntryToData32@20 00410688 f   xbdmrtl:imagedir.obj
+ 0001:00010384       _RtlImageDirectoryEntryToData@16 004106e4 f   xbdmrtl:imagedir.obj
+ 0001:000103c2       _LdrProcessRelocationBlock@16 00410722 f   xbdmrtl:ldrreloc.obj
+ 0001:0001043e       _LdrRelocateImage@20       0041079e f   xbdmrtl:ldrreloc.obj
+ 0001:000104ac       _XWriteTitleInfoNoReboot@20 0041080c f   dmxapi:launch.obj
+ 0001:0001057f       _XapiFormatFATVolumeEx@8   004108df f   dmxapi:format.obj
+ 0001:00010895       _XapiFormatFATVolume@4     00410bf5 f   dmxapi:format.obj
+ 0001:000108a6       _IsBadReadPtr@8            00410c06 f   dmxapi:process.obj
+ 0001:0001090b       _IsBadWritePtr@8           00410c6b f   dmxapi:process.obj
+ 0001:00010974       _lstrcpynA@12              00410cd4 f   dmxapi:lcompata.obj
+ 0001:000109d9       _XapiSetLastNTError@4      00410d39 f   dmxapi:error.obj
+ 0001:00010a00       @RtlFindFirstSetRightMember@4 00410d60 f   xapirtl:bitmapa.obj
+ 0001:00010a10       _memmove                   00410d70 f   libcntpr:memmove.obj
+ 0001:00010d45       _sprintf                   004110a5 f   libcntpr:sprintf.obj
+ 0001:00010da0       _strncpy                   00411100 f   libcntpr:strncpy.obj
+ 0001:00010ea0       _strrchr                   00411200 f   libcntpr:strrchr.obj
+ 0001:00010ec7       __snprintf                 00411227 f   libcntpr:snprintf.obj
+ 0001:00010f20       __allmul                   00411280 f   libcntpr:llmul.obj
+ 0001:00010f70       _strchr                    004112d0 f   libcntpr:strchr.obj
+ 0001:00010f76       ___from_strstr_to_strchr   004112d6     libcntpr:strchr.obj
+ 0001:0001102c       __SEH_prolog               0041138c f   libcntpr:sehprolg.obj
+ 0001:00011065       __SEH_epilog               004113c5 f   libcntpr:sehprolg.obj
+ 0001:00011080       __except_handler3          004113e0 f   libcntpr:exsup3.obj
+ 0001:0001113d       __seh_longjmp_unwind@4     0041149d f   libcntpr:exsup3.obj
+ 0001:00011158       __strnicmp                 004114b8 f   libcntpr:strnicmp.obj
+ 0001:0001116b       _wcschr                    004114cb f   libcntpr:wcschr.obj
+ 0001:00011190       __alldiv                   004114f0 f   libcntpr:lldiv.obj
+ 0001:0001123a       __flsbuf                   0041159a f   libcntpr:_flsbuf.obj
+ 0001:000112d8       __output                   00411638 f   libcntpr:output.obj
+ 0001:00011940       __global_unwind2           00411ca0 f   libcntpr:exsup.obj
+ 0001:00011982       __local_unwind2            00411ce2 f   libcntpr:exsup.obj
+ 0001:000119da       __NLG_Return2              00411d3a     libcntpr:exsup.obj
+ 0001:000119ea       __abnormal_termination     00411d4a f   libcntpr:exsup.obj
+ 0001:00011a0d       __NLG_Notify1              00411d6d f   libcntpr:exsup.obj
+ 0001:00011a16       __NLG_Notify               00411d76 f   libcntpr:exsup.obj
+ 0001:00011a29       __NLG_Dispatch             00411d89     libcntpr:exsup.obj
+ 0001:00011a30       ___ascii_strnicmp          00411d90 f   libcntpr:_strnicm.obj
+ 0001:00011a90       ___ascii_stricmp           00411df0 f   libcntpr:_stricmp.obj
+ 0001:00011ada       _wctomb                    00411e3a f   libcntpr:wctomb.obj
+ 0001:00011b10       __aulldvrm                 00411e70 f   libcntpr:ulldvrm.obj
+ 0001:00011ba6       _ExSaveNonVolatileSetting@16 00411f06 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bac       _DbgPrint                  00411f0c f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bb2       _PsSetCreateThreadNotifyRoutine@4 00411f12 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bb8       _ExQueryNonVolatileSetting@20 00411f18 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bbe       _XcModExp@20               00411f1e f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bc4       _KeSuspendThread@4         00411f24 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bca       _KeResumeThread@4          00411f2a f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bd0       _XcRC4Crypt@12             00411f30 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bd6       _XcRC4Key@12               00411f36 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bdc       _XcSHAFinal@8              00411f3c f   xboxkrnl:xboxkrnl.exe
+ 0001:00011be2       _XcSHAUpdate@12            00411f42 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011be8       _XcSHAInit@4               00411f48 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bee       _XcBlockCryptCBC@28        00411f4e f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bf4       _XcKeyTable@12             00411f54 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011bfa       _XcDESKeyParity@8          00411f5a f   xboxkrnl:xboxkrnl.exe
+ 0001:00011c00       _XcHMAC@28                 00411f60 f   xboxkrnl:xboxkrnl.exe
+ 0001:00011c06       _RtlUnwind@16              00411f66 f   xboxkrnl:xboxkrnl.exe
+ 0002:00000000       ?SockCountSendTotal@@YGIPAU_WSABUF@@I@Z 00411f80 f   xnetm:sock.obj
+ 0002:00000019       _WSAGetLastError@0         00411f99 f   xnetm:sock.obj
+ 0002:0000001e       ___WSAFDIsSet@8            00411f9e f   xnetm:sock.obj
+ 0002:00000049       ?Lock@CSocket@@SGPAV1@I@Z  00411fc9 f   xnetm:sock.obj
+ 0002:000000a1       ?SockInit@CXnSock@@QAEJPAUXNetInitParams@@@Z 00412021 f   xnetm:sock.obj
+ 0002:000000e9       ?SetFlagsAndOr@CSocket@@QAEXKK@Z 00412069 f   xnetm:sock.obj
+ 0002:00000121       ?SockAlloc@CXnSock@@AAEPAVCSocket@@HH@Z 004120a1 f   xnetm:sock.obj
+ 0002:0000028f       ?SockFree@CXnSock@@AAEXPAVCSocket@@@Z 0041220f f   xnetm:sock.obj
+ 0002:000002b1       ?SockReleaseSendBuf@CXnSock@@AAEXPAVCSendBuf@@@Z 00412231 f   xnetm:sock.obj
+ 0002:000002cc       ?SockFlushRecvBuffers@CXnSock@@AAEXPAVCSocket@@@Z 0041224c f   xnetm:sock.obj
+ 0002:000002fc       ?shutdown@CXnSock@@QAEHIH@Z 0041227c f   xnetm:sock.obj
+ 0002:00000398       ?ioctlsocket@CXnSock@@QAEHIJPAK@Z 00412318 f   xnetm:sock.obj
+ 0002:00000460       ?SockUpdateBufferSize@CXnSock@@AAEJPAVCSocket@@HH@Z 004123e0 f   xnetm:sock.obj
+ 0002:000004bc       ?getpeername@CXnSock@@QAEHIPAUsockaddr@@PAH@Z 0041243c f   xnetm:sock.obj
+ 0002:00000548       ?SockBind@CXnSock@@AAEJPAVCSocket@@UCIpPort@@@Z 004124c8 f   xnetm:sock.obj
+ 0002:0000066d       ?listen@CXnSock@@QAEHIH@Z  004125ed f   xnetm:sock.obj
+ 0002:000006ef       ?SockLockSelectSockets@CXnSock@@AAEHPAUfd_set@@PAU_SELECTINFO@1@HH@Z 0041266f f   xnetm:sock.obj
+ 0002:000007cd       ?SockCheckSelectEvents@CXnSock@@AAEHPAVCSocket@@HH@Z 0041274d f   xnetm:sock.obj
+ 0002:000008d0       ?RecvReqEnqueue@CXnSock@@AAEJPAVCSocket@@PAVCRecvReq@@@Z 00412850 f   xnetm:sock.obj
+ 0002:00000945       ?SockQueueOverlappedSend@CXnSock@@AAEJPAVCSocket@@PAVCSendReq@@@Z 004128c5 f   xnetm:sock.obj
+ 0002:00000a11       _htonl@4                   00412991 f   xnetm:sock.obj
+ 0002:00000a11       _ntohl@4                   00412991 f   xnetm:sock.obj
+ 0002:00000a3b       _htons@4                   004129bb f   xnetm:sock.obj
+ 0002:00000a4f       ?SockWaitForEvent@CXnSock@@AAEJPAVCSocket@@HI@Z 004129cf f   xnetm:sock.obj
+ 0002:00000acf       ?SockReqComplete@CXnSock@@AAEXPAVCSocket@@PAVCSockReq@@J@Z 00412a4f f   xnetm:sock.obj
+ 0002:00000b21       ?SockFindMatch@CXnSock@@AAEPAVCSocket@@UCIpPort@@UCIpAddr@@0E@Z 00412aa1 f   xnetm:sock.obj
+ 0002:00000bab       ?SockReset@CXnSock@@AAEXUCIpAddr@@@Z 00412b2b f   xnetm:sock.obj
+ 0002:00000c1d       ?socket@CXnSock@@QAEIHHH@Z 00412b9d f   xnetm:sock.obj
+ 0002:00000d10       ?SockCleanup@CXnSock@@AAEXPAVCSocket@@@Z 00412c90 f   xnetm:sock.obj
+ 0002:00000d84       ?setsockopt@CXnSock@@QAEHIHHPBDH@Z 00412d04 f   xnetm:sock.obj
+ 0002:00000f79       ?bind@CXnSock@@QAEHIPBUsockaddr@@H@Z 00412ef9 f   xnetm:sock.obj
+ 0002:00000ffc       ?connect@CXnSock@@QAEHIPBUsockaddr@@H@Z 00412f7c f   xnetm:sock.obj
+ 0002:000010e4       ?accept@CXnSock@@QAEIIPAUsockaddr@@PAH@Z 00413064 f   xnetm:sock.obj
+ 0002:00001205       ?select@CXnSock@@QAEHHPAUfd_set@@00PBUtimeval@@@Z 00413185 f   xnetm:sock.obj
+ 0002:000015a8       ?SockRead@CXnSock@@AAEJPAVCSocket@@PAVCRecvReq@@@Z 00413528 f   xnetm:sock.obj
+ 0002:00001764       ?SockSend@CXnSock@@AAEJPAVCSocket@@PAVCSendReq@@@Z 004136e4 f   xnetm:sock.obj
+ 0002:0000187d       ?SockClose@CXnSock@@AAEJPAVCSocket@@H@Z 004137fd f   xnetm:sock.obj
+ 0002:0000191d       ?recv@CXnSock@@QAEHIPADHH@Z 0041389d f   xnetm:sock.obj
+ 0002:000019ad       ?WSARecvFrom@CXnSock@@QAEHIPAU_WSABUF@@KPAK1PAUsockaddr@@PAHPAU_OVERLAPPED@@P6GXKK4K@Z@Z 0041392d f   xnetm:sock.obj
+ 0002:00001a6a       ?send@CXnSock@@QAEHIPBDHH@Z 004139ea f   xnetm:sock.obj
+ 0002:00001afe       ?WSASend@CXnSock@@QAEHIPAU_WSABUF@@KPAKKPAU_OVERLAPPED@@P6GXKK2K@Z@Z 00413a7e f   xnetm:sock.obj
+ 0002:00001b98       ?WSASendTo@CXnSock@@QAEHIPAU_WSABUF@@KPAKKPBUsockaddr@@HPAU_OVERLAPPED@@P6GXKK3K@Z@Z 00413b18 f   xnetm:sock.obj
+ 0002:00001ca2       ?SockShutdown@CXnSock@@QAEXXZ 00413c22 f   xnetm:sock.obj
+ 0002:00001cf2       ?closesocket@CXnSock@@QAEHI@Z 00413c72 f   xnetm:sock.obj
+ 0002:00001d81       ?recvfrom@CXnSock@@QAEHIPADHHPAUsockaddr@@PAH@Z 00413d01 f   xnetm:sock.obj
+ 0002:00001dc2       ?sendto@CXnSock@@QAEHIPBDHHPBUsockaddr@@H@Z 00413d42 f   xnetm:sock.obj
+ 0002:00001e02       ?SockTerm@CXnSock@@QAEXXZ  00413d82 f   xnetm:sock.obj
+ 0002:00001e3f       ?XNetRandom@CXn@@QAEHPAEI@Z 00413dbf f   xnetm:xnet.obj
+ 0002:00001e5c       ?XNetGetTitleXnAddr@CXn@@QAEKPAUXNADDR@@@Z 00413ddc f   xnetm:xnet.obj
+ 0002:00001e6b       ?XNetGetDebugXnAddr@CXn@@QAEKPAUXNADDR@@@Z 00413deb f   xnetm:xnet.obj
+ 0002:00001e7a       _XNetRandom@8              00413dfa f   xnetm:xnet.obj
+ 0002:00001e85       _XNetGetTitleXnAddr@4      00413e05 f   xnetm:xnet.obj
+ 0002:00001e90       _XNetGetDebugXnAddr@4      00413e10 f   xnetm:xnet.obj
+ 0002:00001e9b       _socket@12                 00413e1b f   xnetm:xnet.obj
+ 0002:00001ea6       _closesocket@4             00413e26 f   xnetm:xnet.obj
+ 0002:00001eb1       _shutdown@8                00413e31 f   xnetm:xnet.obj
+ 0002:00001ebc       _ioctlsocket@12            00413e3c f   xnetm:xnet.obj
+ 0002:00001ec7       _setsockopt@20             00413e47 f   xnetm:xnet.obj
+ 0002:00001ed6       _getpeername@12            00413e56 f   xnetm:xnet.obj
+ 0002:00001ee1       _bind@12                   00413e61 f   xnetm:xnet.obj
+ 0002:00001eec       _connect@12                00413e6c f   xnetm:xnet.obj
+ 0002:00001ef7       _listen@8                  00413e77 f   xnetm:xnet.obj
+ 0002:00001f02       _accept@12                 00413e82 f   xnetm:xnet.obj
+ 0002:00001f0d       _select@20                 00413e8d f   xnetm:xnet.obj
+ 0002:00001f1c       _recv@16                   00413e9c f   xnetm:xnet.obj
+ 0002:00001f27       _recvfrom@24               00413ea7 f   xnetm:xnet.obj
+ 0002:00001f36       _send@16                   00413eb6 f   xnetm:xnet.obj
+ 0002:00001f41       _WSASend@28                00413ec1 f   xnetm:xnet.obj
+ 0002:00001f50       _sendto@24                 00413ed0 f   xnetm:xnet.obj
+ 0002:00001f5f       ??0CArpEntry@CXnEnet@@QAE@XZ 00413edf f i xnetm:xnet.obj
+ 0002:00001f5f       ??0CIpAddr@@QAE@XZ         00413edf f i xnetm:sock.obj
+ 0002:00001f62       ??_H@YGXPAXIHP6EPAX0@Z@Z   00413ee2 f i xnetm:xnet.obj
+ 0002:00001f84       ??0CXn@@QAE@XZ             00413f04 f i xnetm:xnet.obj
+ 0002:00001fdc       _XnInit@24                 00413f5c f   xnetm:xnet.obj
+ 0002:000021f3       _XNetStartup@4             00414173 f   xnetm:xnet.obj
+ 0002:0000220a       _WSAStartup@8              0041418a f   xnetm:xnet.obj
+ 0002:00002225       ?RandInit@CXnBase@@AAEXPAUXNetInitParams@@@Z 004141a5 f   xnetm:base.obj
+ 0002:000022c7       ?InsertHead@CPacketQueue@@QAEXPAVCPacket@@@Z 00414247 f   xnetm:base.obj
+ 0002:000022dc       ?InsertTail@CPacketQueue@@QAEXPAVCPacket@@@Z 0041425c f   xnetm:base.obj
+ 0002:000022f8       ?RemoveHead@CPacketQueue@@QAEPAVCPacket@@XZ 00414278 f   xnetm:base.obj
+ 0002:0000230c       ?Dequeue@CPacketQueue@@QAEXPAVCPacket@@@Z 0041428c f   xnetm:base.obj
+ 0002:00002346       ?TimerSet@CXnBase@@QAEXPAVCTimer@@K@Z 004142c6 f   xnetm:base.obj
+ 0002:000023ab       ?TimerSetRelative@CXnBase@@QAEKPAVCTimer@@K@Z 0041432b f   xnetm:base.obj
+ 0002:000023cc       ?PoolAlloc@CXnBase@@QAEPAXIK@Z 0041434c f   xnetm:base.obj
+ 0002:000024cc       ?PoolAllocZ@CXnBase@@QAEPAXIK@Z 0041444c f   xnetm:base.obj
+ 0002:000024fe       ?PoolFree@CXnBase@@QAEXPAX@Z 0041447e f   xnetm:base.obj
+ 0002:000025b4       ?Rand@CXnBase@@QAEXPAEI@Z  00414534 f   xnetm:base.obj
+ 0002:000025de       ?RandLong@CXnBase@@QAEKXZ  0041455e f   xnetm:base.obj
+ 0002:000025f2       ?PacketFree@CXnBase@@QAEXPAVCPacket@@@Z 00414572 f   xnetm:base.obj
+ 0002:0000260d       ?GetHdr@CPacket@@QAEPAXH@Z 0041458d f   xnetm:base.obj
+ 0002:00002643       ?InsertHead@CPacketQueue@@QAEXPAV1@@Z 004145c3 f   xnetm:base.obj
+ 0002:0000266c       ?Complete@CPacketQueue@@QAEXPAVCXnBase@@@Z 004145ec f   xnetm:base.obj
+ 0002:00002689       ?Discard@CPacketQueue@@QAEXPAVCXnBase@@@Z 00414609 f   xnetm:base.obj
+ 0002:000026a8       ?DefaultMask@CIpAddr@@QBE?AU1@XZ 00414628 f   xnetm:base.obj
+ 0002:0000270a       ?TimerPush@CXnBase@@AAEXXZ 0041468a f   xnetm:base.obj
+ 0002:00002761       ?BaseStart@CXnBase@@QAEXXZ 004146e1 f   xnetm:base.obj
+ 0002:00002787       ?BaseStop@CXnBase@@QAEXXZ  00414707 f   xnetm:base.obj
+ 0002:000027bf       ?BaseTerm@CXnBase@@QAEXXZ  0041473f f   xnetm:base.obj
+ 0002:000027f0       ?PacketAlloc@CXnBase@@QAEPAVCPacket@@KIIIP8CXnVoid@@AEXPAV2@@Z@Z 00414770 f   xnetm:base.obj
+ 0002:000028e4       ?IsValidUnicast@CIpAddr@@QBEHXZ 00414864 f   xnetm:base.obj
+ 0002:0000290d       ?TimerDpc@CXnBase@@CGXPAU_KDPC@@PAX11@Z 0041488d f   xnetm:base.obj
+ 0002:00002919       ?BaseInit@CXnBase@@QAEJPAUXNetInitParams@@@Z 00414899 f   xnetm:base.obj
+ 0002:00002ac4       ?HalQueryTsc@@YGXPAT_LARGE_INTEGER@@@Z 00414a44 f   xnetm:halx.obj
+ 0002:00002ac9       ?Add@CRandBytes@@QAEXPAXI@Z 00414a49 f   xnetm:halx.obj
+ 0002:00002af8       ?SetInitFlag@CXnHal@@QAEXK@Z 00414a78 f   xnetm:halx.obj
+ 0002:00002b27       ?HalRandGather@CXnHal@@QAEIPAEI@Z 00414aa7 f   xnetm:halx.obj
+ 0002:00002c34       ?FragFree@CXnIp@@AAEXPAVCPacket@@@Z 00414bb4 f   xnetm:ip.obj
+ 0002:00002c68       ?FragTimer@CXnIp@@AAEXPAVCTimer@@@Z 00414be8 f   xnetm:ip.obj
+ 0002:00002c78       ?RouteRelease@CXnIp@@QAEXPAVCRouteEntry@@@Z 00414bf8 f   xnetm:ip.obj
+ 0002:00002ca8       ?KeyRegLookup@CXnIp@@AAEPAUCKeyReg@1@PBUXNKID@@@Z 00414c28 f   xnetm:ip.obj
+ 0002:00002cdb       ?CryptDes@CXnIp@@AAEXKPAEI00I@Z 00414c5b f   xnetm:ip.obj
+ 0002:00002d30       ?SecRegSetKey@CXnIp@@AAEXPAUCSecReg@1@PAEI1I1IH@Z 00414cb0 f   xnetm:ip.obj
+ 0002:00002dc0       ?IpInit@CXnIp@@IAEJPAUXNetInitParams@@@Z 00414d40 f   xnetm:ip.obj
+ 0002:00002ebc       ?IpConfig@CXnIp@@IAEHPBUXNetConfigParams@@K@Z 00414e3c f   xnetm:ip.obj
+ 0002:00002ee4       ?IpRecvTcp@CXnIp@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCTcpHdr@@I@Z 00414e64 f   xnetm:ip.obj
+ 0002:00002fa2       ?IpFillHdr@CXnIp@@QAEXPAVCPacket@@UCIpAddr@@E@Z 00414f22 f   xnetm:ip.obj
+ 0002:0000300f       ?FragTerm@CXnIp@@AAEXXZ    00414f8f f   xnetm:ip.obj
+ 0002:00003030       ?RouteEntryOrphan@CXnIp@@AAEXPAVCRouteEntry@@@Z 00414fb0 f   xnetm:ip.obj
+ 0002:0000305b       ?RouteLookup@CXnIp@@AAEPAVCRouteEntry@@UCIpAddr@@@Z 00414fdb f   xnetm:ip.obj
+ 0002:000030f2       ?RouteAdd@CXnIp@@AAEXUCIpAddr@@00GG@Z 00415072 f   xnetm:ip.obj
+ 0002:0000320d       ?RouteDelete@CXnIp@@AAEXUCIpAddr@@00@Z 0041518d f   xnetm:ip.obj
+ 0002:00003261       ?RouteRedirect@CXnIp@@AAEXUCIpAddr@@00@Z 004151e1 f   xnetm:ip.obj
+ 0002:000032ce       ?SecRegLookup@CXnIp@@AAEPAUCSecReg@1@PBUXNADDR@@PBUXNKID@@@Z 0041524e f   xnetm:ip.obj
+ 0002:00003324       ?SecRegLookup@CXnIp@@AAEPAUCSecReg@1@K@Z 004152a4 f   xnetm:ip.obj
+ 0002:00003361       ?SecRegSetTicks@CXnIp@@AAEXPAUCSecReg@1@@Z 004152e1 f   xnetm:ip.obj
+ 0002:00003393       ?SecRegSetOwned@CXnIp@@QAEXUCIpAddr@@@Z 00415313 f   xnetm:ip.obj
+ 0002:000033cc       ?IpDecrypt@CXnIp@@QAEHPAVCPacket@@UCIpAddr@@@Z 0041534c f   xnetm:ip.obj
+ 0002:00003472       ?IpGetXnAddr@CXnIp@@QAEKPAUXNADDR@@@Z 004153f2 f   xnetm:ip.obj
+ 0002:00003509       ?IpFillKeyExXbToXb@CXnIp@@AAEXPAUCSecReg@1@PAUCKeyExXbToXb@1@@Z 00415489 f   xnetm:ip.obj
+ 0002:00003646       ?IpXmitIp@CXnIp@@AAEXPAVCPacket@@PAPAVCRouteEntry@@@Z 004155c6 f   xnetm:ip.obj
+ 0002:000037bf       ?RouteListOrphan@CXnIp@@AAEXXZ 0041573f f   xnetm:ip.obj
+ 0002:000037e8       ?SecRegSetIdle@CXnIp@@AAEXPAUCSecReg@1@@Z 00415768 f   xnetm:ip.obj
+ 0002:0000384a       ?IpSetAddress@CXnIp@@QAEXUCIpAddr@@0@Z 004157ca f   xnetm:ip.obj
+ 0002:000038fc       ?IpXmitEsp@CXnIp@@AAEXPAVCPacket@@PAUCSecReg@1@PAPAVCRouteEntry@@@Z 0041587c f   xnetm:ip.obj
+ 0002:00003afc       ?IpXmitKeyExXbToXb@CXnIp@@AAEXPAUCSecReg@1@H@Z 00415a7c f   xnetm:ip.obj
+ 0002:00003ba6       ?IpXmitSecMsg@CXnIp@@AAEXPAUCSecReg@1@GPAXI1I@Z 00415b26 f   xnetm:ip.obj
+ 0002:00003c57       ?IpXmitSecMsgDelete@CXnIp@@AAEXPAUCSecReg@1@K@Z 00415bd7 f   xnetm:ip.obj
+ 0002:00003c73       ?SecRegFree@CXnIp@@AAEXPAUCSecReg@1@@Z 00415bf3 f   xnetm:ip.obj
+ 0002:00003c8f       ?SecRegShutdown@CXnIp@@QAEXH@Z 00415c0f f   xnetm:ip.obj
+ 0002:00003ced       ?SecRegProbe@CXnIp@@AAEXXZ 00415c6d f   xnetm:ip.obj
+ 0002:00003dce       ?IpStop@CXnIp@@IAEXXZ      00415d4e f   xnetm:ip.obj
+ 0002:00003e03       ?IpRecvSecMsg@CXnIp@@AAEXPAVCPacket@@PAUCSecReg@1@KPAUCSecMsgHdr@@I@Z 00415d83 f   xnetm:ip.obj
+ 0002:00003e3e       ?IpXmitKeyEx@CXnIp@@AAEXPAUCSecReg@1@@Z 00415dbe f   xnetm:ip.obj
+ 0002:00003e91       ?IpUnregisterKey@CXnIp@@QAEHPBUXNKID@@@Z 00415e11 f   xnetm:ip.obj
+ 0002:00003f60       ?SecRegEnqueue@CXnIp@@AAEXPAUCSecReg@1@PAVCPacket@@@Z 00415ee0 f   xnetm:ip.obj
+ 0002:00003f81       ?SecRegTimer@CXnIp@@AAEXPAVCTimer@@@Z 00415f01 f   xnetm:ip.obj
+ 0002:00003fd0       ?IpTerm@CXnIp@@IAEXXZ      00415f50 f   xnetm:ip.obj
+ 0002:00004095       ?IpXmit@CXnIp@@QAEXPAVCPacket@@PAPAVCRouteEntry@@@Z 00416015 f   xnetm:ip.obj
+ 0002:0000412d       ?IpFillAndXmit@CXnIp@@QAEXPAVCPacket@@UCIpAddr@@EPAPAVCRouteEntry@@@Z 004160ad f   xnetm:ip.obj
+ 0002:00004165       ?SecRegAlloc@CXnIp@@AAEPAUCSecReg@1@XZ 004160e5 f   xnetm:ip.obj
+ 0002:000041fc       ?SecRegAlloc@CXnIp@@AAEPAUCSecReg@1@PBUXNADDR@@PAUCKeyReg@1@@Z 0041617c f   xnetm:ip.obj
+ 0002:0000424d       ?SecRegXmitQueue@CXnIp@@AAEXPAUCSecReg@1@@Z 004161cd f   xnetm:ip.obj
+ 0002:00004275       ?IpRecvKeyExXbToXb@CXnIp@@AAEXPAVCPacket@@UCIpAddr@@UCIpPort@@PAUCKeyExXbToXb@1@I@Z 004161f5 f   xnetm:ip.obj
+ 0002:00004603       ?IpRecvKeyEx@CXnIp@@AAEXPAVCPacket@@UCIpAddr@@UCIpPort@@PAUCKeyExHdr@@I@Z 00416583 f   xnetm:ip.obj
+ 0002:00004648       ?IpRecvEsp@CXnIp@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCEspHdr@@I@Z 004165c8 f   xnetm:ip.obj
+ 0002:00004987       ?IpRecvUdp@CXnIp@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCUdpHdr@@I@Z 00416907 f   xnetm:ip.obj
+ 0002:00004a7f       ?IpRecv@CXnIp@@IAEXPAVCPacket@@@Z 004169ff f   xnetm:ip.obj
+ 0002:00004c22       ?FragRecv@CXnIp@@AAEXPAVCPacket@@PAUCIpHdr@@II@Z 00416ba2 f   xnetm:ip.obj
+ 0002:00004ef5       ?TcpValidateSeqs@CXnSock@@AAEHPAVCTcpSocket@@KKPAK1@Z 00416e75 f   xnetm:socktcp.obj
+ 0002:00004f48       ?DequeueChild@CTcpSocket@@QAEXPAV1@@Z 00416ec8 f   xnetm:socktcp.obj
+ 0002:00004f6c       ?InsertRecvBuf@CSocket@@QAEXPAVCRecvBuf@@0@Z 00416eec f   xnetm:socktcp.obj
+ 0002:00004f99       ?TcpSndNxt@CXnSock@@AAEKPAVCTcpSocket@@@Z 00416f19 f   xnetm:socktcp.obj
+ 0002:00004fc8       ?TcpSlideRecvWindow@CXnSock@@AAEXPAVCTcpSocket@@I@Z 00416f48 f   xnetm:socktcp.obj
+ 0002:00005007       ?TcpUpdateRTO@CXnSock@@AAEXPAVCTcpSocket@@@Z 00416f87 f   xnetm:socktcp.obj
+ 0002:000050c2       ?TcpCorrectMisorderedSegments@CXnSock@@AAEIPAVCTcpSocket@@KPAVCTcpRecvBuf@@@Z 00417042 f   xnetm:socktcp.obj
+ 0002:00005174       ?TcpBufferMisorderedSegment@CXnSock@@AAEXPAVCTcpSocket@@IPAVCTcpRecvBuf@@@Z 004170f4 f   xnetm:socktcp.obj
+ 0002:00005216       ?TcpCompletePendingRecvReqFast@CXnSock@@AAEIPAVCTcpSocket@@EPAEI@Z 00417196 f   xnetm:socktcp.obj
+ 0002:00005283       ?TcpParseOptions@CXnSock@@AAEHPAVCTcpSocket@@PAUCTcpHdr@@PAU_TcpOptions@@@Z 00417203 f   xnetm:socktcp.obj
+ 0002:00005303       ?TcpTrimBacklog@CXnSock@@AAEXPAVCTcpSocket@@I@Z 00417283 f   xnetm:socktcp.obj
+ 0002:0000534f       ?TcpListen@CXnSock@@AAEJPAVCTcpSocket@@H@Z 004172cf f   xnetm:socktcp.obj
+ 0002:000053b2       ?TcpCopyRecvData@CXnSock@@AAEIPAVCTcpSocket@@PAVCRecvReq@@@Z 00417332 f   xnetm:socktcp.obj
+ 0002:00005465       ?TcpPacketAlloc@CXnSock@@AAEPAVCPacket@@PAVCTcpSocket@@UCIpAddr@@IIIP8CXnVoid@@AEXPAV2@@Z@Z 004173e5 f   xnetm:socktcp.obj
+ 0002:00005498       ?TcpPacketFree@CXnSock@@AAEXPAVCPacket@@@Z 00417418 f   xnetm:socktcp.obj
+ 0002:000054aa       ?TcpSendSegment@CXnSock@@AAEXPAVCTcpSocket@@PAVCTcpSendBuf@@H@Z 0041742a f   xnetm:socktcp.obj
+ 0002:00005623       ?EnqueueChild@CTcpSocket@@QAEXPAV1@@Z 004175a3 f   xnetm:socktcp.obj
+ 0002:0000568d       ?GetConnectedChild@CTcpSocket@@QAEPAV1@XZ 0041760d f   xnetm:socktcp.obj
+ 0002:000056bc       ?DequeueConnectedChild@CTcpSocket@@QAEPAV1@XZ 0041763c f   xnetm:socktcp.obj
+ 0002:000056d8       ?TcpReset@CXnSock@@AAEPAVCTcpSocket@@PAV2@J@Z 00417658 f   xnetm:socktcp.obj
+ 0002:0000582c       ?TcpCloneChild@CXnSock@@AAEPAVCTcpSocket@@PAV2@@Z 004177ac f   xnetm:socktcp.obj
+ 0002:0000585c       ?TcpEmitRST@CXnSock@@AAEXPAVCTcpSocket@@UCIpAddr@@UCIpPort@@2KKE@Z 004177dc f   xnetm:socktcp.obj
+ 0002:0000591c       ?TcpResetPeer@CXnSock@@AAEXPAVCTcpSocket@@@Z 0041789c f   xnetm:socktcp.obj
+ 0002:00005951       ?TcpEmitACK@CXnSock@@AAEXPAVCTcpSocket@@@Z 004178d1 f   xnetm:socktcp.obj
+ 0002:00005a32       ?TcpUpdatePersistFlag@CXnSock@@AAEHPAVCTcpSocket@@@Z 004179b2 f   xnetm:socktcp.obj
+ 0002:00005a93       ?TcpDoFastRexmit@CXnSock@@AAEXPAVCTcpSocket@@@Z 00417a13 f   xnetm:socktcp.obj
+ 0002:00005b01       ?TcpProcessFIN@CXnSock@@AAEXPAVCTcpSocket@@PAUCTcpHdr@@K@Z 00417a81 f   xnetm:socktcp.obj
+ 0002:00005bca       ?TcpConnectionEstablished@CXnSock@@AAEXPAVCTcpSocket@@PAUCTcpHdr@@@Z 00417b4a f   xnetm:socktcp.obj
+ 0002:00005d26       ?TcpRead@CXnSock@@AAEJPAVCTcpSocket@@PAVCRecvReq@@@Z 00417ca6 f   xnetm:socktcp.obj
+ 0002:00005de3       ?TcpStartOutput@CXnSock@@AAEHPAVCTcpSocket@@@Z 00417d63 f   xnetm:socktcp.obj
+ 0002:00005eda       ?TcpXmitTimeout@CXnSock@@AAEPAVCTcpSocket@@PAV2@@Z 00417e5a f   xnetm:socktcp.obj
+ 0002:00005fa9       ?TcpQueueSegment@CXnSock@@AAEXPAVCTcpSocket@@PAVCPacket@@EI@Z 00417f29 f   xnetm:socktcp.obj
+ 0002:00006041       ?TcpTimer@CXnSock@@AAEXPAVCTimer@@@Z 00417fc1 f   xnetm:socktcp.obj
+ 0002:0000611e       ?TcpEmitSYN@CXnSock@@AAEJPAVCTcpSocket@@H@Z 0041809e f   xnetm:socktcp.obj
+ 0002:000061f4       ?TcpEmitFIN@CXnSock@@AAEJPAVCTcpSocket@@@Z 00418174 f   xnetm:socktcp.obj
+ 0002:0000622f       ?TcpAcceptConnReqActive@CXnSock@@AAEHPAVCTcpSocket@@PAUCTcpHdr@@@Z 004181af f   xnetm:socktcp.obj
+ 0002:000062c1       ?TcpShutdown@CXnSock@@AAEJPAVCTcpSocket@@KH@Z 00418241 f   xnetm:socktcp.obj
+ 0002:000063c0       ?TcpSend@CXnSock@@AAEJPAVCTcpSocket@@PAVCSendReq@@I@Z 00418340 f   xnetm:socktcp.obj
+ 0002:00006554       ?TcpUpdateSndUna@CXnSock@@AAEXPAVCTcpSocket@@K@Z 004184d4 f   xnetm:socktcp.obj
+ 0002:000067ce       ?TcpRecvData@CXnSock@@AAEPAVCTcpSocket@@PAV2@PAUCTcpHdr@@PAEI@Z 0041874e f   xnetm:socktcp.obj
+ 0002:00006afc       ?TcpClose@CXnSock@@AAEHPAVCTcpSocket@@H@Z 00418a7c f   xnetm:socktcp.obj
+ 0002:00006b91       ?TcpConnect@CXnSock@@AAEJPAVCTcpSocket@@UCIpAddr@@UCIpPort@@H@Z 00418b11 f   xnetm:socktcp.obj
+ 0002:00006d57       ?TcpAcceptConnReqPassive@CXnSock@@AAEHPAVCTcpSocket@@PAUCTcpHdr@@UCIpAddr@@@Z 00418cd7 f   xnetm:socktcp.obj
+ 0002:00006e07       ?TcpRecv@CXnSock@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCTcpHdr@@II@Z 00418d87 f   xnetm:socktcp.obj
+ 0002:00007163       ?UdpShutdown@CXnSock@@AAEJPAVCSocket@@K@Z 004190e3 f   xnetm:sockudp.obj
+ 0002:000071c7       ?UdpRead@CXnSock@@AAEJPAVCSocket@@PAVCRecvReq@@@Z 00419147 f   xnetm:sockudp.obj
+ 0002:00007294       ?UdpSend@CXnSock@@AAEJPAVCSocket@@PAVCSendReq@@I@Z 00419214 f   xnetm:sockudp.obj
+ 0002:0000742f       ?UdpConnect@CXnSock@@AAEJPAVCSocket@@UCIpAddr@@UCIpPort@@@Z 004193af f   xnetm:sockudp.obj
+ 0002:00007523       ?UdpRecvData@CXnSock@@AAEXPAVCSocket@@UCIpAddr@@UCIpPort@@PAEI@Z 004194a3 f   xnetm:sockudp.obj
+ 0002:00007626       ?UdpPacketFree@CXnSock@@AAEXPAVCPacket@@@Z 004195a6 f   xnetm:sockudp.obj
+ 0002:000076a6       ?UdpRecv@CXnSock@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCUdpHdr@@I@Z 00419626 f   xnetm:sockudp.obj
+ 0002:0000777e       ?NicStartXmitRecv@CXnNic@@AAEXXZ 004196fe f   xnetm:nicx.obj
+ 0002:000077a6       ?NicStopXmitRecv@CXnNic@@AAEXXZ 00419726 f   xnetm:nicx.obj
+ 0002:00007819       ?NicProcessIsr@CXnNic@@AAEEXZ 00419799 f   xnetm:nicx.obj
+ 0002:00007832       ?NicMiiInterrupt@CXnNic@@AAEXKH@Z 004197b2 f   xnetm:nicx.obj
+ 0002:000078b8       ?NicXmitReady@CXnNic@@QAEHXZ 00419838 f   xnetm:nicx.obj
+ 0002:000078da       ?NicStart@CXnNic@@IAEXXZ   0041985a f   xnetm:nicx.obj
+ 0002:000078f0       ?AttachClient@CXbdmServer@CXnNic@@UAEXPAVCXbdmClient@2@@Z 00419870 f   xnetm:nicx.obj
+ 0002:0000790c       ?XmitReady@CXbdmServer@CXnNic@@UAEHXZ 0041988c f   xnetm:nicx.obj
+ 0002:00007917       ?GetXnAddr@CXbdmServer@CXnNic@@UAEKPAUXNADDRXBDM@2@@Z 00419897 f   xnetm:nicx.obj
+ 0002:00007946       ?NicGetOtherXnAddr@CXnNic@@QAEKPAUXNADDR@@@Z 004198c6 f   xnetm:nicx.obj
+ 0002:0000799f       ?NicIsr@CXnNic@@CGEPAU_KINTERRUPT@@PAX@Z 0041991f f   xnetm:nicx.obj
+ 0002:000079ab       ?NicRecvInterrupt@CXnNic@@AAEXXZ 0041992b f   xnetm:nicx.obj
+ 0002:00007b6b       ?NicXmitInterrupt@CXnNic@@AAEXXZ 00419aeb f   xnetm:nicx.obj
+ 0002:00007c71       ?NicXmit@CXnNic@@QAEXPAVCPacket@@@Z 00419bf1 f   xnetm:nicx.obj
+ 0002:00007d5b       ?NicTimer@CXnNic@@QAEXXZ   00419cdb f   xnetm:nicx.obj
+ 0002:00007d80       ?NicFlush@CXnNic@@IAEXXZ   00419d00 f   xnetm:nicx.obj
+ 0002:00007dc2       ?NicStop@CXnNic@@IAEXXZ    00419d42 f   xnetm:nicx.obj
+ 0002:00007e1c       ?NicTerm@CXnNic@@IAEXXZ    00419d9c f   xnetm:nicx.obj
+ 0002:00007ebd       ?HalShutdownNotification@CXnNic@@CGXPAU_HAL_SHUTDOWN_REGISTRATION@@@Z 00419e3d f   xnetm:nicx.obj
+ 0002:00007ef5       ?NicStop@CXbdmServer@CXnNic@@UAEXXZ 00419e75 f   xnetm:nicx.obj
+ 0002:00007f2b       ?InitClient@CXbdmServer@CXnNic@@UAEJIIPAUCEnetAddr@@PAH@Z 00419eab f   xnetm:nicx.obj
+ 0002:00007f4d       ?DetachClient@CXbdmServer@CXnNic@@UAEXXZ 00419ecd f   xnetm:nicx.obj
+ 0002:00007f81       ?Xmit@CXbdmServer@CXnNic@@UAEXPAX0I@Z 00419f01 f   xnetm:nicx.obj
+ 0002:00007fc8       ?NicProcessDpc@CXnNic@@AAEXXZ 00419f48 f   xnetm:nicx.obj
+ 0002:00008024       ?NicDpc@CXnNic@@CGXPAU_KDPC@@PAX11@Z 00419fa4 f   xnetm:nicx.obj
+ 0002:00008030       ?NicInit@CXnNic@@IAEJPAUXNetInitParams@@@Z 00419fb0 f   xnetm:nicx.obj
+ 0002:00008518       _XNetOpenConfigVolume@0    0041a498 f   xnetm:xnetp.obj
+ 0002:00008566       _XNetLoadConfigSector@16   0041a4e6 f   xnetm:xnetp.obj
+ 0002:000085eb       _XNetCloseConfigVolume@4   0041a56b f   xnetm:xnetp.obj
+ 0002:00008602       _XConfigChecksum@8         0041a582 f i xnetm:xnetp.obj
+ 0002:0000862c       _XNetSaveConfigSector@16   0041a5ac f   xnetm:xnetp.obj
+ 0002:000086c9       ?ActiveDhcpAddr@CXnIp@@AAEHXZ 0041a649 f   xnetm:ipdhcp.obj
+ 0002:000086d5       ?ActiveAutonetAddr@CXnIp@@AAEHXZ 0041a655 f   xnetm:ipdhcp.obj
+ 0002:000086e1       ?ActiveStaticAddr@CXnIp@@AAEHXZ 0041a661 f   xnetm:ipdhcp.obj
+ 0002:000086ee       ?ActiveNoAddr@CXnIp@@AAEHXZ 0041a66e f   xnetm:ipdhcp.obj
+ 0002:000086fa       ?DhcpTerm@CXnIp@@AAEXXZ    0041a67a f   xnetm:ipdhcp.obj
+ 0002:00008709       ?DhcpTime@CXnIp@@AAEKXZ    0041a689 f   xnetm:ipdhcp.obj
+ 0002:00008731       ?DhcpAppendParamReqList@@YGPAEPAE@Z 0041a6b1 f   xnetm:ipdhcp.obj
+ 0002:00008750       ?DhcpComputeSecsSinceStart@CXnIp@@AAEXXZ 0041a6d0 f   xnetm:ipdhcp.obj
+ 0002:00008775       ?DhcpTimerSetRelative@CXnIp@@AAEXII@Z 0041a6f5 f   xnetm:ipdhcp.obj
+ 0002:000087ae       ?DhcpTimerSetAbsolute@CXnIp@@AAEXK@Z 0041a72e f   xnetm:ipdhcp.obj
+ 0002:000087f4       ?DhcpComputeTimeout@CXnIp@@AAEXXZ 0041a774 f   xnetm:ipdhcp.obj
+ 0002:000088c7       ?DhcpResetInterface@CXnIp@@AAEXXZ 0041a847 f   xnetm:ipdhcp.obj
+ 0002:000088f4       ?DhcpSendMessage@CXnIp@@AAEJPAVCPacket@@IH@Z 0041a874 f   xnetm:ipdhcp.obj
+ 0002:00008975       ?DhcpAppendLeaseTimeOption@CXnIp@@AAEPAEPAE@Z 0041a8f5 f   xnetm:ipdhcp.obj
+ 0002:000089c3       ?DhcpFillMessageHeader@CXnIp@@AAEPAEPAEH@Z 0041a943 f   xnetm:ipdhcp.obj
+ 0002:00008a78       ?DhcpSendDiscover@CXnIp@@AAEJXZ 0041a9f8 f   xnetm:ipdhcp.obj
+ 0002:00008afb       ?DhcpSendRequest@CXnIp@@AAEJXZ 0041aa7b f   xnetm:ipdhcp.obj
+ 0002:00008bc8       ?DhcpValidateOffer@CXnIp@@AAEHUCIpAddr@@PAUCDhcpOptions@1@@Z 0041ab48 f   xnetm:ipdhcp.obj
+ 0002:00008c58       ?DhcpAddOrRemoveGateways@CXnIp@@AAEXH@Z 0041abd8 f   xnetm:ipdhcp.obj
+ 0002:00008cbc       ?DhcpSetDefaultGateways@CXnIp@@AAEXXZ 0041ac3c f   xnetm:ipdhcp.obj
+ 0002:00008cdb       ?DhcpUseOptionParams@CXnIp@@AAEXPAUCDhcpOptions@1@@Z 0041ac5b f   xnetm:ipdhcp.obj
+ 0002:00008e03       ?DhcpParseOptionParams@CXnIp@@AAEJPAUCDhcpOptions@1@PBEIPAE@Z 0041ad83 f   xnetm:ipdhcp.obj
+ 0002:00008ff9       ?DhcpChangeState@CXnIp@@AAEXH@Z 0041af79 f   xnetm:ipdhcp.obj
+ 0002:000090ce       ?DhcpProcessOffer@CXnIp@@AAEJUCIpAddr@@PAUCDhcpOptions@1@@Z 0041b04e f   xnetm:ipdhcp.obj
+ 0002:0000910d       ?DhcpProcessAck@CXnIp@@AAEJUCIpAddr@@PAUCDhcpOptions@1@@Z 0041b08d f   xnetm:ipdhcp.obj
+ 0002:000091ab       ?DhcpProcessNak@CXnIp@@AAEJUCIpAddr@@@Z 0041b12b f   xnetm:ipdhcp.obj
+ 0002:000091cb       ?DhcpSelectAutonetAddr@CXnIp@@AAEXXZ 0041b14b f   xnetm:ipdhcp.obj
+ 0002:00009258       ?DhcpConfig@CXnIp@@AAEHPBUXNetConfigParams@@@Z 0041b1d8 f   xnetm:ipdhcp.obj
+ 0002:0000939c       ?DhcpRecv@CXnIp@@AAEXPAVCPacket@@PAUCUdpHdr@@I@Z 0041b31c f   xnetm:ipdhcp.obj
+ 0002:00009524       ?DhcpNotifyAddressConflict@CXnIp@@AAEXXZ 0041b4a4 f   xnetm:ipdhcp.obj
+ 0002:00009533       ?DhcpTimer@CXnIp@@AAEXPAVCTimer@@@Z 0041b4b3 f   xnetm:ipdhcp.obj
+ 0002:0000966f       ?IpRecvArp@CXnIp@@IAEXPAUCEnetAddr@@@Z 0041b5ef f   xnetm:ipdhcp.obj
+ 0002:00009677       ?DhcpInit@CXnIp@@AAEJXZ    0041b5f7 f   xnetm:ipdhcp.obj
+ 0002:000096a4       ?EnetQueuePush@CXnEnet@@IAEXXZ 0041b624 f   xnetm:enet.obj
+ 0002:000096b6       ?EnetXmit@CXnEnet@@QAEXPAVCPacket@@UCIpAddr@@@Z 0041b636 f   xnetm:enet.obj
+ 0002:000096f6       ?EnetStop@CXnEnet@@IAEXXZ  0041b676 f   xnetm:enet.obj
+ 0002:00009718       ?ArpXmit@CXnEnet@@AAEXGUCIpAddr@@0PAUCEnetAddr@@@Z 0041b698 f   xnetm:enet.obj
+ 0002:000097c8       ?ArpLookup@CXnEnet@@AAEPAUCArpEntry@1@UCIpAddr@@W4ArpResolve@1@@Z 0041b748 f   xnetm:enet.obj
+ 0002:000098b1       ?ArpTimer@CXnEnet@@AAEXPAVCTimer@@@Z 0041b831 f   xnetm:enet.obj
+ 0002:00009964       ?ArpRecv@CXnEnet@@AAEXPAVCPacket@@@Z 0041b8e4 f   xnetm:enet.obj
+ 0002:00009aed       ?EnetFillAndXmit@CXnEnet@@AAEXPAVCPacket@@PAUCEnetAddr@@@Z 0041ba6d f   xnetm:enet.obj
+ 0002:00009b1e       ?EnetTerm@CXnEnet@@IAEXXZ  0041ba9e f   xnetm:enet.obj
+ 0002:00009b8e       ?EnetXmitArp@CXnEnet@@QAEXUCIpAddr@@@Z 0041bb0e f   xnetm:enet.obj
+ 0002:00009bad       ?EnetRecv@CXnEnet@@IAEXPAVCPacket@@I@Z 0041bb2d f   xnetm:enet.obj
+ 0002:00009bda       ?EnetPush@CXnEnet@@QAEXXZ  0041bb5a f   xnetm:enet.obj
+ 0002:00009ccb       ?EnetDpc@CXnEnet@@CGXPAU_KDPC@@PAX11@Z 0041bc4b f   xnetm:enet.obj
+ 0002:00009cd7       ?EnetInit@CXnEnet@@IAEJPAUXNetInitParams@@@Z 0041bc57 f   xnetm:enet.obj
+ 0002:00009d3c       _tcpipxsum@12              0041bcbc f   xnetm:tcpipxsum.obj
+ 0002:00009e78       ?IcmpRecv@CXnIp@@AAEXPAVCPacket@@PAUCIpHdr@@PAXI@Z 0041bdf8 f   xnetm:ipicmp.obj
+ 0002:00009fc0       _g_abOakleyGroup1Mod       0041bf40     xnetm:base.obj
+ 0002:0000a020       _g_abOakleyGroup1Base      0041bfa0     xnetm:base.obj
+ 0002:0000a080       ?s_XNetParamsDef@CXnBase@@0UXNetParams@@B 0041c000     xnetm:base.obj
+ 0002:0000a0b0       ?s_XNetParamsMin@CXnBase@@0UXNetParams@@B 0041c030     xnetm:base.obj
+ 0002:0000a0e0       ?s_XNetParamsMax@CXnBase@@0UXNetParams@@B 0041c060     xnetm:base.obj
+ 0002:0000a110       ?_abPktTypeInfo@CPacket@@2QBEB 0041c090     xnetm:base.obj
+ 0002:0000a128       ??_C@_0BN@OGMPKPAN@?2Device?2Harddisk0?2partition0?$AA@ 0041c0a8     xnetm:xnetp.obj
+ 0003:00000000       _hsrAPIC                   0041c0e0     dminit.obj
+ 0003:00000010       _szIniName                 0041c0f0     dminit.obj
+ 0003:0000001c       _szDxtDir                  0041c0fc     dminit.obj
+ 0003:00000024       _oszDxtTemplate            0041c104     dminit.obj
+ 0003:00000030       _ostDashBuffer             0041c110     dmserv.obj
+ 0003:0000005c       _ostDash                   0041c13c     dmserv.obj
+ 0003:00000064       _XdkLauncherPathname       0041c144     dmserv.obj
+ 0003:00000118       _rgchh                     0041c1f8     dmserv.obj
+ 0003:000006b8       _cchh                      0041c798     dmserv.obj
+ 0003:000006f8       _fAllowKd                  0041c7d8     dmnotify.obj
+ 0003:000006fc       _rgszExec                  0041c7dc     dmnotify.obj
+ 0003:0000070c       _rgfsub                    0041c7ec     dmmodule.obj
+ 0003:00000724       _obtCounter                0041c804     dmcount.obj
+ 0003:00000740       _rgszMemCounters           0041c820     dmcount.obj
+ 0003:00000758       _rggcGPU                   0041c838     dmcount.obj
+ 0003:00000788       _obtPob                    0041c868     dmprofil.obj
+ 0003:000007a4       _lePobHead                 0041c884     dmprofil.obj
+ 0003:000007ac       _rgulIntervalTable         0041c88c     dmprofil.obj
+ 0003:000007e8       _DriveNameConversionTable  0041c8c8     dmfile.obj
+ 0003:000008a8       __FlashDeviceClass         0041c988     flash.obj
+ 0003:000008c8       _FlashSizeMap              0041c9a8     flash.obj
+ 0003:000008e0       _g_rgdwLoc                 0041c9c0     dmxapi:compstra.obj
+ 0003:00000d10       _MmHeapSegmentReserve      0041cdf0     xapirtl:heap.obj
+ 0003:00000d14       _MmHeapSegmentCommit       0041cdf4     xapirtl:heap.obj
+ 0003:00000d18       _MmHeapDeCommitTotalFreeThreshold 0041cdf8     xapirtl:heap.obj
+ 0003:00000d1c       _MmHeapDeCommitFreeBlockThreshold 0041cdfc     xapirtl:heap.obj
+ 0003:00000d20       __NLG_Destination          0041ce00     libcntpr:exsup.obj
+ 0003:00000d30       __fltused                  0041ce10     libcntpr:stubs.obj
+ 0003:00000d34       __ldused                   0041ce14     libcntpr:stubs.obj
+ 0003:00000d4c       ?g_lXnLock@@3JA            0041ce2c     xnetm:xnet.obj
+ 0003:00000d50       ?g_pXn@@3PAVCXn@@A         0041ce30     xnetm:xnet.obj
+ 0003:00000d54       ___@@_PchSym_@00@UcylcUkirezgvUmglhUmvgUorynUlyqUrDIGUcmkOlyq@xnetm 0041ce34     xnetm:xnp.obj
+ 0003:00000d58       ?s_InterruptObject@CXnNic@@0U_KINTERRUPT@@A 0041ce38     xnetm:nicx.obj
+ 0003:00000dc8       ___fastflag                0041cea8     libcntpr:stubs.obj
+ 0003:00000dcc       _KernelRomBase             0041ceac     <common>
+ 0003:00000dd0       _DmProfileSavedCtxSwapNotify 0041ceb0     <common>
+ 0003:00000dd4       _DmProfileData             0041ceb4     <common>
+ 0003:00000de0       _ExpSmallDmPoolLookasideLists 0041cec0     <common>
+ 0003:00000ea0       _ExpTaggedPoolLock         0041cf80     <common>
+ 0003:00000ec0       _DmPoolDescriptor          0041cfa0     <common>
+ 0003:000012d0       _PoolBigPageTableHash      0041d3b0     <common>
+ 0003:000012d4       _PoolBigPageTableSize      0041d3b4     <common>
+ 0003:000012d8       _PoolBigPageTable          0041d3b8     <common>
+ 0003:000012dc       _PoolTrackTableMask        0041d3bc     <common>
+ 0003:000012e0       _PoolTrackTableSize        0041d3c0     <common>
+ 0003:000012e4       _PoolTrackTable            0041d3c4     <common>
+ 0003:000012e8       _FirstPrint                0041d3c8     <common>
+ 0003:000012ec       _ulCurProfBase             0041d3cc     <common>
+ 0003:000012f0       _ulNextProfInt             0041d3d0     <common>
+ 0003:000012f4       _g_fResetInterval          0041d3d4     <common>
+ 0003:00001300       _rgulPages                 0041d3e0     <common>
+ 0003:00001320       _rgulSystemTimes           0041d400     <common>
+ 0003:00001338       _ileCur                    0041d418     <common>
+ 0003:00001340       _rgleUpdateQueues          0041d420     <common>
+ 0003:00001390       _hpobGPU                   0041d470     <common>
+ 0003:000013a0       _dpcRefreshCounters        0041d480     <common>
+ 0003:000013c0       _tmrRefreshCounters        0041d4a0     <common>
+ 0003:000013e8       _hCounterDir               0041d4c8     <common>
+ 0003:00001400       _csLoader                  0041d4e0     <common>
+ 0003:00001420       _rghwbp                    0041d500     <common>
+ 0003:00001440       _dwExecState               0041d520     <common>
+ 0003:00001444       _fHaltAllThreads           0041d524     <common>
+ 0003:00001448       _iBreakTrace               0041d528     <common>
+ 0003:0000144c       _pbplTrace                 0041d52c     <common>
+ 0003:00001460       _csHwBps                   0041d540     <common>
+ 0003:00001480       _csBplScratch              0041d560     <common>
+ 0003:0000149c       _pbplScratch               0041d57c     <common>
+ 0003:000014a0       _pbplRoot                  0041d580     <common>
+ 0003:000014c0       _rgbDFStack                0041d5a0     <common>
+ 0003:000024c0       _ctxDF                     0041e5a0     <common>
+ 0003:000026f8       _g_ppdfnNext               0041e7d8     <common>
+ 0003:000026fc       _g_pdfnFirst               0041e7dc     <common>
+ 0003:00002700       _rgnnPersist               0041e7e0     <common>
+ 0003:00002760       _fPruneList                0041e840     <common>
+ 0003:00002764       _fUsingSessionList         0041e844     <common>
+ 0003:00002768       _psessFree                 0041e848     <common>
+ 0003:0000276c       _psessFirst                0041e84c     <common>
+ 0003:00002770       _evtNotifyList             0041e850     <common>
+ 0003:00002780       _dpcBreakIn                0041e860     <common>
+ 0003:000027a0       _csNotifySockList          0041e880     <common>
+ 0003:000027c0       _csNotify                  0041e8a0     <common>
+ 0003:000027dc       _g_grbitStopOn             0041e8bc     <common>
+ 0003:000027e0       _pfnKdpTrap                0041e8c0     <common>
+ 0003:00002800       _rgsockNotify              0041e8e0     <common>
+ 0003:00002820       _g_fAdminPasswd            0041e900     <common>
+ 0003:00002828       _g_luAdminPasswd           0041e908     <common>
+ 0003:00002840       _csUserList                0041e920     <common>
+ 0003:00002860       _rgpech                    0041e940     <common>
+ 0003:000028a0       _pthrServ                  0041e980     <common>
+ 0003:000028b0       _kevtServ                  0041e990     <common>
+ 0003:000028c0       _g_luBoxId                 0041e9a0     <common>
+ 0003:000028c8       _g_fDebugSecureMode        0041e9a8     <common>
+ 0003:000028cc       _g_fLockLevel              0041e9ac     <common>
+ 0003:000028d0       _g_fDebugging              0041e9b0     <common>
+ 0003:000028d4       _g_fServShutdown           0041e9b4     <common>
+ 0003:000028e0       _rgchDbgName               0041e9c0     <common>
+ 0003:000029e0       _rgcst                     0041eac0     <common>
+ 0003:000033c0       _csAccept                  0041f4a0     <common>
+ 0003:000033e0       _csEch                     0041f4c0     <common>
+ 0003:00003400       _kevtNull                  0041f4e0     <common>
+ 0003:00003410       _g_ulDbgIP                 0041f4f0     <common>
+ 0003:00003414       _g_fFinishedLoadingIniFile 0041f4f4     <common>
+ 0003:00003418       _g_hIniFile                0041f4f8     <common>
+ 0003:00003420       _csIniFile                 0041f500     <common>
+ 0003:0000343c       _pszCmdLine                0041f51c     <common>
+ 0003:00003440       _rgchTitleName             0041f520     <common>
+ 0003:00003480       _rgchTitleDir              0041f560     <common>
+ 0003:000035d0       _g_dmxapi                  0041f6b0     <common>
+ 0003:000035e0       _g_dmgd                    0041f6c0     <common>
+ 0003:00003600       _g_dmi                     0041f6e0     <common>
+ 0003:0000363c       _pprocSystem               0041f71c     <common>
+ 0003:00003640       _fBootWait                 0041f720     <common>
+ 0003:00003644       _NtGlobalFlag              0041f724     <common>
+ 0003:00003648       _errno                     0041f728     <common>
+ 0004:00000000       _XapiLastErrorCode         0041f740     dmxapi:error.obj
+ 0006:00000000       __IMPORT_DESCRIPTOR_xboxkrnl 0041f8c0     xboxkrnl:xboxkrnl.exe
+ 0006:00000014       __NULL_IMPORT_DESCRIPTOR   0041f8d4     xboxkrnl:xboxkrnl.exe
+ 0007:00000000       _XapiBuildNumber           0041fb00     dmxapi:basedll.obj
+ 0007:00000010       _XNetBuildNumberM          0041fb10     xnetm:sock.obj
+ 0007:00000020       _XboxKrnlBuildNumber       0041fb20     xboxkrnl:bldnum.obj
+
+ entry point at        0001:00002a7a
+
+ Static symbols
+
+ 0001:0000d527       _HrGetFrameCount@8         0040d887 f   dmcount.obj
+ 0002:00002ab6       ?QueryTsc@@YGXPAT_LARGE_INTEGER@@@Z 00414a36 f   xnetm:halx.obj
+ 0001:00010f60       _$$$00001                  004112c0 f   libcntpr:strchr.obj
+ 0001:00011249       _write_char                004115a9 f   libcntpr:output.obj
+ 0001:0001127c       _write_multi_char          004115dc f   libcntpr:output.obj
+ 0001:000112a0       _write_string              00411600 f   libcntpr:output.obj
+ 0001:00011158       $$$00003                   004114b8 f   libcntpr:exsup3.obj
+ 0001:00011940       $$$00001                   00411ca0 f   libcntpr:exsup.obj
+ 0001:00011960       $$$00003                   00411cc0 f   libcntpr:exsup.obj
+ 0001:00011960       __unwind_handler           00411cc0 f   libcntpr:exsup.obj
+ 0001:00011982       $$$00005                   00411ce2 f   libcntpr:exsup.obj
+ 0001:000119ea       $$$00007                   00411d4a f   libcntpr:exsup.obj
+ 0001:00011a2e       $$$00011                   00411d8e f   libcntpr:exsup.obj

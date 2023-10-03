@@ -1,0 +1,33 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\xapiinit.obj \
+    $(_OBJ_DIR)\alpha\xapi0.obj \
+    $(_OBJ_DIR)\alpha\xapi0dat.obj \
+    $(_OBJ_DIR)\alpha\xapitls.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\xapiinit.obj \
+    $(_OBJ_DIR)\alpha64\xapi0.obj \
+    $(_OBJ_DIR)\alpha64\xapi0dat.obj \
+    $(_OBJ_DIR)\alpha64\xapitls.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\xapiatls.obj \
+    $(_OBJ_DIR)\i386\xapiinit.obj \
+    $(_OBJ_DIR)\i386\xapi0.obj \
+    $(_OBJ_DIR)\i386\xapi0dat.obj \
+    $(_OBJ_DIR)\i386\xapitls.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\xapiinit.obj \
+    $(_OBJ_DIR)\ia64\xapi0.obj \
+    $(_OBJ_DIR)\ia64\xapi0dat.obj \
+    $(_OBJ_DIR)\ia64\xapitls.obj
+
+PASS0_IA64_OBJECTS=
+

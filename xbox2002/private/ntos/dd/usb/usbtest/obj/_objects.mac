@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\usbtest.obj \
+    $(_OBJ_DIR)\alpha\hubtest.obj \
+    $(_OBJ_DIR)\alpha\xidtest.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\usbtest.obj \
+    $(_OBJ_DIR)\alpha64\hubtest.obj \
+    $(_OBJ_DIR)\alpha64\xidtest.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\usbtest.obj \
+    $(_OBJ_DIR)\i386\hubtest.obj \
+    $(_OBJ_DIR)\i386\xidtest.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\usbtest.obj \
+    $(_OBJ_DIR)\ia64\hubtest.obj \
+    $(_OBJ_DIR)\ia64\xidtest.obj
+
+PASS0_IA64_OBJECTS=
+

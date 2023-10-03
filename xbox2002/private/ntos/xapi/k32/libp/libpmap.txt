@@ -1,0 +1,9 @@
+obj\i386\basedll.obj 
+obj\i386\datetime.obj 
+obj\i386\findcont.obj 
+obj\i386\mountmu.obj 
+obj\i386\pathmisc.obj 
+obj\i386\powerdwn.obj 
+obj\i386\xvalue.obj 
+obj\i386\xclndrv.obj 
+\xbox\public\sdk\lib\i386\xhawk.lib 

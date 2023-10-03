@@ -1,0 +1,97 @@
+ bldr32
+
+ Timestamp is 3f1df26f (Tue Jul 22 22:26:55 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000018H .data                   CODE
+ 0001:00000018 000001e2H .rdata                  CODE
+ 0001:00000200 000027ddH .text                   CODE
+ 0001:000029e0 0000023cH PAGER32C                CODE
+ 0001:00002c20 00000010H .bss                    CODE
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       _DbgBaseAddress            00400220     debug.obj
+ 0001:00000004       _DbgBaudRate               00400224     debug.obj
+ 0001:00000010       __fltused                  00400230     libcntpr:stubs.obj
+ 0001:00000014       __ldused                   00400234     libcntpr:stubs.obj
+ 0001:00000018       _KeyToDecryptBldr          00400238     bldr32.obj
+ 0001:00000028       _XboxCryptKeys             00400248     bldr32.obj
+ 0001:00000058       ??_C@_06GMHMOEFH@SHADOW?$AA@ 00400278     bldr32.obj
+ 0001:00000060       _dec_extra_bits            00400280     ldi:decapi.obj
+ 0001:00000098       _MP_POS_minus2             004002b8     ldi:decapi.obj
+ 0001:00000188       ___lookuptable             004003a8     libcntpr:output.obj
+ 0001:000001e4       ___nullstring              00400404     libcntpr:output.obj
+ 0001:000001ec       ___wnullstring             0040040c     libcntpr:output.obj
+ 0001:00000208       _BldrStartup               00400428 f   startup.obj
+ 0001:0000036e       @BldrLoadMediaROM@4        0040058e f   startup.obj
+ 0001:00000438       _DbgInitializeSuperIo@0    00400658 f   superio.obj
+ 0001:00000478       _BldrReadSMBusValue@16     00400698 f   smbus.obj
+ 0001:000004ec       _BldrWriteSMBusValue@16    0040070c f   smbus.obj
+ 0001:0000054f       _BldrReencryptROM@0        0040076f f   bldr32.obj
+ 0001:00000566       _BldrSetupUSB@0            00400786 f   bldr32.obj
+ 0001:0000058e       _BldrStartup2@0            004007ae f   bldr32.obj
+ 0001:000005ff       _BldrAlloc                 0040081f f   romcpy.obj
+ 0001:00000616       _BldrFree                  00400836 f   romcpy.obj
+ 0001:00000617       _BldrDecompress@12         00400837 f   romcpy.obj
+ 0001:000006fb       _BldrShutdownSystem@0      0040091b f   romcpy.obj
+ 0001:000006fd       _BldrEncDec@16             0040091d f   romcpy.obj
+ 0001:0000072e       _BldrCopyROMToRAM@4        0040094e f   romcpy.obj
+ 0001:00000797       _BldrDelay@4               004009b7 f   drvslw.obj
+ 0001:000007fe       _BldrSetDrvSlwFromROMData@4 00400a1e f   drvslw.obj
+ 0001:00000d9c       _BldrSetupLDTBus@0         00400fbc f   drvslw.obj
+ 0001:00000df5       _LDICreateDecompression    00401015 f   ldi:ldi.obj
+ 0001:00000eb4       _LDIDecompress             004010d4 f   ldi:ldi.obj
+ 0001:00000f02       _LDIDestroyDecompression   00401122 f   ldi:ldi.obj
+ 0001:00000f32       _LZX_DecodeFree@4          00401152 f   ldi:decapi.obj
+ 0001:00000f3b       _LZX_DecodeNewGroup@4      0040115b f   ldi:decapi.obj
+ 0001:00000f60       _LZX_Decode@28             00401180 f   ldi:decapi.obj
+ 0001:00000fbc       _LZX_DecodeInit@36         004011dc f   ldi:decapi.obj
+ 0001:0000102e       _allocate_decompression_memory@4 0040124e f   ldi:decinit.obj
+ 0001:00001086       _free_decompression_memory@4 004012a6 f   ldi:decinit.obj
+ 0001:000010a3       _reset_decoder_trees@4     004012c3 f   ldi:decinit.obj
+ 0001:00001115       _decoder_misc_init@4       00401335 f   ldi:decinit.obj
+ 0001:0000115d       _init_decoder_translation@4 0040137d f   ldi:decxlat.obj
+ 0001:0000116e       _decoder_translate_e8@12   0040138e f   ldi:decxlat.obj
+ 0001:0000121c       _decode_data@8             0040143c f   ldi:decblk.obj
+ 0001:0000142a       _initialise_decoder_bitbuf@4 0040164a f   ldi:decin.obj
+ 0001:0000147e       _init_decoder_input@4      0040169e f   ldi:decin.obj
+ 0001:00001487       _fillbuf@8                 004016a7 f   ldi:decin.obj
+ 0001:0000152c       _getbits@8                 0040174c f   ldi:decin.obj
+ 0001:00001551       _decode_uncompressed_block@12 00401771 f   ldi:decuncmp.obj
+ 0001:000015cf       _handle_beginning_of_uncompressed_block@4 004017ef f   ldi:decuncmp.obj
+ 0001:00001889       _fast_decode_verbatim_block@12 00401aa9 f   ldi:decverb.obj
+ 0001:00001acb       _decode_verbatim_block@12  00401ceb f   ldi:decverb.obj
+ 0001:00001df6       _fast_decode_aligned_offset_block@12 00402016 f   ldi:decalign.obj
+ 0001:00002101       _decode_aligned_offset_block@12 00402321 f   ldi:decalign.obj
+ 0001:0000214c       _copy_data_to_output@12    0040236c f   ldi:decout.obj
+ 0001:000023a5       _read_main_and_secondary_trees@4 004025c5 f   ldi:dectree.obj
+ 0001:0000245f       _read_aligned_offset_tree@4 0040267f f   ldi:dectree.obj
+ 0001:000024a9       _make_table@24             004026c9 f   ldi:maketbl.obj
+ 0001:000026b3       _make_table_8bit@12        004028d3 f   ldi:maketbl.obj
+ 0001:000027d0       _strstr                    004029f0 f   libcntpr:strstr.obj
+ 0001:00002860       _strchr                    00402a80 f   libcntpr:strchr.obj
+ 0001:00002866       ___from_strstr_to_strchr   00402a86     libcntpr:strchr.obj
+ 0001:00002920       __aulldvrm                 00402b40 f   libcntpr:ulldvrm.obj
+ 0001:000029b5       _RtlImageNtHeader@4        00402bd5 f   bldrrtl:imagedir.obj
+ 0001:000029e0       _rc4@12                    00402c00 f   rsa32k:rc4fast.obj
+ 0001:00002b2d       _rc4_key@12                00402d4d f   rsa32k:rc4fast.obj
+ 0001:00002c20       _DbgInitialized            00402e40     debug.obj
+ 0001:00002c24       _BldrTopOfROMAddress       00402e44     romcpy.obj
+ 0001:00002c28       ___fastflag                00402e48     libcntpr:stubs.obj
+ 0001:00002c2c       _BldrNumberOfBytesAllocated 00402e4c     <common>
+
+ entry point at        0001:00000208
+
+ Static symbols
+
+ 0001:000007cc       _SlwValue@8                004009ec f   drvslw.obj
+ 0001:000007f2       _FromFixedPoint@4          00400a12 f   drvslw.obj
+ 0001:00001632       _special_decode_verbatim_block@12 00401852 f   ldi:decverb.obj
+ 0001:00001b16       _special_decode_aligned_block@12 00401d36 f   ldi:decalign.obj
+ 0001:0000219a       _ReadRepTree@16            004023ba f   ldi:dectree.obj
+ 0001:00002850       _$$$00001                  00402a70 f   libcntpr:strchr.obj

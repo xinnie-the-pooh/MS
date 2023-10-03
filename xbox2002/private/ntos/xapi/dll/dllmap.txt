@@ -1,0 +1,14 @@
+obj\i386\xapiatls.obj 
+obj\i386\xapiinit.obj 
+obj\i386\xapi0.obj 
+obj\i386\xapi0dat.obj 
+obj\i386\xapitls.obj 
+..\..\rtl\obj\i386\xapirtl.lib 
+..\obj\i386\xapi_k32.lib 
+\xbox\public\sdk\lib\i386\uuid.lib 
+\xbox\public\sdk\lib\i386\ohcd.lib 
+\xbox\public\sdk\lib\i386\mu.lib 
+\xbox\public\sdk\lib\i386\usbhub.lib 
+\xbox\public\sdk\lib\i386\xid.lib 
+\xbox\public\sdk\lib\i386\usbd.lib 
+

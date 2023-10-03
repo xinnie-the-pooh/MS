@@ -1,0 +1,21 @@
+SCC = This is a Source Code Control file
+
+[msvs make.dsw]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/ddraw/MS VS", PPGAAAAA
+
+[Win2K.dsp]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/ddraw/MS VS", PPGAAAAA
+
+[Win2Kr10.dsp]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/ddraw/MS VS", PPGAAAAA
+
+[Win9x.dsp]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/ddraw/MS VS", PPGAAAAA
+
+[Win9xr10.dsp]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/ddraw/MS VS", PPGAAAAA

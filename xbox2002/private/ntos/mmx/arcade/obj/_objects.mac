@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mmsupa.obj \
+    $(_OBJ_DIR)\alpha\addrsup.obj \
+    $(_OBJ_DIR)\alpha\debugsup.obj \
+    $(_OBJ_DIR)\alpha\fscache.obj \
+    $(_OBJ_DIR)\alpha\mmfault.obj \
+    $(_OBJ_DIR)\alpha\mminit.obj \
+    $(_OBJ_DIR)\alpha\mmsup.obj \
+    $(_OBJ_DIR)\alpha\pfnsup.obj \
+    $(_OBJ_DIR)\alpha\physical.obj \
+    $(_OBJ_DIR)\alpha\sysptes.obj \
+    $(_OBJ_DIR)\alpha\vadtree.obj \
+    $(_OBJ_DIR)\alpha\virtual.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\mmsupa.obj \
+    $(_OBJ_DIR)\alpha64\addrsup.obj \
+    $(_OBJ_DIR)\alpha64\debugsup.obj \
+    $(_OBJ_DIR)\alpha64\fscache.obj \
+    $(_OBJ_DIR)\alpha64\mmfault.obj \
+    $(_OBJ_DIR)\alpha64\mminit.obj \
+    $(_OBJ_DIR)\alpha64\mmsup.obj \
+    $(_OBJ_DIR)\alpha64\pfnsup.obj \
+    $(_OBJ_DIR)\alpha64\physical.obj \
+    $(_OBJ_DIR)\alpha64\sysptes.obj \
+    $(_OBJ_DIR)\alpha64\vadtree.obj \
+    $(_OBJ_DIR)\alpha64\virtual.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mmsupa.obj \
+    $(_OBJ_DIR)\i386\addrsup.obj \
+    $(_OBJ_DIR)\i386\debugsup.obj \
+    $(_OBJ_DIR)\i386\fscache.obj \
+    $(_OBJ_DIR)\i386\mmfault.obj \
+    $(_OBJ_DIR)\i386\mminit.obj \
+    $(_OBJ_DIR)\i386\mmsup.obj \
+    $(_OBJ_DIR)\i386\pfnsup.obj \
+    $(_OBJ_DIR)\i386\physical.obj \
+    $(_OBJ_DIR)\i386\sysptes.obj \
+    $(_OBJ_DIR)\i386\vadtree.obj \
+    $(_OBJ_DIR)\i386\virtual.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\mmsupa.obj \
+    $(_OBJ_DIR)\ia64\addrsup.obj \
+    $(_OBJ_DIR)\ia64\debugsup.obj \
+    $(_OBJ_DIR)\ia64\fscache.obj \
+    $(_OBJ_DIR)\ia64\mmfault.obj \
+    $(_OBJ_DIR)\ia64\mminit.obj \
+    $(_OBJ_DIR)\ia64\mmsup.obj \
+    $(_OBJ_DIR)\ia64\pfnsup.obj \
+    $(_OBJ_DIR)\ia64\physical.obj \
+    $(_OBJ_DIR)\ia64\sysptes.obj \
+    $(_OBJ_DIR)\ia64\vadtree.obj \
+    $(_OBJ_DIR)\ia64\virtual.obj
+
+PASS0_IA64_OBJECTS=
+

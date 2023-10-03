@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\process.obj \
+    $(_OBJ_DIR)\alpha\lcompata.obj \
+    $(_OBJ_DIR)\alpha\compstra.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\format.obj \
+    $(_OBJ_DIR)\alpha\xvalue.obj \
+    $(_OBJ_DIR)\alpha\launch.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\error.obj \
+    $(_OBJ_DIR)\alpha64\process.obj \
+    $(_OBJ_DIR)\alpha64\lcompata.obj \
+    $(_OBJ_DIR)\alpha64\compstra.obj \
+    $(_OBJ_DIR)\alpha64\debug.obj \
+    $(_OBJ_DIR)\alpha64\format.obj \
+    $(_OBJ_DIR)\alpha64\xvalue.obj \
+    $(_OBJ_DIR)\alpha64\launch.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\process.obj \
+    $(_OBJ_DIR)\i386\lcompata.obj \
+    $(_OBJ_DIR)\i386\compstra.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\xvalue.obj \
+    $(_OBJ_DIR)\i386\launch.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\error.obj \
+    $(_OBJ_DIR)\ia64\process.obj \
+    $(_OBJ_DIR)\ia64\lcompata.obj \
+    $(_OBJ_DIR)\ia64\compstra.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\format.obj \
+    $(_OBJ_DIR)\ia64\xvalue.obj \
+    $(_OBJ_DIR)\ia64\launch.obj
+
+PASS0_IA64_OBJECTS=
+

@@ -1,0 +1,36 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS=
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ixclock.obj \
+    $(_OBJ_DIR)\i386\ixcmos.obj \
+    $(_OBJ_DIR)\i386\ixirql.obj \
+    $(_OBJ_DIR)\i386\ixprofil.obj \
+    $(_OBJ_DIR)\i386\ixstall.obj \
+    $(_OBJ_DIR)\i386\ixswint.obj \
+    $(_OBJ_DIR)\i386\ixsysint.obj \
+    $(_OBJ_DIR)\i386\mcupdate.obj \
+    $(_OBJ_DIR)\i386\pmtimer.obj \
+    $(_OBJ_DIR)\i386\sciinta.obj \
+    $(_OBJ_DIR)\i386\smbinta.obj \
+    $(_OBJ_DIR)\i386\superio.obj \
+    $(_OBJ_DIR)\i386\xxioacc.obj \
+    $(_OBJ_DIR)\i386\ixnmi.obj \
+    $(_OBJ_DIR)\i386\ixsysbus.obj \
+    $(_OBJ_DIR)\i386\ixreboot.obj \
+    $(_OBJ_DIR)\i386\pcisetup.obj \
+    $(_OBJ_DIR)\i386\pcispace.obj \
+    $(_OBJ_DIR)\i386\smbussci.obj \
+    $(_OBJ_DIR)\i386\xxhal.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS=
+
+PASS0_IA64_OBJECTS=
+

@@ -1,0 +1,84 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tcpipxsum.obj \
+    $(_OBJ_DIR)\alpha\base.obj \
+    $(_OBJ_DIR)\alpha\enet.obj \
+    $(_OBJ_DIR)\alpha\halw.obj \
+    $(_OBJ_DIR)\alpha\halx.obj \
+    $(_OBJ_DIR)\alpha\ip.obj \
+    $(_OBJ_DIR)\alpha\ipdhcp.obj \
+    $(_OBJ_DIR)\alpha\ipdns.obj \
+    $(_OBJ_DIR)\alpha\ipicmp.obj \
+    $(_OBJ_DIR)\alpha\ipqos.obj \
+    $(_OBJ_DIR)\alpha\nicw.obj \
+    $(_OBJ_DIR)\alpha\nicx.obj \
+    $(_OBJ_DIR)\alpha\sock.obj \
+    $(_OBJ_DIR)\alpha\socktcp.obj \
+    $(_OBJ_DIR)\alpha\sockudp.obj \
+    $(_OBJ_DIR)\alpha\xnet.obj \
+    $(_OBJ_DIR)\alpha\xnetp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\tcpipxsum.obj \
+    $(_OBJ_DIR)\alpha64\base.obj \
+    $(_OBJ_DIR)\alpha64\enet.obj \
+    $(_OBJ_DIR)\alpha64\halw.obj \
+    $(_OBJ_DIR)\alpha64\halx.obj \
+    $(_OBJ_DIR)\alpha64\ip.obj \
+    $(_OBJ_DIR)\alpha64\ipdhcp.obj \
+    $(_OBJ_DIR)\alpha64\ipdns.obj \
+    $(_OBJ_DIR)\alpha64\ipicmp.obj \
+    $(_OBJ_DIR)\alpha64\ipqos.obj \
+    $(_OBJ_DIR)\alpha64\nicw.obj \
+    $(_OBJ_DIR)\alpha64\nicx.obj \
+    $(_OBJ_DIR)\alpha64\sock.obj \
+    $(_OBJ_DIR)\alpha64\socktcp.obj \
+    $(_OBJ_DIR)\alpha64\sockudp.obj \
+    $(_OBJ_DIR)\alpha64\xnet.obj \
+    $(_OBJ_DIR)\alpha64\xnetp.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tcpipxsum.obj \
+    $(_OBJ_DIR)\i386\base.obj \
+    $(_OBJ_DIR)\i386\enet.obj \
+    $(_OBJ_DIR)\i386\halw.obj \
+    $(_OBJ_DIR)\i386\halx.obj \
+    $(_OBJ_DIR)\i386\ip.obj \
+    $(_OBJ_DIR)\i386\ipdhcp.obj \
+    $(_OBJ_DIR)\i386\ipdns.obj \
+    $(_OBJ_DIR)\i386\ipicmp.obj \
+    $(_OBJ_DIR)\i386\ipqos.obj \
+    $(_OBJ_DIR)\i386\nicw.obj \
+    $(_OBJ_DIR)\i386\nicx.obj \
+    $(_OBJ_DIR)\i386\sock.obj \
+    $(_OBJ_DIR)\i386\socktcp.obj \
+    $(_OBJ_DIR)\i386\sockudp.obj \
+    $(_OBJ_DIR)\i386\xnet.obj \
+    $(_OBJ_DIR)\i386\xnetp.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\tcpipxsum.obj \
+    $(_OBJ_DIR)\ia64\base.obj \
+    $(_OBJ_DIR)\ia64\enet.obj \
+    $(_OBJ_DIR)\ia64\halw.obj \
+    $(_OBJ_DIR)\ia64\halx.obj \
+    $(_OBJ_DIR)\ia64\ip.obj \
+    $(_OBJ_DIR)\ia64\ipdhcp.obj \
+    $(_OBJ_DIR)\ia64\ipdns.obj \
+    $(_OBJ_DIR)\ia64\ipicmp.obj \
+    $(_OBJ_DIR)\ia64\ipqos.obj \
+    $(_OBJ_DIR)\ia64\nicw.obj \
+    $(_OBJ_DIR)\ia64\nicx.obj \
+    $(_OBJ_DIR)\ia64\sock.obj \
+    $(_OBJ_DIR)\ia64\socktcp.obj \
+    $(_OBJ_DIR)\ia64\sockudp.obj \
+    $(_OBJ_DIR)\ia64\xnet.obj \
+    $(_OBJ_DIR)\ia64\xnetp.obj
+
+PASS0_IA64_OBJECTS=
+

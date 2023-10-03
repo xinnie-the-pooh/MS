@@ -1,0 +1,3 @@
+obj\i386\xboxkrnl.obj 
+obj\i386\init.obj 
+obj\i386\fatal.obj 

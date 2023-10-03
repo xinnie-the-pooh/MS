@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[BLib.dsp]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/sdk/BLib/src", WVIAAAAA
+
+[BLib.dsw]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/sdk/BLib/src", WVIAAAAA

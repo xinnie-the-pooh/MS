@@ -1,0 +1,86 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\xbdm.res \
+    $(_OBJ_DIR)\alpha\dminit.obj \
+    $(_OBJ_DIR)\alpha\dmserv.obj \
+    $(_OBJ_DIR)\alpha\dmsecure.obj \
+    $(_OBJ_DIR)\alpha\dmnotify.obj \
+    $(_OBJ_DIR)\alpha\dmbreak.obj \
+    $(_OBJ_DIR)\alpha\dmmodule.obj \
+    $(_OBJ_DIR)\alpha\dmcount.obj \
+    $(_OBJ_DIR)\alpha\dmprofil.obj \
+    $(_OBJ_DIR)\alpha\dmfile.obj \
+    $(_OBJ_DIR)\alpha\dmpool.obj \
+    $(_OBJ_DIR)\alpha\dmcap.obj \
+    $(_OBJ_DIR)\alpha\api32.obj \
+    $(_OBJ_DIR)\alpha\crc.obj \
+    $(_OBJ_DIR)\alpha\flash.obj \
+    $(_OBJ_DIR)\alpha\sysfileupd.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\xbdm.res \
+    $(_OBJ_DIR)\alpha64\dminit.obj \
+    $(_OBJ_DIR)\alpha64\dmserv.obj \
+    $(_OBJ_DIR)\alpha64\dmsecure.obj \
+    $(_OBJ_DIR)\alpha64\dmnotify.obj \
+    $(_OBJ_DIR)\alpha64\dmbreak.obj \
+    $(_OBJ_DIR)\alpha64\dmmodule.obj \
+    $(_OBJ_DIR)\alpha64\dmcount.obj \
+    $(_OBJ_DIR)\alpha64\dmprofil.obj \
+    $(_OBJ_DIR)\alpha64\dmfile.obj \
+    $(_OBJ_DIR)\alpha64\dmpool.obj \
+    $(_OBJ_DIR)\alpha64\dmcap.obj \
+    $(_OBJ_DIR)\alpha64\api32.obj \
+    $(_OBJ_DIR)\alpha64\crc.obj \
+    $(_OBJ_DIR)\alpha64\flash.obj \
+    $(_OBJ_DIR)\alpha64\sysfileupd.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\xbdm.res \
+    $(_OBJ_DIR)\i386\muldiv.obj \
+    $(_OBJ_DIR)\i386\thread.obj \
+    $(_OBJ_DIR)\i386\dbregs.obj \
+    $(_OBJ_DIR)\i386\funccall.obj \
+    $(_OBJ_DIR)\i386\defer.obj \
+    $(_OBJ_DIR)\i386\dxtstart.obj \
+    $(_OBJ_DIR)\i386\dminit.obj \
+    $(_OBJ_DIR)\i386\dmserv.obj \
+    $(_OBJ_DIR)\i386\dmsecure.obj \
+    $(_OBJ_DIR)\i386\dmnotify.obj \
+    $(_OBJ_DIR)\i386\dmbreak.obj \
+    $(_OBJ_DIR)\i386\dmmodule.obj \
+    $(_OBJ_DIR)\i386\dmcount.obj \
+    $(_OBJ_DIR)\i386\dmprofil.obj \
+    $(_OBJ_DIR)\i386\dmfile.obj \
+    $(_OBJ_DIR)\i386\dmpool.obj \
+    $(_OBJ_DIR)\i386\dmcap.obj \
+    $(_OBJ_DIR)\i386\api32.obj \
+    $(_OBJ_DIR)\i386\crc.obj \
+    $(_OBJ_DIR)\i386\flash.obj \
+    $(_OBJ_DIR)\i386\sysfileupd.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\xbdm.res \
+    $(_OBJ_DIR)\ia64\dminit.obj \
+    $(_OBJ_DIR)\ia64\dmserv.obj \
+    $(_OBJ_DIR)\ia64\dmsecure.obj \
+    $(_OBJ_DIR)\ia64\dmnotify.obj \
+    $(_OBJ_DIR)\ia64\dmbreak.obj \
+    $(_OBJ_DIR)\ia64\dmmodule.obj \
+    $(_OBJ_DIR)\ia64\dmcount.obj \
+    $(_OBJ_DIR)\ia64\dmprofil.obj \
+    $(_OBJ_DIR)\ia64\dmfile.obj \
+    $(_OBJ_DIR)\ia64\dmpool.obj \
+    $(_OBJ_DIR)\ia64\dmcap.obj \
+    $(_OBJ_DIR)\ia64\api32.obj \
+    $(_OBJ_DIR)\ia64\crc.obj \
+    $(_OBJ_DIR)\ia64\flash.obj \
+    $(_OBJ_DIR)\ia64\sysfileupd.obj
+
+PASS0_IA64_OBJECTS=
+

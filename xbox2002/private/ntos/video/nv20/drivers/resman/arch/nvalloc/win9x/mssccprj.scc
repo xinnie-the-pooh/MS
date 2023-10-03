@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[NV3.MAK]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/resman/arch/nvalloc/win9x", JOHAAAAA
+
+[NVA.MAK]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/resman/arch/nvalloc/win9x", JOHAAAAA
+
+[NVX.MAK]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/resman/arch/nvalloc/win9x", JOHAAAAA

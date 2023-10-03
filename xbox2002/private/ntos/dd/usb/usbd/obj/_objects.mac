@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\usbd.obj \
+    $(_OBJ_DIR)\alpha\usbinit.obj \
+    $(_OBJ_DIR)\alpha\tree.obj \
+    $(_OBJ_DIR)\alpha\usbdev.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\usbd.obj \
+    $(_OBJ_DIR)\alpha64\usbinit.obj \
+    $(_OBJ_DIR)\alpha64\tree.obj \
+    $(_OBJ_DIR)\alpha64\usbdev.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\usbd.obj \
+    $(_OBJ_DIR)\i386\usbinit.obj \
+    $(_OBJ_DIR)\i386\tree.obj \
+    $(_OBJ_DIR)\i386\usbdev.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\usbd.obj \
+    $(_OBJ_DIR)\ia64\usbinit.obj \
+    $(_OBJ_DIR)\ia64\tree.obj \
+    $(_OBJ_DIR)\ia64\usbdev.obj
+
+PASS0_IA64_OBJECTS=
+

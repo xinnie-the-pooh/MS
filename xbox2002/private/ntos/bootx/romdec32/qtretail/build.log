@@ -1,0 +1,31 @@
+Compiling c:\xbox\private\ntos\bootx\romdec32\qtretail directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+34 MIDL_OPTIMIZATION is -Oicf -robust -error all
+	ml -c -omf -Fl -FoC:\xbox\private\ntos\bootx\romdec32\qtretail\obj\i386\inittbl.obj -I. -I..\..\..\inc -IC:\xbox\private\inc -IC:\xbox\public\oak\inc -IC:\xbox\public\sdk\inc -IC:\xbox\public\sdk\inc\crt  -DRETAILXM3=1 -DSYS_QT=1 -DDEVKIT ..\i386\inittbl.asm
+Microsoft (R) Macro Assembler Version 6.15.8803
+Copyright (C) Microsoft Corp 1981-2000.  All rights reserved.
+
+ Assembling: ..\i386\inittbl.asm
+	echo foo
+foo
+	link16.exe @C:\DOCUME~1\Adam\LOCALS~1\Temp\nma02496.
+
+Microsoft (R) Segmented Executable Linker NTGroup Version 5.60.220 Sep 25 1999
+Copyright (C) Microsoft Corp 1984-1993.  All rights reserved.
+
+Object Modules [.obj]: /tiny /nod /noi +
+Object Modules [.obj]: obj\i386\inittbl.obj
+Run File [inittbl.com]: C:\xbox\private\ntos\obj\i386\inittbl_ret_qt.bin
+List File [nul.map]: 
+Libraries [.lib]: 
+Definitions File [nul.def]: 
+LINK : warning L4055: start address not equal to 0x100 for /TINY
+	binplace -R C:\xboxbins  -j -P C:\xbox\public\sdk\lib\placefil.txt  C:\xbox\private\ntos\obj\i386\inittbl_ret_qt.bin
+binplace C:\xbox\private\ntos\obj\i386\inittbl_ret_qt.bin
+
+Stop.
+Linking c:\xbox\private\ntos\bootx\romdec32\qtretail directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+34 MIDL_OPTIMIZATION is -Oicf -robust -error all
+
+Stop.

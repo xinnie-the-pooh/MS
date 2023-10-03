@@ -1,0 +1,1 @@
+link(1) : warning L4055: start address not equal to 0x100 for /TINY

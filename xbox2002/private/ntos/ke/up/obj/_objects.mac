@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\apcobj.obj \
+    $(_OBJ_DIR)\alpha\apcsup.obj \
+    $(_OBJ_DIR)\alpha\bugcheck.obj \
+    $(_OBJ_DIR)\alpha\devquobj.obj \
+    $(_OBJ_DIR)\alpha\dpcobj.obj \
+    $(_OBJ_DIR)\alpha\dpcsup.obj \
+    $(_OBJ_DIR)\alpha\eventobj.obj \
+    $(_OBJ_DIR)\alpha\kernldat.obj \
+    $(_OBJ_DIR)\alpha\kiinit.obj \
+    $(_OBJ_DIR)\alpha\miscc.obj \
+    $(_OBJ_DIR)\alpha\mutntobj.obj \
+    $(_OBJ_DIR)\alpha\procobj.obj \
+    $(_OBJ_DIR)\alpha\queueobj.obj \
+    $(_OBJ_DIR)\alpha\raisexcp.obj \
+    $(_OBJ_DIR)\alpha\semphobj.obj \
+    $(_OBJ_DIR)\alpha\thredobj.obj \
+    $(_OBJ_DIR)\alpha\thredsup.obj \
+    $(_OBJ_DIR)\alpha\timerobj.obj \
+    $(_OBJ_DIR)\alpha\timersup.obj \
+    $(_OBJ_DIR)\alpha\wait.obj \
+    $(_OBJ_DIR)\alpha\waitsup.obj \
+    $(_OBJ_DIR)\alpha\yield.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\apcobj.obj \
+    $(_OBJ_DIR)\alpha64\apcsup.obj \
+    $(_OBJ_DIR)\alpha64\bugcheck.obj \
+    $(_OBJ_DIR)\alpha64\devquobj.obj \
+    $(_OBJ_DIR)\alpha64\dpcobj.obj \
+    $(_OBJ_DIR)\alpha64\dpcsup.obj \
+    $(_OBJ_DIR)\alpha64\eventobj.obj \
+    $(_OBJ_DIR)\alpha64\kernldat.obj \
+    $(_OBJ_DIR)\alpha64\kiinit.obj \
+    $(_OBJ_DIR)\alpha64\miscc.obj \
+    $(_OBJ_DIR)\alpha64\mutntobj.obj \
+    $(_OBJ_DIR)\alpha64\procobj.obj \
+    $(_OBJ_DIR)\alpha64\queueobj.obj \
+    $(_OBJ_DIR)\alpha64\raisexcp.obj \
+    $(_OBJ_DIR)\alpha64\semphobj.obj \
+    $(_OBJ_DIR)\alpha64\thredobj.obj \
+    $(_OBJ_DIR)\alpha64\thredsup.obj \
+    $(_OBJ_DIR)\alpha64\timerobj.obj \
+    $(_OBJ_DIR)\alpha64\timersup.obj \
+    $(_OBJ_DIR)\alpha64\wait.obj \
+    $(_OBJ_DIR)\alpha64\waitsup.obj \
+    $(_OBJ_DIR)\alpha64\yield.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\clockint.obj \
+    $(_OBJ_DIR)\i386\ctxswap.obj \
+    $(_OBJ_DIR)\i386\cpu.obj \
+    $(_OBJ_DIR)\i386\int.obj \
+    $(_OBJ_DIR)\i386\intsup.obj \
+    $(_OBJ_DIR)\i386\i386pcr.obj \
+    $(_OBJ_DIR)\i386\newsysbg.obj \
+    $(_OBJ_DIR)\i386\threadbg.obj \
+    $(_OBJ_DIR)\i386\timindex.obj \
+    $(_OBJ_DIR)\i386\trap.obj \
+    $(_OBJ_DIR)\i386\exceptn.obj \
+    $(_OBJ_DIR)\i386\intobj.obj \
+    $(_OBJ_DIR)\i386\kernlini.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\thredini.obj \
+    $(_OBJ_DIR)\i386\trapc.obj \
+    $(_OBJ_DIR)\i386\apcobj.obj \
+    $(_OBJ_DIR)\i386\apcsup.obj \
+    $(_OBJ_DIR)\i386\bugcheck.obj \
+    $(_OBJ_DIR)\i386\devquobj.obj \
+    $(_OBJ_DIR)\i386\dpcobj.obj \
+    $(_OBJ_DIR)\i386\dpcsup.obj \
+    $(_OBJ_DIR)\i386\eventobj.obj \
+    $(_OBJ_DIR)\i386\kernldat.obj \
+    $(_OBJ_DIR)\i386\kiinit.obj \
+    $(_OBJ_DIR)\i386\miscc.obj \
+    $(_OBJ_DIR)\i386\mutntobj.obj \
+    $(_OBJ_DIR)\i386\procobj.obj \
+    $(_OBJ_DIR)\i386\queueobj.obj \
+    $(_OBJ_DIR)\i386\raisexcp.obj \
+    $(_OBJ_DIR)\i386\semphobj.obj \
+    $(_OBJ_DIR)\i386\thredobj.obj \
+    $(_OBJ_DIR)\i386\thredsup.obj \
+    $(_OBJ_DIR)\i386\timerobj.obj \
+    $(_OBJ_DIR)\i386\timersup.obj \
+    $(_OBJ_DIR)\i386\wait.obj \
+    $(_OBJ_DIR)\i386\waitsup.obj \
+    $(_OBJ_DIR)\i386\yield.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\apcobj.obj \
+    $(_OBJ_DIR)\ia64\apcsup.obj \
+    $(_OBJ_DIR)\ia64\bugcheck.obj \
+    $(_OBJ_DIR)\ia64\devquobj.obj \
+    $(_OBJ_DIR)\ia64\dpcobj.obj \
+    $(_OBJ_DIR)\ia64\dpcsup.obj \
+    $(_OBJ_DIR)\ia64\eventobj.obj \
+    $(_OBJ_DIR)\ia64\kernldat.obj \
+    $(_OBJ_DIR)\ia64\kiinit.obj \
+    $(_OBJ_DIR)\ia64\miscc.obj \
+    $(_OBJ_DIR)\ia64\mutntobj.obj \
+    $(_OBJ_DIR)\ia64\procobj.obj \
+    $(_OBJ_DIR)\ia64\queueobj.obj \
+    $(_OBJ_DIR)\ia64\raisexcp.obj \
+    $(_OBJ_DIR)\ia64\semphobj.obj \
+    $(_OBJ_DIR)\ia64\thredobj.obj \
+    $(_OBJ_DIR)\ia64\thredsup.obj \
+    $(_OBJ_DIR)\ia64\timerobj.obj \
+    $(_OBJ_DIR)\ia64\timersup.obj \
+    $(_OBJ_DIR)\ia64\wait.obj \
+    $(_OBJ_DIR)\ia64\waitsup.obj \
+    $(_OBJ_DIR)\ia64\yield.obj
+
+PASS0_IA64_OBJECTS=
+

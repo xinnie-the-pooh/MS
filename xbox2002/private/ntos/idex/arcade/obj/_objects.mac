@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cdrom.obj \
+    $(_OBJ_DIR)\alpha\channel.obj \
+    $(_OBJ_DIR)\alpha\disk.obj \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\mediabrd.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\cdrom.obj \
+    $(_OBJ_DIR)\alpha64\channel.obj \
+    $(_OBJ_DIR)\alpha64\disk.obj \
+    $(_OBJ_DIR)\alpha64\driver.obj \
+    $(_OBJ_DIR)\alpha64\mediabrd.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cdrom.obj \
+    $(_OBJ_DIR)\i386\channel.obj \
+    $(_OBJ_DIR)\i386\disk.obj \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\mediabrd.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\cdrom.obj \
+    $(_OBJ_DIR)\ia64\channel.obj \
+    $(_OBJ_DIR)\ia64\disk.obj \
+    $(_OBJ_DIR)\ia64\driver.obj \
+    $(_OBJ_DIR)\ia64\mediabrd.obj
+
+PASS0_IA64_OBJECTS=
+

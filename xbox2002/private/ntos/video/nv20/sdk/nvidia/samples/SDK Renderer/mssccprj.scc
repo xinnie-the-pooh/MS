@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[SDK Renderer.dsw]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/sdk/nvidia/samples/SDK Renderer", TYIAAAAA
+
+[SDK Renderer.mak]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/sdk/nvidia/samples/SDK Renderer", TYIAAAAA

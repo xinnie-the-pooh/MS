@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\xprofile.obj \
+    $(_OBJ_DIR)\alpha\xbbt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\xprofile.obj \
+    $(_OBJ_DIR)\alpha64\xbbt.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\xprofile.obj \
+    $(_OBJ_DIR)\i386\xbbt.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\xprofile.obj \
+    $(_OBJ_DIR)\ia64\xbbt.obj
+
+PASS0_IA64_OBJECTS=
+

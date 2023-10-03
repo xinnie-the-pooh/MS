@@ -1,0 +1,108 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dev.obj \
+    $(_OBJ_DIR)\alpha\cf.obj \
+    $(_OBJ_DIR)\alpha\evf.obj \
+    $(_OBJ_DIR)\alpha\globals.obj \
+    $(_OBJ_DIR)\alpha\sos.obj \
+    $(_OBJ_DIR)\alpha\proc.obj \
+    $(_OBJ_DIR)\alpha\stboot.obj \
+    $(_OBJ_DIR)\alpha\animate.obj \
+    $(_OBJ_DIR)\alpha\camcontrol.obj \
+    $(_OBJ_DIR)\alpha\camera.obj \
+    $(_OBJ_DIR)\alpha\greenfog.obj \
+    $(_OBJ_DIR)\alpha\logo_renderer.obj \
+    $(_OBJ_DIR)\alpha\qrand.obj \
+    $(_OBJ_DIR)\alpha\renderer.obj \
+    $(_OBJ_DIR)\alpha\scene_renderer.obj \
+    $(_OBJ_DIR)\alpha\shield.obj \
+    $(_OBJ_DIR)\alpha\tex_gen.obj \
+    $(_OBJ_DIR)\alpha\vblob.obj \
+    $(_OBJ_DIR)\alpha\xbs_app.obj \
+    $(_OBJ_DIR)\alpha\fastmath.obj \
+    $(_OBJ_DIR)\alpha\placementdoodad.obj \
+    $(_OBJ_DIR)\alpha\bootsound.obj \
+    $(_OBJ_DIR)\alpha\mslogo.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\dev.obj \
+    $(_OBJ_DIR)\alpha64\cf.obj \
+    $(_OBJ_DIR)\alpha64\evf.obj \
+    $(_OBJ_DIR)\alpha64\globals.obj \
+    $(_OBJ_DIR)\alpha64\sos.obj \
+    $(_OBJ_DIR)\alpha64\proc.obj \
+    $(_OBJ_DIR)\alpha64\stboot.obj \
+    $(_OBJ_DIR)\alpha64\animate.obj \
+    $(_OBJ_DIR)\alpha64\camcontrol.obj \
+    $(_OBJ_DIR)\alpha64\camera.obj \
+    $(_OBJ_DIR)\alpha64\greenfog.obj \
+    $(_OBJ_DIR)\alpha64\logo_renderer.obj \
+    $(_OBJ_DIR)\alpha64\qrand.obj \
+    $(_OBJ_DIR)\alpha64\renderer.obj \
+    $(_OBJ_DIR)\alpha64\scene_renderer.obj \
+    $(_OBJ_DIR)\alpha64\shield.obj \
+    $(_OBJ_DIR)\alpha64\tex_gen.obj \
+    $(_OBJ_DIR)\alpha64\vblob.obj \
+    $(_OBJ_DIR)\alpha64\xbs_app.obj \
+    $(_OBJ_DIR)\alpha64\fastmath.obj \
+    $(_OBJ_DIR)\alpha64\placementdoodad.obj \
+    $(_OBJ_DIR)\alpha64\bootsound.obj \
+    $(_OBJ_DIR)\alpha64\mslogo.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dev.obj \
+    $(_OBJ_DIR)\i386\cf.obj \
+    $(_OBJ_DIR)\i386\evf.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\sos.obj \
+    $(_OBJ_DIR)\i386\proc.obj \
+    $(_OBJ_DIR)\i386\stboot.obj \
+    $(_OBJ_DIR)\i386\animate.obj \
+    $(_OBJ_DIR)\i386\camcontrol.obj \
+    $(_OBJ_DIR)\i386\camera.obj \
+    $(_OBJ_DIR)\i386\greenfog.obj \
+    $(_OBJ_DIR)\i386\logo_renderer.obj \
+    $(_OBJ_DIR)\i386\qrand.obj \
+    $(_OBJ_DIR)\i386\renderer.obj \
+    $(_OBJ_DIR)\i386\scene_renderer.obj \
+    $(_OBJ_DIR)\i386\shield.obj \
+    $(_OBJ_DIR)\i386\tex_gen.obj \
+    $(_OBJ_DIR)\i386\vblob.obj \
+    $(_OBJ_DIR)\i386\xbs_app.obj \
+    $(_OBJ_DIR)\i386\fastmath.obj \
+    $(_OBJ_DIR)\i386\placementdoodad.obj \
+    $(_OBJ_DIR)\i386\bootsound.obj \
+    $(_OBJ_DIR)\i386\mslogo.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\dev.obj \
+    $(_OBJ_DIR)\ia64\cf.obj \
+    $(_OBJ_DIR)\ia64\evf.obj \
+    $(_OBJ_DIR)\ia64\globals.obj \
+    $(_OBJ_DIR)\ia64\sos.obj \
+    $(_OBJ_DIR)\ia64\proc.obj \
+    $(_OBJ_DIR)\ia64\stboot.obj \
+    $(_OBJ_DIR)\ia64\animate.obj \
+    $(_OBJ_DIR)\ia64\camcontrol.obj \
+    $(_OBJ_DIR)\ia64\camera.obj \
+    $(_OBJ_DIR)\ia64\greenfog.obj \
+    $(_OBJ_DIR)\ia64\logo_renderer.obj \
+    $(_OBJ_DIR)\ia64\qrand.obj \
+    $(_OBJ_DIR)\ia64\renderer.obj \
+    $(_OBJ_DIR)\ia64\scene_renderer.obj \
+    $(_OBJ_DIR)\ia64\shield.obj \
+    $(_OBJ_DIR)\ia64\tex_gen.obj \
+    $(_OBJ_DIR)\ia64\vblob.obj \
+    $(_OBJ_DIR)\ia64\xbs_app.obj \
+    $(_OBJ_DIR)\ia64\fastmath.obj \
+    $(_OBJ_DIR)\ia64\placementdoodad.obj \
+    $(_OBJ_DIR)\ia64\bootsound.obj \
+    $(_OBJ_DIR)\ia64\mslogo.obj
+
+PASS0_IA64_OBJECTS=
+

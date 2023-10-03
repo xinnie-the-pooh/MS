@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\recovery.obj \
+    $(_OBJ_DIR)\alpha\imagefile.obj \
+    $(_OBJ_DIR)\alpha\xboxvideo.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\recovery.obj \
+    $(_OBJ_DIR)\alpha64\imagefile.obj \
+    $(_OBJ_DIR)\alpha64\xboxvideo.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\recovery.obj \
+    $(_OBJ_DIR)\i386\imagefile.obj \
+    $(_OBJ_DIR)\i386\xboxvideo.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\recovery.obj \
+    $(_OBJ_DIR)\ia64\imagefile.obj \
+    $(_OBJ_DIR)\ia64\xboxvideo.obj
+
+PASS0_IA64_OBJECTS=
+

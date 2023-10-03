@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[nvUtil.dsp]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/drivers/common/nvUtil", UBGAAAAA

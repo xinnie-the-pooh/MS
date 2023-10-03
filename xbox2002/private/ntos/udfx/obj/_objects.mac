@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\devctrl.obj \
+    $(_OBJ_DIR)\alpha\dirctrl.obj \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\fcbsup.obj \
+    $(_OBJ_DIR)\alpha\fileinfo.obj \
+    $(_OBJ_DIR)\alpha\fsctrl.obj \
+    $(_OBJ_DIR)\alpha\mountvol.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\udfsup.obj \
+    $(_OBJ_DIR)\alpha\volinfo.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\close.obj \
+    $(_OBJ_DIR)\alpha64\create.obj \
+    $(_OBJ_DIR)\alpha64\devctrl.obj \
+    $(_OBJ_DIR)\alpha64\dirctrl.obj \
+    $(_OBJ_DIR)\alpha64\driver.obj \
+    $(_OBJ_DIR)\alpha64\fcbsup.obj \
+    $(_OBJ_DIR)\alpha64\fileinfo.obj \
+    $(_OBJ_DIR)\alpha64\fsctrl.obj \
+    $(_OBJ_DIR)\alpha64\mountvol.obj \
+    $(_OBJ_DIR)\alpha64\read.obj \
+    $(_OBJ_DIR)\alpha64\udfsup.obj \
+    $(_OBJ_DIR)\alpha64\volinfo.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\devctrl.obj \
+    $(_OBJ_DIR)\i386\dirctrl.obj \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\fcbsup.obj \
+    $(_OBJ_DIR)\i386\fileinfo.obj \
+    $(_OBJ_DIR)\i386\fsctrl.obj \
+    $(_OBJ_DIR)\i386\mountvol.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\udfsup.obj \
+    $(_OBJ_DIR)\i386\volinfo.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\close.obj \
+    $(_OBJ_DIR)\ia64\create.obj \
+    $(_OBJ_DIR)\ia64\devctrl.obj \
+    $(_OBJ_DIR)\ia64\dirctrl.obj \
+    $(_OBJ_DIR)\ia64\driver.obj \
+    $(_OBJ_DIR)\ia64\fcbsup.obj \
+    $(_OBJ_DIR)\ia64\fileinfo.obj \
+    $(_OBJ_DIR)\ia64\fsctrl.obj \
+    $(_OBJ_DIR)\ia64\mountvol.obj \
+    $(_OBJ_DIR)\ia64\read.obj \
+    $(_OBJ_DIR)\ia64\udfsup.obj \
+    $(_OBJ_DIR)\ia64\volinfo.obj
+
+PASS0_IA64_OBJECTS=
+

@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\obcreate.obj \
+    $(_OBJ_DIR)\alpha\obdir.obj \
+    $(_OBJ_DIR)\alpha\obhandle.obj \
+    $(_OBJ_DIR)\alpha\oblink.obj \
+    $(_OBJ_DIR)\alpha\obmanage.obj \
+    $(_OBJ_DIR)\alpha\obref.obj \
+    $(_OBJ_DIR)\alpha\obtable.obj \
+    $(_OBJ_DIR)\alpha\obwait.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\obcreate.obj \
+    $(_OBJ_DIR)\alpha64\obdir.obj \
+    $(_OBJ_DIR)\alpha64\obhandle.obj \
+    $(_OBJ_DIR)\alpha64\oblink.obj \
+    $(_OBJ_DIR)\alpha64\obmanage.obj \
+    $(_OBJ_DIR)\alpha64\obref.obj \
+    $(_OBJ_DIR)\alpha64\obtable.obj \
+    $(_OBJ_DIR)\alpha64\obwait.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\obcreate.obj \
+    $(_OBJ_DIR)\i386\obdir.obj \
+    $(_OBJ_DIR)\i386\obhandle.obj \
+    $(_OBJ_DIR)\i386\oblink.obj \
+    $(_OBJ_DIR)\i386\obmanage.obj \
+    $(_OBJ_DIR)\i386\obref.obj \
+    $(_OBJ_DIR)\i386\obtable.obj \
+    $(_OBJ_DIR)\i386\obwait.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\obcreate.obj \
+    $(_OBJ_DIR)\ia64\obdir.obj \
+    $(_OBJ_DIR)\ia64\obhandle.obj \
+    $(_OBJ_DIR)\ia64\oblink.obj \
+    $(_OBJ_DIR)\ia64\obmanage.obj \
+    $(_OBJ_DIR)\ia64\obref.obj \
+    $(_OBJ_DIR)\ia64\obtable.obj \
+    $(_OBJ_DIR)\ia64\obwait.obj
+
+PASS0_IA64_OBJECTS=
+

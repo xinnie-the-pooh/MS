@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\datetime.obj \
+    $(_OBJ_DIR)\alpha\findcont.obj \
+    $(_OBJ_DIR)\alpha\mountmu.obj \
+    $(_OBJ_DIR)\alpha\pathmisc.obj \
+    $(_OBJ_DIR)\alpha\powerdwn.obj \
+    $(_OBJ_DIR)\alpha\xvalue.obj \
+    $(_OBJ_DIR)\alpha\xclndrv.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\datetime.obj \
+    $(_OBJ_DIR)\alpha64\findcont.obj \
+    $(_OBJ_DIR)\alpha64\mountmu.obj \
+    $(_OBJ_DIR)\alpha64\pathmisc.obj \
+    $(_OBJ_DIR)\alpha64\powerdwn.obj \
+    $(_OBJ_DIR)\alpha64\xvalue.obj \
+    $(_OBJ_DIR)\alpha64\xclndrv.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\datetime.obj \
+    $(_OBJ_DIR)\i386\findcont.obj \
+    $(_OBJ_DIR)\i386\mountmu.obj \
+    $(_OBJ_DIR)\i386\pathmisc.obj \
+    $(_OBJ_DIR)\i386\powerdwn.obj \
+    $(_OBJ_DIR)\i386\xvalue.obj \
+    $(_OBJ_DIR)\i386\xclndrv.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\datetime.obj \
+    $(_OBJ_DIR)\ia64\findcont.obj \
+    $(_OBJ_DIR)\ia64\mountmu.obj \
+    $(_OBJ_DIR)\ia64\pathmisc.obj \
+    $(_OBJ_DIR)\ia64\powerdwn.obj \
+    $(_OBJ_DIR)\ia64\xvalue.obj \
+    $(_OBJ_DIR)\ia64\xclndrv.obj
+
+PASS0_IA64_OBJECTS=
+

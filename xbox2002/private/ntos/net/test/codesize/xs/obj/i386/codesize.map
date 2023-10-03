@@ -1,0 +1,698 @@
+ codesize
+
+ Timestamp is 3dcc89e9 (Fri Nov 08 23:07:05 2002)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00008becH XNET                    CODE
+ 0001:00008bf0 0000016dH XNET_RD                 CODE
+ 0002:00000000 0000016cH .idata$5                CODE
+ 0002:00000170 00000b05H .rdata                  CODE
+ 0002:00000c78 00000050H .rdata$debug            CODE
+ 0002:00000cd0 00005b02H .text                   CODE
+ 0002:000067d2 00000000H .edata                  CODE
+ 0003:00000000 00000004H .CRT$RIA                DATA
+ 0003:00000004 00000004H .CRT$RII20              DATA
+ 0003:00000008 00000004H .CRT$RIZ                DATA
+ 0003:0000000c 00000004H .CRT$XCA                DATA
+ 0003:00000010 00000004H .CRT$XCZ                DATA
+ 0003:00000014 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIC                DATA
+ 0003:0000001c 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000004H .CRT$XPA                DATA
+ 0003:00000024 00000004H .CRT$XPX                DATA
+ 0003:00000028 00000004H .CRT$XPZ                DATA
+ 0003:0000002c 00000004H .CRT$XTA                DATA
+ 0003:00000030 00000004H .CRT$XTZ                DATA
+ 0003:00000040 000009b0H .data                   DATA
+ 0003:00000a00 00000260H .bss                    DATA
+ 0004:00000000 00000014H .idata$2                CODE
+ 0004:00000014 00000014H .idata$3                CODE
+ 0004:00000028 0000016cH .idata$4                CODE
+ 0004:00000194 0000000eH .idata$6                CODE
+ 0005:00000000 00000010H .XBLD$A                 DATA
+ 0005:00000010 00000030H .XBLD$V                 DATA
+ 0006:00000000 00000001H .tls                    DATA
+ 0006:00000004 00000004H .tls$                   DATA
+ 0006:00000008 00000001H .tls$ZZZ                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000004       __tls_array                00000004     <absolute>
+ 0001:00000000       ?Ref@@YAXKZZ               00400300 f   codesize.obj
+ 0001:0000000b       ?DoRef@CCodeSize@@QAEXXZ   0040030b f   codesize.obj
+ 0001:00000315       _main                      00400615 f   codesize.obj
+ 0001:00000323       ?SockCountSendTotal@@YGIPAU_WSABUF@@I@Z 00400623 f   xnets:sock.obj
+ 0001:0000033c       _WSAGetLastError@0         0040063c f   xnets:sock.obj
+ 0001:00000341       _WSASetLastError@4         00400641 f   xnets:sock.obj
+ 0001:00000346       _WSACreateEvent@0          00400646 f   xnets:sock.obj
+ 0001:00000353       _WSACloseEvent@4           00400653 f   xnets:sock.obj
+ 0001:00000358       _WSASetEvent@4             00400658 f   xnets:sock.obj
+ 0001:0000035d       _WSAResetEvent@4           0040065d f   xnets:sock.obj
+ 0001:00000362       _WSAWaitForMultipleEvents@20 00400662 f   xnets:sock.obj
+ 0001:0000036b       ___WSAFDIsSet@8            0040066b f   xnets:sock.obj
+ 0001:00000396       ?Lock@CSocket@@SGPAV1@I@Z  00400696 f   xnets:sock.obj
+ 0001:000003ee       ?SockInit@CXnSock@@QAEJPAUXNetInitParams@@@Z 004006ee f   xnets:sock.obj
+ 0001:00000436       ?SetFlagsAndOr@CSocket@@QAEXKK@Z 00400736 f   xnets:sock.obj
+ 0001:0000046e       ?SockAlloc@CXnSock@@AAEPAVCSocket@@HH@Z 0040076e f   xnets:sock.obj
+ 0001:000005dc       ?SockFree@CXnSock@@AAEXPAVCSocket@@@Z 004008dc f   xnets:sock.obj
+ 0001:000005fe       ?SockReleaseSendBuf@CXnSock@@AAEXPAVCSendBuf@@@Z 004008fe f   xnets:sock.obj
+ 0001:00000619       ?SockFlushRecvBuffers@CXnSock@@AAEXPAVCSocket@@@Z 00400919 f   xnets:sock.obj
+ 0001:00000649       ?shutdown@CXnSock@@QAEHIH@Z 00400949 f   xnets:sock.obj
+ 0001:000006e5       ?ioctlsocket@CXnSock@@QAEHIJPAK@Z 004009e5 f   xnets:sock.obj
+ 0001:000007ad       ?SockUpdateBufferSize@CXnSock@@AAEJPAVCSocket@@HH@Z 00400aad f   xnets:sock.obj
+ 0001:00000809       ?getsockopt@CXnSock@@QAEHIHHPADPAH@Z 00400b09 f   xnets:sock.obj
+ 0001:00000994       ?getsockname@CXnSock@@QAEHIPAUsockaddr@@PAH@Z 00400c94 f   xnets:sock.obj
+ 0001:00000a0a       ?getpeername@CXnSock@@QAEHIPAUsockaddr@@PAH@Z 00400d0a f   xnets:sock.obj
+ 0001:00000a96       ?SockBind@CXnSock@@AAEJPAVCSocket@@UCIpPort@@@Z 00400d96 f   xnets:sock.obj
+ 0001:00000bbb       ?listen@CXnSock@@QAEHIH@Z  00400ebb f   xnets:sock.obj
+ 0001:00000c3d       ?SockLockSelectSockets@CXnSock@@AAEHPAUfd_set@@PAU_SELECTINFO@1@HH@Z 00400f3d f   xnets:sock.obj
+ 0001:00000d1b       ?SockCheckSelectEvents@CXnSock@@AAEHPAVCSocket@@HH@Z 0040101b f   xnets:sock.obj
+ 0001:00000e1e       ?RecvReqEnqueue@CXnSock@@AAEJPAVCSocket@@PAVCRecvReq@@@Z 0040111e f   xnets:sock.obj
+ 0001:00000e93       ?SockQueueOverlappedSend@CXnSock@@AAEJPAVCSocket@@PAVCSendReq@@@Z 00401193 f   xnets:sock.obj
+ 0001:00000f5f       _inet_addr@4               0040125f f   xnets:sock.obj
+ 0001:000010de       _htonl@4                   004013de f   xnets:sock.obj
+ 0001:000010de       _ntohl@4                   004013de f   xnets:sock.obj
+ 0001:00001108       _ntohs@4                   00401408 f   xnets:sock.obj
+ 0001:00001108       _htons@4                   00401408 f   xnets:sock.obj
+ 0001:0000111c       ?SockWaitForEvent@CXnSock@@AAEJPAVCSocket@@HI@Z 0040141c f   xnets:sock.obj
+ 0001:0000119c       ?SockReqComplete@CXnSock@@AAEXPAVCSocket@@PAVCSockReq@@J@Z 0040149c f   xnets:sock.obj
+ 0001:000011ee       ?SockFindMatch@CXnSock@@AAEPAVCSocket@@UCIpPort@@UCIpAddr@@0E@Z 004014ee f   xnets:sock.obj
+ 0001:00001278       ?SockReset@CXnSock@@AAEXUCIpAddr@@@Z 00401578 f   xnets:sock.obj
+ 0001:000012ea       ?socket@CXnSock@@QAEIHHH@Z 004015ea f   xnets:sock.obj
+ 0001:000013dd       ?SockCleanup@CXnSock@@AAEXPAVCSocket@@@Z 004016dd f   xnets:sock.obj
+ 0001:00001447       ?setsockopt@CXnSock@@QAEHIHHPBDH@Z 00401747 f   xnets:sock.obj
+ 0001:0000163c       ?bind@CXnSock@@QAEHIPBUsockaddr@@H@Z 0040193c f   xnets:sock.obj
+ 0001:000016bf       ?connect@CXnSock@@QAEHIPBUsockaddr@@H@Z 004019bf f   xnets:sock.obj
+ 0001:000017a7       ?accept@CXnSock@@QAEIIPAUsockaddr@@PAH@Z 00401aa7 f   xnets:sock.obj
+ 0001:000018c8       ?select@CXnSock@@QAEHHPAUfd_set@@00PBUtimeval@@@Z 00401bc8 f   xnets:sock.obj
+ 0001:00001c4b       ?WSAGetOverlappedResult@CXnSock@@QAEHIPAU_OVERLAPPED@@PAKH1@Z 00401f4b f   xnets:sock.obj
+ 0001:00001d1e       ?WSACancelOverlappedIO@CXnSock@@QAEHI@Z 0040201e f   xnets:sock.obj
+ 0001:00001d91       ?SockRead@CXnSock@@AAEJPAVCSocket@@PAVCRecvReq@@@Z 00402091 f   xnets:sock.obj
+ 0001:00001f4d       ?SockSend@CXnSock@@AAEJPAVCSocket@@PAVCSendReq@@@Z 0040224d f   xnets:sock.obj
+ 0001:00002066       ?SockClose@CXnSock@@AAEJPAVCSocket@@H@Z 00402366 f   xnets:sock.obj
+ 0001:00002106       ?recv@CXnSock@@QAEHIPADHH@Z 00402406 f   xnets:sock.obj
+ 0001:00002196       ?WSARecv@CXnSock@@QAEHIPAU_WSABUF@@KPAK1PAU_OVERLAPPED@@P6GXKK2K@Z@Z 00402496 f   xnets:sock.obj
+ 0001:00002232       ?WSARecvFrom@CXnSock@@QAEHIPAU_WSABUF@@KPAK1PAUsockaddr@@PAHPAU_OVERLAPPED@@P6GXKK4K@Z@Z 00402532 f   xnets:sock.obj
+ 0001:000022ef       ?send@CXnSock@@QAEHIPBDHH@Z 004025ef f   xnets:sock.obj
+ 0001:00002383       ?WSASend@CXnSock@@QAEHIPAU_WSABUF@@KPAKKPAU_OVERLAPPED@@P6GXKK2K@Z@Z 00402683 f   xnets:sock.obj
+ 0001:0000241d       ?WSASendTo@CXnSock@@QAEHIPAU_WSABUF@@KPAKKPBUsockaddr@@HPAU_OVERLAPPED@@P6GXKK3K@Z@Z 0040271d f   xnets:sock.obj
+ 0001:00002527       ?SockShutdown@CXnSock@@QAEXXZ 00402827 f   xnets:sock.obj
+ 0001:00002577       ?closesocket@CXnSock@@QAEHI@Z 00402877 f   xnets:sock.obj
+ 0001:00002606       ?recvfrom@CXnSock@@QAEHIPADHHPAUsockaddr@@PAH@Z 00402906 f   xnets:sock.obj
+ 0001:00002647       ?sendto@CXnSock@@QAEHIPBDHHPBUsockaddr@@H@Z 00402947 f   xnets:sock.obj
+ 0001:00002687       ?SockTerm@CXnSock@@QAEXXZ  00402987 f   xnets:sock.obj
+ 0001:000026c4       ?XNetCreateKey@CXn@@QAEHPAUXNKID@@PAUXNKEY@@@Z 004029c4 f   xnets:xnet.obj
+ 0001:000026d5       ?XNetRegisterKey@CXn@@QAEHPBUXNKID@@PBUXNKEY@@@Z 004029d5 f   xnets:xnet.obj
+ 0001:000026e6       ?XNetUnregisterKey@CXn@@QAEHPBUXNKID@@@Z 004029e6 f   xnets:xnet.obj
+ 0001:000026f7       ?XNetRandom@CXn@@QAEHPAEI@Z 004029f7 f   xnets:xnet.obj
+ 0001:00002714       ?XNetInAddrToString@CXn@@QAEHUin_addr@@PADH@Z 00402a14 f   xnets:xnet.obj
+ 0001:0000272a       ?XNetGetTitleXnAddr@CXn@@QAEKPAUXNADDR@@@Z 00402a2a f   xnets:xnet.obj
+ 0001:00002739       ?XNetConfig@CXn@@QAEHPBUXNetConfigParams@@K@Z 00402a39 f   xnets:xnet.obj
+ 0001:0000274a       ?XNetGetConfigStatus@CXn@@QAEHPAUXNetConfigStatus@@@Z 00402a4a f   xnets:xnet.obj
+ 0001:0000275b       _XNetConfig@8              00402a5b f   xnets:xnet.obj
+ 0001:00002766       _XNetGetConfigStatus@4     00402a66 f   xnets:xnet.obj
+ 0001:00002771       _XNetRandom@8              00402a71 f   xnets:xnet.obj
+ 0001:0000277c       _XNetCreateKey@8           00402a7c f   xnets:xnet.obj
+ 0001:00002787       _XNetRegisterKey@8         00402a87 f   xnets:xnet.obj
+ 0001:00002792       _XNetUnregisterKey@4       00402a92 f   xnets:xnet.obj
+ 0001:0000279d       _XNetXnAddrToInAddr@12     00402a9d f   xnets:xnet.obj
+ 0001:000027b4       _XNetDnsLookup@12          00402ab4 f   xnets:xnet.obj
+ 0001:000027b4       _XNetServerToInAddr@12     00402ab4 f   xnets:xnet.obj
+ 0001:000027c8       _XNetInAddrToString@12     00402ac8 f   xnets:xnet.obj
+ 0001:000027d3       _XNetQosListen@20          00402ad3 f   xnets:xnet.obj
+ 0001:000027e7       _XNetQosXnAddr@28          00402ae7 f   xnets:xnet.obj
+ 0001:000027fb       _XNetQosServer@24          00402afb f   xnets:xnet.obj
+ 0001:0000280f       _XNetDnsRelease@4          00402b0f f   xnets:xnet.obj
+ 0001:0000280f       _XNetQosRelease@4          00402b0f f   xnets:xnet.obj
+ 0001:00002823       _XNetGetTitleXnAddr@4      00402b23 f   xnets:xnet.obj
+ 0001:0000282e       _XNetGetDebugXnAddr@4      00402b2e f   xnets:xnet.obj
+ 0001:00002834       _socket@12                 00402b34 f   xnets:xnet.obj
+ 0001:0000283f       _closesocket@4             00402b3f f   xnets:xnet.obj
+ 0001:0000284a       _shutdown@8                00402b4a f   xnets:xnet.obj
+ 0001:00002855       _ioctlsocket@12            00402b55 f   xnets:xnet.obj
+ 0001:00002860       _setsockopt@20             00402b60 f   xnets:xnet.obj
+ 0001:0000286f       _getsockopt@20             00402b6f f   xnets:xnet.obj
+ 0001:0000287e       _getsockname@12            00402b7e f   xnets:xnet.obj
+ 0001:00002889       _getpeername@12            00402b89 f   xnets:xnet.obj
+ 0001:00002894       _bind@12                   00402b94 f   xnets:xnet.obj
+ 0001:0000289f       _connect@12                00402b9f f   xnets:xnet.obj
+ 0001:000028aa       _listen@8                  00402baa f   xnets:xnet.obj
+ 0001:000028b5       _accept@12                 00402bb5 f   xnets:xnet.obj
+ 0001:000028c0       _select@20                 00402bc0 f   xnets:xnet.obj
+ 0001:000028cf       _WSAGetOverlappedResult@20 00402bcf f   xnets:xnet.obj
+ 0001:000028de       _WSACancelOverlappedIO@4   00402bde f   xnets:xnet.obj
+ 0001:000028e9       _recv@16                   00402be9 f   xnets:xnet.obj
+ 0001:000028f4       _WSARecv@28                00402bf4 f   xnets:xnet.obj
+ 0001:00002903       _recvfrom@24               00402c03 f   xnets:xnet.obj
+ 0001:00002912       _WSARecvFrom@36            00402c12 f   xnets:xnet.obj
+ 0001:00002921       _send@16                   00402c21 f   xnets:xnet.obj
+ 0001:0000292c       _WSASend@28                00402c2c f   xnets:xnet.obj
+ 0001:0000293b       _sendto@24                 00402c3b f   xnets:xnet.obj
+ 0001:0000294a       _WSASendTo@36              00402c4a f   xnets:xnet.obj
+ 0001:00002959       ?XNetUnregisterInAddr@CXn@@QAEHUin_addr@@@Z 00402c59 f   xnets:xnet.obj
+ 0001:0000296a       _XNetInAddrToXnAddr@12     00402c6a f   xnets:xnet.obj
+ 0001:00002981       _XNetUnregisterInAddr@4    00402c81 f   xnets:xnet.obj
+ 0001:0000298c       _XnInit@24                 00402c8c f   xnets:xnet.obj
+ 0001:00002b7a       _XNetStartup@4             00402e7a f   xnets:xnet.obj
+ 0001:00002b91       _WSAStartup@8              00402e91 f   xnets:xnet.obj
+ 0001:00002bac       _XnTerm@8                  00402eac f   xnets:xnet.obj
+ 0001:00002c60       _XNetCleanup@0             00402f60 f   xnets:xnet.obj
+ 0001:00002c6d       _WSACleanup@0              00402f6d f   xnets:xnet.obj
+ 0001:00002c7a       _XNetOpenConfigVolume@0    00402f7a f   xnets:xnetp.obj
+ 0001:00002cc8       _XNetLoadConfigSector@16   00402fc8 f   xnets:xnetp.obj
+ 0001:00002d4d       _XNetCloseConfigVolume@4   0040304d f   xnets:xnetp.obj
+ 0001:00002d64       _XNetLoadConfigParams@4    00403064 f   xnets:xnetp.obj
+ 0001:00002db3       _XConfigChecksum@8         004030b3 f i xnets:xnetp.obj
+ 0001:00002ddd       _XNetSaveConfigSector@16   004030dd f   xnets:xnetp.obj
+ 0001:00002e7a       _XNetSaveConfigParams@4    0040317a f   xnets:xnetp.obj
+ 0001:00002eb7       ?HalQueryTsc@@YGXPAT_LARGE_INTEGER@@@Z 004031b7 f   xnets:halx.obj
+ 0001:00002ebc       ?Add@CRandBytes@@QAEXPAXI@Z 004031bc f   xnets:halx.obj
+ 0001:00002eeb       ?SetInitFlag@CXnHal@@QAEXK@Z 004031eb f   xnets:halx.obj
+ 0001:00002f1a       ?HalRandGather@CXnHal@@QAEIPAEI@Z 0040321a f   xnets:halx.obj
+ 0001:0000305d       ?IpGetConfigStatus@CXnIp@@IAEHPAUXNetConfigStatus@@@Z 0040335d f   xnets:ip.obj
+ 0001:00003075       ?IpCreateKey@CXnIp@@QAEHPAUXNKID@@PAUXNKEY@@@Z 00403375 f   xnets:ip.obj
+ 0001:0000309c       ?KeyRegLookup@CXnIp@@AAEPAUCKeyReg@1@PBUXNKID@@@Z 0040339c f   xnets:ip.obj
+ 0001:000030cf       ?CryptDes@CXnIp@@AAEXKPAEI00I@Z 004033cf f   xnets:ip.obj
+ 0001:00003124       ?SecRegSetKey@CXnIp@@AAEXPAUCSecReg@1@PAEI1I1IH@Z 00403424 f   xnets:ip.obj
+ 0001:000031b4       ?IpInit@CXnIp@@IAEJPAUXNetInitParams@@@Z 004034b4 f   xnets:ip.obj
+ 0001:00003314       ?IpConfig@CXnIp@@IAEHPBUXNetConfigParams@@K@Z 00403614 f   xnets:ip.obj
+ 0001:00003327       ?IpRecvTcp@CXnIp@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCTcpHdr@@I@Z 00403627 f   xnets:ip.obj
+ 0001:000033d1       ?IpXmitIp@CXnIp@@AAEXPAVCPacket@@PAPAVCRouteEntry@@@Z 004036d1 f   xnets:ip.obj
+ 0001:0000347e       ?IpFillHdr@CXnIp@@QAEXPAVCPacket@@UCIpAddr@@E@Z 0040377e f   xnets:ip.obj
+ 0001:000034eb       ?IpRegisterKey@CXnIp@@QAEHPBUXNKID@@PBUXNKEY@@@Z 004037eb f   xnets:ip.obj
+ 0001:000035f9       ?SecRegLookup@CXnIp@@AAEPAUCSecReg@1@PBUXNADDR@@PBUXNKID@@@Z 004038f9 f   xnets:ip.obj
+ 0001:0000364f       ?SecRegLookup@CXnIp@@AAEPAUCSecReg@1@K@Z 0040394f f   xnets:ip.obj
+ 0001:0000368c       ?SecRegSetTicks@CXnIp@@AAEXPAUCSecReg@1@@Z 0040398c f   xnets:ip.obj
+ 0001:000036be       ?SecRegSetOwned@CXnIp@@QAEXUCIpAddr@@@Z 004039be f   xnets:ip.obj
+ 0001:000036f7       ?IpDecrypt@CXnIp@@QAEHPAVCPacket@@UCIpAddr@@@Z 004039f7 f   xnets:ip.obj
+ 0001:0000379d       ?IpGetXnAddr@CXnIp@@QAEKPAUXNADDR@@@Z 00403a9d f   xnets:ip.obj
+ 0001:000037dc       ?IpRecvUdp@CXnIp@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCUdpHdr@@I@Z 00403adc f   xnets:ip.obj
+ 0001:000038a1       ?IpXmitEsp@CXnIp@@AAEXPAVCPacket@@PAUCSecReg@1@PAPAVCRouteEntry@@@Z 00403ba1 f   xnets:ip.obj
+ 0001:00003aa1       ?IpFillKeyExXbToXb@CXnIp@@AAEXPAUCSecReg@1@PAUCKeyExXbToXb@1@@Z 00403da1 f   xnets:ip.obj
+ 0001:00003bde       ?IpXmitSecMsg@CXnIp@@AAEXPAUCSecReg@1@GPAXI1I@Z 00403ede f   xnets:ip.obj
+ 0001:00003c8f       ?IpXmitSecMsgDelete@CXnIp@@AAEXPAUCSecReg@1@K@Z 00403f8f f   xnets:ip.obj
+ 0001:00003cab       ?IpInAddrToXnAddr@CXnIp@@QAEHUCIpAddr@@PAUXNADDR@@PAUXNKID@@@Z 00403fab f   xnets:ip.obj
+ 0001:00003d56       ?SecRegSetIdle@CXnIp@@AAEXPAUCSecReg@1@@Z 00404056 f   xnets:ip.obj
+ 0001:00003db8       ?IpRecv@CXnIp@@IAEXPAVCPacket@@@Z 004040b8 f   xnets:ip.obj
+ 0001:00003f2c       ?IpXmitKeyExXbToXb@CXnIp@@AAEXPAUCSecReg@1@H@Z 0040422c f   xnets:ip.obj
+ 0001:00003fd6       ?SecRegFree@CXnIp@@AAEXPAUCSecReg@1@@Z 004042d6 f   xnets:ip.obj
+ 0001:00003ff2       ?SecRegShutdown@CXnIp@@QAEXH@Z 004042f2 f   xnets:ip.obj
+ 0001:00004050       ?SecRegProbe@CXnIp@@AAEXXZ 00404350 f   xnets:ip.obj
+ 0001:00004131       ?IpStop@CXnIp@@IAEXXZ      00404431 f   xnets:ip.obj
+ 0001:00004166       ?IpRecvSecMsg@CXnIp@@AAEXPAVCPacket@@PAUCSecReg@1@KPAUCSecMsgHdr@@I@Z 00404466 f   xnets:ip.obj
+ 0001:000041a1       ?IpXmitKeyEx@CXnIp@@AAEXPAUCSecReg@1@@Z 004044a1 f   xnets:ip.obj
+ 0001:000041f4       ?IpUnregisterKey@CXnIp@@QAEHPBUXNKID@@@Z 004044f4 f   xnets:ip.obj
+ 0001:000042c3       ?IpUnregisterInAddr@CXnIp@@QAEHUCIpAddr@@@Z 004045c3 f   xnets:ip.obj
+ 0001:0000432e       ?SecRegEnqueue@CXnIp@@AAEXPAUCSecReg@1@PAVCPacket@@@Z 0040462e f   xnets:ip.obj
+ 0001:0000434f       ?SecRegTimer@CXnIp@@AAEXPAVCTimer@@@Z 0040464f f   xnets:ip.obj
+ 0001:0000439e       ?IpTerm@CXnIp@@IAEXXZ      0040469e f   xnets:ip.obj
+ 0001:0000444e       ?IpXmit@CXnIp@@QAEXPAVCPacket@@PAPAVCRouteEntry@@@Z 0040474e f   xnets:ip.obj
+ 0001:000044c6       ?IpFillAndXmit@CXnIp@@QAEXPAVCPacket@@UCIpAddr@@EPAPAVCRouteEntry@@@Z 004047c6 f   xnets:ip.obj
+ 0001:000044fe       ?SecRegAlloc@CXnIp@@AAEPAUCSecReg@1@XZ 004047fe f   xnets:ip.obj
+ 0001:00004595       ?SecRegAlloc@CXnIp@@AAEPAUCSecReg@1@PBUXNADDR@@PAUCKeyReg@1@@Z 00404895 f   xnets:ip.obj
+ 0001:000045e6       ?SecRegXmitQueue@CXnIp@@AAEXPAUCSecReg@1@@Z 004048e6 f   xnets:ip.obj
+ 0001:0000460e       ?IpRecvKeyExXbToXb@CXnIp@@AAEXPAVCPacket@@UCIpAddr@@UCIpPort@@PAUCKeyExXbToXb@1@I@Z 0040490e f   xnets:ip.obj
+ 0001:0000499c       ?IpXnAddrToInAddr@CXnIp@@QAEHPBUXNADDR@@PBUXNKID@@PAUCIpAddr@@@Z 00404c9c f   xnets:ip.obj
+ 0001:00004a36       ?IpRecvKeyEx@CXnIp@@AAEXPAVCPacket@@UCIpAddr@@UCIpPort@@PAUCKeyExHdr@@I@Z 00404d36 f   xnets:ip.obj
+ 0001:00004a7b       ?IpRecvEsp@CXnIp@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCEspHdr@@I@Z 00404d7b f   xnets:ip.obj
+ 0001:00004dba       ?TcpValidateSeqs@CXnSock@@AAEHPAVCTcpSocket@@KKPAK1@Z 004050ba f   xnets:socktcp.obj
+ 0001:00004e0d       ?DequeueChild@CTcpSocket@@QAEXPAV1@@Z 0040510d f   xnets:socktcp.obj
+ 0001:00004e31       ?InsertRecvBuf@CSocket@@QAEXPAVCRecvBuf@@0@Z 00405131 f   xnets:socktcp.obj
+ 0001:00004e5e       ?TcpSndNxt@CXnSock@@AAEKPAVCTcpSocket@@@Z 0040515e f   xnets:socktcp.obj
+ 0001:00004e8d       ?TcpSlideRecvWindow@CXnSock@@AAEXPAVCTcpSocket@@I@Z 0040518d f   xnets:socktcp.obj
+ 0001:00004ecc       ?TcpUpdateRTO@CXnSock@@AAEXPAVCTcpSocket@@@Z 004051cc f   xnets:socktcp.obj
+ 0001:00004f87       ?TcpCorrectMisorderedSegments@CXnSock@@AAEIPAVCTcpSocket@@KPAVCTcpRecvBuf@@@Z 00405287 f   xnets:socktcp.obj
+ 0001:00005039       ?TcpBufferMisorderedSegment@CXnSock@@AAEXPAVCTcpSocket@@IPAVCTcpRecvBuf@@@Z 00405339 f   xnets:socktcp.obj
+ 0001:000050db       ?TcpCompletePendingRecvReqFast@CXnSock@@AAEIPAVCTcpSocket@@EPAEI@Z 004053db f   xnets:socktcp.obj
+ 0001:00005148       ?TcpParseOptions@CXnSock@@AAEHPAVCTcpSocket@@PAUCTcpHdr@@PAU_TcpOptions@@@Z 00405448 f   xnets:socktcp.obj
+ 0001:000051c8       ?TcpTrimBacklog@CXnSock@@AAEXPAVCTcpSocket@@I@Z 004054c8 f   xnets:socktcp.obj
+ 0001:00005214       ?TcpListen@CXnSock@@AAEJPAVCTcpSocket@@H@Z 00405514 f   xnets:socktcp.obj
+ 0001:00005277       ?TcpCopyRecvData@CXnSock@@AAEIPAVCTcpSocket@@PAVCRecvReq@@@Z 00405577 f   xnets:socktcp.obj
+ 0001:0000532a       ?TcpPacketAlloc@CXnSock@@AAEPAVCPacket@@PAVCTcpSocket@@UCIpAddr@@IIIP8CXnVoid@@AEXPAV2@@Z@Z 0040562a f   xnets:socktcp.obj
+ 0001:0000535d       ?TcpPacketFree@CXnSock@@AAEXPAVCPacket@@@Z 0040565d f   xnets:socktcp.obj
+ 0001:0000536f       ?TcpSendSegment@CXnSock@@AAEXPAVCTcpSocket@@PAVCTcpSendBuf@@H@Z 0040566f f   xnets:socktcp.obj
+ 0001:000054e8       ?EnqueueChild@CTcpSocket@@QAEXPAV1@@Z 004057e8 f   xnets:socktcp.obj
+ 0001:00005552       ?GetConnectedChild@CTcpSocket@@QAEPAV1@XZ 00405852 f   xnets:socktcp.obj
+ 0001:00005581       ?DequeueConnectedChild@CTcpSocket@@QAEPAV1@XZ 00405881 f   xnets:socktcp.obj
+ 0001:0000559d       ?TcpReset@CXnSock@@AAEPAVCTcpSocket@@PAV2@J@Z 0040589d f   xnets:socktcp.obj
+ 0001:000056f1       ?TcpCloneChild@CXnSock@@AAEPAVCTcpSocket@@PAV2@@Z 004059f1 f   xnets:socktcp.obj
+ 0001:00005721       ?TcpEmitRST@CXnSock@@AAEXPAVCTcpSocket@@UCIpAddr@@UCIpPort@@2KKE@Z 00405a21 f   xnets:socktcp.obj
+ 0001:000057e1       ?TcpResetPeer@CXnSock@@AAEXPAVCTcpSocket@@@Z 00405ae1 f   xnets:socktcp.obj
+ 0001:00005816       ?TcpEmitACK@CXnSock@@AAEXPAVCTcpSocket@@@Z 00405b16 f   xnets:socktcp.obj
+ 0001:000058f7       ?TcpUpdatePersistFlag@CXnSock@@AAEHPAVCTcpSocket@@@Z 00405bf7 f   xnets:socktcp.obj
+ 0001:00005958       ?TcpDoFastRexmit@CXnSock@@AAEXPAVCTcpSocket@@@Z 00405c58 f   xnets:socktcp.obj
+ 0001:000059c6       ?TcpProcessFIN@CXnSock@@AAEXPAVCTcpSocket@@PAUCTcpHdr@@K@Z 00405cc6 f   xnets:socktcp.obj
+ 0001:00005a8f       ?TcpConnectionEstablished@CXnSock@@AAEXPAVCTcpSocket@@PAUCTcpHdr@@@Z 00405d8f f   xnets:socktcp.obj
+ 0001:00005beb       ?TcpRead@CXnSock@@AAEJPAVCTcpSocket@@PAVCRecvReq@@@Z 00405eeb f   xnets:socktcp.obj
+ 0001:00005ca8       ?TcpStartOutput@CXnSock@@AAEHPAVCTcpSocket@@@Z 00405fa8 f   xnets:socktcp.obj
+ 0001:00005d9f       ?TcpXmitTimeout@CXnSock@@AAEPAVCTcpSocket@@PAV2@@Z 0040609f f   xnets:socktcp.obj
+ 0001:00005e6e       ?TcpQueueSegment@CXnSock@@AAEXPAVCTcpSocket@@PAVCPacket@@EI@Z 0040616e f   xnets:socktcp.obj
+ 0001:00005f06       ?TcpTimer@CXnSock@@AAEXPAVCTimer@@@Z 00406206 f   xnets:socktcp.obj
+ 0001:00005fe3       ?TcpEmitSYN@CXnSock@@AAEJPAVCTcpSocket@@H@Z 004062e3 f   xnets:socktcp.obj
+ 0001:000060b9       ?TcpEmitFIN@CXnSock@@AAEJPAVCTcpSocket@@@Z 004063b9 f   xnets:socktcp.obj
+ 0001:000060f4       ?TcpAcceptConnReqActive@CXnSock@@AAEHPAVCTcpSocket@@PAUCTcpHdr@@@Z 004063f4 f   xnets:socktcp.obj
+ 0001:00006186       ?TcpShutdown@CXnSock@@AAEJPAVCTcpSocket@@KH@Z 00406486 f   xnets:socktcp.obj
+ 0001:00006285       ?TcpSend@CXnSock@@AAEJPAVCTcpSocket@@PAVCSendReq@@I@Z 00406585 f   xnets:socktcp.obj
+ 0001:00006419       ?TcpUpdateSndUna@CXnSock@@AAEXPAVCTcpSocket@@K@Z 00406719 f   xnets:socktcp.obj
+ 0001:00006693       ?TcpRecvData@CXnSock@@AAEPAVCTcpSocket@@PAV2@PAUCTcpHdr@@PAEI@Z 00406993 f   xnets:socktcp.obj
+ 0001:000069c1       ?TcpClose@CXnSock@@AAEHPAVCTcpSocket@@H@Z 00406cc1 f   xnets:socktcp.obj
+ 0001:00006a56       ?TcpConnect@CXnSock@@AAEJPAVCTcpSocket@@UCIpAddr@@UCIpPort@@H@Z 00406d56 f   xnets:socktcp.obj
+ 0001:00006c1c       ?TcpAcceptConnReqPassive@CXnSock@@AAEHPAVCTcpSocket@@PAUCTcpHdr@@UCIpAddr@@@Z 00406f1c f   xnets:socktcp.obj
+ 0001:00006ccc       ?TcpRecv@CXnSock@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCTcpHdr@@II@Z 00406fcc f   xnets:socktcp.obj
+ 0001:00007028       ?RandInit@CXnBase@@AAEXPAUXNetInitParams@@@Z 00407328 f   xnets:base.obj
+ 0001:000070ca       ?InsertHead@CPacketQueue@@QAEXPAVCPacket@@@Z 004073ca f   xnets:base.obj
+ 0001:000070df       ?InsertTail@CPacketQueue@@QAEXPAVCPacket@@@Z 004073df f   xnets:base.obj
+ 0001:000070fb       ?RemoveHead@CPacketQueue@@QAEPAVCPacket@@XZ 004073fb f   xnets:base.obj
+ 0001:0000710f       ?XnInAddrToString@@YGXUin_addr@@PADH@Z 0040740f f   xnets:base.obj
+ 0001:00007194       ?TimerSet@CXnBase@@QAEXPAVCTimer@@K@Z 00407494 f   xnets:base.obj
+ 0001:000071f9       ?TimerSetRelative@CXnBase@@QAEKPAVCTimer@@K@Z 004074f9 f   xnets:base.obj
+ 0001:0000721a       ?PoolAlloc@CXnBase@@QAEPAXIK@Z 0040751a f   xnets:base.obj
+ 0001:0000731a       ?PoolAllocZ@CXnBase@@QAEPAXIK@Z 0040761a f   xnets:base.obj
+ 0001:0000734c       ?PoolFree@CXnBase@@QAEXPAX@Z 0040764c f   xnets:base.obj
+ 0001:00007402       ?Rand@CXnBase@@QAEXPAEI@Z  00407702 f   xnets:base.obj
+ 0001:0000742c       ?PacketFree@CXnBase@@QAEXPAVCPacket@@@Z 0040772c f   xnets:base.obj
+ 0001:00007447       ?GetHdr@CPacket@@QAEPAXH@Z 00407747 f   xnets:base.obj
+ 0001:0000747d       ?Complete@CPacketQueue@@QAEXPAVCXnBase@@@Z 0040777d f   xnets:base.obj
+ 0001:0000749a       ?Discard@CPacketQueue@@QAEXPAVCXnBase@@@Z 0040779a f   xnets:base.obj
+ 0001:000074b9       ?TimerPush@CXnBase@@AAEXXZ 004077b9 f   xnets:base.obj
+ 0001:00007510       ?BaseStart@CXnBase@@QAEXXZ 00407810 f   xnets:base.obj
+ 0001:00007536       ?BaseStop@CXnBase@@QAEXXZ  00407836 f   xnets:base.obj
+ 0001:0000756e       ?BaseTerm@CXnBase@@QAEXXZ  0040786e f   xnets:base.obj
+ 0001:0000759f       ?PacketAlloc@CXnBase@@QAEPAVCPacket@@KIIIP8CXnVoid@@AEXPAV2@@Z@Z 0040789f f   xnets:base.obj
+ 0001:00007693       ?TimerDpc@CXnBase@@CGXPAU_KDPC@@PAX11@Z 00407993 f   xnets:base.obj
+ 0001:0000769f       ?BaseInit@CXnBase@@QAEJPAUXNetInitParams@@@Z 0040799f f   xnets:base.obj
+ 0001:00007838       ?UdpShutdown@CXnSock@@AAEJPAVCSocket@@K@Z 00407b38 f   xnets:sockudp.obj
+ 0001:0000789c       ?UdpRead@CXnSock@@AAEJPAVCSocket@@PAVCRecvReq@@@Z 00407b9c f   xnets:sockudp.obj
+ 0001:00007969       ?UdpSend@CXnSock@@AAEJPAVCSocket@@PAVCSendReq@@I@Z 00407c69 f   xnets:sockudp.obj
+ 0001:00007aef       ?UdpConnect@CXnSock@@AAEJPAVCSocket@@UCIpAddr@@UCIpPort@@@Z 00407def f   xnets:sockudp.obj
+ 0001:00007bd2       ?UdpRecvData@CXnSock@@AAEXPAVCSocket@@UCIpAddr@@UCIpPort@@PAEI@Z 00407ed2 f   xnets:sockudp.obj
+ 0001:00007cd5       ?UdpPacketFree@CXnSock@@AAEXPAVCPacket@@@Z 00407fd5 f   xnets:sockudp.obj
+ 0001:00007d55       ?UdpRecv@CXnSock@@AAEXPAVCPacket@@PAUCIpHdr@@PAUCUdpHdr@@I@Z 00408055 f   xnets:sockudp.obj
+ 0001:00007e2d       ?NicStartXmitRecv@CXnNic@@AAEXXZ 0040812d f   xnets:nicx.obj
+ 0001:00007e55       ?NicStopXmitRecv@CXnNic@@AAEXXZ 00408155 f   xnets:nicx.obj
+ 0001:00007ec8       ?NicProcessIsr@CXnNic@@AAEEXZ 004081c8 f   xnets:nicx.obj
+ 0001:00007ee1       ?NicMiiInterrupt@CXnNic@@AAEXKH@Z 004081e1 f   xnets:nicx.obj
+ 0001:00007f67       ?NicXmitReady@CXnNic@@QAEHXZ 00408267 f   xnets:nicx.obj
+ 0001:00007f89       ?NicStart@CXnNic@@IAEXXZ   00408289 f   xnets:nicx.obj
+ 0001:00007f9f       ?NicIsr@CXnNic@@CGEPAU_KINTERRUPT@@PAX@Z 0040829f f   xnets:nicx.obj
+ 0001:00007fab       ?NicRecvInterrupt@CXnNic@@AAEXXZ 004082ab f   xnets:nicx.obj
+ 0001:000080ff       ?NicXmitInterrupt@CXnNic@@AAEXXZ 004083ff f   xnets:nicx.obj
+ 0001:000081c3       ?NicXmit@CXnNic@@QAEXPAVCPacket@@@Z 004084c3 f   xnets:nicx.obj
+ 0001:000082ad       ?NicTimer@CXnNic@@QAEXXZ   004085ad f   xnets:nicx.obj
+ 0001:000082d2       ?NicFlush@CXnNic@@IAEXXZ   004085d2 f   xnets:nicx.obj
+ 0001:00008314       ?NicStop@CXnNic@@IAEXXZ    00408614 f   xnets:nicx.obj
+ 0001:0000836e       ?NicTerm@CXnNic@@IAEXXZ    0040866e f   xnets:nicx.obj
+ 0001:000083dc       ?HalShutdownNotification@CXnNic@@CGXPAU_HAL_SHUTDOWN_REGISTRATION@@@Z 004086dc f   xnets:nicx.obj
+ 0001:00008414       ?NicProcessDpc@CXnNic@@AAEXXZ 00408714 f   xnets:nicx.obj
+ 0001:00008470       ?NicDpc@CXnNic@@CGXPAU_KDPC@@PAX11@Z 00408770 f   xnets:nicx.obj
+ 0001:0000847c       ?NicInit@CXnNic@@IAEJPAUXNetInitParams@@@Z 0040877c f   xnets:nicx.obj
+ 0001:000088a5       ?EnetQueuePush@CXnEnet@@IAEXXZ 00408ba5 f   xnets:enet.obj
+ 0001:000088b7       ?EnetXmit@CXnEnet@@QAEXPAVCPacket@@UCIpAddr@@@Z 00408bb7 f   xnets:enet.obj
+ 0001:000088f7       ?EnetStop@CXnEnet@@IAEXXZ  00408bf7 f   xnets:enet.obj
+ 0001:00008919       ?EnetRecv@CXnEnet@@IAEXPAVCPacket@@I@Z 00408c19 f   xnets:enet.obj
+ 0001:00008931       ?EnetFillAndXmit@CXnEnet@@AAEXPAVCPacket@@PAUCEnetAddr@@@Z 00408c31 f   xnets:enet.obj
+ 0001:00008962       ?EnetTerm@CXnEnet@@IAEXXZ  00408c62 f   xnets:enet.obj
+ 0001:000089a2       ?EnetPush@CXnEnet@@QAEXXZ  00408ca2 f   xnets:enet.obj
+ 0001:00008a5e       ?EnetDpc@CXnEnet@@CGXPAU_KDPC@@PAX11@Z 00408d5e f   xnets:enet.obj
+ 0001:00008a6a       ?EnetInit@CXnEnet@@IAEJPAUXNetInitParams@@@Z 00408d6a f   xnets:enet.obj
+ 0001:00008ab0       _tcpipxsum@12              00408db0 f   xnets:tcpipxsum.obj
+ 0001:00008bf0       ??_C@_02EOKCHOPI@T?3?$AA@  00408ef0     xnets:halx.obj
+ 0001:00008bf8       _g_abOakleyGroup1Mod       00408ef8     xnets:base.obj
+ 0001:00008c58       _g_abOakleyGroup1Base      00408f58     xnets:base.obj
+ 0001:00008cb8       ?s_XNetParamsDef@CXnBase@@0UXNetParams@@B 00408fb8     xnets:base.obj
+ 0001:00008ce8       ?s_XNetParamsMin@CXnBase@@0UXNetParams@@B 00408fe8     xnets:base.obj
+ 0001:00008d18       ?s_XNetParamsMax@CXnBase@@0UXNetParams@@B 00409018     xnets:base.obj
+ 0001:00008d48       ?_abPktTypeInfo@CPacket@@2QBEB 00409048     xnets:base.obj
+ 0002:00000000       __imp__NtClose@4           00409060     xboxkrnl:xboxkrnl.exe
+ 0002:00000004       __imp__NtQueryVolumeInformationFile@20 00409064     xboxkrnl:xboxkrnl.exe
+ 0002:00000008       __imp__NtOpenFile@24       00409068     xboxkrnl:xboxkrnl.exe
+ 0002:0000000c       __imp__NtWriteFile@32      0040906c     xboxkrnl:xboxkrnl.exe
+ 0002:00000010       __imp__NtQueryInformationFile@20 00409070     xboxkrnl:xboxkrnl.exe
+ 0002:00000014       __imp__NtCreateFile@36     00409074     xboxkrnl:xboxkrnl.exe
+ 0002:00000018       __imp__RtlInitAnsiString@8 00409078     xboxkrnl:xboxkrnl.exe
+ 0002:0000001c       __imp__IoCreateSymbolicLink@8 0040907c     xboxkrnl:xboxkrnl.exe
+ 0002:00000020       __imp__NtSetInformationFile@20 00409080     xboxkrnl:xboxkrnl.exe
+ 0002:00000024       __imp__KeQuerySystemTime@4 00409084     xboxkrnl:xboxkrnl.exe
+ 0002:00000028       __imp__HalReturnToFirmware@4 00409088     xboxkrnl:xboxkrnl.exe
+ 0002:0000002c       __imp__NtDeviceIoControlFile@40 0040908c     xboxkrnl:xboxkrnl.exe
+ 0002:00000030       __imp__RtlNtStatusToDosError@4 00409090     xboxkrnl:xboxkrnl.exe
+ 0002:00000034       __imp__RtlLeaveCriticalSection@4 00409094     xboxkrnl:xboxkrnl.exe
+ 0002:00000038       __imp__RtlEnterCriticalSection@4 00409098     xboxkrnl:xboxkrnl.exe
+ 0002:0000003c       __imp_@ObfDereferenceObject@4 0040909c     xboxkrnl:xboxkrnl.exe
+ 0002:00000040       __imp__ObReferenceObjectByHandle@12 004090a0     xboxkrnl:xboxkrnl.exe
+ 0002:00000044       __imp__RtlRaiseException@4 004090a4     xboxkrnl:xboxkrnl.exe
+ 0002:00000048       __imp__PsTerminateSystemThread@4 004090a8     xboxkrnl:xboxkrnl.exe
+ 0002:0000004c       __imp__PsCreateSystemThreadEx@40 004090ac     xboxkrnl:xboxkrnl.exe
+ 0002:00000050       __imp__RtlEqualString@12   004090b0     xboxkrnl:xboxkrnl.exe
+ 0002:00000054       __imp__XeLoadSection@4     004090b4     xboxkrnl:xboxkrnl.exe
+ 0002:00000058       __imp__XeUnloadSection@4   004090b8     xboxkrnl:xboxkrnl.exe
+ 0002:0000005c       __imp__MmPersistContiguousMemory@12 004090bc     xboxkrnl:xboxkrnl.exe
+ 0002:00000060       __imp__MmAllocateContiguousMemory@4 004090c0     xboxkrnl:xboxkrnl.exe
+ 0002:00000064       __imp__LaunchDataPage      004090c4     xboxkrnl:xboxkrnl.exe
+ 0002:00000064       _LaunchDataPage            004090c4     xboxkrnl:xboxkrnl.exe
+ 0002:00000068       __imp__MmFreeContiguousMemory@4 004090c8     xboxkrnl:xboxkrnl.exe
+ 0002:0000006c       __imp__NtQuerySymbolicLinkObject@12 004090cc     xboxkrnl:xboxkrnl.exe
+ 0002:00000070       __imp__NtOpenSymbolicLinkObject@8 004090d0     xboxkrnl:xboxkrnl.exe
+ 0002:00000074       __imp__ExQueryNonVolatileSetting@20 004090d4     xboxkrnl:xboxkrnl.exe
+ 0002:00000078       __imp__HalDiskCachePartitionCount 004090d8     xboxkrnl:xboxkrnl.exe
+ 0002:00000078       _HalDiskCachePartitionCount 004090d8     xboxkrnl:xboxkrnl.exe
+ 0002:0000007c       __imp__NtReadFile@32       004090dc     xboxkrnl:xboxkrnl.exe
+ 0002:00000080       __imp__NtFsControlFile@40  004090e0     xboxkrnl:xboxkrnl.exe
+ 0002:00000084       __imp__NtFreeVirtualMemory@12 004090e4     xboxkrnl:xboxkrnl.exe
+ 0002:00000088       __imp__NtAllocateVirtualMemory@20 004090e8     xboxkrnl:xboxkrnl.exe
+ 0002:0000008c       __imp__RtlCompareMemoryUlong@12 004090ec     xboxkrnl:xboxkrnl.exe
+ 0002:00000090       __imp__RtlInitializeCriticalSection@4 004090f0     xboxkrnl:xboxkrnl.exe
+ 0002:00000094       __imp__NtQueryVirtualMemory@8 004090f4     xboxkrnl:xboxkrnl.exe
+ 0002:00000098       __imp__KeSetTimer@16       004090f8     xboxkrnl:xboxkrnl.exe
+ 0002:0000009c       __imp_@KfLowerIrql@4       004090fc     xboxkrnl:xboxkrnl.exe
+ 0002:000000a0       __imp__KeRaiseIrqlToDpcLevel@0 00409100     xboxkrnl:xboxkrnl.exe
+ 0002:000000a4       __imp__HalInitiateShutdown@0 00409104     xboxkrnl:xboxkrnl.exe
+ 0002:000000a8       __imp__KeInitializeTimerEx@8 00409108     xboxkrnl:xboxkrnl.exe
+ 0002:000000ac       __imp__KeInitializeDpc@12  0040910c     xboxkrnl:xboxkrnl.exe
+ 0002:000000b0       __imp__NtCreateEvent@16    00409110     xboxkrnl:xboxkrnl.exe
+ 0002:000000b4       _ExEventObjectType         00409114     xboxkrnl:xboxkrnl.exe
+ 0002:000000b4       __imp__ExEventObjectType   00409114     xboxkrnl:xboxkrnl.exe
+ 0002:000000b8       __imp__NtSetEvent@8        00409118     xboxkrnl:xboxkrnl.exe
+ 0002:000000bc       __imp__NtClearEvent@4      0040911c     xboxkrnl:xboxkrnl.exe
+ 0002:000000c0       __imp__NtWaitForSingleObjectEx@16 00409120     xboxkrnl:xboxkrnl.exe
+ 0002:000000c4       __imp__NtWaitForMultipleObjectsEx@24 00409124     xboxkrnl:xboxkrnl.exe
+ 0002:000000c8       __imp__KeDelayExecutionThread@12 00409128     xboxkrnl:xboxkrnl.exe
+ 0002:000000cc       __imp__RtlUnwind@16        0040912c     xboxkrnl:xboxkrnl.exe
+ 0002:000000d0       __imp__KeBugCheck@4        00409130     xboxkrnl:xboxkrnl.exe
+ 0002:000000d4       __imp__KeWaitForSingleObject@20 00409134     xboxkrnl:xboxkrnl.exe
+ 0002:000000d8       __imp__ExAllocatePoolWithTag@8 00409138     xboxkrnl:xboxkrnl.exe
+ 0002:000000dc       __imp__ExFreePool@4        0040913c     xboxkrnl:xboxkrnl.exe
+ 0002:000000e0       __imp__KeSetEvent@12       00409140     xboxkrnl:xboxkrnl.exe
+ 0002:000000e4       __imp__KeWaitForMultipleObjects@32 00409144     xboxkrnl:xboxkrnl.exe
+ 0002:000000e8       __imp__PhyGetLinkState@4   00409148     xboxkrnl:xboxkrnl.exe
+ 0002:000000ec       __imp__PhyInitialize@8     0040914c     xboxkrnl:xboxkrnl.exe
+ 0002:000000f0       _HalDiskSerialNumber       00409150     xboxkrnl:xboxkrnl.exe
+ 0002:000000f0       __imp__HalDiskSerialNumber 00409150     xboxkrnl:xboxkrnl.exe
+ 0002:000000f4       _HalDiskModelNumber        00409154     xboxkrnl:xboxkrnl.exe
+ 0002:000000f4       __imp__HalDiskModelNumber  00409154     xboxkrnl:xboxkrnl.exe
+ 0002:000000f8       __imp__MmQueryStatistics@4 00409158     xboxkrnl:xboxkrnl.exe
+ 0002:000000fc       __imp__KeTickCount         0040915c     xboxkrnl:xboxkrnl.exe
+ 0002:000000fc       _KeTickCount               0040915c     xboxkrnl:xboxkrnl.exe
+ 0002:00000100       __imp__XcBlockCryptCBC@28  00409160     xboxkrnl:xboxkrnl.exe
+ 0002:00000104       __imp__XcKeyTable@12       00409164     xboxkrnl:xboxkrnl.exe
+ 0002:00000108       __imp__XcDESKeyParity@8    00409168     xboxkrnl:xboxkrnl.exe
+ 0002:0000010c       __imp__XcHMAC@28           0040916c     xboxkrnl:xboxkrnl.exe
+ 0002:00000110       __imp__XcModExp@20         00409170     xboxkrnl:xboxkrnl.exe
+ 0002:00000114       _XboxLANKey                00409174     xboxkrnl:xboxkrnl.exe
+ 0002:00000114       __imp__XboxLANKey          00409174     xboxkrnl:xboxkrnl.exe
+ 0002:00000118       __imp__XcRC4Crypt@12       00409178     xboxkrnl:xboxkrnl.exe
+ 0002:0000011c       __imp__XcRC4Key@12         0040917c     xboxkrnl:xboxkrnl.exe
+ 0002:00000120       __imp__XcSHAFinal@8        00409180     xboxkrnl:xboxkrnl.exe
+ 0002:00000124       __imp__XcSHAUpdate@12      00409184     xboxkrnl:xboxkrnl.exe
+ 0002:00000128       __imp__XcSHAInit@4         00409188     xboxkrnl:xboxkrnl.exe
+ 0002:0000012c       __imp__KeSetTimerEx@20     0040918c     xboxkrnl:xboxkrnl.exe
+ 0002:00000130       __imp__KeRemoveQueueDpc@4  00409190     xboxkrnl:xboxkrnl.exe
+ 0002:00000134       __imp__KeCancelTimer@4     00409194     xboxkrnl:xboxkrnl.exe
+ 0002:00000138       __imp__KeStallExecutionProcessor@4 00409198     xboxkrnl:xboxkrnl.exe
+ 0002:0000013c       __imp__KeInsertQueueDpc@12 0040919c     xboxkrnl:xboxkrnl.exe
+ 0002:00000140       __imp__MmAllocateContiguousMemoryEx@20 004091a0     xboxkrnl:xboxkrnl.exe
+ 0002:00000144       __imp__MmLockUnlockBufferPages@12 004091a4     xboxkrnl:xboxkrnl.exe
+ 0002:00000148       __imp__MmGetPhysicalAddress@4 004091a8     xboxkrnl:xboxkrnl.exe
+ 0002:0000014c       __imp__KeDisconnectInterrupt@4 004091ac     xboxkrnl:xboxkrnl.exe
+ 0002:00000150       __imp__HalRegisterShutdownNotification@8 004091b0     xboxkrnl:xboxkrnl.exe
+ 0002:00000154       __imp__KeConnectInterrupt@4 004091b4     xboxkrnl:xboxkrnl.exe
+ 0002:00000158       __imp__KeInitializeInterrupt@28 004091b8     xboxkrnl:xboxkrnl.exe
+ 0002:0000015c       __imp__HalGetInterruptVector@8 004091bc     xboxkrnl:xboxkrnl.exe
+ 0002:00000160       __imp__NtWaitForSingleObject@12 004091c0     xboxkrnl:xboxkrnl.exe
+ 0002:00000164       __imp__NtFlushBuffersFile@8 004091c4     xboxkrnl:xboxkrnl.exe
+ 0002:00000168       \177xboxkrnl_NULL_THUNK_DATA 004091c8     xboxkrnl:xboxkrnl.exe
+ 0002:0000018c       ??_C@_0CD@LFDIGKDL@?2Device?2Harddisk0?2partition1?2UDA@ 004091ec     xapilib:xapiinit.obj
+ 0002:000001b0       ??_C@_06JOLOLLFF@?2?$DP?$DP?2U?3?$AA@ 00409210     xapilib:xapiinit.obj
+ 0002:000001b8       ??_C@_0CD@HOGELJJO@?2Device?2Harddisk0?2partition1?2TDA@ 00409218     xapilib:xapiinit.obj
+ 0002:000001dc       ??_C@_06JPHMNBGC@?2?$DP?$DP?2T?3?$AA@ 0040923c     xapilib:xapiinit.obj
+ 0002:000001e4       ??_C@_0BO@GJJLMLHN@?2Device?2Harddisk0?2partition1?2?$AA@ 00409244     xapilib:xapiinit.obj
+ 0002:00000204       ??_C@_0P@DOJDIGAH@?2Device?2CdRom0?$AA@ 00409264     xapilib:xapiinit.obj
+ 0002:00000214       ??_C@_06IDFKHCBC@?2?$DP?$DP?2D?3?$AA@ 00409274     xapilib:xapiinit.obj
+ 0002:000002e8       ??_C@_1CA@NCOAEKIF@?$AA?$CF?$AAl?$AAc?$AA?$CF?$AAl?$AAs?$AA?$CF?$AAl?$AAc?$AA?$CF?$AAl?$AAs?$AA?$CF?$AAl?$AAs?$AA?$AA@ 00409348     xapilib:xapiinit.obj
+ 0002:00000308       ??_C@_09ECGHCENE@$$XSIMAGE?$AA@ 00409368     xapilib:xapiinit.obj
+ 0002:00000314       ??_C@_09IHMABKFK@$$XTIMAGE?$AA@ 00409374     xapilib:xapiinit.obj
+ 0002:00000320       ??_C@_08BBCMAOON@$$XTINFO?$AA@ 00409380     xapilib:xapiinit.obj
+ 0002:0000032c       ??_C@_05CLMJGDKL@?$CF08lx?$AA@ 0040938c     xapilib:xapiinit.obj
+ 0002:00000334       __tls_used                 00409394     xapilib:xapitls.obj
+ 0002:00000388       _XapiHardDisk              004093e8     xapilib:xvalue.obj
+ 0002:00000390       ??_C@_0BN@OGMPKPAN@?2Device?2Harddisk0?2partition0?$AA@ 004093f0     xapilib:xvalue.obj
+ 0002:000003b0       ??_C@_06JGGGCIAG@?2?$DP?$DP?2X?3?$AA@ 00409410     xapilib:pathmisc.obj
+ 0002:000003b8       ??_C@_06JNDKGPDL@?2?$DP?$DP?2W?3?$AA@ 00409418     xapilib:pathmisc.obj
+ 0002:000004b4       ??_C@_06JFOCPMGI@?2?$DP?$DP?2Z?3?$AA@ 00409514     xapilib:pathmisc.obj
+ 0002:000004f0       ___lookuptable             00409550     libc:output.obj
+ 0002:0000054c       ___nullstring              004095ac     libc:output.obj
+ 0002:00000554       ___wnullstring             004095b4     libc:output.obj
+ 0002:00000568       __ctype                    004095c8     libc:ctype.obj
+ 0002:00000770       __wctype                   004097d0     libc:ctype.obj
+ 0002:00000974       ??_C@_0P@GGKDKEEG@runtime?5error?5?$AA@ 004099d4     libc:crt0msg.obj
+ 0002:00000984       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 004099e4     libc:crt0msg.obj
+ 0002:00000988       ??_C@_0O@MJNIPGOH@TLOSS?5error?$AN?6?$AA@ 004099e8     libc:crt0msg.obj
+ 0002:00000998       ??_C@_0N@BONNPDHF@SING?5error?$AN?6?$AA@ 004099f8     libc:crt0msg.obj
+ 0002:000009a8       ??_C@_0P@MBDAJNE@DOMAIN?5error?$AN?6?$AA@ 00409a08     libc:crt0msg.obj
+ 0002:000009b8       ??_C@_0CF@KJDAIALP@R6028?$AN?6?9?5unable?5to?5initialize?5he@ 00409a18     libc:crt0msg.obj
+ 0002:000009e0       ??_C@_0DF@GAKBPDFP@R6027?$AN?6?9?5not?5enough?5space?5for?5lo@ 00409a40     libc:crt0msg.obj
+ 0002:00000a18       ??_C@_0DF@IBLNNAIG@R6026?$AN?6?9?5not?5enough?5space?5for?5st@ 00409a78     libc:crt0msg.obj
+ 0002:00000a50       ??_C@_0CG@IOHKGFNJ@R6025?$AN?6?9?5pure?5virtual?5function?5c@ 00409ab0     libc:crt0msg.obj
+ 0002:00000a78       ??_C@_0DF@JIJJFJDC@R6024?$AN?6?9?5not?5enough?5space?5for?5_o@ 00409ad8     libc:crt0msg.obj
+ 0002:00000ab0       ??_C@_0CJ@EGEJHFME@R6019?$AN?6?9?5unable?5to?5open?5console?5@ 00409b10     libc:crt0msg.obj
+ 0002:00000adc       ??_C@_0CB@GNHNIELH@R6018?$AN?6?9?5unexpected?5heap?5error?$AN?6@ 00409b3c     libc:crt0msg.obj
+ 0002:00000b00       ??_C@_0CN@FOLDKNG@R6017?$AN?6?9?5unexpected?5multithread?5@ 00409b60     libc:crt0msg.obj
+ 0002:00000b30       ??_C@_0CM@FAHFJNHO@R6016?$AN?6?9?5not?5enough?5space?5for?5th@ 00409b90     libc:crt0msg.obj
+ 0002:00000b60       ??_C@_0JG@LBKMGKLD@?$AN?6This?5application?5has?5requested@ 00409bc0     libc:crt0msg.obj
+ 0002:00000bf8       ??_C@_0CM@FLCNIPKK@R6009?$AN?6?9?5not?5enough?5space?5for?5en@ 00409c58     libc:crt0msg.obj
+ 0002:00000c24       ??_C@_0CK@KMMJOAPP@R6008?$AN?6?9?5not?5enough?5space?5for?5ar@ 00409c84     libc:crt0msg.obj
+ 0002:00000c50       ??_C@_0CF@HOHMHDEK@R6002?$AN?6?9?5floating?5point?5not?5load@ 00409cb0     libc:crt0msg.obj
+ 0002:00000cd0       _mainXapiStartup@4         00409d30 f   xapilib:xapi0.obj
+ 0002:00000d3f       _mainCRTStartup            00409d9f f   xapilib:xapi0.obj
+ 0002:00000db1       _XapiValidateDiskPartitionEx@8 00409e11 f   xapilib:xapiinit.obj
+ 0002:00000e29       _XapiCopySectionToFile@16  00409e89 f   xapilib:xapiinit.obj
+ 0002:00000f10       _XapiMapLetterToDirectory@24 00409f70 f   xapilib:xapiinit.obj
+ 0002:00001244       _XapiSetupPerTitleDriveLetters@8 0040a2a4 f   xapilib:xapiinit.obj
+ 0002:00001299       _XapiBootToDash@12         0040a2f9 f   xapilib:xapiinit.obj
+ 0002:000012fe       _XapiVerifyMediaInDrive@0  0040a35e f   xapilib:xapiinit.obj
+ 0002:000013da       _XapiValidateDiskPartition@4 0040a43a f   xapilib:xapiinit.obj
+ 0002:000013eb       _XapiInitProcess@0         0040a44b f   xapilib:xapiinit.obj
+ 0002:0000150c       __cinit@0                  0040a56c f   xapilib:xapi0dat.obj
+ 0002:00001564       __rtinit@0                 0040a5c4 f   xapilib:xapi0dat.obj
+ 0002:0000158d       _GetLastError@0            0040a5ed f   xapilib:error.obj
+ 0002:000015b5       _SetLastError@4            0040a615 f   xapilib:error.obj
+ 0002:000015e3       _XapiSetLastNTError@4      0040a643 f   xapilib:error.obj
+ 0002:000015fa       _CloseHandle@4             0040a65a f   xapilib:handle.obj
+ 0002:00001618       _XapiCallThreadNotifyRoutines@4 0040a678 f   xapilib:thread.obj
+ 0002:00001650       _UnhandledExceptionFilter@4 0040a6b0 f   xapilib:thread.obj
+ 0002:0000166d       _XapiThreadStartup@8       0040a6cd f   xapilib:thread.obj
+ 0002:00001705       _CreateThread@24           0040a765 f   xapilib:thread.obj
+ 0002:00001773       _XGetSectionHandleA@4      0040a7d3 f   xapilib:xemodule.obj
+ 0002:000017da       _XLoadSectionByHandle@4    0040a83a f   xapilib:xemodule.obj
+ 0002:000017fb       _XFreeSectionByHandle@4    0040a85b f   xapilib:xemodule.obj
+ 0002:00001819       _XGetSectionSize@4         0040a879 f   xapilib:xemodule.obj
+ 0002:00001823       _lstrcpynA@12              0040a883 f   xapilib:lcompata.obj
+ 0002:00001888       _XWriteTitleInfoNoReboot@20 0040a8e8 f   xapilib:launch.obj
+ 0002:00001962       _XWriteTitleInfoAndRebootA@20 0040a9c2 f   xapilib:launch.obj
+ 0002:000019a7       _XLaunchNewImageA@8        0040aa07 f   xapilib:launch.obj
+ 0002:00001aba       _XQueryValue@20            0040ab1a f   xapilib:xvalue.obj
+ 0002:00001adc       _XGetParentalControlSetting@0 0040ab3c f   xapilib:xvalue.obj
+ 0002:00001b01       _GetDiskFreeSpaceExA@16    0040ab61 f   xapilib:pathmisc.obj
+ 0002:00001bf5       _XapiSelectCachePartition@12 0040ac55 f   xapilib:pathmisc.obj
+ 0002:00001df9       _XMountUtilityDrive@4      0040ae59 f   xapilib:pathmisc.obj
+ 0002:00001efe       _HeapFree@12               0040af5e f   xapilib:xapiheap.obj
+ 0002:00001f15       _GetProcessHeap@0          0040af75 f   xapilib:xapiheap.obj
+ 0002:00001f1b       _LocalAlloc@8              0040af7b f   xapilib:xapiheap.obj
+ 0002:00001f38       _LocalFree@4               0040af98 f   xapilib:xapiheap.obj
+ 0002:00001f56       _RtlpCreateUnCommittedRange@4 0040afb6 f   xapilib:heap.obj
+ 0002:00002076       _RtlpDestroyUnCommittedRange@8 0040b0d6 f   xapilib:heap.obj
+ 0002:00002097       _RtlpInsertUnCommittedPages@12 0040b0f7 f   xapilib:heap.obj
+ 0002:0000212a       _RtlpFindAndCommitPages@16 0040b18a f   xapilib:heap.obj
+ 0002:000022b5       _RtlpCoalesceFreeBlocks@16 0040b315 f   xapilib:heap.obj
+ 0002:0000255a       _RtlpInsertFreeBlock@12    0040b5ba f   xapilib:heap.obj
+ 0002:00002654       _RtlpInitializeHeapSegment@28 0040b6b4 f   xapilib:heap.obj
+ 0002:00002772       _RtlpExtendHeap@8          0040b7d2 f   xapilib:heap.obj
+ 0002:000028f9       _RtlpDeCommitFreeBlock@12  0040b959 f   xapilib:heap.obj
+ 0002:00002ba3       _RtlCreateHeap@24          0040bc03 f   xapilib:heap.obj
+ 0002:00002fc7       _RtlAllocateHeap@12        0040c027 f   xapilib:heap.obj
+ 0002:00003749       _RtlFreeHeap@12            0040c7a9 f   xapilib:heap.obj
+ 0002:00003919       _XAutoPowerDownResetTimer@0 0040c979 f   xapilib:powerdwn.obj
+ 0002:00003934       _XapiAutoPowerDownTimeout@16 0040c994 f   xapilib:powerdwn.obj
+ 0002:00003946       _XapiInitAutoPowerDown@0   0040c9a6 f   xapilib:powerdwn.obj
+ 0002:000039b0       _XapiFormatObjectAttributes@12 0040ca10 f   xapilib:support.obj
+ 0002:000039d8       _XapiFormatTimeOut@8       0040ca38 f   xapilib:support.obj
+ 0002:00003a06       _CreateEventA@16           0040ca66 f   xapilib:synch.obj
+ 0002:00003a67       _SetEvent@4                0040cac7 f   xapilib:synch.obj
+ 0002:00003a87       _ResetEvent@4              0040cae7 f   xapilib:synch.obj
+ 0002:00003aa5       _WaitForSingleObjectEx@12  0040cb05 f   xapilib:synch.obj
+ 0002:00003ae9       _WaitForMultipleObjectsEx@20 0040cb49 f   xapilib:synch.obj
+ 0002:00003b69       _SleepEx@8                 0040cbc9 f   xapilib:synch.obj
+ 0002:00003bbb       _WaitForSingleObject@8     0040cc1b f   xapilib:synch.obj
+ 0002:00003bcd       _Sleep@4                   0040cc2d f   xapilib:synch.obj
+ 0002:00003bdb       _XapiFormatFATVolumeEx@8   0040cc3b f   xapilib:format.obj
+ 0002:00003f00       @RtlFindFirstSetRightMember@4 0040cf60 f   xapilib:bitmapa.obj
+ 0002:00003f04       __snwprintf                0040cf64 f   libc:snwprint.obj
+ 0002:00003f74       _sprintf                   0040cfd4 f   libc:sprintf.obj
+ 0002:00003fcc       __SEH_prolog               0040d02c f   libc:sehprolg.obj
+ 0002:00004005       __SEH_epilog               0040d065 f   libc:sehprolg.obj
+ 0002:00004020       __allmul                   0040d080 f   libc:llmul.obj
+ 0002:00004060       _memmove                   0040d0c0 f   libc:memmove.obj
+ 0002:00004398       __global_unwind2           0040d3f8 f   libc:exsup.obj
+ 0002:000043da       __local_unwind2            0040d43a f   libc:exsup.obj
+ 0002:00004432       __NLG_Return2              0040d492     libc:exsup.obj
+ 0002:00004442       __abnormal_termination     0040d4a2 f   libc:exsup.obj
+ 0002:00004465       __NLG_Notify1              0040d4c5 f   libc:exsup.obj
+ 0002:0000446e       __NLG_Notify               0040d4ce f   libc:exsup.obj
+ 0002:00004481       __NLG_Dispatch             0040d4e1     libc:exsup.obj
+ 0002:00004486       __snprintf                 0040d4e6 f   libc:snprintf.obj
+ 0002:000044e0       __aulldiv                  0040d540 f   libc:ulldiv.obj
+ 0002:00004550       __alldiv                   0040d5b0 f   libc:lldiv.obj
+ 0002:000045fa       __flsbuf                   0040d65a f   libc:_flsbuf.obj
+ 0002:00004797       __woutput                  0040d7f7 f   libc:woutput.obj
+ 0002:00004fb1       __output                   0040e011 f   libc:output.obj
+ 0002:00005704       __except_handler3          0040e764 f   libc:exsup3.obj
+ 0002:000057c1       __seh_longjmp_unwind@4     0040e821 f   libc:exsup3.obj
+ 0002:000057e0       ___ascii_stricmp           0040e840 f   libc:_stricmp.obj
+ 0002:0000582a       __lseek                    0040e88a f   libc:lseek.obj
+ 0002:000058b4       __ioinit                   0040e914 f   libc:ioinit.obj
+ 0002:00005915       __write                    0040e975 f   libc:write.obj
+ 0002:00005aaf       __getbuf                   0040eb0f f   libc:_getbuf.obj
+ 0002:00005af3       __isatty                   0040eb53 f   libc:isatty.obj
+ 0002:00005b1a       ___initstdio               0040eb7a f   libc:_file.obj
+ 0002:00005bc0       ___endstdio                0040ec20 f   libc:_file.obj
+ 0002:00005bd4       _fputwc                    0040ec34 f   libc:fputwc.obj
+ 0002:00005c95       _mbtowc                    0040ecf5 f   libc:mbtowc.obj
+ 0002:00005cd0       __aulldvrm                 0040ed30 f   libc:ulldvrm.obj
+ 0002:00005d65       _wctomb                    0040edc5 f   libc:wctomb.obj
+ 0002:00005e27       __exit                     0040ee87 f   libc:crt0dat.obj
+ 0002:00005e39       __dosmaperr                0040ee99 f   libc:dosmap.obj
+ 0002:00005e98       __free_osfhnd              0040eef8 f   libc:osfinfo.obj
+ 0002:00005edc       __get_osfhandle            0040ef3c f   libc:osfinfo.obj
+ 0002:00005f18       __heap_alloc               0040ef78 f   libc:malloc.obj
+ 0002:00005f3f       __nh_malloc                0040ef9f f   libc:malloc.obj
+ 0002:00005f6b       _malloc                    0040efcb f   libc:malloc.obj
+ 0002:00005f7d       _free                      0040efdd f   libc:free.obj
+ 0002:00005f94       __lseeki64                 0040eff4 f   libc:lseeki64.obj
+ 0002:00006031       _calloc                    0040f091 f   libc:calloc.obj
+ 0002:0000607e       __fcloseall                0040f0de f   libc:closeall.obj
+ 0002:000060d6       __flush                    0040f136 f   libc:fflush.obj
+ 0002:00006133       _fflush                    0040f193 f   libc:fflush.obj
+ 0002:000061db       __flushall                 0040f23b f   libc:fflush.obj
+ 0002:000061e4       __flswbuf                  0040f244 f   libc:_flswbuf.obj
+ 0002:00006309       __fptrap                   0040f369 f   libc:crt0fp.obj
+ 0002:00006312       __callnewh                 0040f372 f   libc:handler.obj
+ 0002:0000632d       _fclose                    0040f38d f   libc:fclose.obj
+ 0002:00006383       __commit                   0040f3e3 f   libc:commit.obj
+ 0002:000063d8       __amsg_exit                0040f438 f   libc:crt0.obj
+ 0002:000063f4       __close                    0040f454 f   libc:close.obj
+ 0002:000064a5       __freebuf                  0040f505 f   libc:_freebuf.obj
+ 0002:000064d0       __NMSG_WRITE               0040f530 f   libc:crt0msg.obj
+ 0002:000064fc       __FF_MSGBANNER             0040f55c f   libc:crt0msg.obj
+ 0002:0000651e       _ExQueryNonVolatileSetting@20 0040f57e f   xboxkrnl:xboxkrnl.exe
+ 0002:00006524       _RtlUnwind@16              0040f584 f   xboxkrnl:xboxkrnl.exe
+ 0002:0000652a       _XNetGetEthernetLinkStatus@0 0040f58a f   xnets:xnet.obj
+ 0002:0000656c       _WriteFile@20              0040f5cc f   xapilib:filehops.obj
+ 0002:00006642       _SetFilePointer@16         0040f6a2 f   xapilib:filehops.obj
+ 0002:0000673c       _FlushFileBuffers@4        0040f79c f   xapilib:filehops.obj
+ 0002:00006763       _OutputDebugStringA@4      0040f7c3 f   xapilib:debug.obj
+ 0002:00006796       _XcBlockCryptCBC@28        0040f7f6 f   xboxkrnl:xboxkrnl.exe
+ 0002:0000679c       _XcKeyTable@12             0040f7fc f   xboxkrnl:xboxkrnl.exe
+ 0002:000067a2       _XcDESKeyParity@8          0040f802 f   xboxkrnl:xboxkrnl.exe
+ 0002:000067a8       _XcHMAC@28                 0040f808 f   xboxkrnl:xboxkrnl.exe
+ 0002:000067ae       _XcModExp@20               0040f80e f   xboxkrnl:xboxkrnl.exe
+ 0002:000067b4       _XcRC4Crypt@12             0040f814 f   xboxkrnl:xboxkrnl.exe
+ 0002:000067ba       _XcRC4Key@12               0040f81a f   xboxkrnl:xboxkrnl.exe
+ 0002:000067c0       _XcSHAFinal@8              0040f820 f   xboxkrnl:xboxkrnl.exe
+ 0002:000067c6       _XcSHAUpdate@12            0040f826 f   xboxkrnl:xboxkrnl.exe
+ 0002:000067cc       _XcSHAInit@4               0040f82c f   xboxkrnl:xboxkrnl.exe
+ 0003:00000000       ___xri_a                   0040f840     xapilib:xapi0dat.obj
+ 0003:00000008       ___xri_z                   0040f848     xapilib:xapi0dat.obj
+ 0003:0000000c       ___xc_a                    0040f84c     xapilib:xapi0dat.obj
+ 0003:00000010       ___xc_z                    0040f850     xapilib:xapi0dat.obj
+ 0003:00000014       ___xi_a                    0040f854     xapilib:xapi0dat.obj
+ 0003:0000001c       ___xi_z                    0040f85c     xapilib:xapi0dat.obj
+ 0003:00000020       ___xp_a                    0040f860     libc:crt0init.obj
+ 0003:00000028       ___xp_z                    0040f868     libc:crt0init.obj
+ 0003:0000002c       ___xt_a                    0040f86c     libc:crt0init.obj
+ 0003:00000030       ___xt_z                    0040f870     libc:crt0init.obj
+ 0003:00000040       _DDrive                    0040f880     xapilib:xapiinit.obj
+ 0003:00000048       _CdDevice                  0040f888     xapilib:xapiinit.obj
+ 0003:00000050       _MainVol                   0040f890     xapilib:xapiinit.obj
+ 0003:00000058       _TDrive                    0040f898     xapilib:xapiinit.obj
+ 0003:00000060       _TitleData                 0040f8a0     xapilib:xapiinit.obj
+ 0003:00000068       _UDrive                    0040f8a8     xapilib:xapiinit.obj
+ 0003:00000070       _UserData                  0040f8b0     xapilib:xapiinit.obj
+ 0003:00000078       _XapiProcessLock           0040f8b8     xapilib:thread.obj
+ 0003:00000094       _XapiThreadNotifyRoutineList 0040f8d4     xapilib:thread.obj
+ 0003:000000ac       _MmHeapSegmentReserve      0040f8ec     xapilib:heap.obj
+ 0003:000000b0       _MmHeapSegmentCommit       0040f8f0     xapilib:heap.obj
+ 0003:000000b4       _MmHeapDeCommitTotalFreeThreshold 0040f8f4     xapilib:heap.obj
+ 0003:000000b8       _MmHeapDeCommitFreeBlockThreshold 0040f8f8     xapilib:heap.obj
+ 0003:000000c0       _g_rgdwLoc                 0040f900     xapilib:compstra.obj
+ 0003:00000520       __NLG_Destination          0040fd60     libc:exsup.obj
+ 0003:00000530       ___lc_clike                0040fd70     libc:nlsdata2.obj
+ 0003:00000534       ___badioinfo               0040fd74     libc:ioinit.obj
+ 0003:00000540       __iob                      0040fd80     libc:_file.obj
+ 0003:000007c0       __cfltcvt_tab              00410000     libc:cmiscdat.obj
+ 0003:000007d8       ___mb_cur_max              00410018     libc:nlsdata1.obj
+ 0003:000007dc       ___decimal_point           0041001c     libc:nlsdata1.obj
+ 0003:000007e0       ___decimal_point_length    00410020     libc:nlsdata1.obj
+ 0003:000007e4       __pctype                   00410024     libc:ctype.obj
+ 0003:000007e8       __pwctype                  00410028     libc:ctype.obj
+ 0003:00000958       __amblksiz                 00410198     libc:heapinit.obj
+ 0003:0000095c       __aexit_rtn                0041019c     libc:crt0.obj
+ 0003:00000a04       __tls_index                00410244     xapilib:xapitls.obj
+ 0003:00000a08       _XapiMuInfo                00410248     xapilib:pathmisc.obj
+ 0003:00000a10       ___lc_handle               00410250     libc:nlsdata2.obj
+ 0003:00000a28       ___lc_codepage             00410268     libc:nlsdata2.obj
+ 0003:00000a2c       ___lc_collate_cp           0041026c     libc:nlsdata2.obj
+ 0003:00000a30       __cflush                   00410270     libc:_file.obj
+ 0003:00000a34       _errno                     00410274     libc:crt0dat.obj
+ 0003:00000a38       __doserrno                 00410278     libc:crt0dat.obj
+ 0003:00000a3c       __umaskval                 0041027c     libc:crt0dat.obj
+ 0003:00000a40       __exitflag                 00410280     libc:crt0dat.obj
+ 0003:00000a44       __C_Termination_Done       00410284     libc:crt0dat.obj
+ 0003:00000a48       __C_Exit_Done              00410288     libc:crt0dat.obj
+ 0003:00000a4c       ?_pnhHeap@@3P6AHI@ZA       0041028c     libc:handler.obj
+ 0003:00000a50       __newmode                  00410290     libc:_newmode.obj
+ 0003:00000a54       __adbgmsg                  00410294     libc:crt0msg.obj
+ 0003:00000a58       ?g_lXnLock@@3JA            00410298     xnets:xnet.obj
+ 0003:00000a5c       ?g_pXn@@3PAVCXn@@A         0041029c     xnets:xnet.obj
+ 0003:00000a60       ___@@_PchSym_@00@UcylcUkirezgvUmglhUmvgUorychUlyqUrDIGUcmkOlyq@xnets 004102a0     xnets:xnp.obj
+ 0003:00000a68       ?s_InterruptObject@CXnNic@@0U_KINTERRUPT@@A 004102a8     xnets:nicx.obj
+ 0003:00000ad8       ___@@_PchSym_@00@UcylcUkirezgvUmglhUczkrUpDCUoryUlyqUrDIGUyzhvwooOlyq@Xapi_k32 00410318     <common>
+ 0003:00000ae0       _XapiAutoPowerDownGlobals  00410320     <common>
+ 0003:00000b30       _NtGlobalFlag              00410370     <common>
+ 0003:00000b34       _XapiProcessHeap           00410374     <common>
+ 0003:00000b38       _XapiCurrentTopLevelFilter 00410378     <common>
+ 0003:00000b3c       _XapiTlsSize               0041037c     <common>
+ 0003:00000b40       __FPinit                   00410380     <common>
+ 0003:00000b44       ___active_heap             00410384     <common>
+ 0003:00000b48       ___onexitend               00410388     <common>
+ 0003:00000b4c       ___onexitbegin             0041038c     <common>
+ 0003:00000b50       ___piob                    00410390     <common>
+ 0003:00000b54       __nstream                  00410394     <common>
+ 0003:00000b58       __nhandle                  00410398     <common>
+ 0003:00000b60       ___pioinfo                 004103a0     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_xboxkrnl 004104a0     xboxkrnl:xboxkrnl.exe
+ 0004:00000014       __NULL_IMPORT_DESCRIPTOR   004104b4     xboxkrnl:xboxkrnl.exe
+ 0005:00000000       _XapiBuildNumber           00410660     xapilib:xapi0.obj
+ 0005:00000010       ___CrtBuildNumber          00410670     libc:snwprint.obj
+ 0005:00000020       _XboxKrnlBuildNumber       00410680     xboxkrnl:bldnum.obj
+ 0005:00000030       _XNetBuildNumberS          00410690     xnets:sock.obj
+ 0006:00000000       __tls_start                004106a0     xapilib:xapitls.obj
+ 0006:00000004       _XapiLastErrorCode         004106a4     xapilib:error.obj
+ 0006:00000008       __tls_end                  004106a8     xapilib:xapitls.obj
+
+ entry point at        0002:00000d3f
+
+ Static symbols
+
+ 0002:00004710       _write_char                0040d770 f   libc:woutput.obj
+ 0002:00004735       _write_multi_char          0040d795 f   libc:woutput.obj
+ 0002:0000475a       _write_string              0040d7ba f   libc:woutput.obj
+ 0002:00004f23       _write_char                0040df83 f   libc:output.obj
+ 0002:00004f56       _write_multi_char          0040dfb6 f   libc:output.obj
+ 0002:00004f7a       _write_string              0040dfda f   libc:output.obj
+ 0002:0000616e       _flsall                    0040f1ce f   libc:fflush.obj
+ 0002:00005d8f       _doexit                    0040edef f   libc:crt0dat.obj
+ 0002:000043b8       __unwind_handler           0040d418 f   libc:exsup.obj
+ 0001:00002ea9       ?QueryTsc@@YGXPAT_LARGE_INTEGER@@@Z 004031a9 f   xnets:halx.obj

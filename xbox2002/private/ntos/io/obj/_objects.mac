@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\filelock.obj \
+    $(_OBJ_DIR)\alpha\complete.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\devctrl.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\fsrtl.obj \
+    $(_OBJ_DIR)\alpha\internal.obj \
+    $(_OBJ_DIR)\alpha\iodata.obj \
+    $(_OBJ_DIR)\alpha\iosubs.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\objsup.obj \
+    $(_OBJ_DIR)\alpha\parse.obj \
+    $(_OBJ_DIR)\alpha\qsfs.obj \
+    $(_OBJ_DIR)\alpha\qsinfo.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\write.obj
+
+PASS0_ALPHA_OBJECTS=
+
+ALPHA64_OBJECTS= \
+    $(_OBJ_DIR)\alpha64\filelock.obj \
+    $(_OBJ_DIR)\alpha64\complete.obj \
+    $(_OBJ_DIR)\alpha64\create.obj \
+    $(_OBJ_DIR)\alpha64\devctrl.obj \
+    $(_OBJ_DIR)\alpha64\dir.obj \
+    $(_OBJ_DIR)\alpha64\fsrtl.obj \
+    $(_OBJ_DIR)\alpha64\internal.obj \
+    $(_OBJ_DIR)\alpha64\iodata.obj \
+    $(_OBJ_DIR)\alpha64\iosubs.obj \
+    $(_OBJ_DIR)\alpha64\misc.obj \
+    $(_OBJ_DIR)\alpha64\objsup.obj \
+    $(_OBJ_DIR)\alpha64\parse.obj \
+    $(_OBJ_DIR)\alpha64\qsfs.obj \
+    $(_OBJ_DIR)\alpha64\qsinfo.obj \
+    $(_OBJ_DIR)\alpha64\read.obj \
+    $(_OBJ_DIR)\alpha64\write.obj
+
+PASS0_ALPHA64_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\filelock.obj \
+    $(_OBJ_DIR)\i386\complete.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\devctrl.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\fsrtl.obj \
+    $(_OBJ_DIR)\i386\internal.obj \
+    $(_OBJ_DIR)\i386\iodata.obj \
+    $(_OBJ_DIR)\i386\iosubs.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\objsup.obj \
+    $(_OBJ_DIR)\i386\parse.obj \
+    $(_OBJ_DIR)\i386\qsfs.obj \
+    $(_OBJ_DIR)\i386\qsinfo.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\write.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\filelock.obj \
+    $(_OBJ_DIR)\ia64\complete.obj \
+    $(_OBJ_DIR)\ia64\create.obj \
+    $(_OBJ_DIR)\ia64\devctrl.obj \
+    $(_OBJ_DIR)\ia64\dir.obj \
+    $(_OBJ_DIR)\ia64\fsrtl.obj \
+    $(_OBJ_DIR)\ia64\internal.obj \
+    $(_OBJ_DIR)\ia64\iodata.obj \
+    $(_OBJ_DIR)\ia64\iosubs.obj \
+    $(_OBJ_DIR)\ia64\misc.obj \
+    $(_OBJ_DIR)\ia64\objsup.obj \
+    $(_OBJ_DIR)\ia64\parse.obj \
+    $(_OBJ_DIR)\ia64\qsfs.obj \
+    $(_OBJ_DIR)\ia64\qsinfo.obj \
+    $(_OBJ_DIR)\ia64\read.obj \
+    $(_OBJ_DIR)\ia64\write.obj
+
+PASS0_IA64_OBJECTS=
+

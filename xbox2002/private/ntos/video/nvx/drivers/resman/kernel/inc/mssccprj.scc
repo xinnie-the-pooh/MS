@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[AKERNEL.MAK]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nvx/drivers/resman/kernel/inc", OSJAAAAA
+
+[KERNEL.MAK]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nvx/drivers/resman/kernel/inc", OSJAAAAA

@@ -1,0 +1,60 @@
+ preldr32
+
+ Timestamp is 3f1df26e (Tue Jul 22 22:26:54 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000150H .data                   CODE
+ 0001:00000150 00000025H .rdata                  CODE
+ 0001:00000180 000002f8H .text                   CODE
+ 0001:00000480 00001ea0H PAGER32C                CODE
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000010       _EncryptedPubKey           00400250     preldr32.obj
+ 0001:0000012c       _pbNextAlloc               0040036c     preldr32.obj
+ 0001:00000130       _PreloaderFuncTable        00400370     preldr32.obj
+ 0001:00000150       ??_C@_01LOCGONAA@?$AA?$AA@ 00400390     preldr32.obj
+ 0001:00000154       ??_C@_0P@FMHJMPIN@?$AN?$BE?$AE?$BK?$AC?$AD?$AO?$CL?$AF?$AG?$AH0?$BP0?$AA@ 00400394     preldr32.obj
+ 0001:00000164       ??_C@_0BB@PDOOHHHN@?$AP?$BE?$AE?$AA?$AF?$BK?$AC?$AD?$AO?$CL?$AF?$AG?70?$CB0?$AA@ 004003a4     preldr32.obj
+ 0001:00000188       _PreloaderStartup          004003c8 f   startup.obj
+ 0001:000001c7       _RSA32Alloc@4              00400407 f   preldr32.obj
+ 0001:000001df       _RSA32Free@4               0040041f f   preldr32.obj
+ 0001:000001e2       _VerifyDigest@12           00400422 f   preldr32.obj
+ 0001:000002d7       _PreloaderStartup2@4       00400517 f   preldr32.obj
+ 0001:00000410       __aulldiv                  00400650 f   libcntpr:ulldiv.obj
+ 0001:00000480       _A_SHAInit@4               004006c0 f   rsa32k:sha.obj
+ 0001:000004c0       _A_SHAUpdate@12            00400700 f   rsa32k:sha.obj
+ 0001:000005e0       _A_SHAFinal@8              00400820 f   rsa32k:sha.obj
+ 0001:000006a0       _BSafeEncPublic@12         004008e0 f   rsa32k:rsa_pub.obj
+ 0001:000007a0       _rc4@12                    004009e0 f   rsa32k:rc4fast.obj
+ 0001:000008ed       _rc4_key@12                00400b2d f   rsa32k:rc4fast.obj
+ 0001:000009e0       _SHATransform@8            00400c20 f   rsa32k:shafast.obj
+ 0001:00001540       _DWORDToBigEndian@12       00401780 f   rsa32k:uint4.obj
+ 0001:00001580       _BenalohSetup@12           004017c0 f   rsa32k:benaloh.obj
+ 0001:00001690       _BenalohMod@12             004018d0 f   rsa32k:benaloh.obj
+ 0001:00001790       _BenalohModSquare@12       004019d0 f   rsa32k:benaloh.obj
+ 0001:000017c0       _BenalohModExp@20          00401a00 f   rsa32k:benaloh.obj
+ 0001:00001b20       _SetValDWORD@12            00401d60 f   rsa32k:rsa_math.obj
+ 0001:00001b70       _DigitLen@8                00401db0 f   rsa32k:rsa_math.obj
+ 0001:00001ba0       _BitLen@8                  00401de0 f   rsa32k:rsa_math.obj
+ 0001:00001be0       _Compare@12                00401e20 f   rsa32k:rsa_math.obj
+ 0001:00001c30       _Multiply@16               00401e70 f   rsa32k:rsa_math.obj
+ 0001:00001ca0       _Square@12                 00401ee0 f   rsa32k:rsa_math.obj
+ 0001:00001d30       _EstimateQuotient@16       00401f70 f   rsa32k:rsa_math.obj
+ 0001:00001da0       _Mod@20                    00401fe0 f   rsa32k:rsa_math.obj
+ 0001:00002020       _Add@16                    00402260 f   rsa32k:rsafast.obj
+ 0001:00002064       _Sub@16                    004022a4 f   rsa32k:rsafast.obj
+ 0001:000020a8       _BenalohEstimateQuotient@12 004022e8 f   rsa32k:rsafast.obj
+ 0001:000020d0       _BaseMult@16               00402310 f   rsa32k:rsa_port.obj
+ 0001:00002130       _Accumulate@16             00402370 f   rsa32k:rsa_port.obj
+ 0001:00002200       _Reduce@16                 00402440 f   rsa32k:rsa_port.obj
+ 0001:000022d0       _AccumulateSquares@12      00402510 f   rsa32k:rsa_port.obj
+
+ entry point at        0001:00000188
+
+ Static symbols
+

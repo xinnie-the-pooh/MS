@@ -1,0 +1,9 @@
+obj\i386\basedll.obj 
+obj\i386\error.obj 
+obj\i386\process.obj 
+obj\i386\lcompata.obj 
+obj\i386\compstra.obj 
+obj\i386\debug.obj 
+obj\i386\format.obj 
+obj\i386\xvalue.obj 
+obj\i386\launch.obj 

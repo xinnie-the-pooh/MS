@@ -1,0 +1,17 @@
+SCC = This is a Source Code Control file
+
+[DDK32.dsp]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/sdk/nvidia/samples/DDK32", NYIAAAAA
+
+[DDK32.dsw]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/sdk/nvidia/samples/DDK32", NYIAAAAA
+
+[DDK32.mak]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/sdk/nvidia/samples/DDK32", NYIAAAAA
+
+[DDK32.mdp]
+SCC_Aux_Path = "H:\SourceSafe"
+SCC_Project_Name = "$/source/xbox/Xbox Build Tree/Retail/xbox/private/ntos/video/nv20/sdk/nvidia/samples/DDK32", NYIAAAAA

@@ -1,0 +1,5 @@
+obj\i386\idex.obj 
+obj\i386\cdrom.obj 
+obj\i386\channel.obj 
+obj\i386\disk.obj 
+obj\i386\driver.obj 

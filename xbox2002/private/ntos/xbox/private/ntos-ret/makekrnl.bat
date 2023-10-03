@@ -1,0 +1,1 @@
+link -out:obj\i386\xboxkrnl.exe -machine:ix86 @linkmap.txt
